@@ -103,7 +103,10 @@ class Sprites:
 
     def load_all(self):
         # get the width and height of the spritesheet
-        lineart = pygame.image.load("sprites/lineart.png")
+        if not game.sprite_folders:
+            raise Exception("Cannot find sprite folders or none exist")
+
+        lineart = pygame.image.load('sprites/1/lineart.png')
         width, height = lineart.get_size()
         del lineart  # unneeded
 
@@ -122,62 +125,66 @@ class Sprites:
 
         del width, height  # unneeded
 
-        for x in [
-            "lineart",
-            "lineartdf",
-            "lineartdead",
-            "eyes",
-            "eyes2",
-            "skin",
-            "scars",
-            "missingscars",
-            "medcatherbs",
-            "wild",
-            "collars",
-            "bellcollars",
-            "bowcollars",
-            "nyloncollars",
-            "singlecolours",
-            "speckledcolours",
-            "tabbycolours",
-            "bengalcolours",
-            "marbledcolours",
-            "rosettecolours",
-            "smokecolours",
-            "tickedcolours",
-            "mackerelcolours",
-            "classiccolours",
-            "sokokecolours",
-            "agouticolours",
-            "singlestripecolours",
-            "maskedcolours",
-            "shadersnewwhite",
-            "lightingnew",
-            "whitepatches",
-            "tortiepatchesmasks",
-            "fademask",
-            "fadestarclan",
-            "fadedarkforest",
-            "symbols",
-        ]:
-            if "lineart" in x and game.config["fun"]["april_fools"]:
-                self.spritesheet(f"sprites/aprilfools{x}.png", x)
-            else:
-                self.spritesheet(f"sprites/{x}.png", x)
+        # load sprite sheets for all folders
+        for f in game.sprite_folders:
+            for x in [
+                "lineart",
+                "lineartdf",
+                "lineartdead",
+                "eyes",
+                "eyes2",
+                "skin",
+                "scars",
+                "missingscars",
+                "medcatherbs",
+                "wild",
+                "collars",
+                "bellcollars",
+                "bowcollars",
+                "nyloncollars",
+                "singlecolours",
+                "speckledcolours",
+                "tabbycolours",
+                "bengalcolours",
+                "marbledcolours",
+                "rosettecolours",
+                "smokecolours",
+                "tickedcolours",
+                "mackerelcolours",
+                "classiccolours",
+                "sokokecolours",
+                "agouticolours",
+                "singlestripecolours",
+                "maskedcolours",
+                "shadersnewwhite",
+                "lightingnew",
+                "whitepatches",
+                "tortiepatchesmasks",
+                "fademask",
+                "fadestarclan",
+                "fadedarkforest",
+                "symbols",
+            ]:
+                if "lineart" in x and game.config["fun"]["april_fools"]:
+                    self.spritesheet(f"sprites/{f}/aprilfools{x}.png", x)
+                elif 'symbols' in x:
+                    self.spritesheet(f"sprites/{x}.png", x)
+                else:
+                    self.spritesheet(f"sprites/{f}/{x}.png", x)
 
         # Line art
-        self.make_group("lineart", (0, 0), "lines")
-        self.make_group("shadersnewwhite", (0, 0), "shaders")
-        self.make_group("lightingnew", (0, 0), "lighting")
+        self.make_group("lineart", (0, 0), "lines{f}_")
+        self.make_group("shadersnewwhite", (0, 0), "shaders{f}_")
+        self.make_group("lightingnew", (0, 0), "lighting{f}_")
 
-        self.make_group("lineartdead", (0, 0), "lineartdead")
-        self.make_group("lineartdf", (0, 0), "lineartdf")
+        self.make_group("lineartdead", (0, 0), "lineartdead{f}_")
+        self.make_group("lineartdf", (0, 0), "lineartdf{f}_")
 
         # Fading Fog
         for i in range(0, 3):
-            self.make_group("fademask", (i, 0), f"fademask{i}")
-            self.make_group("fadestarclan", (i, 0), f"fadestarclan{i}")
-            self.make_group("fadedarkforest", (i, 0), f"fadedf{i}")
+            self.make_group("fademask", (i, 0), f"fademask{f}_{i}")
+            self.make_group("fadestarclan", (i, 0), f"fadestarclan{f}_{i}")
+            self.make_group("fadedarkforest", (i, 0), f"fadedf{f}_{i}")
 
         # Define eye colors
         eye_colors = [
@@ -210,8 +217,8 @@ class Sprites:
 
         for row, colors in enumerate(eye_colors):
             for col, color in enumerate(colors):
-                self.make_group("eyes", (col, row), f"eyes{color}")
-                self.make_group("eyes2", (col, row), f"eyes2{color}")
+                self.make_group("eyes", (col, row), f"eyes{f}_{color}")
+                self.make_group("eyes2", (col, row), f"eyes2{f}_{color}")
 
         # Define white patches
         white_patches = [
@@ -364,7 +371,7 @@ class Sprites:
 
         for row, patches in enumerate(white_patches):
             for col, patch in enumerate(patches):
-                self.make_group("whitepatches", (col, row), f"white{patch}")
+                self.make_group("whitepatches", (col, row), f"white{f}_{patch}")
 
         # Define colors and categories
         color_categories = [
@@ -393,7 +400,7 @@ class Sprites:
         for row, colors in enumerate(color_categories):
             for col, color in enumerate(colors):
                 for color_type in color_types:
-                    self.make_group(color_type, (col, row), f"{color_type[:-7]}{color}")
+                    self.make_group(color_type, (col, row), f"{color_type[:-7]}{f}_{color}")
 
         # tortiepatchesmasks
         tortiepatchesmasks = [
@@ -450,7 +457,7 @@ class Sprites:
 
         for row, masks in enumerate(tortiepatchesmasks):
             for col, mask in enumerate(masks):
-                self.make_group("tortiepatchesmasks", (col, row), f"tortiemask{mask}")
+                self.make_group("tortiepatchesmasks", (col, row), f"tortiemask{f}_{mask}")
 
         # Define skin colors
         skin_colors = [
@@ -461,12 +468,12 @@ class Sprites:
 
         for row, colors in enumerate(skin_colors):
             for col, color in enumerate(colors):
-                self.make_group("skin", (col, row), f"skin{color}")
+                self.make_group("skin", (col, row), f"skin{f}_{color}")
 
-        self.load_scars()
+        self.load_scars(f)
         self.load_symbols()
 
-    def load_scars(self):
+    def load_scars(self, f):
         """
         Loads scar sprites and puts them into groups.
         """
@@ -545,12 +552,12 @@ class Sprites:
         # scars
         for row, scars in enumerate(scars_data):
             for col, scar in enumerate(scars):
-                self.make_group("scars", (col, row), f"scars{scar}")
+                self.make_group("scars", (col, row), f"scars{f}_{scar}")
 
-        # missing parts
+         # missing parts
         for row, missing_parts in enumerate(missing_parts_data):
             for col, missing_part in enumerate(missing_parts):
-                self.make_group("missingscars", (col, row), f"scars{missing_part}")
+                self.make_group("missingscars", (col, row), f"scars{f}_{missing_part}")
 
         # accessories
         # to my beloved modders, im very sorry for reordering everything <333 -clay
@@ -653,35 +660,35 @@ class Sprites:
         # medcatherbs
         for row, herbs in enumerate(medcatherbs_data):
             for col, herb in enumerate(herbs):
-                self.make_group("medcatherbs", (col, row), f"acc_herbs{herb}")
+                self.make_group("medcatherbs", (col, row), f"acc_herbs{f}_{herb}")
         # dryherbs
         for row, dry in enumerate(dryherbs_data):
             for col, dryherbs in enumerate(dry):
-                self.make_group("medcatherbs", (col, 3), f"acc_herbs{dryherbs}")
+                self.make_group("medcatherbs", (col, 3), f"acc_herbs{f}_{dryherbs}")
         # wild
         for row, wilds in enumerate(wild_data):
             for col, wild in enumerate(wilds):
-                self.make_group("wild", (col, 0), f"acc_wild{wild}")
+                self.make_group("wild", (col, 0), f"acc_wild{f}_{wild}")
 
         # collars
         for row, collars in enumerate(collars_data):
             for col, collar in enumerate(collars):
-                self.make_group("collars", (col, row), f"collars{collar}")
+                self.make_group("collars", (col, row), f"collars{f}_{collar}")
 
         # bellcollars
         for row, bellcollars in enumerate(bellcollars_data):
             for col, bellcollar in enumerate(bellcollars):
-                self.make_group("bellcollars", (col, row), f"collars{bellcollar}")
+                self.make_group("bellcollars", (col, row), f"collars{f}_{bellcollar}")
 
         # bowcollars
         for row, bowcollars in enumerate(bowcollars_data):
             for col, bowcollar in enumerate(bowcollars):
-                self.make_group("bowcollars", (col, row), f"collars{bowcollar}")
+                self.make_group("bowcollars", (col, row), f"collars{f}_{bowcollar}")
 
         # nyloncollars
         for row, nyloncollars in enumerate(nyloncollars_data):
             for col, nyloncollar in enumerate(nyloncollars):
-                self.make_group("nyloncollars", (col, row), f"collars{nyloncollar}")
+                self.make_group("nyloncollars", (col, row), f"collars{f}_{nyloncollar}")
 
     def load_symbols(self):
         """

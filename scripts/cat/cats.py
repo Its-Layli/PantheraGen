@@ -8,7 +8,7 @@ import bisect
 import itertools
 import os.path
 import sys
-from random import choice, randint, sample, random, getrandbits, randrange
+from random import choice, randint, sample, random, getrandbits, randrange, choices
 from typing import Dict, List, Any, Callable
 
 import ujson  # type: ignore
@@ -473,6 +473,14 @@ class Cat:
                 self.genderalign = "nonbinary"
                 self.pronouns = [self.default_pronouns[0].copy()]
 
+        # Assign species based on sex
+        #if self.gender == "male":
+            #self.species = "lion"
+            #elif self.gender == "female":
+            #self.species = "lioness"
+            # else:
+            #print("Error Generating: Species not working")
+
         # APPEARANCE
         self.pelt = Pelt.generate_new_pelt(
             self.gender,
@@ -537,7 +545,7 @@ class Cat:
 
             if not par_species:
                 print("[SPS] Warning - par_species none: species randomized")
-                self.species = choice(species_list, weights=weights, k=1)[0]
+                self.species = choices(species_list, weights=weights, k=1)[0]
 
             for s in par_species:
                 # check dom and rec tag
@@ -559,14 +567,14 @@ class Cat:
                     par_weights[x] += add_weight[x]
 
             try:
-                self.species = choice(species_list, weights=par_weights, k=1)[0]
+                self.species = choices(species_list, weights=par_weights, k=1)[0]
             except:
                 print("[SPS] Warning - failed to generate species. Are all inheritance weights set to zero?")
                 print("[SPS] Parent species: " + str(par_species))
                 self.species = species_list[0]
         else:
             try:
-                self.species = choice(species_list, weights=weights, k=1)[0]
+                self.species = choices(species_list, weights=weights, k=1)[0]
             except:
                 print("[SPS] Warning - failed to generate species. Are all random weights set to zero?")
                 self.species = species_list[0]
