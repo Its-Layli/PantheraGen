@@ -4,6 +4,7 @@ from ast import literal_eval
 from shutil import move as shutil_move
 
 import pygame
+import pygame_gui
 import ujson
 
 from scripts.event_class import Single_Event
@@ -132,6 +133,7 @@ class Game:
         "patrol_chosen": "general",
         "favorite_sub_tab": None,
         "root_cat": None,
+        "window_open": False,
         "skip_conditions": [],
         "show_history_moons": False,
         "fps": 30,
@@ -147,6 +149,7 @@ class Game:
     # SETTINGS
     settings = {}
     settings["moon&season_open"] = False
+    settings["mns open"] = False
     setting_lists = {}
 
     debug_settings = {
@@ -182,6 +185,8 @@ class Game:
     cat_class = None
     config = {}
     prey_config = {}
+    species_list = {}
+    sprite_folders = set()
 
     rpc = None
 
@@ -202,6 +207,14 @@ class Game:
         if self.config["fun"]["april_fools"]:
             self.config["fun"]["newborns_can_roam"] = True
             self.config["fun"]["newborns_can_patrol"] = True
+
+        with open(f"resources/species.json", 'r') as read_file:
+            self.species = ujson.loads(read_file.read())
+
+        # count amount of folders excluding faded and dicts folder
+        for x in(next(os.walk('sprites'))[1]):
+            if not x in ['faded', 'dicts']:
+                self.sprite_folders.add(x)
 
     def update_game(self):
         if self.current_screen != self.switches["cur_screen"]:

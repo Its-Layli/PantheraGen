@@ -1102,12 +1102,15 @@ class MakeClanScreen(Screens):
             self.elements["cat_info"].set_text(
                 selected.genderalign
                 + "\n"
-                + str(
-                    selected.age
+                + str(selected.species
                     + "\n"
-                    + str(selected.personality.trait)
-                    + "\n"
-                    + str(selected.skills.skill_string())
+                    + str(
+                        selected.age
+                        + "\n"
+                        + str(selected.personality.trait)
+                        + "\n"
+                        + str(selected.skills.skill_string())
+                    )
                 )
             )
             self.elements["cat_info"].show()

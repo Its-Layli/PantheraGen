@@ -1,0 +1,23 @@
+{
+    "species": {
+        "lion": [],
+        "lioness": [],
+        "cheetah": [],
+        "tiger": [],
+        "leopard": []
+    },
+    "ran_weights": [4,3,1,3,2],
+    "in_weights": {
+        "lion": [1,1,1,1,1],
+        "lioness": [1,1,1,1,1],
+        "cheetah": [1,1,1,1,1],
+        "tiger": [1,1,1,1,1],
+        "leopard": [1,1,1,1,1]
+    },
+    "comment": [
+        "look at the official documentation for a list of all species tags.",
+        "ran_weights are used in species randomization, in_weights are used in inheritance.",
+        "species name before the weights is the parent's species, the weights from both parents are added together.",
+        "all weights follow the order of the species list."
+    ]
+}

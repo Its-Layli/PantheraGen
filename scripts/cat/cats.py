@@ -138,10 +138,12 @@ class Cat:
         self,
         prefix=None,
         gender=None,
+        species=None,
         status="newborn",
         backstory="clanborn",
         parent1=None,
         parent2=None,
+        par2species=None,
         adoptive_parents=None,
         suffix=None,
         specsuffix_hidden=False,
@@ -191,6 +193,7 @@ class Cat:
 
         # Public attributes
         self.gender = gender
+        self.species = species
         self.status = status
         self.backstory = backstory
         self.age = None
@@ -200,6 +203,7 @@ class Cat:
         )
         self.parent1 = parent1
         self.parent2 = parent2
+        self.par2species = par2species
         self.adoptive_parents = adoptive_parents if adoptive_parents else []
         self.pelt = pelt if pelt else Pelt()
         self.former_mentor = []
@@ -265,6 +269,13 @@ class Cat:
         else:
             self.ID = ID
 
+        # species
+        if species is None:
+            species_dict = game.species["species"]
+            weights = game.species["ran_weights"]
+            in_weights = game.species["in_weights"]
+            Cat.generate_species(self, species_dict, weights, in_weights, self.par2species if self.par2species else None, [Cat.fetch_cat(i) for i in (self.parent1, self.parent2) if i])
+
         # age and status
         if status is None and moons is None:
             self.age = choice(self.ages)
@@ -309,7 +320,19 @@ class Cat:
 
         # sex!?!??!?!?!??!?!?!?!??
         if self.gender is None:
-            self.gender = choice(["female", "male"])
+            if self.species in ['lion']:
+                self.gender = "male"
+            elif self.species in ['lioness']:
+                self.gender = "female"
+            elif self.species in ['cheetah']:
+                self.gender = choice(["female", "male"])
+            elif self.species in ['tiger']:
+                self.gender = choice(["female", "male"])
+            elif self.species in ['leopard']:
+                self.gender = choice(["female", "male"])
+            else:
+                print("ERROR: Gender not working right")
+                self.gender = choice(["female", "male"])
         self.g_tag = self.gender_tags[self.gender]
 
         """if self.genderalign == "":
@@ -494,6 +517,59 @@ class Cat:
 
         if not skill_dict:
             self.skills = CatSkills.generate_new_catskills(self.status, self.moons)
+
+    def generate_species(self, species_dict, weights, in_weights, par2species, parents: tuple = ()):
+        species_list = list(species_dict)
+        if parents:
+            par_species = []
+            par_weights = []
+            for x in range(0, len(weights)):
+                par_weights.append(0)
+
+            # collect species of parents
+            for p in parents:
+                if p:
+                    par_species.append(p.species)
+
+            # par2species is generated when parent2 is None
+            if par2species:
+                par_species.append(par2species)
+
+            if not par_species:
+                print("[SPS] Warning - par_species none: species randomized")
+                self.species = choice(species_list, weights=weights, k=1)[0]
+
+            for s in par_species:
+                # check dom and rec tag
+                if any("dom_inh" in tag for tag in species_dict[s]):
+                    if not any("dom_inh" in tag for tag in species_dict[par_species[par_species.index(s) - 1]]):
+                        par_weights = in_weights[s]
+                        break
+
+                elif any("rec_inh" in tag for tag in species_dict[s]):
+                    if not any("rec_inh" in tag for tag in species_dict[par_species[par_species.index(s) - 1]]):
+                        continue
+                else:
+                    if any("dom_inh" in tag for tag in species_dict[par_species[par_species.index(s) - 1]]):
+                        continue
+
+                # get inheritance weights and add them together
+                for x in range(0, len(weights)):
+                    add_weight = in_weights[s]
+                    par_weights[x] += add_weight[x]
+
+            try:
+                self.species = choice(species_list, weights=par_weights, k=1)[0]
+            except:
+                print("[SPS] Warning - failed to generate species. Are all inheritance weights set to zero?")
+                print("[SPS] Parent species: " + str(par_species))
+                self.species = species_list[0]
+        else:
+            try:
+                self.species = choice(species_list, weights=weights, k=1)[0]
+            except:
+                print("[SPS] Warning - failed to generate species. Are all random weights set to zero?")
+                self.species = species_list[0]
 
     def __repr__(self):
         return "CAT OBJECT:" + self.ID
@@ -3373,6 +3449,7 @@ class Cat:
                 "ID": self.ID,
                 "name_prefix": self.name.prefix,
                 "name_suffix": self.name.suffix,
+                "species": self.species,
                 "status": self.status,
                 "moons": self.moons,
                 "dead_for": self.dead_for,
@@ -3392,6 +3469,7 @@ class Cat:
                 "gender_align": self.genderalign,
                 "pronouns": self.pronouns,
                 "birth_cooldown": self.birth_cooldown,
+                "species": self.species,
                 "status": self.status,
                 "backstory": self.backstory or None,
                 "moons": self.moons,
