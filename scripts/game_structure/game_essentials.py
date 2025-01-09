@@ -4,7 +4,6 @@ from ast import literal_eval
 from shutil import move as shutil_move
 
 import pygame
-import pygame_gui
 import ujson
 
 from scripts.event_class import Single_Event
