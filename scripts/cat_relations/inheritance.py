@@ -12,7 +12,7 @@ from strenum import StrEnum  # pylint: disable=no-name-in-module
 
 
 class RelationType(StrEnum):
-    """An enum representing the possible relationships of a cat"""
+    """An enum representing the possible  relationships of a cat"""
 
     BLOOD = ""  # direct blood related - do not need a special print
     ADOPTIVE = "adoptive"  # not blood related but close (parents, kits, siblings)
