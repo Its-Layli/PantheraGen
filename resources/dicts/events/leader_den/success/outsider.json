@@ -7,7 +7,7 @@
     "m_c": {
       "status": ["loner", "rogue", "kittypet", "exiled", "lost"],
       "new_thought": "Is shocked that {PRONOUN/m_c/subject} {VERB/m_c/were/was} killed",
-      "kit_thought": "Is unsure why {PRONOUN/m_c/poss} parent hasn't come back."
+      "cub_thought": "Is unsure why {PRONOUN/m_c/poss} parent hasn't come back."
     }
   },
   {
@@ -17,7 +17,7 @@
     "rep_change": -2,
     "m_c": {
       "status": ["loner", "rogue", "kittypet", "exiled", "lost"],
-      "kit_thought": "Is unsure why {PRONOUN/m_c/poss} parent hasn't come back."
+      "cub_thought": "Is unsure why {PRONOUN/m_c/poss} parent hasn't come back."
     }
   },
   {
@@ -28,7 +28,7 @@
     "m_c": {
       "status": ["loner", "rogue", "kittypet"],
       "new_thought": "Is curious about the Clan that sought {PRONOUN/m_c/object} out",
-      "kit_thought": "Is curious about the new place {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} in",
+      "cub_thought": "Is curious about the new place {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} in",
       "relationships": [
         {
           "cats_from": ["m_c"],
@@ -55,7 +55,7 @@
     "m_c": {
       "status": ["exiled"],
       "new_thought": "Is curious why the Clan has allowed {PRONOUN/m_c/object} back",
-      "kit_thought": "Is curious why {PRONOUN/m_c/subject}{VERB/m_c/'ve/'s} been brought here",
+      "cub_thought": "Is curious why {PRONOUN/m_c/subject}{VERB/m_c/'ve/'s} been brought here",
       "relationships": [
         {
           "cats_from": ["m_c"],
@@ -82,7 +82,7 @@
     "m_c": {
       "status": ["lost"],
       "new_thought": "Is glad to have returned",
-      "kit_thought": "Is curious about the new place {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} in",
+      "cub_thought": "Is curious about the new place {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} in",
       "relationships": [
         {
           "cats_from": ["m_c"],
@@ -113,7 +113,7 @@
         "HUNTER,3"
       ],
       "new_thought": "Can't wait to help provide for {PRONOUN/m_c/poss} new Clan",
-      "kit_thought": "Is curious about the new place {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} in",
+      "cub_thought": "Is curious about the new place {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} in",
       "relationships": [
         {
           "cats_from": ["m_c"],
@@ -150,7 +150,7 @@
       "skill": [
         "HUNTER,3"
       ],
-      "kit_thought": "Is unsure why {PRONOUN/m_c/poss} parent hasn't come back."
+      "cub_thought": "Is unsure why {PRONOUN/m_c/poss} parent hasn't come back."
     }
   },
   {
@@ -164,7 +164,7 @@
       "skill": [
         "HUNTER,1"
       ],
-      "kit_thought": "Is unsure why {PRONOUN/m_c/poss} parent hasn't come back."
+      "cub_thought": "Is unsure why {PRONOUN/m_c/poss} parent hasn't come back."
     }
   },
   {
@@ -179,7 +179,7 @@
         "cunning",
         "careful"
       ],
-      "kit_thought": "Is unsure why {PRONOUN/m_c/poss} parent hasn't come back."
+      "cub_thought": "Is unsure why {PRONOUN/m_c/poss} parent hasn't come back."
     }
   },
   {
@@ -194,7 +194,7 @@
         "MEDIATOR,1"
       ],
       "new_thought": "Wishes the Clan cats had listened to {PRONOUN/m_c/object}",
-      "kit_thought": "Is unsure why {PRONOUN/m_c/poss} parent hasn't come back."
+      "cub_thought": "Is unsure why {PRONOUN/m_c/poss} parent hasn't come back."
     }
   },
   {
@@ -209,7 +209,7 @@
         "HUNTER,3"
       ],
       "new_thought": "Can't wait to help provide for {PRONOUN/m_c/poss} new Clan",
-      "kit_thought": "Is curious about the new place {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} in",
+      "cub_thought": "Is curious about the new place {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} in",
       "relationships": [
         {
           "cats_from": ["m_c"],
@@ -240,7 +240,7 @@
         "HUNTER,3"
       ],
       "new_thought": "Is shocked that {PRONOUN/m_c/subject} {VERB/m_c/were/was} killed",
-      "kit_thought": "Is unsure why {PRONOUN/m_c/poss} parent hasn't come back."
+      "cub_thought": "Is unsure why {PRONOUN/m_c/poss} parent hasn't come back."
     }
   },
   {
@@ -257,7 +257,7 @@
         "lonesome"
       ],
       "new_thought": "Grudgingly admits other cats can be useful sometimes",
-      "kit_thought": "Wonders about this new place"
+      "cub_thought": "Wonders about this new place"
     }
   },
   {
@@ -272,7 +272,7 @@
         "HUNTER,3"
       ],
       "new_thought": "Is happy to be back with c_n",
-      "kit_thought": "Is curious why {PRONOUN/m_c/subject}{VERB/m_c/'ve/'s} been brought here",
+      "cub_thought": "Is curious why {PRONOUN/m_c/subject}{VERB/m_c/'ve/'s} been brought here",
       "relationships": [
         {
           "cats_from": ["m_c"],
@@ -309,7 +309,7 @@
       "skill": [
         "HUNTER,3"
       ],
-      "kit_thought": "Is unsure why {PRONOUN/m_c/poss} parent hasn't come back."
+      "cub_thought": "Is unsure why {PRONOUN/m_c/poss} parent hasn't come back."
     }
   },
   {
@@ -324,7 +324,7 @@
         "HUNTER,3"
       ],
       "new_thought": "Just wanted some fresh-kill",
-      "kit_thought": "Is unsure why {PRONOUN/m_c/poss} parent hasn't come back."
+      "cub_thought": "Is unsure why {PRONOUN/m_c/poss} parent hasn't come back."
     }
   },
   {
@@ -339,7 +339,7 @@
         "RUNNER,1"
       ],
       "new_thought": "Is stunned {PRONOUN/m_c/subject} {VERB/m_c/were/was}n't able to outrun the enemy this time",
-      "kit_thought": "Is unsure why {PRONOUN/m_c/poss} parent hasn't come back."
+      "cub_thought": "Is unsure why {PRONOUN/m_c/poss} parent hasn't come back."
     }
   },
   {
@@ -353,7 +353,7 @@
       "skill": [
         "HUNTER,3"
       ],
-      "kit_thought": "Is unsure why {PRONOUN/m_c/poss} parent hasn't come back."
+      "cub_thought": "Is unsure why {PRONOUN/m_c/poss} parent hasn't come back."
     }
   },
   {
@@ -368,7 +368,7 @@
         "SENSE,1"
       ],
       "new_thought": "Is glad to have returned",
-      "kit_thought": "Is curious about the new place {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} in",
+      "cub_thought": "Is curious about the new place {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} in",
       "relationships": [
         {
           "cats_from": ["m_c"],
@@ -396,7 +396,7 @@
       "status": ["lost"],
       "skill": [  ],
       "new_thought": "Doesn't understand why {PRONOUN/m_c/subject} {VERB/m_c/were/was} killed",
-      "kit_thought": "Wonders what happened to m_c",
+      "cub_thought": "Wonders what happened to m_c",
       "relationships": [
         {
           "cats_from": ["m_c"],
@@ -416,7 +416,7 @@
     "m_c": {
       "status": ["lost"],
       "skill": [  ],
-      "kit_thought": "Wonders where m_c has gone"
+      "cub_thought": "Wonders where m_c has gone"
     }
   },
   {
@@ -427,7 +427,7 @@
     "m_c": {
       "status": ["kittypet"],
       "skill": [  ],
-      "kit_thought": "Wonders where m_c has gone"
+      "cub_thought": "Wonders where m_c has gone"
     }
   },
   {
@@ -439,7 +439,7 @@
       "status": ["kittypet"],
       "skill": [  ],
       "new_thought": "Prays {PRONOUN/m_c/poss} housefolk won't miss {PRONOUN/m_c/object} too much",
-      "kit_thought": "Wonders where m_c has gone"
+      "cub_thought": "Wonders where m_c has gone"
     }
   },
   {
@@ -451,7 +451,7 @@
       "status": ["loner"],
       "skill": [  ],
       "new_thought": "Wonders how {PRONOUN/m_c/subject} wronged those cats",
-      "kit_thought": "Wonders where m_c has gone"
+      "cub_thought": "Wonders where m_c has gone"
     }
   },
   {
@@ -462,7 +462,7 @@
     "m_c": {
       "status": ["loner"],
       "skill": [  ],
-      "kit_thought": "Wonders where m_c has gone"
+      "cub_thought": "Wonders where m_c has gone"
     }
   },
   {
@@ -473,7 +473,7 @@
     "m_c": {
       "status": ["loner", "rogue", "kittypet" ],
       "skill": [ "DARK,3", "STAR,3" ],
-      "kit_thought": "Shivers in the rain"
+      "cub_thought": "Shivers in the rain"
     }
   },
   {
@@ -486,7 +486,7 @@
       "age": [ "young adult", "adult", "senior adult" ],
       "skill": [  ],
       "new_thought": "Wonders how {PRONOUN/m_c/subject} wronged those cats",
-      "kit_thought": "Wonders where m_c has gone"
+      "cub_thought": "Wonders where m_c has gone"
     }
   },
   {
@@ -497,7 +497,7 @@
     "m_c": {
       "status": ["rogue"],
       "age": [ "young adult", "adult", "senior adult" ],
-      "kit_thought": "Wonders where m_c has gone"
+      "cub_thought": "Wonders where m_c has gone"
     }
   },
   {
@@ -507,7 +507,7 @@
     "rep_change": -15,
     "m_c": {
       "status": ["rogue", "loner" ],
-      "age": [ "kitten", "adolescent" ],
+      "age": [ "cub", "adolescent" ],
       "new_thought": "Bitterly wonders how {PRONOUN/m_c/subject} could have escaped"
     }
   },
@@ -518,7 +518,7 @@
     "rep_change": -10,
     "m_c": {
       "status": ["rogue", "loner" ],
-      "age": [ "kitten", "adolescent" ]
+      "age": [ "cub", "adolescent" ]
     }
   },
   {
@@ -529,7 +529,7 @@
     "m_c": {
       "status": ["exiled" ],
       "new_thought": "Curses {PRONOUN/m_c/poss} old Clanmates",
-      "kit_thought": "Wonders what happened to m_c"
+      "cub_thought": "Wonders what happened to m_c"
     }
   },
   {
@@ -541,7 +541,7 @@
       "status": ["rogue", "kittypet", "loner", "former Clancat", "exiled" ],
       "trait": [ "fierce", "bloodthirsty", "vengeful", "competitive", "arrogant", "ambitious", "bold", "shameless" ],
       "new_thought": "Curses c_n",
-      "kit_thought": "Wonders what happened to m_c"
+      "cub_thought": "Wonders what happened to m_c"
     }
   },
   {
@@ -551,7 +551,7 @@
     "rep_change": -1,
     "m_c": {
       "status": ["exiled" ],
-      "kit_thought": "Wonders what happened to m_c"
+      "cub_thought": "Wonders what happened to m_c"
     }
   },
   {
@@ -562,7 +562,7 @@
     "m_c": {
       "status": ["kittypet" ],
       "new_thought": "Hopes {PRONOUN/m_c/subject} made the right choice",
-      "kit_thought": "Takes in the new surroundings with wide eyes"
+      "cub_thought": "Takes in the new surroundings with wide eyes"
     }
   },
   {
@@ -574,7 +574,7 @@
       "status": ["rogue", "kittypet", "loner", "former Clancat" ],
       "trait": [ "cunning", "sneaky", "careful" ],
       "new_thought": "Is impressed c_n managed to find {PRONOUN/m_c/object}",
-      "kit_thought": "Takes in the new surroundings with wide eyes"
+      "cub_thought": "Takes in the new surroundings with wide eyes"
     }
   },
   {
@@ -586,7 +586,7 @@
       "status": ["rogue", "kittypet", "loner", "former Clancat" ],
       "trait": [ "oblivious" ],
       "new_thought": "Feels very comfortable with {PRONOUN/m_c/poss} choice to join c_n",
-      "kit_thought": "Takes in the new surroundings with wide eyes"
+      "cub_thought": "Takes in the new surroundings with wide eyes"
     }
   },
   {
@@ -597,7 +597,7 @@
     "m_c": {
       "status": ["loner" ],
       "new_thought": "Has met more new cats today than {PRONOUN/m_c/subject} ever {VERB/m_c/have/has} before",
-      "kit_thought": "Stares at all the new cats"
+      "cub_thought": "Stares at all the new cats"
     }
   },
   {
@@ -608,7 +608,7 @@
     "m_c": {
       "status": [ "rogue" ],
       "new_thought": "Tries to remember all the names of {PRONOUN/m_c/poss} new 'Clanmates'",
-      "kit_thought": "Explores their new home"
+      "cub_thought": "Explores their new home"
     }
   },
   {
@@ -619,7 +619,7 @@
     "m_c": {
       "status": [ "exiled" ],
       "new_thought": "Tentatively reconnects with {PRONOUN/m_c/poss} old Clanmates",
-      "kit_thought": "Is learning the truth behind all the stories"
+      "cub_thought": "Is learning the truth behind all the stories"
     }
   },
   {
@@ -630,7 +630,7 @@
     "m_c": {
       "status": ["former Clancat"],
       "new_thought": "Readjusts to Clan life",
-      "kit_thought": "Is learning the truth behind all the stories"
+      "cub_thought": "Is learning the truth behind all the stories"
     }
   },
   {
@@ -640,7 +640,7 @@
     "rep_change": -2,
     "m_c": {
       "status": ["former Clancat"],
-      "kit_thought": "Wonders where m_c has gone"
+      "cub_thought": "Wonders where m_c has gone"
     }
   },
   {
@@ -651,7 +651,7 @@
     "m_c": {
       "status": ["former Clancat"],
       "new_thought": "Thinks bitterly of {PRONOUN/m_c/poss} old Clan, wishing it had protected {PRONOUN/m_c/object}",
-      "kit_thought": "Wonders where m_c has gone"
+      "cub_thought": "Wonders where m_c has gone"
     }
   },
   {
@@ -662,7 +662,7 @@
     "m_c": {
       "status": [ "lost" ],
       "new_thought": "Never lost hope in {PRONOUN/m_c/poss} Clanmates finding {PRONOUN/m_c/object}",
-      "kit_thought": "Is learning the truth behind all the stories"
+      "cub_thought": "Is learning the truth behind all the stories"
     }
   },
   {
@@ -674,7 +674,7 @@
       "status": [ "lost" ],
       "trait": ["loyal", "confident", "bold", "faithful", "righteous"],
       "new_thought": "Swears {PRONOUN/m_c/poss} loyalty to all the Clanmates that helped bring {PRONOUN/m_c/object} home",
-      "kit_thought": "Is learning the truth behind all the stories"
+      "cub_thought": "Is learning the truth behind all the stories"
     }
   }
 ]

@@ -153,12 +153,12 @@
             "Is playing moss ball with r_c",
             "Watches r_c pretend to hunt a mouse",
             "Catches r_c climbing a bit too high",
-            "Is sitting near the camp entrance, keeping an eye out for sneaky kits",
-            "Is keeping an eye on some rowdy kits",
+            "Is sitting near the camp entrance, keeping an eye out for sneaky cubs",
+            "Is keeping an eye on some rowdy cubs",
             "Is playing moss ball with r_c",
-            "Is letting the kits play with {PRONOUN/m_c/poss} tail",
-            "Goes to help a kit that stumbled over their own paws",
-            "Somehow has a gaggle of kits following {PRONOUN/m_c/object}"
+            "Is letting the cubs play with {PRONOUN/m_c/poss} tail",
+            "Goes to help a cub that stumbled over their own paws",
+            "Somehow has a gaggle of cubs following {PRONOUN/m_c/object}"
         ],
         "main_status_constraint": [
             "apprentice",
@@ -428,10 +428,10 @@
     {
         "id": "adventurous_gen_to_alive_kits",
         "thoughts": [
-            "Involves the kits in a game of make-believe about traveling through a strange land",
-            "Encourages the kits to explore as much as possible",
-            "Tells the kits about {PRONOUN/m_c/poss} adventures",
-            "Embellishes a story about a recent border patrol for the kits"
+            "Involves the cubs in a game of make-believe about traveling through a strange land",
+            "Encourages the cubs to explore as much as possible",
+            "Tells the cubs about {PRONOUN/m_c/poss} adventures",
+            "Embellishes a story about a recent border patrol for the cubs"
         ],
         "random_status_constraint": [
             "kitten"
@@ -669,7 +669,7 @@
     {
         "id": "bold_to_kit",
         "thoughts": [
-            "Promises the kits {PRONOUN/m_c/subject}'ll protect them when the time comes"
+            "Promises the cubs {PRONOUN/m_c/subject}'ll protect them when the time comes"
         ],
         "main_trait_constraint": [
             "bold"
@@ -732,7 +732,7 @@
     {
         "id": "calm_to_kit",
         "thoughts": [
-            "Is unable to be scared, no matter how much the kits try"
+            "Is unable to be scared, no matter how much the cubs try"
         ],
         "main_trait_constraint": [
             "calm"
@@ -1087,9 +1087,9 @@
     {
         "id": "compassionate_to_kit",
         "thoughts": [
-            "Smiles at some kit's cheap prank, knowing they'll grow out of it soon",
-            "Listens to a kit's complaints, even if they seem trivial",
-            "Tells the kits they're getting so big and strong!"
+            "Smiles at some cub's cheap prank, knowing they'll grow out of it soon",
+            "Listens to a cub's complaints, even if they seem trivial",
+            "Tells the cubs they're getting so big and strong!"
         ],
         "main_trait_constraint": [
             "compassionate"
@@ -1286,7 +1286,7 @@
     {
         "id": "faithful_to_kit",
         "thoughts": [
-            "Urges a kit to follow {PRONOUN/r_c/poss} own beliefs"
+            "Urges a cub to follow {PRONOUN/r_c/poss} own beliefs"
         ],
         "main_trait_constraint": [
             "faithful"
@@ -1339,7 +1339,7 @@
             "Strikes a pose",
             "Sings along with the birds",
             "Stretches in the center of camp",
-            "Widens {PRONOUN/m_c/poss} eyes like a kit to get {PRONOUN/m_c/poss} way",
+            "Widens {PRONOUN/m_c/poss} eyes like a cub to get {PRONOUN/m_c/poss} way",
             "Admires {PRONOUN/m_c/self} in a clear puddle",
             "Wonders if {PRONOUN/m_c/subject} would look good in one of those colorful Twoleg pelts",
             "Considers accessorizing",
@@ -1860,7 +1860,7 @@
     {
         "id": "responsible_to_kits",
         "thoughts": [
-            "Is watching the kits to make sure none of them accidentally hurt each other",
+            "Is watching the cubs to make sure none of them accidentally hurt each other",
             "Is teaching r_c the importance of following the code"
         ],
         "main_trait_constraint": [
@@ -1891,7 +1891,7 @@
     {
         "id": "righteous_to_kits",
         "thoughts": [
-            "Teaches the kits about morals until they all fall asleep"
+            "Teaches the cubs about morals until they all fall asleep"
         ],
         "main_trait_constraint": [
             "righteous"
@@ -2303,7 +2303,7 @@
     {
         "id": "wise_to_living_kits",
         "thoughts": [
-            "Tells some kits a thing or two about growing older"
+            "Tells some cubs a thing or two about growing older"
         ],
         "random_status_constraint": [
             "kitten"
@@ -2432,7 +2432,7 @@
     {
         "id": "starclan_df_skill_2_to_kit",
         "thoughts": [
-            "Rolls {PRONOUN/m_c/poss} eyes at the kits laughing about spirits not being real"
+            "Rolls {PRONOUN/m_c/poss} eyes at the cubs laughing about spirits not being real"
         ],
         "main_skill_constraint": [
             "STAR,2",
@@ -2468,7 +2468,7 @@
             "Is on a walk with r_c",
             "Saves the last of r_c's favorite prey for {PRONOUN/r_c/object}",
             "Brings r_c {PRONOUN/r_c/poss} favorite prey",
-            "Is thinking about having kits with r_c",
+            "Is thinking about having cubs with r_c",
             "Brings a flower back to camp for r_c",
             "Is pressing against r_c, purring loudly",
             "Is thoughtfully grooming r_c"
@@ -2519,7 +2519,7 @@
         "id": "gen_sibling_not_kit",
         "thoughts": [
             "Play fights with r_c, just like old times",
-            "Reminisces with r_c about when they were kits",
+            "Reminisces with r_c about when they were cubs",
             "Takes the fresh-kill r_c was saving specifically because {PRONOUN/r_c/subject} {VERB/r_c/were/was} saving it", 
             "Is waiting for r_c to return to camp",
             "Explores the territory with r_c"
@@ -2577,8 +2577,8 @@
             "Saw a kittypet sitting calmly next to a dog!",
             "Almost got lost near some Twoleg nests",
             "Saw some wandering Twolegs today",
-            "Saw a Twoleg kit playing with a dog",
-            "Saw a Twoleg kit playing with a kittypet",
+            "Saw a Twoleg cub playing with a dog",
+            "Saw a Twoleg cub playing with a kittypet",
             "Saw a kittypet rolling around a Twoleg garden",
             "Is thinking about a strange Twoleg object {PRONOUN/m_c/subject} saw recently",
             "Is wondering what the inside of a Twoleg den looks like",
@@ -2984,8 +2984,8 @@
     {
         "id": "med_cats_to_alive_kit",
         "thoughts": [
-            "Is teaching kits about what plants to stay away from",
-            "Chases kits out of {PRONOUN/m_c/poss} den",
+            "Is teaching cubs about what plants to stay away from",
+            "Chases cubs out of {PRONOUN/m_c/poss} den",
             "Is visiting the nursery to give r_c a checkup"
         ],
         "main_status_constraint": [
@@ -3175,7 +3175,7 @@
             "Was tasked with lining nests with fresh moss today",
             "Dreams of someday making {PRONOUN/m_c/poss} Clan proud",
             "Helps reinforce the camp wall with brambles",
-            "Daydreams about having a mate and kits someday",
+            "Daydreams about having a mate and cubs someday",
             "Had quite the adventure today",
             "Has been training very hard recently",
             "Had a very strange dream",
@@ -3311,11 +3311,11 @@
     {
         "id": "apprentices_to_alive_kits",
         "thoughts": [
-            "Is awkwardly deflecting kits' questions about where kits come from",
+            "Is awkwardly deflecting cubs' questions about where cubs come from",
             "Was put on kit-sitting duty",
-            "Shows off to the kits",
-            "Tells the kits off for being immature",
-            "Rambles to kits about the importance of respecting their elders",
+            "Shows off to the cubs",
+            "Tells the cubs off for being immature",
+            "Rambles to cubs about the importance of respecting their elders",
             "Makes fun of r_c for not being an apprentice yet",
             "Playfights with r_c",
             "Teaches r_c a cool new trick that {PRONOUN/m_c/subject} learned"
@@ -3623,7 +3623,7 @@
         "id": "loving_apprentices_to_apprentices",
         "thoughts": [
             "Is listening to r_c's troubles sympathetically",
-            "Volunteers to watch the kits",
+            "Volunteers to watch the cubs",
             "Offers to help r_c with {PRONOUN/r_c/poss} tasks",
             "Is urging r_c to rest and not overwork {PRONOUN/r_c/self}"
         ],
@@ -3700,7 +3700,7 @@
             "Is licking {PRONOUN/m_c/poss} chest in embarrassment after being praised by {PRONOUN/m_c/poss} mentor",
             "Gently reminds a Clanmate of something they forgot to do",
             "Never forgets to thank StarClan for the fresh-kill",
-            "Volunteers to watch the kits",
+            "Volunteers to watch the cubs",
             "Offers to help everyone {PRONOUN/m_c/subject} {VERB/m_c/come/comes} across",
             "Is asking {PRONOUN/m_c/poss} mentor what {PRONOUN/m_c/subject} can do to be helpful around camp today",
             "Is the first to offer to freshen the elders' bedding"
@@ -3961,11 +3961,11 @@
             "Goes to teach r_c a new move {PRONOUN/m_c/subject} learned, but remembers r_c is among the stars now",
             "Misses r_c nagging {PRONOUN/m_c/object} about apprentice duties",
             "Is tearing up after finding r_c's old moss ball",
-            "Hopes that somehow, someway, the kits in StarClan are learning the hunting crouch",
-            "Wonders if the kits get moss balls in StarClan",
-            "Hopes that the kits in StarClan get time to play games",
-            "Looks up at the night sky and wonders which stars are long-gone kits",
-            "Thought {PRONOUN/m_c/subject} saw a stray kit in front of the nursery, but it vanished",
+            "Hopes that somehow, someway, the cubs in StarClan are learning the hunting crouch",
+            "Wonders if the cubs get moss balls in StarClan",
+            "Hopes that the cubs in StarClan get time to play games",
+            "Looks up at the night sky and wonders which stars are long-gone cubs",
+            "Thought {PRONOUN/m_c/subject} saw a stray cub in front of the nursery, but it vanished",
             "Walks into the nursery, hoping to see r_c again, but then realizes that r_c isn't coming back"
         ],
         "main_status_constraint": [
@@ -4098,7 +4098,7 @@
         "thoughts": [
             "Wonders if r_c would have been {PRONOUN/m_c/poss} apprentice once {PRONOUN/r_c/subject} {VERB/r_c/were/was} old enough",
             "Wonders what type of apprentice r_c would've been",
-            "Hopes the kits in StarClan are safe"
+            "Hopes the cubs in StarClan are safe"
         ],
         "main_status_constraint": [
             "warrior",
@@ -4286,8 +4286,8 @@
     {
         "id": "paralyzed_gen_to_alive_kit",
         "thoughts": [
-            "Is spinning an epic tale to the kits about how {PRONOUN/m_c/subject} became paralyzed",
-            "Couldn't escape in time before kits piled on {PRONOUN/m_c/object}!",
+            "Is spinning an epic tale to the cubs about how {PRONOUN/m_c/subject} became paralyzed",
+            "Couldn't escape in time before cubs piled on {PRONOUN/m_c/object}!",
             "Takes r_c for a badger ride around camp"
         ],
         "perm_conditions": {
@@ -4465,9 +4465,9 @@
     {
         "id": "one_bad_eye_gen_to_alive_kit",
         "thoughts": [
-            "Tells the kits tall tales about how {PRONOUN/m_c/subject} became half-blind",
+            "Tells the cubs tall tales about how {PRONOUN/m_c/subject} became half-blind",
             "Trips over r_c!",
-            "Laughs at a kit who offered to help {PRONOUN/m_c/object} find {PRONOUN/m_c/poss} lost eye"
+            "Laughs at a cub who offered to help {PRONOUN/m_c/object} find {PRONOUN/m_c/poss} lost eye"
         ],
         "perm_conditions": {
             "m_c": [
@@ -4545,7 +4545,7 @@
     {
         "id": "one_bad_eye_adolescent_to_alive_kit",
         "thoughts": [
-            "Hisses at a kit for sneaking up on {PRONOUN/m_c/poss} bad side"
+            "Hisses at a cub for sneaking up on {PRONOUN/m_c/poss} bad side"
         ],
         "perm_conditions": {
             "m_c": [
@@ -4609,7 +4609,7 @@
     {
         "id": "deaf_adolescent_to_alive_kit",
         "thoughts": [
-            "Teaches tail signals to the kits"
+            "Teaches tail signals to the cubs"
         ],
         "perm_conditions": {
             "m_c": [
@@ -4736,7 +4736,7 @@
         "thoughts": [
             "Is frustrated by everyone's concern for {PRONOUN/m_c/poss} health",
             "Hopes to live to see {PRONOUN/m_c/poss} naming ceremony",
-            "Daydreams of having a mate and kits, even knowing it's unlikely...",
+            "Daydreams of having a mate and cubs, even knowing it's unlikely...",
             "Daydreams about someday being leader"
         ],
         "perm_conditions": {
@@ -4765,7 +4765,7 @@
     {
         "id": "lost_leg_gen_to_alive_kit",
         "thoughts": [
-            "Is exaggerating the tale of how {PRONOUN/m_c/subject} lost {PRONOUN/m_c/poss} leg to the kits"
+            "Is exaggerating the tale of how {PRONOUN/m_c/subject} lost {PRONOUN/m_c/poss} leg to the cubs"
         ],
         "perm_conditions": {
             "m_c": [
@@ -4814,8 +4814,8 @@
         "id": "half_no_tail_gen_to_alive_kit",
         "thoughts": [
             "Laughs when a kit asks if their tail could fall off as well one day",
-            "Is letting the kits play with {PRONOUN/m_c/poss} tail stub",
-            "Tells the kits they'll lose their tails too if they don't behave and follow the code"
+            "Is letting the cubs play with {PRONOUN/m_c/poss} tail stub",
+            "Tells the cubs they'll lose their tails too if they don't behave and follow the code"
         ],
         "perm_conditions": {
             "m_c": [

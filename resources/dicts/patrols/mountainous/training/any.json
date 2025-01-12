@@ -2153,7 +2153,7 @@
                 ]
             },
             {
-                "text": "app1 freezes in fear, but s_c comes up next to {PRONOUN/app1/object}, and bats a stone down the slope. The bird shrieks, startlingly loud, and waves its wings around. s_c offers it a branch from a shrub, dangling it like playing with a kit in the nursery, and the kea merrily hops after it. Later, app1 apologizes for being scared, and is shocked when s_c tells them that no, kea are very dangerous. ",
+                "text": "app1 freezes in fear, but s_c comes up next to {PRONOUN/app1/object}, and bats a stone down the slope. The bird shrieks, startlingly loud, and waves its wings around. s_c offers it a branch from a shrub, dangling it like playing with a cub in the nursery, and the kea merrily hops after it. Later, app1 apologizes for being scared, and is shocked when s_c tells them that no, kea are very dangerous. ",
                 "exp": 15,
                 "weight": 20,
                 "stat_skill": ["SPEAKER,1", "TEACHER,1"],

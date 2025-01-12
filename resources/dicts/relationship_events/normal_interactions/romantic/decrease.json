@@ -27,7 +27,7 @@
 		"id": "rom_dec_medium2",
 		"intensity": "medium",
 		"interactions": [
-			"m_c told r_c to stop padding after {PRONOUN/m_c/object} like a lost kit.",
+			"m_c told r_c to stop padding after {PRONOUN/m_c/object} like a lost cub.",
 			"m_c worries that r_c isn't being honest with their relationship.",
 			"m_c can't stand listening to r_c's snoring in {PRONOUN/r_c/poss} nest.",
 			"m_c tried flirting with r_c but {PRONOUN/r_c/subject} didn't have time for it and brushed m_c aside."
@@ -64,8 +64,8 @@
 		"id": "rom_dec_medium4",
 		"intensity": "medium",
 		"interactions": [
-			"m_c had a disagreement with r_c over kits.",
-			"m_c and r_c had a disagreement on how to raise kits.",
+			"m_c had a disagreement with r_c over cubs.",
+			"m_c and r_c had a disagreement on how to raise cubs.",
             		"m_c and r_c had a fight over if they would take a new mate if one of them died or went missing."
 		],
 		"relationship_constraint": [

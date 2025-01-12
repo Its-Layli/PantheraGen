@@ -32,12 +32,12 @@
                 "outsider_rep": 1
             },
             {
-                "text": "The patrol convinces the loner to join the Clan with {PRONOUN/n_c:0/poss} litter of kits.",
+                "text": "The patrol convinces the loner to join the Clan with {PRONOUN/n_c:0/poss} litter of cubs.",
                 "exp": 10,
                 "weight": 5,
                 "new_cat": [
-                    ["loner", "age:has_kits"],
-                    ["litter", "parent:0", "status:kitten", "backstory:outsider_roots2"]
+                    ["loner", "age:has_cubs"],
+                    ["litter", "parent:0", "status:cub", "backstory:outsider_roots2"]
                 ],
                 "relationships": [
                     {
@@ -123,12 +123,12 @@
                 "outsider_rep": 1
             },
             {
-                "text": "p_l convinces the loner to join the Clan with {PRONOUN/n_c:0/poss} litter of kits.",
+                "text": "p_l convinces the loner to join the Clan with {PRONOUN/n_c:0/poss} litter of cubs.",
                 "exp": 10,
                 "weight": 5,
                 "new_cat": [
-                    ["loner", "age:has_kits"],
-                    ["litter", "parent:0", "status:kitten", "backstory:outsider_roots2"]
+                    ["loner", "age:has_cubs"],
+                    ["litter", "parent:0", "status:cub", "backstory:outsider_roots2"]
                 ],
                 "relationships": [
                     {
@@ -214,12 +214,12 @@
                 "outsider_rep": 1
             },
             {
-                "text": "The patrol convinces the kittypet to join the Clan with {PRONOUN/n_c:0/poss} litter of kits.",
+                "text": "The patrol convinces the kittypet to join the Clan with {PRONOUN/n_c:0/poss} litter of cubs.",
                 "exp": 10,
                 "weight": 5,
                 "new_cat": [
-                    ["age:has_kits", "kittypet"],
-                    ["litter", "parent:0", "status:kitten", "backstory:outsider_roots2"]
+                    ["age:has_cubs", "kittypet"],
+                    ["litter", "parent:0", "status:cub", "backstory:outsider_roots2"]
                 ],
                 "relationships": [
                     {
@@ -296,12 +296,12 @@
                 "outsider_rep": 1
             },
             {
-                "text": "p_l convinces the kittypet to join the Clan with {PRONOUN/n_c:0/poss} litter of kits.",
+                "text": "p_l convinces the kittypet to join the Clan with {PRONOUN/n_c:0/poss} litter of cubs.",
                 "exp": 10,
                 "weight": 5,
                 "new_cat": [
-                    ["age:has_kits", "kittypet"],
-                    ["litter", "parent:0", "status:kitten", "backstory:outsider_roots2"]
+                    ["age:has_cubs", "kittypet"],
+                    ["litter", "parent:0", "status:cub", "backstory:outsider_roots2"]
                 ],
                 "relationships": [
                     {
@@ -570,11 +570,11 @@
                 ]
             },
             {
-                "text": "Swerving to follow the scent trail, the patrol almost falls over a hissing queen. Reeling with surprise, no one hears exactly what she spits out about never letting herself be taken - but she grabs something and flees. It's only as the patrol regroups that they hear the distressed calls of her other kittens.",
+                "text": "Swerving to follow the scent trail, the patrol almost falls over a hissing queen. Reeling with surprise, no one hears exactly what she spits out about never letting herself be taken - but she grabs something and flees. It's only as the patrol regroups that they hear the distressed calls of her other cubs.",
                 "exp": 20,
                 "weight": 5,
                 "new_cat": [
-                    ["female", "loner", "age:has_kits", "meeting"],
+                    ["female", "loner", "age:has_cubs", "meeting"],
                     ["litter", "parent:0", "status:newborn", "backstory:abandoned2"],
                     ["age:newborn", "loner", "meeting", "parent:0"]
                 ],
@@ -868,26 +868,26 @@
         ]
     },
     {
-        "patrol_id": "gen_bord_newkit2",
+        "patrol_id": "gen_bord_newcub2",
         "biome": ["any"],
         "season": ["any"],
         "types": ["border"],
         "tags": ["new_cat"],
-        "patrol_art": "gen_bord_newkit",
+        "patrol_art": "gen_bord_newcub",
         "min_cats": 2,
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "r_c finds an abandoned kit whose parents are nowhere to be found.",
-        "decline_text": "They decide to leave the kit alone.",
+        "intro_text": "r_c finds an abandoned cub whose parents are nowhere to be found.",
+        "decline_text": "They decide to leave the cub alone.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "The kit is taken back to camp and nursed back to health.",
+                "text": "The cub is taken back to camp and nursed back to health.",
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
-                    ["status:kitten", "backstory:abandoned1"]
+                    ["status:cub", "backstory:abandoned1"]
                 ],
                 "relationships": [
                     {
@@ -902,13 +902,13 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The kit is taken back to camp, but grows weak and dies a few days later.",
+                "text": "The cub is taken back to camp, but grows weak and dies a few days later.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": 0
             },
             {
-                "text": "The patrol approaches the kit, only to realize that it's already gone. They swiftly bury it and move on.",
+                "text": "The patrol approaches the cub, only to realize that it's already gone. They swiftly bury it and move on.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": 0
@@ -916,7 +916,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "The kit smells of Twolegs, the patrol has no interest in what will surely grow to be a weak cat.",
+                "text": "The cub smells of Twolegs, the patrol has no interest in what will surely grow to be a weak cat.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1
@@ -924,7 +924,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "The patrol moves the kit away from the territory. They have no interest in strange kits.",
+                "text": "The patrol moves the cub away from the territory. They have no interest in strange cubs.",
                 "exp": 10,
                 "weight": 20,
                 "outsider_rep": -2
@@ -932,26 +932,26 @@
         ]
     },
     {
-        "patrol_id": "gen_bord_newkit6",
+        "patrol_id": "gen_bord_newcub6",
         "biome": ["any"],
         "season": ["any"],
         "types": ["border"],
         "tags": ["new_cat"],
-        "patrol_art": "gen_bord_newkit",
+        "patrol_art": "gen_bord_newcub",
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "p_l finds an abandoned kit whose parents are nowhere to be found.",
-        "decline_text": "{PRONOUN/p_l/subject/CAP} {VERB/p_l/decide/decides} to leave the kit alone.",
+        "intro_text": "p_l finds an abandoned cub whose parents are nowhere to be found.",
+        "decline_text": "{PRONOUN/p_l/subject/CAP} {VERB/p_l/decide/decides} to leave the cub alone.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "The kit is taken back to camp and nursed back to health.",
+                "text": "The cub is taken back to camp and nursed back to health.",
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
-                    ["status:kitten", "backstory:abandoned1"]
+                    ["status:cub", "backstory:abandoned1"]
                 ],
                 "relationships": [
                     {
@@ -966,13 +966,13 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The kit is taken back to camp, but grows weak and dies a few days later.",
+                "text": "The cub is taken back to camp, but grows weak and dies a few days later.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": 0
             },
             {
-                "text": "p_l approaches the kit, only to realize that it's already gone. {PRONOUN/p_l/subject/CAP} swiftly {VERB/p_l/bury/buries} it and {VERB/p_l/move/moves} on.",
+                "text": "p_l approaches the cub, only to realize that it's already gone. {PRONOUN/p_l/subject/CAP} swiftly {VERB/p_l/bury/buries} it and {VERB/p_l/move/moves} on.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": 0
@@ -980,7 +980,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "The kit smells of Twolegs, p_l has no interest in what will surely grow to be a weak cat.",
+                "text": "The cub smells of Twolegs, p_l has no interest in what will surely grow to be a weak cat.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1
@@ -988,7 +988,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "p_l moves the kit away from the territory, {PRONOUN/p_l/subject} {VERB/p_l/have/has} no interest in strange kits.",
+                "text": "p_l moves the cub away from the territory, {PRONOUN/p_l/subject} {VERB/p_l/have/has} no interest in strange cubs.",
                 "exp": 10,
                 "weight": 20,
                 "outsider_rep": -2
@@ -1028,12 +1028,12 @@
                 "outsider_rep": 1
             },
             {
-                "text": "The new medicine cat is welcomed into the Clan along with {PRONOUN/n_c:0/poss} litter of kits.",
+                "text": "The new medicine cat is welcomed into the Clan along with {PRONOUN/n_c:0/poss} litter of cubs.",
                 "exp": 10,
                 "weight": 5,
                 "new_cat": [
-                    ["status:medicine cat", "loner", "age:has_kits"],
-                    ["litter", "parent:0", "status:kitten", "backstory:outsider_roots2"]
+                    ["status:medicine cat", "loner", "age:has_cubs"],
+                    ["litter", "parent:0", "status:cub", "backstory:outsider_roots2"]
                 ],
                 "relationships": [
                     {
@@ -1119,12 +1119,12 @@
                 "outsider_rep": 1
             },
             {
-                "text": "The new medicine cat is welcomed into the Clan along with {PRONOUN/n_c:0/poss} litter of kits.",
+                "text": "The new medicine cat is welcomed into the Clan along with {PRONOUN/n_c:0/poss} litter of cubs.",
                 "exp": 10,
                 "weight": 5,
                 "new_cat": [
-                    ["status:medicine cat", "loner", "age:has_kits"],
-                    ["litter", "parent:0", "status:kitten", "backstory:outsider_roots2"]
+                    ["status:medicine cat", "loner", "age:has_cubs"],
+                    ["litter", "parent:0", "status:cub", "backstory:outsider_roots2"]
                 ],
                 "relationships": [
                     {
@@ -1316,7 +1316,7 @@
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
-                    ["can_birth", "age:has_kits"],
+                    ["can_birth", "age:has_cubs"],
                     ["litter", "parent:0", "status:newborn", "backstory:outsider_roots2"]
                 ],
                 "relationships": [
@@ -1330,11 +1330,11 @@
                 "outsider_rep": 1
             },
             {
-                "text": "p_l follows the strange sounds on the wind and finds a struggling queen with {PRONOUN/n_c:0/poss} newborn kits clinging to {PRONOUN/n_c:0/object}. r_c sprints back to camp to find help while p_l tries to make the queen eat some strengthening herbs. Thankful for the help, the queen joins c_n with {PRONOUN/n_c:0/poss} kits.",
+                "text": "p_l follows the strange sounds on the wind and finds a struggling queen with {PRONOUN/n_c:0/poss} newborn cubs clinging to {PRONOUN/n_c:0/object}. r_c sprints back to camp to find help while p_l tries to make the queen eat some strengthening herbs. Thankful for the help, the queen joins c_n with {PRONOUN/n_c:0/poss} cubs.",
                 "exp": 10,
                 "weight": 5,
                 "new_cat": [
-                    ["can_birth", "age:has_kits"],
+                    ["can_birth", "age:has_cubs"],
                     ["litter", "parent:0", "status:newborn", "backstory:outsider_roots2"]
                 ],
                 "relationships": [
@@ -1350,7 +1350,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l follows the strange sounds on the wind and finds the bodies of an unknown queen with their kits beside them, slowly going cold. r_c goes back to camp to find help bringing their bodies back to camp to pay respects.",
+                "text": "p_l follows the strange sounds on the wind and finds the bodies of an unknown queen with their cubs beside them, slowly going cold. r_c goes back to camp to find help bringing their bodies back to camp to pay respects.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": 0
@@ -1358,7 +1358,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "p_l begrudgingly follows the sound, only to find the bodies of an unknown queen and their kits beside them. If p_l had been quicker... Whatever the case, {PRONOUN/p_l/subject} {VERB/p_l/return/returns} home, {PRONOUN/p_l/poss} mind clouded.",
+                "text": "p_l begrudgingly follows the sound, only to find the bodies of an unknown queen and their cubs beside them. If p_l had been quicker... Whatever the case, {PRONOUN/p_l/subject} {VERB/p_l/return/returns} home, {PRONOUN/p_l/poss} mind clouded.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1
@@ -1393,11 +1393,11 @@
         "chance_of_success": 45,
         "success_outcomes": [
             {
-                "text": "Sure that it is a sign from StarClan, p_l follows the faint wailing. Instead, {PRONOUN/p_l/subject} {VERB/p_l/find/finds} a queen who lost {PRONOUN/n_c:0/poss} life in a harsh kitting, {PRONOUN/n_c:0/poss} newborn kits clinging to a body that will never move again. p_l instantly wraps {PRONOUN/p_l/self} around the kits and orders r_c back to camp to find help and a queen willing to nurse them.",
+                "text": "Sure that it is a sign from StarClan, p_l follows the faint wailing. Instead, {PRONOUN/p_l/subject} {VERB/p_l/find/finds} a queen who lost {PRONOUN/n_c:0/poss} life in a harsh birthing, {PRONOUN/n_c:0/poss} newborn cubs clinging to a body that will never move again. p_l instantly wraps {PRONOUN/p_l/self} around the cubs and orders r_c back to camp to find help and a queen willing to nurse them.",
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
-                    ["dead", "meeting", "can_birth", "age:has_kits"],
+                    ["dead", "meeting", "can_birth", "age:has_cubs"],
                     [
                         "litter",
                         "parent:0",
@@ -1416,11 +1416,11 @@
                 "outsider_rep": 1
             },
             {
-                "text": "It takes ages for p_l to pinpoint the sounds, but eventually {PRONOUN/p_l/subject} {VERB/p_l/uncover/uncovers} the hidden birthing nest of a dead, cold queen, {PRONOUN/n_c:0/poss} newborn kits by {PRONOUN/n_c:0/poss} side. p_l makes sure the queen is given a vigil - as the kits grow older, they'll have questions about their parent.",
+                "text": "It takes ages for p_l to pinpoint the sounds, but eventually {PRONOUN/p_l/subject} {VERB/p_l/uncover/uncovers} the hidden birthing nest of a dead, cold queen, {PRONOUN/n_c:0/poss} newborn cubs by {PRONOUN/n_c:0/poss} side. p_l makes sure the queen is given a vigil - as the cubs grow older, they'll have questions about their parent.",
                 "exp": 10,
                 "weight": 5,
                 "new_cat": [
-                    ["dead", "meeting", "can_birth", "age:has_kits"],
+                    ["dead", "meeting", "can_birth", "age:has_cubs"],
                     [
                         "litter",
                         "parent:0",
@@ -1441,7 +1441,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l follows the strange sounds on the wind and finds the body of an unknown queen with their kits beside them, slowly going cold. r_c goes back to camp to find help bringing their bodies back to camp to pay respects.",
+                "text": "p_l follows the strange sounds on the wind and finds the body of an unknown queen with their cubs beside them, slowly going cold. r_c goes back to camp to find help bringing their bodies back to camp to pay respects.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": 0
@@ -1449,7 +1449,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "p_l begrudgingly follows the sound, only to find the bodies of an unknown queen and their kits beside them. If p_l had been quicker... Whatever the case, {PRONOUN/p_l/subject} {VERB/p_l/return/returns} home, {PRONOUN/p_l/poss} mind clouded.",
+                "text": "p_l begrudgingly follows the sound, only to find the bodies of an unknown queen and their cubs beside them. If p_l had been quicker... Whatever the case, {PRONOUN/p_l/subject} {VERB/p_l/return/returns} home, {PRONOUN/p_l/poss} mind clouded.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1
@@ -1490,7 +1490,7 @@
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
-                    ["age:has_kits", "can_birth"],
+                    ["age:has_cubs", "can_birth"],
                     ["litter", "parent:0", "status:newborn", "backstory:outsider_roots2"]
                 ],
                 "relationships": [
@@ -1504,11 +1504,11 @@
                 "outsider_rep": 1
             },
             {
-                "text": "p_l follows the strange sounds on the wind and finds a struggling queen with {PRONOUN/n_c:0/poss} newborn kits clinging to {PRONOUN/n_c:0/object}. p_l tries to make the queen eat some strengthening herbs and slowly helps {PRONOUN/n_c:0/object} back to camp. Thankful for the help, the queen joins c_n with {PRONOUN/n_c:0/poss} kits.",
+                "text": "p_l follows the strange sounds on the wind and finds a struggling queen with {PRONOUN/n_c:0/poss} newborn cubs clinging to {PRONOUN/n_c:0/object}. p_l tries to make the queen eat some strengthening herbs and slowly helps {PRONOUN/n_c:0/object} back to camp. Thankful for the help, the queen joins c_n with {PRONOUN/n_c:0/poss} cubs.",
                 "exp": 10,
                 "weight": 5,
                 "new_cat": [
-                    ["age:has_kits", "can_birth"],
+                    ["age:has_cubs", "can_birth"],
                     ["litter", "parent:0", "status:newborn", "backstory:outsider_roots2"]
                 ],
                 "relationships": [
@@ -1524,7 +1524,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l follows the strange sounds on the wind and finds the body of an unknown queen with their kits beside them, slowly going cold. {PRONOUN/p_l/subject/CAP} {VERB/p_l/cancel/cancels} {PRONOUN/p_l/poss} patrol and {VERB/p_l/return/returns} to camp to get help sending these lost souls to StarClan.",
+                "text": "p_l follows the strange sounds on the wind and finds the body of an unknown queen with their cubs beside them, slowly going cold. {PRONOUN/p_l/subject/CAP} {VERB/p_l/cancel/cancels} {PRONOUN/p_l/poss} patrol and {VERB/p_l/return/returns} to camp to get help sending these lost souls to StarClan.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": 0
@@ -1532,7 +1532,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "p_l begrudgingly follows the sound, only to find the bodies of an unknown queen and their kits beside them. If p_l had been quicker... Whatever the case, {PRONOUN/p_l/subject} {VERB/p_l/return/returns} home, {PRONOUN/p_l/poss} mind clouded.",
+                "text": "p_l begrudgingly follows the sound, only to find the bodies of an unknown queen and their cubs beside them. If p_l had been quicker... Whatever the case, {PRONOUN/p_l/subject} {VERB/p_l/return/returns} home, {PRONOUN/p_l/poss} mind clouded.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1
@@ -1569,11 +1569,11 @@
         "chance_of_success": 45,
         "success_outcomes": [
             {
-                "text": "Sure that it is a sign from StarClan, p_l follows the faint wailing. Instead, {PRONOUN/p_l/subject} {VERB/p_l/find/finds} a queen who lost {PRONOUN/n_c:0/poss} life in a harsh kitting, {PRONOUN/n_c:0/poss} newborn kits clinging to a body that will never move again. p_l instantly wraps {PRONOUN/p_l/self} around the kits and starts thinking about what {PRONOUN/p_l/subject}'ll need to do to move them to camp.",
+                "text": "Sure that it is a sign from StarClan, p_l follows the faint wailing. Instead, {PRONOUN/p_l/subject} {VERB/p_l/find/finds} a queen who lost {PRONOUN/n_c:0/poss} life in a harsh birthing, {PRONOUN/n_c:0/poss} newborn cubs clinging to a body that will never move again. p_l instantly wraps {PRONOUN/p_l/self} around the cubs and starts thinking about what {PRONOUN/p_l/subject}'ll need to do to move them to camp.",
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
-                    ["age:has_kits", "dead", "meeting", "can_birth"],
+                    ["age:has_cubs", "dead", "meeting", "can_birth"],
                     [
                         "litter",
                         "parent:0",
@@ -1592,11 +1592,11 @@
                 "outsider_rep": 1
             },
             {
-                "text": "It takes ages for p_l to pinpoint the sounds, but eventually {PRONOUN/p_l/subject} {VERB/p_l/find/finds} the hidden birthing nest of a dead, cold queen, {PRONOUN/n_c:0/poss} newborn kits by {PRONOUN/n_c:0/poss} side. p_l makes sure the queen is given a vigil - as the kits grow older, they'll have questions about their parent.",
+                "text": "It takes ages for p_l to pinpoint the sounds, but eventually {PRONOUN/p_l/subject} {VERB/p_l/find/finds} the hidden birthing nest of a dead, cold queen, {PRONOUN/n_c:0/poss} newborn cubs by {PRONOUN/n_c:0/poss} side. p_l makes sure the queen is given a vigil - as the cubs grow older, they'll have questions about their parent.",
                 "exp": 10,
                 "weight": 5,
                 "new_cat": [
-                    ["age:has_kits", "dead", "meeting", "can_birth"],
+                    ["age:has_cubs", "dead", "meeting", "can_birth"],
                     [
                         "litter",
                         "parent:0",
@@ -1617,7 +1617,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l follows the strange sounds on the wind and finds the body of an unknown queen with their kits beside them, slowly going cold. {PRONOUN/p_l/subject/CAP} {VERB/p_l/cancel/cancels} {PRONOUN/p_l/poss} patrol and {VERB/p_l/return/returns} to camp to get help sending these lost souls to StarClan.",
+                "text": "p_l follows the strange sounds on the wind and finds the body of an unknown queen with their cubs beside them, slowly going cold. {PRONOUN/p_l/subject/CAP} {VERB/p_l/cancel/cancels} {PRONOUN/p_l/poss} patrol and {VERB/p_l/return/returns} to camp to get help sending these lost souls to StarClan.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": 0
@@ -1625,7 +1625,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "p_l begrudgingly follows the sound, only to find the bodies of an unknown queen and their kits beside them. If p_l had been quicker... Whatever the case, {PRONOUN/p_l/subject} {VERB/p_l/return/returns} home, {PRONOUN/p_l/poss} mind clouded.",
+                "text": "p_l begrudgingly follows the sound, only to find the bodies of an unknown queen and their cubs beside them. If p_l had been quicker... Whatever the case, {PRONOUN/p_l/subject} {VERB/p_l/return/returns} home, {PRONOUN/p_l/poss} mind clouded.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1
@@ -1665,7 +1665,7 @@
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
-                    ["age:has_kits", "can_birth"],
+                    ["age:has_cubs", "can_birth"],
                     ["litter", "parent:0", "status:newborn", "backstory:outsider_roots2"]
                 ],
                 "relationships": [
@@ -1679,11 +1679,11 @@
                 "outsider_rep": 1
             },
             {
-                "text": "p_l follows the strange sounds on the wind and finds a struggling queen with {PRONOUN/n_c:0/poss} newborn kits clinging to {PRONOUN/n_c:0/object}. Panicking, {PRONOUN/p_l/subject} {VERB/p_l/ask/asks} the queen to hold on just a little longer while {PRONOUN/p_l/subject} {VERB/p_l/fetch/fetches} help, then {VERB/p_l/sprint/sprints} for home, yowling in case any patrol is nearby to assist.",
+                "text": "p_l follows the strange sounds on the wind and finds a struggling queen with {PRONOUN/n_c:0/poss} newborn cubs clinging to {PRONOUN/n_c:0/object}. Panicking, {PRONOUN/p_l/subject} {VERB/p_l/ask/asks} the queen to hold on just a little longer while {PRONOUN/p_l/subject} {VERB/p_l/fetch/fetches} help, then {VERB/p_l/sprint/sprints} for home, yowling in case any patrol is nearby to assist.",
                 "exp": 10,
                 "weight": 5,
                 "new_cat": [
-                    ["age:has_kits", "can_birth"],
+                    ["age:has_cubs", "can_birth"],
                     ["litter", "parent:0", "status:newborn", "backstory:outsider_roots2"]
                 ],
                 "relationships": [
@@ -1699,7 +1699,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l follows the strange sounds on the wind and finds the bodies of an unknown queen with their kits beside them, slowly going cold. {PRONOUN/p_l/subject/CAP} desperately {VERB/p_l/try/tries} to save a kitten, but can't, and a Clanmate finds {PRONOUN/p_l/object} there sobbing hours later.",
+                "text": "p_l follows the strange sounds on the wind and finds the bodies of an unknown queen with their cubs beside them, slowly going cold. {PRONOUN/p_l/subject/CAP} desperately {VERB/p_l/try/tries} to save a cub, but can't, and a Clanmate finds {PRONOUN/p_l/object} there sobbing hours later.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -1714,7 +1714,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "p_l begrudgingly follows the sound, only to find the bodies of an unknown queen and their kits beside them. If p_l had been quicker... Whatever the case, {PRONOUN/p_l/subject} {VERB/p_l/return/returns} home, {PRONOUN/p_l/poss} mind clouded.",
+                "text": "p_l begrudgingly follows the sound, only to find the bodies of an unknown queen and their cubs beside them. If p_l had been quicker... Whatever the case, {PRONOUN/p_l/subject} {VERB/p_l/return/returns} home, {PRONOUN/p_l/poss} mind clouded.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1
@@ -1750,11 +1750,11 @@
         "chance_of_success": 45,
         "success_outcomes": [
             {
-                "text": "Sure that it is a sign from StarClan, p_l follows the faint wailing. Instead, {PRONOUN/p_l/subject} {VERB/p_l/find/finds} a queen who lost {PRONOUN/n_c:0/poss} life in a harsh kitting, {PRONOUN/n_c:0/poss} newborn kits clinging to a body that will never move again. p_l tries to comfort the poor kittens, curling around them to share {PRONOUN/p_l/poss} body heat, and wails until a passing patrol hears {PRONOUN/p_l/object}.",
+                "text": "Sure that it is a sign from StarClan, p_l follows the faint wailing. Instead, {PRONOUN/p_l/subject} {VERB/p_l/find/finds} a queen who lost {PRONOUN/n_c:0/poss} life in a harsh birthing, {PRONOUN/n_c:0/poss} newborn cubs clinging to a body that will never move again. p_l tries to comfort the poor cubs, curling around them to share {PRONOUN/p_l/poss} body heat, and wails until a passing patrol hears {PRONOUN/p_l/object}.",
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
-                    ["age:has_kits", "dead", "meeting", "can_birth"],
+                    ["age:has_cubs", "dead", "meeting", "can_birth"],
                     [
                         "litter",
                         "parent:0",
@@ -1773,11 +1773,11 @@
                 "outsider_rep": 1
             },
             {
-                "text": "It takes ages for p_l to pinpoint the sounds, but eventually {PRONOUN/p_l/subject} {VERB/p_l/uncover/uncovers} the hidden birthing nest of a dead, cold queen, {PRONOUN/n_c:0/poss} newborn kits by {PRONOUN/n_c:0/poss} side. p_l vows to be the new kits' family, to make sure they'll grow up loved and accepted.",
+                "text": "It takes ages for p_l to pinpoint the sounds, but eventually {PRONOUN/p_l/subject} {VERB/p_l/uncover/uncovers} the hidden birthing nest of a dead, cold queen, {PRONOUN/n_c:0/poss} newborn cubs by {PRONOUN/n_c:0/poss} side. p_l vows to be the new cubs' family, to make sure they'll grow up loved and accepted.",
                 "exp": 10,
                 "weight": 5,
                 "new_cat": [
-                    ["age:has_kits", "dead", "meeting", "can_birth"],
+                    ["age:has_cubs", "dead", "meeting", "can_birth"],
                     [
                         "litter",
                         "parent:0",
@@ -1798,7 +1798,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l follows the strange sounds on the wind and finds the body of an unknown queen with their kits beside them, slowly going cold. {PRONOUN/p_l/subject/CAP} desperately {VERB/p_l/try/tries} to save a kitten, but can't, and a Clanmate finds {PRONOUN/p_l/object} there sobbing hours later.",
+                "text": "p_l follows the strange sounds on the wind and finds the body of an unknown queen with their cubs beside them, slowly going cold. {PRONOUN/p_l/subject/CAP} desperately {VERB/p_l/try/tries} to save a cub, but can't, and a Clanmate finds {PRONOUN/p_l/object} there sobbing hours later.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -1813,7 +1813,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "p_l begrudgingly follows the sound, only to find the bodies of an unknown queen and their kits beside them. If p_l had been quicker... Whatever the case, {PRONOUN/p_l/subject} {VERB/p_l/return/returns} home, {PRONOUN/p_l/poss} mind clouded.",
+                "text": "p_l begrudgingly follows the sound, only to find the bodies of an unknown queen and their cubs beside them. If p_l had been quicker... Whatever the case, {PRONOUN/p_l/subject} {VERB/p_l/return/returns} home, {PRONOUN/p_l/poss} mind clouded.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1
@@ -2223,7 +2223,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "A loner and {PRONOUN/n_c:0/poss} kits emerge from the bush, but p_l shakes {PRONOUN/p_l/poss} head, and {VERB/p_l/tell/tells} the loner {PRONOUN/p_l/subject} meant it when {PRONOUN/p_l/subject} said {PRONOUN/p_l/subject} didn't want to see them again. The loner hisses and scratches at p_l. Rumors start at camp over what p_l said to the loner.",
+                "text": "A loner and {PRONOUN/n_c:0/poss} cubs emerge from the bush, but p_l shakes {PRONOUN/p_l/poss} head, and {VERB/p_l/tell/tells} the loner {PRONOUN/p_l/subject} meant it when {PRONOUN/p_l/subject} said {PRONOUN/p_l/subject} didn't want to see them again. The loner hisses and scratches at p_l. Rumors start at camp over what p_l said to the loner.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1,
@@ -2251,7 +2251,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "A loner and {PRONOUN/n_c:0/poss} kits emerge from the bush, but p_l shakes {PRONOUN/p_l/poss} head, and {VERB/p_l/inform/informs} {PRONOUN/p_l/object} there's no room in c_n.",
+                "text": "A loner and {PRONOUN/n_c:0/poss} cubs emerge from the bush, but p_l shakes {PRONOUN/p_l/poss} head, and {VERB/p_l/inform/informs} {PRONOUN/p_l/object} there's no room in c_n.",
                 "exp": 10,
                 "weight": 20,
                 "outsider_rep": -2,
@@ -2527,7 +2527,7 @@
         ]
     },
     {
-        "patrol_id": "fst_hunt_twolegplacekittens1",
+        "patrol_id": "fst_hunt_twolegplacecubs1",
         "biome": ["forest"],
         "season": ["any"],
         "types": ["hunting"],
@@ -2543,15 +2543,15 @@
         "relationship_constraint": ["mates"],
         "success_outcomes": [
             {
-                "text": "p_l hears r_c softly calling {PRONOUN/p_l/object} through the bushes. p_l drops the idea of following mouse scent, hurrying to {PRONOUN/p_l/poss} mate's side. r_c, head poking into the nest's garden through a gap in the fence, murmurs something about Twoleg kits. Twoleg kits? No, r_c corrects, the <i>Twolegs's kits</i>, the Twolegs <i>have kittens</i> wandering through the nest's garden, they need to be rescued.",
+                "text": "p_l hears r_c softly calling {PRONOUN/p_l/object} through the bushes. p_l drops the idea of following mouse scent, hurrying to {PRONOUN/p_l/poss} mate's side. r_c, head poking into the nest's garden through a gap in the fence, murmurs something about Twoleg cubs. Twoleg cubs? No, r_c corrects, the <i>Twolegs's cubs</i>, the Twolegs <i>have cubs</i> wandering through the nest's garden, they need to be rescued.",
                 "exp": 30,
                 "weight": 20,
                 "new_cat": [
-                    ["kittypet", "can_birth", "dead", "age:has_kits"],
+                    ["kittypet", "can_birth", "dead", "age:has_cubs"],
                     [
                         "litter",
                         "parent:0",
-                        "status:kitten",
+                        "status:cub",
                         "backstory:abandoned1,abandoned4"
                     ]
                 ],
@@ -2566,15 +2566,15 @@
                 "outsider_rep": 1
             },
             {
-                "text": "Near the Twoleg den, p_l suddenly hears furious growls. Tiny, adorable, furious growls. A kitten tries to pounce on p_l, barely coming up to {PRONOUN/p_l/poss} elbows. Before little teeth can do any damage, p_l gently flips the tiny cat over and places a gentle paw on their back, completely pinning them as they struggle with all their might. r_c, called over by the mighty fight, asks the little warrior what on earth they're doing. Why, they're defending their territory of course!",
+                "text": "Near the Twoleg den, p_l suddenly hears furious growls. Tiny, adorable, furious growls. A cub tries to pounce on p_l, barely coming up to {PRONOUN/p_l/poss} elbows. Before little teeth can do any damage, p_l gently flips the tiny cat over and places a gentle paw on their back, completely pinning them as they struggle with all their might. r_c, called over by the mighty fight, asks the little warrior what on earth they're doing. Why, they're defending their territory of course!",
                 "exp": 30,
                 "weight": 5,
                 "new_cat": [
-                    ["kittypet", "can_birth", "dead", "age:has_kits"],
+                    ["kittypet", "can_birth", "dead", "age:has_cubs"],
                     [
                         "litter",
                         "parent:0",
-                        "status:kitten",
+                        "status:cub",
                         "backstory:abandoned1,abandoned4"
                     ]
                 ],
@@ -2589,13 +2589,13 @@
                 "outsider_rep": 1
             },
             {
-                "text": "Furious, high-pitched yowls greet the patrol as a tiny kittypet kitten comes roaring out of the Twoleg nest to try and fight them. Terrifying. s_c tips the little fighter over and carefully scruffs the tiny warrior - they can't leave them here. The kitten insists that they're a big cat and they're <b>fine</b>, but after a couple minutes, does reveal their mother is dead. Twolegs have kept them alive somehow, but c_n will do better.",
+                "text": "Furious, high-pitched yowls greet the patrol as a tiny kittypet cub comes roaring out of the Twoleg nest to try and fight them. Terrifying. s_c tips the little fighter over and carefully scruffs the tiny warrior - they can't leave them here. The cub insists that they're a big cat and they're <b>fine</b>, but after a couple minutes, does reveal their mother is dead. Twolegs have kept them alive somehow, but c_n will do better.",
                 "exp": 30,
                 "weight": 20,
                 "stat_trait": ["careful", "thoughtful"],
                 "new_cat": [
-                    ["kittypet", "can_birth", "dead", "age:has_kits"],
-                    ["parent:0", "status:kitten", "backstory:abandoned1,abandoned4"]
+                    ["kittypet", "can_birth", "dead", "age:has_cubs"],
+                    ["parent:0", "status:cub", "backstory:abandoned1,abandoned4"]
                 ],
                 "relationships": [
                     {
@@ -2610,7 +2610,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Twoleg kits scare the patrol away.",
+                "text": "Twoleg cubs scare the patrol away.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1
@@ -2618,7 +2618,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "The kittypet kittens trying furiously to defend their territory ruin all the hunting to be had. The patrol returns home, irritated but impressed by the kittens' bravery.",
+                "text": "The kittypet cubs trying furiously to defend their territory ruin all the hunting to be had. The patrol returns home, irritated but impressed by the cubs' bravery.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1
@@ -2626,7 +2626,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "A kittypet kitten approaches the patrol, yowling furiously. p_l bats it aside as the warrior continue hunting, unruffled.",
+                "text": "A kittypet cub approaches the patrol, yowling furiously. p_l bats it aside as the warrior continue hunting, unruffled.",
                 "exp": 30,
                 "weight": 20,
                 "outsider_rep": -2
@@ -3233,7 +3233,7 @@
         ]
     },
     {
-        "patrol_id": "bch_bord_ocean_newcatkits1",
+        "patrol_id": "bch_bord_ocean_newcatcubs1",
         "biome": ["beach"],
         "season": ["leaf-bare"],
         "types": ["border"],
@@ -3250,7 +3250,7 @@
         "chance_of_success": 20,
         "success_outcomes": [
             {
-                "text": "The patrol races towards the section of beach they heard the wailing coming from. To their horror they see several kits just barely keeping their heads above water, the remains of a Twoleg thing trapping them in place. p_l and r_c leap into the water, grabbing the kits by their scruffs and handing them over to the rest of the patrol.",
+                "text": "The patrol races towards the section of beach they heard the wailing coming from. To their horror they see several cubs just barely keeping their heads above water, the remains of a Twoleg thing trapping them in place. p_l and r_c leap into the water, grabbing the cubs by their scruffs and handing them over to the rest of the patrol.",
                 "exp": 15,
                 "weight": 20,
                 "relationships": [
@@ -3270,12 +3270,12 @@
                 ],
                 "new_cat": [
                     ["dead"],
-                    ["litter", "parent:0", "status:kitten", "backstory:orphaned6"]
+                    ["litter", "parent:0", "status:cub", "backstory:orphaned6"]
                 ],
                 "outsider_rep": 1
             },
             {
-                "text": "s_c, upon seeing several kits trapped by a Twoleg contraption, immediately jumps into the cold harsh water of the sea. {PRONOUN/s_c/subject/CAP} {VERB/s_c/use/uses} a piece of wood as a makeshift raft to paddle the kits back to shore where the rest of the patrol can keep them warm before they race them back to camp to be cuddled into the pelt of a loving queen.",
+                "text": "s_c, upon seeing several cubs trapped by a Twoleg contraption, immediately jumps into the cold harsh water of the sea. {PRONOUN/s_c/subject/CAP} {VERB/s_c/use/uses} a piece of wood as a makeshift raft to paddle the cubs back to shore where the rest of the patrol can keep them warm before they race them back to camp to be cuddled into the pelt of a loving queen.",
                 "exp": 15,
                 "weight": 20,
                 "stat_skill": ["SWIMMER,1"],
@@ -3295,15 +3295,15 @@
                     }
                 ],
                 "new_cat": [
-                    ["dead", "age:has_kits"],
-                    ["litter", "parent:0", "status:kitten", "backstory:orphaned6"]
+                    ["dead", "age:has_cubs"],
+                    ["litter", "parent:0", "status:cub", "backstory:orphaned6"]
                 ],
                 "outsider_rep": 1
             }
         ],
         "fail_outcomes": [
             {
-                "text": "To the cats' horror, they were too late: the bodies of several kits wash ashore. They mutter a prayer before gently picking up the kits. The patrol swims the little bodies back out into the cold ocean, ensuring that the kits rest peacefully within the ocean's embrace.",
+                "text": "To the cats' horror, they were too late: the bodies of several cubs wash ashore. They mutter a prayer before gently picking up the cubs. The patrol swims the little bodies back out into the cold ocean, ensuring that the cubs rest peacefully within the ocean's embrace.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1,

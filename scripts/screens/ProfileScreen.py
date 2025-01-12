@@ -763,7 +763,7 @@ class ProfileScreen(Screens):
         output += "\n"
 
         # AGE
-        if the_cat.age == "kitten":
+        if the_cat.age == "cub":
             output += "young"
         elif the_cat.age == "senior":
             output += "senior"
@@ -1377,7 +1377,7 @@ class ProfileScreen(Screens):
         influence_history = ""
 
         # First, just list the mentors:
-        if self.the_cat.status in ["kitten", "newborn"]:
+        if self.the_cat.status in ["cub", "newborn"]:
             influence_history = "This cat has not begun training."
         elif self.the_cat.status in [
             "apprentice",

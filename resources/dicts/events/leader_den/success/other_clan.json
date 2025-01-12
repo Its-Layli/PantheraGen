@@ -151,7 +151,7 @@
   },
   {
     "interaction_type": "offend",
-    "event_text": "Another Clan's leader accuses o_c_n at the Gathering of refusing to share herbs in the case of a sick kitten. m_c turns on o_c_n's leader immediately, hissing that {PRONOUN/m_c/subject} cannot ally {PRONOUN/m_c/self} with fox-hearts.",
+    "event_text": "Another Clan's leader accuses o_c_n at the Gathering of refusing to share herbs in the case of a sick cub. m_c turns on o_c_n's leader immediately, hissing that {PRONOUN/m_c/subject} cannot ally {PRONOUN/m_c/self} with fox-hearts.",
     "rel_change": -6,
     "m_c": {
       "trait": ["strict", "faithful", "righteous"],
@@ -370,7 +370,7 @@
   },
   {
     "interaction_type": "praise",
-    "event_text": "At the Gathering, o_c_n's leader proudly announces they have welcomed new kits. m_c congratulates them first and wishes for the health and happiness of both the parents and the litter.",
+    "event_text": "At the Gathering, o_c_n's leader proudly announces they have welcomed new cubs. m_c congratulates them first and wishes for the health and happiness of both the parents and the litter.",
     "rel_change": 2,
     "m_c": {},
     "player_clan_temper": ["any"],
@@ -760,7 +760,7 @@
   },
   {
     "interaction_type": "provoke",
-    "event_text": "During the Gathering, o_c_n's leader announces the birth of new kits. m_c implies that o_c_n warriors are not fit to be parents, drawing hisses and caterwauls from o_c_n.",
+    "event_text": "During the Gathering, o_c_n's leader announces the birth of new cubs. m_c implies that o_c_n warriors are not fit to be parents, drawing hisses and caterwauls from o_c_n.",
     "rel_change": -3,
     "m_c": {
       "skill": [ "KIT,2"]
@@ -1045,7 +1045,7 @@
   },
   {
     "interaction_type": "befriend",
-    "event_text": "At the Gathering, o_c_n's leader struggles through a report that an entire litter of o_c_n kits were wiped out by kitten-cough. m_c draws them aside after and reassures them that the kittens are playing moss-ball together in StarClan. o_c_n's leader thanks {PRONOUN/m_c/object}, their mew thick with emotion.",
+    "event_text": "At the Gathering, o_c_n's leader struggles through a report that an entire litter of o_c_n cubs were wiped out by cub-cough. m_c draws them aside after and reassures them that the cubs are playing moss-ball together in StarClan. o_c_n's leader thanks {PRONOUN/m_c/object}, their mew thick with emotion.",
     "rel_change": 5,
     "m_c": {
       "skill": [ "KIT,2", "STAR,1"],
@@ -1088,7 +1088,7 @@
   },
   {
     "interaction_type": "befriend",
-    "event_text": "At the Gathering, o_c_n's leader announces the birth of new o_c_n kits. m_c assures them with blazing eyes that c_n will always help defend those too young to defend themselves, and o_c_n's leader gives {PRONOUN/m_c/object} a grateful nod.",
+    "event_text": "At the Gathering, o_c_n's leader announces the birth of new o_c_n cubs. m_c assures them with blazing eyes that c_n will always help defend those too young to defend themselves, and o_c_n's leader gives {PRONOUN/m_c/object} a grateful nod.",
     "rel_change": 3,
     "m_c": {
       "skill": [ "KIT,1" ],
@@ -1099,7 +1099,7 @@
   },
   {
     "interaction_type": "befriend",
-    "event_text": "During the Gathering, o_c_n's leader wearily reports how o_c_n kits keep sneaking out of camp. m_c pulls them aside after and suggests that bringing the kits onto the territory in supervised groups might help regulate all that kithood energy. o_c_n's leader is impressed and thanks m_c for the suggestion.",
+    "event_text": "During the Gathering, o_c_n's leader wearily reports how o_c_n cubs keep sneaking out of camp. m_c pulls them aside after and suggests that bringing the cubs onto the territory in supervised groups might help regulate all that cubhood energy. o_c_n's leader is impressed and thanks m_c for the suggestion.",
     "rel_change": 5,
     "m_c": {
       "skill": [ "KIT,1" ],
@@ -1121,7 +1121,7 @@
   },
   {
     "interaction_type": "befriend",
-    "event_text": "At the Gathering, o_c_n's leader reports the tragic death of a kit who was killed by a snake in the nursery. m_c pulls them aside after to offer condolences, and suggests weaving basil and marigold into the nursery wall as a deterrent.",
+    "event_text": "At the Gathering, o_c_n's leader reports the tragic death of a cub who was killed by a snake in the nursery. m_c pulls them aside after to offer condolences, and suggests weaving basil and marigold into the nursery wall as a deterrent.",
     "rel_change": 3,
     "m_c": {
       "skill": ["CAMP,3"]
@@ -1489,7 +1489,7 @@
   },
   {
     "interaction_type": "antagonize",
-    "event_text": "During the Gathering, m_c ignores o_c_n's leader and never mentions o_c_n in {PRONOUN/m_c/poss} speech. However, {PRONOUN/m_c/subject} {VERB/m_c/do/does} bring up a particular story of disciplining a c_n kit, whose behavior is strikingly similar to o_c_n's leader's...",
+    "event_text": "During the Gathering, m_c ignores o_c_n's leader and never mentions o_c_n in {PRONOUN/m_c/poss} speech. However, {PRONOUN/m_c/subject} {VERB/m_c/do/does} bring up a particular story of disciplining a c_n cub, whose behavior is strikingly similar to o_c_n's leader's...",
     "rel_change": -3,
     "m_c": {
       "trait": [ "troublesome" ],
@@ -1660,7 +1660,7 @@
   },
   {
     "interaction_type": "appease",
-    "event_text": "At the Gathering, o_c_n's leader gets in m_c's face. m_c squares {PRONOUN/m_c/poss} shoulders and lets {PRONOUN/m_c/poss} muscular physique speak for itself; o_c_n's leader suddenly acquires an appetite for peace. m_c's Clanmates giddily report the next morning that the leader looked like a kit next to {PRONOUN/m_c/object}.",
+    "event_text": "At the Gathering, o_c_n's leader gets in m_c's face. m_c squares {PRONOUN/m_c/poss} shoulders and lets {PRONOUN/m_c/poss} muscular physique speak for itself; o_c_n's leader suddenly acquires an appetite for peace. m_c's Clanmates giddily report the next morning that the leader looked like a cub next to {PRONOUN/m_c/object}.",
     "rel_change": 3,
     "m_c": {
       "skill": [ "SWIMMER,3", "CLIMBER,3", "RUNNER,3", "FIGHTER,4" ],
@@ -1692,7 +1692,7 @@
   },
   {
     "interaction_type": "appease",
-    "event_text": "At the Gathering, m_c speaks passionately of the destruction war wreaks - of young kits growing up fearing their own borders, apprentices thrown into battles too early, and especially leaders throwing away life after life in the service of pointless bloodshed. o_c_n's leader bows their head, vowing to bury the past.",
+    "event_text": "At the Gathering, m_c speaks passionately of the destruction war wreaks - of young cubs growing up fearing their own borders, apprentices thrown into battles too early, and especially leaders throwing away life after life in the service of pointless bloodshed. o_c_n's leader bows their head, vowing to bury the past.",
     "rel_change": 10,
     "m_c": {
       "skill": [ "MEDIATOR,4", "SPEAKER,4" ]
@@ -1925,7 +1925,7 @@
   },
   {
     "interaction_type": "appease",
-    "event_text": "At the Gathering, o_c_n's leader makes the usual accusations and threats. m_c ignores them and singles out an o_c_n couple with the scent of milk on their pelts, and asks in a snarl if they really want their kits to grow up in wartime? o_c_n's leader backs down, shame-faced",
+    "event_text": "At the Gathering, o_c_n's leader makes the usual accusations and threats. m_c ignores them and singles out an o_c_n couple with the scent of milk on their pelts, and asks in a snarl if they really want their cubs to grow up in wartime? o_c_n's leader backs down, shame-faced",
     "rel_change": 5,
     "m_c": {
       "skill": ["INSIGHTFUL,1", "SENSE,1", "KIT,1" ],

@@ -365,7 +365,7 @@ class MakeClanScreen(Screens):
         elif event.ui_element in [self.elements["cat" + str(u)] for u in range(0, 12)]:
             if pygame.key.get_mods() & pygame.KMOD_SHIFT:
                 clicked_cat = event.ui_element.return_cat_object()
-                if clicked_cat.age not in ["newborn", "kitten", "adolescent"]:
+                if clicked_cat.age not in ["newborn", "cub", "adolescent"]:
                     self.leader = clicked_cat
                     self.selected_cat = None
                     self.open_choose_deputy()
@@ -389,7 +389,7 @@ class MakeClanScreen(Screens):
         elif event.ui_element in [self.elements["cat" + str(u)] for u in range(0, 12)]:
             if pygame.key.get_mods() & pygame.KMOD_SHIFT:
                 clicked_cat = event.ui_element.return_cat_object()
-                if clicked_cat.age not in ["newborn", "kitten", "adolescent"]:
+                if clicked_cat.age not in ["newborn", "cub", "adolescent"]:
                     self.deputy = clicked_cat
                     self.selected_cat = None
                     self.open_choose_med_cat()
@@ -410,7 +410,7 @@ class MakeClanScreen(Screens):
         elif event.ui_element in [self.elements["cat" + str(u)] for u in range(0, 12)]:
             if pygame.key.get_mods() & pygame.KMOD_SHIFT:
                 clicked_cat = event.ui_element.return_cat_object()
-                if clicked_cat.age not in ["newborn", "kitten", "adolescent"]:
+                if clicked_cat.age not in ["newborn", "cub", "adolescent"]:
                     self.med_cat = clicked_cat
                     self.selected_cat = None
                     self.open_choose_members()
@@ -676,7 +676,7 @@ class MakeClanScreen(Screens):
                 self.elements["next_step"].enable()
         # Show the error message if you try to choose a child for leader, deputy, or med cat.
         elif self.sub_screen in ["choose leader", "choose deputy", "choose med cat"]:
-            if self.selected_cat.age in ["newborn", "kitten", "adolescent"]:
+            if self.selected_cat.age in ["newborn", "cub", "adolescent"]:
                 self.elements["select_cat"].hide()
                 self.elements["error_message"].show()
             else:
@@ -1102,15 +1102,14 @@ class MakeClanScreen(Screens):
             self.elements["cat_info"].set_text(
                 selected.genderalign
                 + "\n"
-                + str(selected.species
+                + str(selected.species)
+                + "\n"
+                + str(
+                    selected.age
                     + "\n"
-                    + str(
-                        selected.age
-                        + "\n"
-                        + str(selected.personality.trait)
-                        + "\n"
-                        + str(selected.skills.skill_string())
-                    )
+                    + str(selected.personality.trait)
+                    + "\n"
+                    + str(selected.skills.skill_string())
                 )
             )
             self.elements["cat_info"].show()
@@ -1285,7 +1284,7 @@ class MakeClanScreen(Screens):
         self.med_cat = create_cat(status="warrior")
         for _ in range(randrange(4, 8)):
             random_status = choice(
-                ["kitten", "apprentice", "warrior", "warrior", "elder"]
+                ["cub", "apprentice", "warrior", "warrior", "elder"]
             )
             self.members.append(create_cat(status=random_status))
 

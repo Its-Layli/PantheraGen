@@ -76,12 +76,12 @@ class ChooseMateScreen(Screens):
         self.potential_container = None
 
         # Filter toggles
-        self.kits_selected_pair = True
+        self.cubs_selected_pair = True
         self.single_only = False
-        self.have_kits_only = False
+        self.have_cubs_only = False
 
         self.single_only_text = None
-        self.have_kits_text = None
+        self.have_cubs_text = None
         self.with_selected_cat_text = None
 
         self.potential_page_display = None
@@ -94,7 +94,7 @@ class ChooseMateScreen(Screens):
         self.open_tab = "potential"
         self.tab_buttons = {}
 
-        self.no_kits_message = None
+        self.no_cubs_message = None
 
         # Loading screen
         self.work_thread = None
@@ -136,17 +136,17 @@ class ChooseMateScreen(Screens):
                 else:
                     self.single_only = True
                 self.update_potential_mates_container()
-            elif event.ui_element == self.checkboxes.get("have_kits_only"):
-                if self.have_kits_only:
-                    self.have_kits_only = False
+            elif event.ui_element == self.checkboxes.get("have_cubs_only"):
+                if self.have_cubs_only:
+                    self.have_cubs_only = False
                 else:
-                    self.have_kits_only = True
+                    self.have_cubs_only = True
                 self.update_potential_mates_container()
-            elif event.ui_element == self.checkboxes.get("kits_selected_pair"):
-                if self.kits_selected_pair:
-                    self.kits_selected_pair = False
+            elif event.ui_element == self.checkboxes.get("cubs_selected_pair"):
+                if self.cubs_selected_pair:
+                    self.cubs_selected_pair = False
                 else:
-                    self.kits_selected_pair = True
+                    self.cubs_selected_pair = True
                 self.update_offspring_container()
 
             # Next and last page buttons
@@ -204,7 +204,7 @@ class ChooseMateScreen(Screens):
         )
 
         self.info = pygame_gui.elements.UITextBox(
-            "If a cat has mates, then they will be loyal and only have kittens with their mates"
+            "If a cat has mates, then they will be loyal and only have cubs with their mates"
             " (unless affairs are toggled on). Potential mates are listed below! The lines "
             "connecting the two cats may give a hint on their compatibility with one another "
             "and any existing romantic feelings will be shown with small hearts.",
@@ -344,8 +344,8 @@ class ChooseMateScreen(Screens):
             container=self.potential_container,
         )
 
-        self.have_kits_text = pygame_gui.elements.UITextBox(
-            "Can have biological kits",
+        self.have_cubs_text = pygame_gui.elements.UITextBox(
+            "Can have biological cubs",
             ui_scale(pygame.Rect((517, 75), (104, -1))),
             object_id="#text_box_26_horizcenter",
             container=self.potential_container,
@@ -375,9 +375,9 @@ class ChooseMateScreen(Screens):
         variable_dict = super().display_change_save()
         variable_dict["selected_cat"] = self.selected_cat
         variable_dict["the_cat"] = self.the_cat
-        variable_dict["kits_selected_pair"] = self.kits_selected_pair
+        variable_dict["cubs_selected_pair"] = self.cubs_selected_pair
         variable_dict["single_only"] = self.single_only
-        variable_dict["have_kits_only"] = self.have_kits_only
+        variable_dict["have_cubs_only"] = self.have_cubs_only
         variable_dict["open_tab"] = self.open_tab
 
         return variable_dict
@@ -502,25 +502,25 @@ class ChooseMateScreen(Screens):
         and the page"""
         self.all_offspring = [
             Cat.fetch_cat(i)
-            for i in list(self.the_cat.inheritance.kits)
+            for i in list(self.the_cat.inheritance.cubs)
             if isinstance(Cat.fetch_cat(i), Cat)
         ]
-        if self.selected_cat and self.kits_selected_pair:
+        if self.selected_cat and self.cubs_selected_pair:
             self.all_offspring = [
                 i for i in self.all_offspring if self.selected_cat.is_parent(i)
             ]
 
         self.all_offspring = self.chunks(self.all_offspring, 24)
 
-        if "kits_selected_pair" in self.checkboxes:
-            self.checkboxes["kits_selected_pair"].kill()
+        if "cubs_selected_pair" in self.checkboxes:
+            self.checkboxes["cubs_selected_pair"].kill()
 
-        if self.kits_selected_pair:
+        if self.cubs_selected_pair:
             theme = "@checked_checkbox"
         else:
             theme = "@unchecked_checkbox"
 
-        self.checkboxes["kits_selected_pair"] = UIImageButton(
+        self.checkboxes["cubs_selected_pair"] = UIImageButton(
             ui_scale(pygame.Rect((553, 62), (34, 34))),
             "",
             object_id=theme,
@@ -610,15 +610,15 @@ class ChooseMateScreen(Screens):
                 pos_y += 60
             i += 1
 
-        if self.no_kits_message:
-            self.no_kits_message.kill()
+        if self.no_cubs_message:
+            self.no_cubs_message.kill()
         if not display_cats:
-            if self.kits_selected_pair and self.selected_cat:
+            if self.cubs_selected_pair and self.selected_cat:
                 text = f"{self.the_cat.name} has no offspring with {self.selected_cat.name}."
             else:
                 text = f"{self.the_cat.name} has no offspring."
 
-            self.no_kits_message = pygame_gui.elements.UITextBox(
+            self.no_cubs_message = pygame_gui.elements.UITextBox(
                 text,
                 ui_scale(pygame.Rect((0, 0), (497, 120))),
                 container=self.offspring_container,
@@ -645,15 +645,15 @@ class ChooseMateScreen(Screens):
             container=self.potential_container,
         )
 
-        if "have_kits_only" in self.checkboxes:
-            self.checkboxes["have_kits_only"].kill()
+        if "have_cubs_only" in self.checkboxes:
+            self.checkboxes["have_cubs_only"].kill()
 
-        if self.have_kits_only:
+        if self.have_cubs_only:
             theme = "@checked_checkbox"
         else:
             theme = "@unchecked_checkbox"
 
-        self.checkboxes["have_kits_only"] = UIImageButton(
+        self.checkboxes["have_cubs_only"] = UIImageButton(
             ui_scale(pygame.Rect((553, 127), (34, 34))),
             "",
             object_id=theme,
@@ -764,8 +764,8 @@ class ChooseMateScreen(Screens):
 
         self.single_only_text.kill()
         self.single_only_text = None
-        self.have_kits_text.kill()
-        self.have_kits_text = None
+        self.have_cubs_text.kill()
+        self.have_cubs_text = None
         self.with_selected_cat_text.kill()
         self.with_selected_cat_text = None
 
@@ -1079,9 +1079,9 @@ class ChooseMateScreen(Screens):
             warning_rect = ui_scale(pygame.Rect((0, 0), (160, 45)))
             warning_rect.bottomleft = ui_scale_offset((0, -5))
             self.selected_cat_elements[
-                "no kit warning"
+                "no cub warning"
             ] = pygame_gui.elements.UITextBox(
-                "This pair can't have biological kittens.",
+                "This pair can't have biological cubs.",
                 warning_rect,
                 object_id=get_text_box_theme(
                     "#text_box_22_horizcenter_vertcenter_spacing_95"
@@ -1094,7 +1094,7 @@ class ChooseMateScreen(Screens):
             )
             del warning_rect
 
-        if self.kits_selected_pair:
+        if self.cubs_selected_pair:
             self.update_offspring_container()
 
         self.toggle_mate.kill()
@@ -1121,9 +1121,9 @@ class ChooseMateScreen(Screens):
             warning_rect = ui_scale(pygame.Rect((0, 0), (160, 45)))
             warning_rect.bottomleft = ui_scale_offset((0, -5))
             self.selected_cat_elements[
-                "no kit warning"
+                "no cub warning"
             ] = pygame_gui.elements.UITextBox(
-                "This pair can't have biological kittens.",
+                "This pair can't have biological cubs.",
                 warning_rect,
                 object_id=get_text_box_theme(
                     "#text_box_22_horizcenter_vertcenter_spacing_95"
@@ -1241,7 +1241,7 @@ class ChooseMateScreen(Screens):
             and i.ID not in self.the_cat.mate
             and (not self.single_only or not i.mate)
             and (
-                not self.have_kits_only
+                not self.have_cubs_only
                 or game.clan.clan_settings["same sex birth"]
                 or i.gender != self.the_cat.gender
             )
@@ -1264,7 +1264,7 @@ class ChooseMateScreen(Screens):
                     )
                     or self.the_cat.species != i.species
                     )
-                or not self.have_kits_only
+                or not self.have_cubs_only
                 )
         ]
 

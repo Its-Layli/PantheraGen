@@ -90,10 +90,10 @@ def json_load():
                 eye_color=cat["eye_colour"],
                 eye_colour2=cat["eye_colour2"] if "eye_colour2" in cat else None,
                 paralyzed=cat["paralyzed"],
-                kitten_sprite=(
-                    cat["sprite_kitten"]
-                    if "sprite_kitten" in cat
-                    else cat["spirit_kitten"]
+                cub_sprite=(
+                    cat["sprite_cub"]
+                    if "sprite_cub" in cat
+                    else cat["spirit_cub"]
                 ),
                 adol_sprite=(
                     cat["sprite_adolescent"]
@@ -122,9 +122,9 @@ def json_load():
                     else "offwhite"
                 ),
                 white_patches=cat["white_patches"],
-                tortiebase=cat["tortie_base"],
-                tortiecolour=cat["tortie_color"],
-                tortiepattern=cat["tortie_pattern"],
+                chimerabase=cat["chimera_base"],
+                chimeracolour=cat["chimera_color"],
+                chimerapattern=cat["chimera_pattern"],
                 pattern=cat["pattern"],
                 skin=cat["skin"],
                 tint=cat["tint"] if "tint" in cat else "none",
@@ -166,7 +166,7 @@ def json_load():
                 facets = [int(i) for i in cat["facets"].split(",")]
                 new_cat.personality = Personality(
                     trait=cat["trait"],
-                    kit_trait=new_cat.age in ["newborn", "kitten"],
+                    cub_trait=new_cat.age in ["newborn", "cub"],
                     lawful=facets[0],
                     social=facets[1],
                     aggress=facets[2],
@@ -174,7 +174,7 @@ def json_load():
                 )
             else:
                 new_cat.personality = Personality(
-                    trait=cat["trait"], kit_trait=new_cat.age in ["newborn", "kitten"]
+                    trait=cat["trait"], cub_trait=new_cat.age in ["newborn", "cub"]
                 )
 
             new_cat.mentor = cat["mentor"]
@@ -184,7 +184,7 @@ def json_load():
             new_cat.patrol_with_mentor = (
                 cat["patrol_with_mentor"] if "patrol_with_mentor" in cat else 0
             )
-            new_cat.no_kits = cat["no_kits"]
+            new_cat.no_cubs = cat["no_cubs"]
             new_cat.no_mates = cat["no_mates"] if "no_mates" in cat else False
             new_cat.no_retire = cat["no_retire"] if "no_retire" in cat else False
             new_cat.exiled = cat["exiled"]
@@ -317,11 +317,11 @@ def csv_load(all_cats):
         for i in cat_data.split("\n"):
             # CAT: ID(0) - prefix:suffix(1) - gender(2) - status(3) - age(4) - trait(5) - parent1(6) - parent2(7) - mentor(8)
             # PELT: pelt(9) - colour(10) - white(11) - length(12)
-            # SPRITE: kitten(13) - apprentice(14) - warrior(15) - elder(16) - eye colour(17) - reverse(18)
-            # - white patches(19) - pattern(20) - tortiebase(21) - tortiepattern(22) - tortiecolour(23) - skin(24) - skill(25) - NONE(26) - spec(27) - accessory(28) -
+            # SPRITE: cub(13) - apprentice(14) - warrior(15) - elder(16) - eye colour(17) - reverse(18)
+            # - white patches(19) - pattern(20) - chimerabase(21) - chimerapattern(22) - chimeracolour(23) - skin(24) - skill(25) - NONE(26) - spec(27) - accessory(28) -
             # spec2(29) - moons(30) - mate(31)
             # dead(32) - SPRITE:dead(33) - exp(34) - dead for _ moons(35) - current apprentice(36)
-            # (BOOLS, either TRUE OR FALSE) paralyzed(37) - no kits(38) - exiled(39)
+            # (BOOLS, either TRUE OR FALSE) paralyzed(37) - no cubs(38) - exiled(39)
             # genderalign(40) - species(41) - former apprentices list (42)[FORMER APPS SHOULD ALWAYS BE MOVED TO THE END]
             if i.strip() != "":
                 attr = i.split(",")
@@ -361,7 +361,7 @@ def csv_load(all_cats):
                     "4There was an error loading cat # " + str(attr[0])
                 )
                 (
-                    the_cat.pelt.cat_sprites["kitten"],
+                    the_cat.pelt.cat_sprites["cub"],
                     the_cat.pelt.cat_sprites["adolescent"],
                 ) = int(attr[13]), int(attr[14])
                 game.switches["error_message"] = (
@@ -390,9 +390,9 @@ def csv_load(all_cats):
                     "8There was an error loading cat # " + str(attr[0])
                 )
                 (
-                    the_cat.pelt.tortiebase,
-                    the_cat.pelt.tortiepattern,
-                    the_cat.pelt.tortiecolour,
+                    the_cat.pelt.chimerabase,
+                    the_cat.pelt.chimerapattern,
+                    the_cat.pelt.chimeracolour,
                 ) = (attr[21], attr[22], attr[23])
                 game.switches["error_message"] = (
                     "9There was an error loading cat # " + str(attr[0])
@@ -462,7 +462,7 @@ def csv_load(all_cats):
                 if len(attr) > 37:
                     the_cat.pelt.paralyzed = bool(attr[37])
                 if len(attr) > 38:
-                    the_cat.no_kits = bool(attr[38])
+                    the_cat.no_cubs = bool(attr[38])
                 if len(attr) > 39:
                     the_cat.exiled = bool(attr[39])
                 if len(attr) > 40:

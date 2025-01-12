@@ -113,7 +113,7 @@
       "rank": ["warrior", "elder", "medicine cat", "mediator", "apprentice", "deputy", "medicine cat apprentice", "mediator apprentice"],
       "life_giving": [
         {
-          "text": "It feels like a dream when r_c emerges from the star-filled crowd. m_c can barely stand {PRONOUN/m_c/poss} ground, resisting the temptation to run forward and press into {PRONOUN/m_c/poss} kit's fur. Love shines in r_c's eyes as {PRONOUN/r_c/subject} {VERB/r_c/give/gives} a life for [virtue].",
+          "text": "It feels like a dream when r_c emerges from the star-filled crowd. m_c can barely stand {PRONOUN/m_c/poss} ground, resisting the temptation to run forward and press into {PRONOUN/m_c/poss} cub's fur. Love shines in r_c's eyes as {PRONOUN/r_c/subject} {VERB/r_c/give/gives} a life for [virtue].",
           "virtue": ["courage in the face of hardship", "unconditional love", "compassion", "protection", "endurance through thick and thin", "empathy", "pride", "forgiveness"]
         }
       ]
@@ -571,7 +571,7 @@
       "rank": ["warrior", "elder", "medicine cat", "mediator", "apprentice", "deputy"],
       "life_giving": [
         {
-          "text": "Endeared by m_c's playful nature and kit-like wonder at the world, r_c happily gives the new leader a life for [virtue].",
+          "text": "Endeared by m_c's playful nature and cub-like wonder at the world, r_c happily gives the new leader a life for [virtue].",
           "virtue": ["acceptance", "bravery", "certainty", "clear judgment", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
         },
         {
@@ -737,7 +737,7 @@
       "rank": ["warrior", "elder", "medicine cat", "mediator", "apprentice", "deputy"],
       "life_giving": [
         {
-          "text": "r_c grits {PRONOUN/r_c/poss} teeth to not chide m_c like a kitten once more about {PRONOUN/m_c/poss} troublesome ways, and gives {PRONOUN/m_c/object} a life for [virtue].",
+          "text": "r_c grits {PRONOUN/r_c/poss} teeth to not chide m_c like a cub once more about {PRONOUN/m_c/poss} troublesome ways, and gives {PRONOUN/m_c/object} a life for [virtue].",
           "virtue": ["acceptance", "bravery", "certainty", "clear judgment", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
         },
         {
@@ -886,7 +886,7 @@
       "rank": ["kitten"],
       "life_giving": [
         {
-          "text": "A tiny kit, r_c, runs up to m_c, stars twinkling in {PRONOUN/r_c/poss} eyes. {PRONOUN/r_c/subject/CAP} loudly and theatrically {VERB/r_c/proclaim/proclaims} that {PRONOUN/r_c/subject}'ll be giving m_c a life for [virtue] before dashing back into line, looking very proud of {PRONOUN/r_c/self}.",
+          "text": "A tiny cub, r_c, runs up to m_c, stars twinkling in {PRONOUN/r_c/poss} eyes. {PRONOUN/r_c/subject/CAP} loudly and theatrically {VERB/r_c/proclaim/proclaims} that {PRONOUN/r_c/subject}'ll be giving m_c a life for [virtue] before dashing back into line, looking very proud of {PRONOUN/r_c/self}.",
           "virtue": ["excitement", "cheerfulness", "optimism", "friendship", "hope", "confidence", "pride"]
         }
       ]

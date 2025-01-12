@@ -83,7 +83,7 @@
         "event_text": "m_c was carried off by an owl, never to be seen again.",
         "m_c": {
             "age": [
-                "kitten", "adolescent"
+                "cub", "adolescent"
             ],
             "dies": true
         },
@@ -102,7 +102,7 @@
         "weight": 20,
         "event_text": "r_c, guarding camp, yowls a warning as {PRONOUN/r_c/subject} {VERB/r_c/spot/spots} a circling shadow, right above m_c. r_c starts sprinting to m_c's position but can't get there in time, not before m_c is carried high into the sky by a rook.",
         "m_c": {
-            "age": [ "kitten", "adolescent"],
+            "age": [ "cub", "adolescent"],
             "status": [ "any" ],
             "dies": true
         },

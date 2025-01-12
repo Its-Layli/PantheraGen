@@ -257,7 +257,7 @@ class History:
             SkillPath.CLEVER: ["solving problems"],
             SkillPath.INSIGHTFUL: ["providing insight"],
             SkillPath.SENSE: ["noticing small details"],
-            SkillPath.KIT: ["caring for kittens"],
+            SkillPath.KIT: ["caring for cubs"],
             SkillPath.STORY: ["storytelling"],
             SkillPath.LORE: ["remembering lore"],
             SkillPath.CAMP: ["caring for camp"],

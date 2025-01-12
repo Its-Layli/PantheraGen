@@ -185,7 +185,7 @@
   },
   {
     "interaction_type": "praise",
-    "event_text": "While trying to scramble up onto the leader's perch at the Gathering, o_c_n's new young leader slips and scrabbles with their hindlegs for purchase. Thinking fast, m_c grabs their scruff and lifts them onto the perch easily. o_c_n's leader screeches that they're not a kit and need <i>no</i> help!",
+    "event_text": "While trying to scramble up onto the leader's perch at the Gathering, o_c_n's new young leader slips and scrabbles with their hindlegs for purchase. Thinking fast, m_c grabs their scruff and lifts them onto the perch easily. o_c_n's leader screeches that they're not a cub and need <i>no</i> help!",
     "rel_change": -5,
     "m_c": {
       "skill": ["CLIMBER,3", "KIT,3"],
@@ -371,7 +371,7 @@
   },
   {
     "interaction_type": "praise",
-    "event_text": "At the Gathering, o_c_n's leader seems much more interested in chatting with the other leaders than m_c. {PRONOUN/m_c/subject/CAP} {VERB/m_c/sulk/sulks} like a kit and {VERB/m_c/decide/decides} that c_n doesn't need o_c_n's friendship anyway.",
+    "event_text": "At the Gathering, o_c_n's leader seems much more interested in chatting with the other leaders than m_c. {PRONOUN/m_c/subject/CAP} {VERB/m_c/sulk/sulks} like a cub and {VERB/m_c/decide/decides} that c_n doesn't need o_c_n's friendship anyway.",
     "rel_change": -2,
     "m_c": {
       "trait": [ "childish" ]
@@ -552,7 +552,7 @@
   },
   {
     "interaction_type": "provoke",
-    "event_text": "During the Gathering, m_c repeatedly threatens o_c_n and its leader. o_c_n's leader is unimpressed and cracks jokes during their speech about how m_c is full of hot air and stirs up trouble like a bored kit. The other Clans laugh along at c_n's expense.",
+    "event_text": "During the Gathering, m_c repeatedly threatens o_c_n and its leader. o_c_n's leader is unimpressed and cracks jokes during their speech about how m_c is full of hot air and stirs up trouble like a bored cub. The other Clans laugh along at c_n's expense.",
     "rel_change": 0,
     "m_c": {
       "trait": ["shameless", "troublesome", "childish", "cold", "bold", "daring", "bloodthirsty", "rebellious", "fierce", "arrogant" ]
@@ -682,7 +682,7 @@
   },
   {
     "interaction_type": "befriend",
-    "event_text": "At the Gathering, o_c_n's leader struggles through a report that an entire litter of o_c_n kits were wiped out by kitten-cough. m_c draws them aside after and reassures them that the kittens are playing moss-ball together in StarClan. o_c_n's leader hisses that this means nothing to the grieving parents.",
+    "event_text": "At the Gathering, o_c_n's leader struggles through a report that an entire litter of o_c_n cubs were wiped out by cub-cough. m_c draws them aside after and reassures them that the cubs are playing moss-ball together in StarClan. o_c_n's leader hisses that this means nothing to the grieving parents.",
     "rel_change": -5,
     "m_c": {
       "skill": [ "KIT,3", "STAR,2"],
@@ -826,7 +826,7 @@
   },
   {
     "interaction_type": "befriend",
-    "event_text": "At the Gathering, o_c_n's leader mentions camp renovations intended to make it safer for their kits. m_c interrupts to recommend weaving brambles and thistles into camp walls to deter predators - o_c_n's leader coughs and remarks they are looking to minimize the sharp edges of camp.",
+    "event_text": "At the Gathering, o_c_n's leader mentions camp renovations intended to make it safer for their cubs. m_c interrupts to recommend weaving brambles and thistles into camp walls to deter predators - o_c_n's leader coughs and remarks they are looking to minimize the sharp edges of camp.",
     "rel_change": -1,
     "m_c": {
       "skill": [ "CAMP,1" ],

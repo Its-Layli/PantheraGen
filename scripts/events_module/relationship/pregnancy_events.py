@@ -165,10 +165,10 @@ class Pregnancy_Events:
         insert = "this should not display"
         insert2 = "this should not display"
         if amount == 1:
-            insert = "a single kitten"
+            insert = "a single cub"
             insert2 = "it"
         if amount > 1:
-            insert = f"a litter of {amount} kits"
+            insert = f"a litter of {amount} cubs"
             insert2 = "them"
 
         print_event = f"{cat.name} found {insert} and decides to adopt {insert2}."
@@ -218,9 +218,9 @@ class Pregnancy_Events:
                 kits = Pregnancy_Events.get_kits(amount, cat, None, clan)
                 insert = "this should not display"
                 if amount == 1:
-                    insert = "a single kitten"
+                    insert = "a single cub"
                 if amount > 1:
-                    insert = f"a litter of {amount} kits"
+                    insert = f"a litter of {amount} cubs"
                 print_event = f"{cat.name} brought {insert} back to camp, but refused to talk about their origin."
                 cats_involved = [cat.ID]
                 for kit in kits:
@@ -250,9 +250,9 @@ class Pregnancy_Events:
                 kits = Pregnancy_Events.get_kits(amount, cat, None, clan)
                 insert = "this should not display"
                 if amount == 1:
-                    insert = "a single kitten"
+                    insert = "a single cub"
                 if amount > 1:
-                    insert = f"a litter of {amount} kits"
+                    insert = f"a litter of {amount} cubs"
                 print_event = f"{cat.name} brought {insert} back to camp, but refused to talk about their origin."
                 cats_involved = [cat.ID]
                 for kit in kits:
@@ -312,7 +312,7 @@ class Pregnancy_Events:
         thinking_amount = random.choices(
             ["correct", "incorrect", "unsure"], [4, 1, 1], k=1
         )
-        if amount <= 3:
+        if amount <= 2:
             correct_guess = "small"
         else:
             correct_guess = "large"
@@ -385,9 +385,9 @@ class Pregnancy_Events:
                 kit.create_one_relationship(cat)
 
         if kits_amount == 1:
-            insert = "single kitten"
+            insert = "single cub"
         else:
-            insert = f"litter of {kits_amount} kits"
+            insert = f"litter of {kits_amount} cubs"
 
         # Since cat has given birth, apply the birth cooldown.
         cat.birth_cooldown = game.config["pregnancy"]["birth_cooldown"]
@@ -459,18 +459,18 @@ class Pregnancy_Events:
             if cat.status == "leader":
                 clan.leader_lives -= 1
                 cat.die()
-                death_event = "died shortly after kitting"
+                death_event = "died shortly after giving birth"
             else:
                 cat.die()
-                death_event = f"{cat.name} died while kitting."
+                death_event = f"{cat.name} died while giving birth."
             History.add_death(cat, death_text=death_event)
         elif not cat.outside:  # if cat doesn't die, give recovering from birth
             cat.get_injured("recovering from birth", event_triggered=True)
             if "blood loss" in cat.injuries:
                 if cat.status == "leader":
-                    death_event = "died after a harsh kitting"
+                    death_event = "died after a harsh birthing"
                 else:
-                    death_event = f"{cat.name} died after a harsh kitting."
+                    death_event = f"{cat.name} died after a harsh birthing."
                 History.add_possible_history(cat, "blood loss", death_text=death_event)
                 possible_events = events["birth"]["difficult_birth"]
                 # just makin sure meds aren't mentioned if they aren't around or if they are a parent
@@ -523,7 +523,7 @@ class Pregnancy_Events:
         # decide chances of having kits, and if it's possible at all.
         # Including - age, dead statis, having kits turned off.
         not_correct_age = (
-            cat.age in ["newborn", "kitten", "adolescent"] or cat.moons < 15
+            cat.age in ["newborn", "cub", "adolescent"] or cat.moons < 15
         )
         if not_correct_age or cat.no_kits or cat.dead:
             return False
@@ -764,9 +764,9 @@ class Pregnancy_Events:
                 # No parents provided, give a blood parent - this is an adoption.
                 if not blood_parent:
                     # Generate a blood parent if we haven't already.
-                    insert = "their kits are"
+                    insert = "their cubs are"
                     if kits_amount == 1:
-                        insert = "their kit is"
+                        insert = "their cub is"
                     thought = f"Is glad that {insert} safe"
                     blood_parent = create_new_cat(
                         Cat,
@@ -937,17 +937,11 @@ class Pregnancy_Events:
         three_kits = [min_kits + 2] * game.config["pregnancy"]["three_kit_possibility"][
             cat.age
         ]
-        four_kits = [min_kits + 3] * game.config["pregnancy"]["four_kit_possibility"][
-            cat.age
-        ]
-        five_kits = [min_kits + 4] * game.config["pregnancy"]["five_kit_possibility"][
-            cat.age
-        ]
         max_kits = [game.config["pregnancy"]["max_kits"]] * game.config["pregnancy"][
             "max_kit_possibility"
         ][cat.age]
         amount = choice(
-            min_kit + two_kits + three_kits + four_kits + five_kits + max_kits
+            min_kit + two_kits + three_kits + max_kits
         )
 
         return amount

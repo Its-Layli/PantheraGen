@@ -393,7 +393,7 @@ class ClanSettingsScreen(Screens):
         mediator_apprentices = 0
         mediators = 0
         elders = 0
-        kits = 0
+        cubs = 0
         cats_outside = 0
         starclan = 0
         df = 0
@@ -431,8 +431,8 @@ class ClanSettingsScreen(Screens):
                 mediators += 1
             elif cat.status == "elder":
                 elders += 1
-            elif cat.status in ("newborn", "kitten"):
-                kits += 1
+            elif cat.status in ("newborn", "cub"):
+                cubs += 1
 
         text = (
             f"Living Clan Cats: {living_cats}\n"
@@ -446,7 +446,7 @@ class ClanSettingsScreen(Screens):
             f"Mediators: {mediators}\n"
             f"Mediators Apprentices: {mediator_apprentices}\n"
             f"Elders: {elders}\n"
-            f"Kittens and Newborns: {kits}\n"
+            f"Cubs and Newborns: {cubs}\n"
             f"Faded Cats: {faded_cats}"
         )
 

@@ -1,7 +1,7 @@
 {
   "special_suffixes": {
-    "newborn": "kit",
-    "kitten": "kit",
+    "newborn": "cub",
+    "cub": "cub",
     "apprentice": "paw",
     "medicine cat apprentice": "paw",
     "mediator apprentice": "paw",
@@ -39,24 +39,15 @@
     "zoom"
   ],
   "pelt_suffixes": {
-    "TwoColour": ["patch", "spot", "splash", "patch", "spots", "swan"],
-    "Tabby": ["stripe", "feather", "leaf", "stripe", "shade", "swirl"],
-    "Marbled": ["stripe", "feather", "leaf", "stripe", "shade", "swirl"],
-    "Speckled": ["dapple", "speckle", "spot", "speck", "freckle", "fleck"],
-    "Bengal": ["dapple", "speckle", "spots", "speck", "freckle", "fleck"],
-    "Rosette": ["dapple", "speckle", "spots", "dapple", "freckle", "fleck"],
-    "Smoke": ["fade", "dusk", "dawn", "smoke"],
-    "Ticked": ["spots", "pelt", "speckle", "freckle"],
-    "Mackerel": ["stripe", "feather", "leaf", "stripe", "fern"],
-    "Classic": ["stripe", "feather", "leaf", "stripe", "fern", "swirl"],
-    "Sokoke": ["stripe", "feather", "leaf", "stripe", "fern", "swirl"],
-    "Agouti": ["back", "pelt", "fur"],
-    "Singlestripe": ["stripe", "streak", "back", "shade", "stem", "shadow"],
-    "Masked": ["stripe", "mask", "mask", "shade"],
-    "Tortie": ["dapple", "speckle", "spot", "dapple"],
-    "Calico": ["stripe", "dapple", "patch", "patch"]
+    "Simple": ["patch", "spot", "splash", "patch", "spots", "swan"],
+    "Smoke": ["fade", "dusk", "dawn", "smoke", "back", "shade", "stem", "shadow"],
+    "Fade": ["fade", "dusk", "dawn", "smoke", "back", "shade", "stem", "shadow"],
+    "Ticked": ["spots", "pelt", "speckle", "freckle", "back", "shade", "stem", "shadow"],
+    "Ghost": ["ghost"],
+    "Agouti": ["back", "pelt", "fur", "back", "shade", "stem", "shadow"],
+    "Chimera": ["dapple", "speckle", "spot", "dapple", "stripe", "patch", "patch"]
   },
-  "tortie_pelt_suffixes": {
+  "chimera_pelt_suffixes": {
     "single": ["dapple", "speckle", "spots", "splash"],
     "tabby": ["stripe", "feather", "leaf", "stripe", "shade", "fern"],
     "marbled": ["stripe", "feather", "leaf", "stripe", "shade", "fern"],
@@ -149,11 +140,11 @@
     "Gray", "Gray", "Shade", "Raven", "Crow", "Stone", "Dark", "Dark", "Night", "Cinder", "Ash", "Ashen", "Twilight",
     "Smoke", "Smokey", "Shadow", "Bleak", "Rain", "Storm", "Pebble", "Mist", "Misty", "Warbler", "Wisp"
     ],
-    "GHOST": [
+    "BLUE": [
     "Black", "Black", "Shade", "Shaded", "Crow", "Raven", "Ebony", "Dark", "Char", "Charred", "Magpie",
     "Night", "Shadow", "Scorch", "Midnight", "Bleak", "Storm", "Violet", "Pepper", "Bat", "Faded", "Silver", "Ghost"
     ],
-    "PALEGINGER": [
+    "TAWNY": [
     "Pale", "Ginger", "Sand", "Sandy", "Yellow", "Sun", "Sunny", "Light", "Lion", "Bright", "Phlox", "Vervain",
     "Honey", "Daisy", "Warm", "Robin", "Cosmos", "Orchid", "Snapdragon", "Foxglove", "Verbena", "Straw",
     "Orange", "Ochre", "Peach", "Auburn", "Pumpkin"
@@ -163,20 +154,20 @@
     "Honey", "Tawny", "Lion", "Dandelion", "Marigold", "Warm", "Amber", "Canary", "Chick", "Daffodil", "Saffron",
     "Buttercup", "Straw", "Glint", "Auburn"
     ],
-    "GINGER": [
+    "ORANGE": [
     "Ginger", "Ginger", "Red", "Fire", "Rust", "Flame", "Ember", "Sun", "Sunny", "Light", "Primrose", "Rose",
     "Rowan", "Fox", "Tawny", "Plum", "Orange", "Warm", "Burn", "Burnt", "Robin", "Amber", "Larkspur", "Straw", "Lyre",
     "Flare", "Blaze", "Ochre", "Auburn", "Pumpkin"
     ],
-    "DARKGINGER": [
+    "DARKORANGE": [
     "Ginger", "Ginger", "Red", "Red", "Fire", "Flame", "Ember", "Oak", "Shade", "Russet", "Fuchsia", "Hollyhock",
     "Rowan", "Fox", "Orange", "Copper", "Cinnamon", "Burn", "Burnt", "Robin", "Oleander", "Scarlet", "Rust", "Lyre",
     "Robin", "Berry", "Ochre", "Auburn", "Pumpkin", "Burnet"
     ],
-    "SIENNA": [
-    "Ginger", "Ginger", "Red", "Red", "Fire", "Flame", "Ember", "Oak", "Shade", "Russet", "Fuchsia", "Hollyhock",
-    "Rowan", "Fox", "Orange", "Copper", "Cinnamon", "Burn", "Burnt", "Robin", "Oleander", "Scarlet", "Rust", "Lyre",
-    "Robin", "Berry", "Ochre", "Auburn", "Burnet"
+    "STRAWBERRY": [
+    "Red", "Red", "Fire", "Flame", "Ember", "Oak", "Shade", "Russet", "Fuchsia", "Hollyhock",
+    "Rowan", "Fox", "Copper", "Cinnamon", "Burn", "Burnt", "Robin", "Oleander", "Scarlet", "Rust", "Lyre",
+    "Robin", "Berry", "Ochre", "Auburn", "Burnet", "Strawberry", "Strawberry", "Strawberry"
     ],
     "CREAM": [
     "Sand", "Sandy", "Yellow", "Pale", "Cream", "Cream", "Light", "Milk", "Fawn", "Morel", "Jasmine", "Veil",

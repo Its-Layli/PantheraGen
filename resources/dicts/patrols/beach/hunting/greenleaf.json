@@ -362,7 +362,7 @@
                 ]
             },
             {
-                "text": "The patrol drives away the red fox, seeks out her den, and kills her cubs. It's brutal, but these fluffy small foxes would one day have grown to be kit-killers and thieves.",
+                "text": "The patrol drives away the red fox, seeks out her den, and kills her cubs. It's brutal, but these fluffy small foxes would one day have grown to be cub-killers and thieves.",
                 "exp": 30,
                 "weight": 5,
                 "relationships": [
@@ -924,7 +924,7 @@
                 ]
             },
             {
-                "text": "The patrol drives away the gray fox, seeks out her den, and kills her young cubs. It's brutal, but these fluffy small foxes would one day have grown to be kit-killers and thieves. Better to deal with them now rather than when they're the same height as and nearly double the weight of a cat, though a gray fox will always be easier to fight than a bigger red one.",
+                "text": "The patrol drives away the gray fox, seeks out her den, and kills her young cubs. It's brutal, but these fluffy small foxes would one day have grown to be cub-killers and thieves. Better to deal with them now rather than when they're the same height as and nearly double the weight of a cat, though a gray fox will always be easier to fight than a bigger red one.",
                 "exp": 30,
                 "weight": 5,
                 "relationships": [
@@ -1452,7 +1452,7 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "As the patrol arrives at a beach, they spot Twolegs and their kits lounging around a brightly colored pelt of some kind, surrounded by a tempting food-scent.",
+        "intro_text": "As the patrol arrives at a beach, they spot Twolegs and their cubs lounging around a brightly colored pelt of some kind, surrounded by a tempting food-scent.",
         "decline_text": "The patrol decides to avoid the Twolegs.",
         "chance_of_success": 40,
         "success_outcomes": [
@@ -1475,7 +1475,7 @@
                 "weight": 20
             },
             {
-                "text": "As the patrol gets close, a Twoleg kit runs at them, screaming unintelligibly. While running away, r_c sprains a leg.",
+                "text": "As the patrol gets close, a Twoleg cub runs at them, screaming unintelligibly. While running away, r_c sprains a leg.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -2900,7 +2900,7 @@
         "relationship_constraint": ["siblings"],
         "success_outcomes": [
             {
-                "text": "A b_mp_a_s and two b_tp_a_p is nothing to sniff at, as a hunting success, but stars above, being alone with r_c makes p_l feel like a kitten again. And not in the cute way either - in the chewing on tails, whiny, petty, immature way. Ugh.",
+                "text": "A b_mp_a_s and two b_tp_a_p is nothing to sniff at, as a hunting success, but stars above, being alone with r_c makes p_l feel like a cub again. And not in the cute way either - in the chewing on tails, whiny, petty, immature way. Ugh.",
                 "exp": 20,
                 "weight": 20,
                 "prey": ["medium"],
@@ -3069,7 +3069,7 @@
         "relationship_constraint": ["siblings"],
         "success_outcomes": [
             {
-                "text": "Watching r_c execute a fantastic leap to bring down a b_mp_dl_s, p_l smiles. Does r_c remember the time {PRONOUN/r_c/subject} tried to do that as a kitten and stood on {PRONOUN/r_c/poss} own tail? The siblings laugh about it as they move on to the next hunting ground.",
+                "text": "Watching r_c execute a fantastic leap to bring down a b_mp_dl_s, p_l smiles. Does r_c remember the time {PRONOUN/r_c/subject} tried to do that as a cub and stood on {PRONOUN/r_c/poss} own tail? The siblings laugh about it as they move on to the next hunting ground.",
                 "exp": 20,
                 "weight": 20,
                 "prey": ["medium"],
@@ -3316,7 +3316,7 @@
         "relationship_constraint": ["siblings"],
         "success_outcomes": [
             {
-                "text": "A b_mp_a_s and a couple b_mp_a_p are nothing to sniff at, as a hunting success, but stars above, being alone with {PRONOUN/p_l/poss} siblings makes p_l feel like a kitten again. And not in the cute way either - in the chewing on tails, whiny, petty, immature way. Ugh.",
+                "text": "A b_mp_a_s and a couple b_mp_a_p are nothing to sniff at, as a hunting success, but stars above, being alone with {PRONOUN/p_l/poss} siblings makes p_l feel like a cub again. And not in the cute way either - in the chewing on tails, whiny, petty, immature way. Ugh.",
                 "exp": 20,
                 "weight": 20,
                 "prey": ["medium"],
@@ -3485,7 +3485,7 @@
         "relationship_constraint": ["siblings"],
         "success_outcomes": [
             {
-                "text": "Watching r_c execute a fantastic leap to bring down a b_mp_dl_s, p_l smiles. Does r_c remember the time {PRONOUN/r_c/subject} tried to do that as a kitten and stood on {PRONOUN/r_c/poss} own tail? The siblings laugh about it together as they move on to the next hunting ground.",
+                "text": "Watching r_c execute a fantastic leap to bring down a b_mp_dl_s, p_l smiles. Does r_c remember the time {PRONOUN/r_c/subject} tried to do that as a cub and stood on {PRONOUN/r_c/poss} own tail? The siblings laugh about it together as they move on to the next hunting ground.",
                 "exp": 20,
                 "weight": 20,
                 "prey": ["medium"],

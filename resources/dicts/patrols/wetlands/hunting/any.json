@@ -60,7 +60,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Twoleg kits scare the patrol away.",
+                "text": "Twoleg cubs scare the patrol away.",
                 "exp": 0,
                 "weight": 20,
                 "prey": ["very_small"]
@@ -68,14 +68,14 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "The Twoleg kits wandering around are unimpressed by the patrol and chase the cats for fun.",
+                "text": "The Twoleg cubs wandering around are unimpressed by the patrol and chase the cats for fun.",
                 "exp": 0,
                 "weight": 20
             }
         ],
         "antag_success_outcomes": [
             {
-                "text": "A Twoleg kit approaches the patrol, and they send it away squawking with its blood on their claws.",
+                "text": "A Twoleg cub approaches the patrol, and they send it away squawking with its blood on their claws.",
                 "exp": 20,
                 "weight": 20
             }
@@ -109,21 +109,21 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Twoleg kits stomp through the damp swamp, scaring away prey and ruining the hunt.",
+                "text": "Twoleg cubs stomp through the damp swamp, scaring away prey and ruining the hunt.",
                 "exp": 0,
                 "weight": 20
             }
         ],
         "antag_fail_outcomes": [
             {
-                "text": "The Twoleg kits wandering around are unimpressed by the patrol and chase the cats for fun.",
+                "text": "The Twoleg cubs wandering around are unimpressed by the patrol and chase the cats for fun.",
                 "exp": 0,
                 "weight": 20
             }
         ],
         "antag_success_outcomes": [
             {
-                "text": "Finding a Twoleg kit wandering alone, the cats harass it until it flees squawking, its blood on their claws.",
+                "text": "Finding a Twoleg cub wandering alone, the cats harass it until it flees squawking, its blood on their claws.",
                 "exp": 20,
                 "weight": 20
             }

@@ -54,7 +54,7 @@
         "id": "adventurous_medicine_cat_to_lead",
         "thoughts": [
             "Helps the leader with {PRONOUN/r_c/poss} duties",
-            "Begs the leader to give {PRONOUN/m_c/object} the bounciest kit as {PRONOUN/m_c/poss} apprentice"
+            "Begs the leader to give {PRONOUN/m_c/object} the bounciest cub as {PRONOUN/m_c/poss} apprentice"
         ],
         "main_trait_constraint": [
             "adventurous"
@@ -66,8 +66,8 @@
     {
         "id": "adventurous_medicine_cat_kit",
         "thoughts": [
-            "Is showing the kits herbs by taking them on adventures in the territory",
-            "Offers to help the queens with badger rides for the kits"
+            "Is showing the cubs herbs by taking them on adventures in the territory",
+            "Offers to help the queens with badger rides for the cubs"
         ],
         "main_trait_constraint": [
             "adventurous"
@@ -309,7 +309,7 @@
     {
         "id": "loving_medicine_cat",
         "thoughts": [
-            "Watches over some newborn kits"
+            "Watches over some newborn cubs"
         ],
         "main_trait_constraint": [
             "loving"
@@ -349,8 +349,8 @@
     {
       "id": "playful_medicine_cat_to_kits",
         "thoughts": [
-            "Excitedly teaches the kits about basic herbs",
-            "Indulges the kits as they play hide and seek around the medicine cat den."
+            "Excitedly teaches the cubs about basic herbs",
+            "Indulges the cubs as they play hide and seek around the medicine cat den."
         ],
         "main_trait_constraint": [
             "playful"
@@ -411,7 +411,7 @@
   {
         "id": "strange_medicine_cat_to_kit",
         "thoughts": [
-            "Hisses at the kits randomly"
+            "Hisses at the cubs randomly"
         ],
         "main_trait_constraint": [
             "strange"

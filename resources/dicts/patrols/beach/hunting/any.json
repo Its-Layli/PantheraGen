@@ -60,7 +60,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Twoleg kits scare the patrol away.",
+                "text": "Twoleg cubs scare the patrol away.",
                 "exp": 0,
                 "weight": 20,
                 "prey": ["very_small"]
@@ -97,7 +97,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Twoleg kits stomp through the sand dunes, scaring away prey and ruining the hunt.",
+                "text": "Twoleg cubs stomp through the sand dunes, scaring away prey and ruining the hunt.",
                 "exp": 0,
                 "weight": 20,
                 "prey": ["very_small"]

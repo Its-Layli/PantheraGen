@@ -11,7 +11,7 @@
             "status": ["any"]
         },
         "new_cat": [
-            ["age:has_kits", "meeting", "loner", "can_birth"],
+            ["age:has_cubs", "meeting", "loner", "can_birth"],
             [
                 "new_name",
                 "parent:0",
@@ -37,7 +37,7 @@
             "status": ["any"]
         },
         "new_cat": [
-            ["age:has_kits", "meeting", "rogue", "can_birth"],
+            ["age:has_cubs", "meeting", "rogue", "can_birth"],
             [
                 "new_name",
                 "parent:0",
@@ -63,7 +63,7 @@
             "status": ["any"]
         },
         "new_cat": [
-            ["age:has_kits", "meeting", "clancat", "can_birth"],
+            ["age:has_cubs", "meeting", "clancat", "can_birth"],
             [
                 "new_name",
                 "parent:0",
@@ -89,7 +89,7 @@
             "status": ["any"]
         },
         "new_cat": [
-            ["age:has_kits", "meeting", "kittypet", "can_birth"],
+            ["age:has_cubs", "meeting", "kittypet", "can_birth"],
             [
                 "new_name",
                 "parent:0",
@@ -115,7 +115,7 @@
             "status": ["any"]
         },
         "new_cat": [
-            ["age:has_kits", "meeting", "unknown", "can_birth"],
+            ["age:has_cubs", "meeting", "unknown", "can_birth"],
             [
                 "new_name",
                 "parent:0",
@@ -126,11 +126,11 @@
         ]
     },
     {
-        "event_id": "gen_new_cat_anykit1",
+        "event_id": "gen_new_cat_anycub1",
         "location": ["any"],
         "season": ["any"],
         "weight": 5,
-        "event_text": "m_c finds an abandoned kit and names {PRONOUN/n_c:0/object} n_c:0.",
+        "event_text": "m_c finds an abandoned cub and names {PRONOUN/n_c:0/object} n_c:0.",
         "m_c": {
             "age": ["adolescent", "young adult", "adult", "senior adult", "senior"],
             "status": ["any"]
@@ -139,16 +139,16 @@
             [
                 "new_name",
                 "backstory:abandoned1, abandoned2, orphaned3, orphaned4, outsider1",
-                "status:kitten"
+                "status:cub"
             ]
         ]
     },
     {
-        "event_id": "gen_new_cat_anylonerkit1",
+        "event_id": "gen_new_cat_anylonercub1",
         "location": ["any"],
         "season": ["any"],
         "weight": 5,
-        "event_text": "m_c finds a loner near the border. It seems {PRONOUN/n_c:0/subject} {VERB/n_c:0/were/was} bringing {PRONOUN/n_c:0/poss} kit named n_c:1 to the Clan, as {PRONOUN/n_c:0/subject} could no longer care for {PRONOUN/n_c:1/object}.",
+        "event_text": "m_c finds a loner near the border. It seems {PRONOUN/n_c:0/subject} {VERB/n_c:0/were/was} bringing {PRONOUN/n_c:0/poss} cub named n_c:1 to the Clan, as {PRONOUN/n_c:0/subject} could no longer care for {PRONOUN/n_c:1/object}.",
         "m_c": {
             "status": [
                 "leader",
@@ -162,12 +162,12 @@
             ]
         },
         "new_cat": [
-            ["age:has_kits", "meeting", "loner", "can_birth"],
+            ["age:has_cubs", "meeting", "loner", "can_birth"],
             [
                 "new_name",
                 "parent:0",
                 "backstory:abandoned2, outsider1",
-                "status:kitten"
+                "status:cub"
             ]
         ],
         "outsider": {
@@ -176,11 +176,11 @@
         }
     },
     {
-        "event_id": "gen_new_cat_anykittypetkit1",
+        "event_id": "gen_new_cat_anykittypetcub1",
         "location": ["any"],
         "season": ["any"],
         "weight": 5,
-        "event_text": "m_c finds a kittypet near the border. It seems {PRONOUN/n_c:0/subject} {VERB/n_c:0/were/was} bringing {PRONOUN/n_c:0/poss} kit named n_c:1 to the Clan, as {PRONOUN/n_c:0/subject} could no longer care for {PRONOUN/n_c:1/object}.",
+        "event_text": "m_c finds a kittypet near the border. It seems {PRONOUN/n_c:0/subject} {VERB/n_c:0/were/was} bringing {PRONOUN/n_c:0/poss} cub named n_c:1 to the Clan, as {PRONOUN/n_c:0/subject} could no longer care for {PRONOUN/n_c:1/object}.",
         "m_c": {
             "status": [
                 "leader",
@@ -194,12 +194,12 @@
             ]
         },
         "new_cat": [
-            ["age:has_kits", "meeting", "kittypet", "can_birth"],
+            ["age:has_cubs", "meeting", "kittypet", "can_birth"],
             [
                 "new_name",
                 "parent:0",
                 "backstory:abandoned2, outsider1",
-                "status:kitten"
+                "status:cub"
             ]
         ],
         "outsider": {
@@ -208,22 +208,22 @@
         }
     },
     {
-        "event_id": "gen_new_cat_anyroguekit1",
+        "event_id": "gen_new_cat_anyroguecub1",
         "location": ["any"],
         "season": ["any"],
         "weight": 5,
-        "event_text": "m_c finds a rogue near the border. It seems {PRONOUN/n_c:0/subject} {VERB/n_c:0/were/was} bringing {PRONOUN/n_c:0/poss} kit named n_c:1 to the Clan, as {PRONOUN/n_c:0/subject} could no longer care for {PRONOUN/n_c:1/object}.",
+        "event_text": "m_c finds a rogue near the border. It seems {PRONOUN/n_c:0/subject} {VERB/n_c:0/were/was} bringing {PRONOUN/n_c:0/poss} cub named n_c:1 to the Clan, as {PRONOUN/n_c:0/subject} could no longer care for {PRONOUN/n_c:1/object}.",
         "m_c": {
             "status": [
                 "leader", "deputy", "warrior", "medicine cat", "apprentice", "medicine cat apprentice", "mediator", "mediator apprentice"
             ]
         },"new_cat": [
-            ["age:has_kits", "meeting", "rogue", "can_birth"],
+            ["age:has_cubs", "meeting", "rogue", "can_birth"],
             [
                 "new_name",
                 "parent:0",
                 "backstory:abandoned2, outsider1",
-                "status:kitten"
+                "status:cub"
             ]
         ],
         "outsider": {

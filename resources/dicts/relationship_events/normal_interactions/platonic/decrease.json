@@ -142,7 +142,7 @@
 			"m_c keeps leaving all of the boring apprentice tasks for r_c to do by {PRONOUN/r_c/self}.",
 			"m_c tells r_c's mentor that {PRONOUN/r_c/subject}{VERB/r_c/'ve/'s} been sneaking out of camp without permission.",
 			"m_c has a disagreement with r_c over who is the better hunter.",
-			"m_c tells r_c to go back to the nursery if {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} gonna keep acting like a kitten!",
+			"m_c tells r_c to go back to the nursery if {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} gonna keep acting like a cub!",
 			"m_c's mentor compliments r_c more than their own apprentice.",
 			"The Clan doesn't think the friendly apprentice competition between m_c and r_c is very friendly anymore.",
 			"m_c accuses r_c of cheating; there's no way {PRONOUN/r_c/subject} could win so many practice fights fairly."
@@ -162,7 +162,7 @@
 		"intensity": "high",
 		"interactions": [
 			"m_c snarls at r_c for coming too close to the herbs.",
-			"m_c shoos r_c away, not having time for curious little kits.",
+			"m_c shoos r_c away, not having time for curious little cubs.",
 			"m_c tells r_c if {PRONOUN/r_c/subject} {VERB/r_c/don't/doesn't} stay away from the medicine den {PRONOUN/m_c/subject} will feed {PRONOUN/r_c/object} nasty tasting herbs!"
 		],
 		"main_status_constraint": [
@@ -175,7 +175,7 @@
 			"fierce"
 		],
 		"random_status_constraint": [
-			"kitten"
+			"cub"
 		],
 		"reaction_random_cat": {
 			"platonic": "decrease"

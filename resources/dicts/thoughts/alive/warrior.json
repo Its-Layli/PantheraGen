@@ -2,9 +2,9 @@
     {
         "id": "warrior_gen_alive_kits",
         "thoughts": [
-            "Is watching over the kits",
-            "Begrudgingly allows kits to play with {PRONOUN/m_c/poss} tail",
-            "Was roped into playing moss ball with the kits",
+            "Is watching over the cubs",
+            "Begrudgingly allows cubs to play with {PRONOUN/m_c/poss} tail",
+            "Was roped into playing moss ball with the cubs",
             "Is being begged by r_c to teach {PRONOUN/r_c/object} a few moves, despite r_c being a kit",
             "Somehow got roped up in watching r_c for the day",
             "Theatrically dies after r_c slays {PRONOUN/m_c/object}",
@@ -357,7 +357,7 @@
             "Grooms r_c clean and makes {PRONOUN/r_c/object} presentable",
             "Carries r_c to the nursery because {PRONOUN/r_c/subject} fell asleep",
             "Is scolding r_c for almost being reckless",
-            "Hopes {PRONOUN/m_c/poss} kits arent getting into too much trouble",
+            "Hopes {PRONOUN/m_c/poss} cubs arent getting into too much trouble",
             "Is in awe with how fast r_c is growing"
         ],
         "relationship_constraint": [
@@ -373,7 +373,7 @@
     {
         "id": "warrior_formerly_a_loner_alive_kits",
         "thoughts": [
-            "Is telling the kits about {PRONOUN/m_c/poss} days as a loner",
+            "Is telling the cubs about {PRONOUN/m_c/poss} days as a loner",
             "Is being begged by r_c to tell {PRONOUN/r_c/object} about what being a loner was like"
         ],
         "main_backstory_constraint": [
@@ -394,7 +394,7 @@
     {
         "id": "warrior_formerly_a_rogue_alive_kits",
         "thoughts": [
-            "Is telling the kits about {PRONOUN/m_c/poss} days as a rogue",
+            "Is telling the cubs about {PRONOUN/m_c/poss} days as a rogue",
             "Is being begged by r_c to tell {PRONOUN/r_c/object} more what being a rogue was like"
         ],
         "main_backstory_constraint": [

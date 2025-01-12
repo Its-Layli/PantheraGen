@@ -231,8 +231,8 @@ class Condition_Events:
                 heal = True
 
         elif MAL_PERCENTAGE >= cat_nutrition.percentage > STARV_PERCENTAGE:
-            # because of the smaller 'nutrition buffer', kitten and elder should get the starving condition.
-            if cat.status in ["kitten", "elder"]:
+            # because of the smaller 'nutrition buffer', cub and elder should get the starving condition.
+            if cat.status in ["cub", "elder"]:
                 illness = "starving"
             else:
                 illness = "malnourished"
@@ -304,8 +304,8 @@ class Condition_Events:
                 # pick a random illness from those possible
                 random_index = int(random.random() * len(possible_illnesses))
                 chosen_illness = possible_illnesses[random_index]
-                # if a non-kitten got kittencough, switch it to whitecough instead
-                if chosen_illness == "kittencough" and cat.status != "kitten":
+                # if a non-cub got cubtencough, switch it to whitecough instead
+                if chosen_illness == "cubcough" and cat.status != "cub":
                     chosen_illness = "whitecough"
                 # make em sick
                 cat.get_ill(chosen_illness)
@@ -516,7 +516,7 @@ class Condition_Events:
         event_list = []
         illness_progression = {
             "running nose": "whitecough",
-            "kittencough": "whitecough",
+            "cubcough": "whitecough",
             "whitecough": "greencough",
             "greencough": "yellowcough",
             "yellowcough": "redcough",
@@ -926,7 +926,7 @@ class Condition_Events:
             not in [
                 "leader",
                 "medicine cat",
-                "kitten",
+                "cub",
                 "newborn",
                 "medicine cat apprentice",
                 "mediator",
@@ -946,7 +946,7 @@ class Condition_Events:
                     # being 100%
                     retire_chances = {
                         "newborn": 0,
-                        "kitten": 0,
+                        "cub": 0,
                         "adolescent": 50,  # This is high so instances where an cat retires the same moon they become an apprentice is rare
                         "young adult": 10,
                         "adult": 5,
@@ -956,7 +956,7 @@ class Condition_Events:
                 else:
                     retire_chances = {
                         "newborn": 0,
-                        "kitten": 0,
+                        "cub": 0,
                         "adolescent": 100,
                         "young adult": 80,
                         "adult": 70,
@@ -970,7 +970,7 @@ class Condition_Events:
                     if cat.age == "adolescent":
                         event = (
                             f"{cat.name} decides they'd rather spend their time helping around camp and entertaining the "
-                            f"kits, they're warmly welcomed into the elders' den."
+                            f"cubs, they're warmly welcomed into the elders' den."
                         )
                     elif game.clan.leader is not None:
                         if (
@@ -1226,7 +1226,7 @@ class Condition_Events:
                 if herb == herb_used:
                     break
             modifier = count
-            if cat.status in ["elder", "kitten"]:
+            if cat.status in ["elder", "cub"]:
                 modifier = modifier * 2
 
             effect_message = "this should not show up"

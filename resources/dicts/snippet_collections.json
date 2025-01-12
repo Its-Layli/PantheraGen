@@ -87,7 +87,7 @@
         ["echoing snarls", "the snarl of a friend", "the snarls of an enemy", "snarling from the dark", "hissing", "the hiss of a friend", "an enemy's hiss"],
         ["wailing cries"],
         ["a thundering voice"],
-        ["a kit's mew", "the mewl of a newborn", "the squeal of kittens"],
+        ["a cub's mew", "the mewl of a newborn", "the squeal of cubs"],
         ["the sound of barking"],
         ["howling in the distance", "a distant howl of pain", "cats howling to the moon"],
         ["a monster roaring"],
@@ -351,7 +351,7 @@
     ["love", "care", "compassion", "cherishing", "affection"],
     ["curiosity", "inquisitiveness", "wonder", "wondering", "nosiness"],
     ["inspiration", "an idea", "an impluse"],
-    ["playfulness", "mischief", "friskiness", "impish energy", "roguishness", "kitten-like gaiety"],
+    ["playfulness", "mischief", "friskiness", "impish energy", "roguishness", "cub-like gaiety"],
     ["excitement", "thrill", "invigorated", "surprise", "exhilaration"],
     ["secrecy", "concealment", "stealth", "discretion", "subterfuge", "deceit"],
     ["guilt", "shame", "chagrin"],
@@ -377,7 +377,7 @@
         ["the sound of wingbeats in the wind"],
         ["the sounds of a heated argument"],
         ["near silent pawsteps"],
-        ["the soft noises of kits nursing"],
+        ["the soft noises of cubs nursing"],
         ["a peal of laughter"],
         ["distant wails of grief"]
       ],
@@ -396,7 +396,7 @@
     },
     "smell": {
       "general": [
-        ["the smell of kittypet food"],
+        ["the smell of pet food"],
         ["a strange acidic scent"],
         ["the smell of dirt baked by the sun"],
         ["the smell of rain"]
@@ -457,7 +457,7 @@
         ["deathly still air", "an unseen fire's heat"],
         ["trembling stones"],
         ["falling through the air", "flying through the air"],
-        ["the warmth of a parent", "the embrace of a family","the warmth of family in the darkness before a kit's eyes open"],
+        ["the warmth of a parent", "the embrace of a family","the warmth of family in the darkness before a cub's eyes open"],
         ["tails entwining", "the slip of wet fur", "teeth snapping against fur", "claws against a scruff"],
         ["a mentor's touch to an apprentice's forehead"],
         ["slipping on muddy earth despite the dry ground", "sinking into muddy earth"],

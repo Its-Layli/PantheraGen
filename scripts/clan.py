@@ -43,7 +43,7 @@ class Clan:
 
     CAT_TYPES = [
         "newborn",
-        "kitten",
+        "cub",
         "apprentice",
         "warrior",
         "medicine",

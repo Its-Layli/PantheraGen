@@ -113,8 +113,8 @@ def reformat(path):
         new_format["m_c"] = {}
         new_format["m_c"]["age"] = []
 
-        if "kitten" in path:
-            new_format["m_c"]["age"].append("kitten")
+        if "cub" in path:
+            new_format["m_c"]["age"].append("cub")
         if "apprentice" in path or "medicine_cat_app" in event["tags"] or "mediator" in path:
             new_format["m_c"]["age"].append("adolescent")
         if "warrior" in path or "deputy" in path or "leader" in path or "mediator" in path:
@@ -135,8 +135,8 @@ def reformat(path):
 
         new_format["m_c"]["status"] = []
 
-        if "kitten" in path:
-            new_format["m_c"]["status"].append("kitten")
+        if "cub" in path:
+            new_format["m_c"]["status"].append("cub")
         if "apprentice" in path:
             new_format["m_c"]["status"].append("apprentice")
         if "medicine_cat_app" in event["tags"]:
@@ -200,15 +200,15 @@ def reformat(path):
 
         if "tags" in event:
             for tag in event["tags"]:
-                if tag in ["other_cat", "other_cat_kit", "other_cat_med", "other_cat_warrior", "other_cat_dep",
+                if tag in ["other_cat", "other_cat_cub", "other_cat_med", "other_cat_warrior", "other_cat_dep",
                            "other_cat_leader", "other_cat_app", "other_cat_med_app", "other_cat_elder", "rc_to_mc",
                            "mc_to_rc"]:
                     new_format["r_c"] = {}
                     new_format["r_c"]["age"] = []
 
-                    if "other_cat_kit" in event["tags"]:
-                        event["tags"].remove("other_cat_kit")
-                        new_format["r_c"]["age"].append("kitten")
+                    if "other_cat_cub" in event["tags"]:
+                        event["tags"].remove("other_cat_cub")
+                        new_format["r_c"]["age"].append("cub")
                     if "other_cat_app" in event["tags"]:
                         event["tags"].remove("other_cat_app")
                         new_format["r_c"]["age"].append("adolescent")
@@ -249,9 +249,9 @@ def reformat(path):
 
                     new_format["r_c"]["status"] = []
 
-                    if "other_cat_kit" in event["tags"]:
-                        event["tags"].remove("other_cat_kit")
-                        new_format["r_c"]["status"].append("kitten")
+                    if "other_cat_cub" in event["tags"]:
+                        event["tags"].remove("other_cat_cub")
+                        new_format["r_c"]["status"].append("cub")
                     if "other_cat_app" in event["tags"]:
                         event["tags"].remove("other_cat_app")
                         new_format["r_c"]["status"].append("apprentice")
@@ -418,7 +418,7 @@ def reformat(path):
                     new_format["history"]["lead_death"] = event["history_text"]["lead_death"]
 
         for tag in event["tags"]:
-            if tag in ["other_cat", "other_cat_kit", "other_cat_med", "other_cat_warrior", "other_cat_dep",
+            if tag in ["other_cat", "other_cat_cub", "other_cat_med", "other_cat_warrior", "other_cat_dep",
                        "other_cat_leader", "other_cat_app", "other_cat_med_app", "other_cat_elder", "rc_to_mc",
                        "mc_to_rc"]:
                 new_format["relationships"] = []

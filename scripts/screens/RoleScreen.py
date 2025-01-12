@@ -298,8 +298,8 @@ class RoleScreen(Screens):
             "mediator apprentice": "mediator_app_icon.png",
             "warrior": "warrior_icon.png",
             "apprentice": "warrior_app_icon.png",
-            "kitten": "kit_icon.png",
-            "newborn": "kit_icon.png",
+            "cub": "cub_icon.png",
+            "newborn": "cub_icon.png",
             "elder": "elder_icon.png",
         }
 
@@ -564,7 +564,7 @@ class RoleScreen(Screens):
         elif self.the_cat.status == "apprentice":
             output = (
                 f"{self.the_cat.name} is an <b>apprentice</b>, in training to become a warrior. "
-                f"Kits can be made warrior apprentices at six moons of age, where they will learn how "
+                f"Cubs can be made warrior apprentices at six moons of age, where they will learn how "
                 f"to hunt and fight for their Clan. Typically, the training of an apprentice is entrusted "
                 f"to an single warrior - their mentor. To build character, apprentices are often assigned "
                 f'the unpleasant and grunt tasks of Clan life. Apprentices take the suffix "paw", '
@@ -573,7 +573,7 @@ class RoleScreen(Screens):
         elif self.the_cat.status == "medicine cat apprentice":
             output = (
                 f"{self.the_cat.name} is a <b>medicine cat apprentice</b>, training to become a full medicine cat. "
-                f"Kits can be made medicine cat apprentices at six moons of age, where they will learn how to "
+                f"Cubs can be made medicine cat apprentices at six moons of age, where they will learn how to "
                 f"heal their Clanmates and commune with StarClan. Medicine cat apprentices are typically chosen "
                 f"for their interest in healing and/or their connecting to StarClan. Apprentices take the suffix "
                 f"-paw, to represent the path their paws take towards adulthood."
@@ -586,23 +586,23 @@ class RoleScreen(Screens):
                 f'Apprentices take the suffix "paw", '
                 f"to represent the path their paws take towards adulthood. "
             )
-        elif self.the_cat.status == "kitten":
+        elif self.the_cat.status == "cub":
             output = (
-                f"{self.the_cat.name} is a <b>kitten</b>. All cats below the age of six moons are "
-                f"considered kits. Kits "
+                f"{self.the_cat.name} is a <b>cub</b>. All cats below the age of six moons are "
+                f"considered cubs. Cubs "
                 f"are prohibited from leaving camp in order to protect them from the dangers of the wild. "
                 f"Although they don't have any official duties in the Clan, they are expected to learn the "
                 f"legends and traditions of their Clan. They are protected by every cat in the Clan and always "
-                f'eat first. Kit take the suffix "kit".'
+                f'eat first. Cub take the suffix "cub".'
             )
         elif self.the_cat.status == "newborn":
             output = (
-                f"{self.the_cat.name} is a <b>newborn kitten</b>. All cats below the age of six moons are "
-                f"considered kits. Kits "
+                f"{self.the_cat.name} is a <b>newborn cub</b>. All cats below the age of six moons are "
+                f"considered cubs. Cubs "
                 f"are prohibited from leaving camp in order to protect them from the dangers of the wild. "
                 f"Although they don't have any official duties in the Clan, they are expected to learn the "
                 f"legends and traditions of their Clan. They are protected by every cat in the Clan and always "
-                f'eat first. Kit take the suffix "kit".'
+                f'eat first. Cub take the suffix "cub".'
             )
         else:
             output = f"{self.the_cat.name} has an unknown rank. I guess they want to make their own way in life! "

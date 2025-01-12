@@ -165,7 +165,7 @@
 		]
 	},
 	{
-		"id": "dislike_kit_inc_med1",
+		"id": "dislike_cub_inc_med1",
 		"interactions": [
 			"m_c trips over r_c.",
 			"m_c had to nip r_c on the rump because {PRONOUN/r_c/subject} {VERB/r_c/were/was} being naughty.",
@@ -185,7 +185,7 @@
 			"leader"
 		],
 		"random_status_constraint": [
-			"kitten"
+			"cub"
 		],
 		"reaction_random_cat": {
 			"dislike": "increase"
@@ -198,7 +198,7 @@
 			"m_c divides r_c into extra patrols.",
 			"m_c gives r_c a particularly hard task, expecting {PRONOUN/r_c/object} to fail.",
 			"m_c always tries to avoid making r_c the leader of a patrol.",
-			"m_c scolds r_c like a kit for something trivial.",
+			"m_c scolds r_c like a cub for something trivial.",
 			"m_c says r_c sets a bad example of a warrior."
 		],
 		"main_status_constraint": [
@@ -220,7 +220,7 @@
 			"m_c gives r_c a particularly hard task, expecting {PRONOUN/r_c/object} to fail.",
 			"m_c threatens r_c with never passing {PRONOUN/r_c/poss} assessment!",
 			"m_c tells other cats that r_c is not doing well in {PRONOUN/r_c/poss} training.",
-			"m_c scolds r_c like a kit for something trivial.",
+			"m_c scolds r_c like a cub for something trivial.",
 			"m_c says r_c sets a bad example of a warrior."
 		],
 		"main_status_constraint": [
@@ -399,7 +399,7 @@
 		}
 	},
 	{
-		"id": "dislike_kit_de_med1",
+		"id": "dislike_cub_de_med1",
 		"interactions": [
 			"m_c sticks {PRONOUN/m_c/poss} tongue out at r_c.",
 			"m_c makes stinky faces at r_c for seemingly no reason.",
@@ -407,14 +407,14 @@
 			"m_c and r_c play hide and seek, but r_c supposedly forgets to look for m_c for hours."
 		],
 		"main_status_constraint": [
-			"kitten"
+			"cub"
 		],
 		"reaction_random_cat": {
 			"dislike": "increase"
 		}
 	},
 	{
-		"id": "dislike_kit_de_med2",
+		"id": "dislike_cub_de_med2",
 		"interactions": [
 			"m_c tried to have a friendly discussion with r_c about what prey tastes best, but it turned into an argument.",
 			"m_c and r_c always end up arguing over what games to play.",
@@ -424,23 +424,23 @@
 			"m_c is not playing fairly with r_c!"
 		],
 		"main_status_constraint": [
-			"kitten"
+			"cub"
 		],
 		"random_status_constraint": [
-			"kitten"
+			"cub"
 		],
 		"reaction_random_cat": {
 			"dislike": "increase"
 		}
 	},
 	{
-		"id": "dislike_kit_inc_med3",
+		"id": "dislike_cub_inc_med3",
 		"interactions": [
 			"m_c whines that r_c won't play with {PRONOUN/m_c/object}, even though {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} always around camp.",
 			"m_c doesn't understand why r_c won't let {PRONOUN/m_c/object} play in the medicine cat den."
 		],
 		"main_status_constraint": [
-			"kitten"
+			"cub"
 		],
 		"random_status_constraint": [
 			"elder",

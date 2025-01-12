@@ -646,9 +646,9 @@
     "event_id": "gen_misc_leaffall_misc1",
     "location": ["any"],
     "season": ["leaf-fall"],
-    "tags": ["clan:kitten"],
+    "tags": ["clan:cub"],
     "weight": 20,
-    "event_text": "The older cats look fondly upon the kits who are dashing in and out of leaf piles at the edge of camp.",
+    "event_text": "The older cats look fondly upon the cubs who are dashing in and out of leaf piles at the edge of camp.",
     "m_c": {
       "age": ["senior", "senior adult"]
     },
@@ -938,9 +938,9 @@
     "event_id": "gen_misc_any_mate2",
     "location": ["any"],
     "season": ["any"],
-    "tags": ["clan:kitten"],
+    "tags": ["clan:cub"],
     "weight": 10,
-    "event_text": "m_c listens bashfully as r_c tells the story of how {PRONOUN/r_c/subject} fell in love with {PRONOUN/r_c/poss} mate to a group of starry-eyed kits.",
+    "event_text": "m_c listens bashfully as r_c tells the story of how {PRONOUN/r_c/subject} fell in love with {PRONOUN/r_c/poss} mate to a group of starry-eyed cubs.",
     "m_c": {
       "age": ["any"],
       "status": ["any"],
@@ -990,9 +990,9 @@
     "event_id": "gen_misc_any_mate4",
     "location": ["any"],
     "season": ["any"],
-    "tags": ["clan:kitten"],
+    "tags": ["clan:cub"],
     "weight": 15,
-    "event_text": "m_c and r_c watch the Clan's kits play and daydream about having their own one day.",
+    "event_text": "m_c and r_c watch the Clan's cubs play and daydream about having their own one day.",
     "m_c": {
       "age": ["any"],
       "status": ["any"],
@@ -1216,37 +1216,37 @@
     }
   },
   {
-    "event_id": "gen_misc_multi_kit1",
+    "event_id": "gen_misc_multi_cub1",
     "location": ["any"],
     "season": ["greenleaf", "newleaf"],
     "weight": 15,
     "event_text": "m_c picks some flowers around the camp to bring back to the medicine cat den.",
     "m_c": {
-      "status": ["kitten"]
+      "status": ["cub"]
     }
   },
   {
-    "event_id": "gen_misc_greenleaf_kit1",
+    "event_id": "gen_misc_greenleaf_cub1",
     "location": ["any"],
     "season": ["greenleaf"],
     "tags": ["clan:warrior"],
     "weight": 15,
     "event_text": "m_c chases fireflies around the camp, while the older warriors sleep.",
     "m_c": {
-      "status": ["kitten"]
+      "status": ["cub"]
     }
   },
   {
-        "event_id": "gen_misc_any_kitkit1",
+        "event_id": "gen_misc_any_cubcub1",
         "location": ["any"],
         "season": ["any"],
         "weight": 20,
         "event_text": "m_c and r_c try to sneak out of camp, but are caught and returned to the nursery.",
         "m_c": {
-          "status": ["kitten"]
+          "status": ["cub"]
         },
         "r_c": {
-          "status": ["kitten"]
+          "status": ["cub"]
         },
         "relationships": [
           {
@@ -1259,16 +1259,16 @@
         ]
     },
     {
-        "event_id": "gen_misc_multi_kitkit1",
+        "event_id": "gen_misc_multi_cubcub1",
         "location": ["any"],
         "season": ["newleaf", "greenleaf"],
         "weight": 15,
         "event_text": "m_c and r_c sneak out of camp to chase butterflies.",
         "m_c": {
-          "status": ["kitten"]
+          "status": ["cub"]
         },
         "r_c": {
-          "status": ["kitten"]
+          "status": ["cub"]
         },
         "relationships": [
           {
@@ -1281,17 +1281,17 @@
         ]
     },
     {
-        "event_id": "gen_misc_greenleaf_kitkit1",
+        "event_id": "gen_misc_greenleaf_cubcub1",
         "location": ["any"],
         "season": ["greenleaf"],
       "tags": ["clan:warrior"],
         "weight": 20,
         "event_text": "m_c and r_c chase fireflies around the camp, while the older warriors try to sleep.",
         "m_c": {
-            "status": ["kitten"]
+            "status": ["cub"]
         },
         "r_c": {
-          "status": ["kitten"]
+          "status": ["cub"]
         },
         "relationships": [
           {
@@ -1304,17 +1304,17 @@
         ]
     },
     {
-        "event_id": "gen_misc_leaffall_kitkit1",
+        "event_id": "gen_misc_leaffall_cubcub1",
         "location": ["any"],
         "season": ["leaf-fall"],
       "tags": ["clan:warrior"],
         "weight": 20,
         "event_text": "m_c and r_c lead a small leaf-gathering hunt, which the adult cats watch with amused purrs.",
         "m_c": {
-            "status": ["kitten"]
+            "status": ["cub"]
         },
         "r_c": {
-          "status": ["kitten"]
+          "status": ["cub"]
         },
         "relationships": [
           {
@@ -1327,16 +1327,16 @@
         ]
     },
     {
-        "event_id": "gen_misc_leaffall_kitkit2",
+        "event_id": "gen_misc_leaffall_cubcub2",
         "location": ["any"],
         "season": ["leaf-fall"],
         "weight": 20,
         "event_text": "m_c and r_c play with the leaves around the camp.",
         "m_c": {
-            "status": ["kitten"]
+            "status": ["cub"]
         },
         "r_c": {
-          "status": ["kitten"]
+          "status": ["cub"]
         },
         "relationships": [
           {
@@ -1349,16 +1349,16 @@
         ]
     },
     {
-        "event_id": "gen_misc_leafbare_kitkit1",
+        "event_id": "gen_misc_leafbare_cubcub1",
         "location": ["any"],
         "season": ["leaf-bare"],
         "weight": 20,
         "event_text": "m_c and r_c make little snow lumps at the entrance to the camp.",
         "m_c": {
-            "status": ["kitten"]
+            "status": ["cub"]
         },
         "r_c": {
-          "status": ["kitten"]
+          "status": ["cub"]
         },
         "relationships": [
           {
@@ -1371,17 +1371,17 @@
         ]
       },
     {
-        "event_id": "gen_misc_leafbare_kitkit2",
+        "event_id": "gen_misc_leafbare_cubcub2",
         "location": ["any"],
         "season": ["leaf-bare"],
       "tags": ["clan:warrior"],
         "weight": 20,
         "event_text": "m_c and r_c flick snow at the older warriors, giggling as they hide behind the nursery.",
         "m_c": {
-            "status": ["kitten"]
+            "status": ["cub"]
         },
         "r_c": {
-          "status": ["kitten"]
+          "status": ["cub"]
         },
         "relationships": [
           {
@@ -1394,14 +1394,14 @@
         ]
     },
     {
-        "event_id": "gen_misc_war_any_kitparent1",
+        "event_id": "gen_misc_war_any_cubparent1",
         "location": ["any"],
         "season": ["any"],
         "sub_type": ["war"],
         "weight": 10,
         "event_text": "m_c is being comforted by r_c after having nightmares about the big, bad o_c_n cats.",
         "m_c": {
-            "status": ["kitten"],
+            "status": ["cub"],
             "relationship_status": ["child/parent"]
         },
         "r_c":{
@@ -1422,7 +1422,7 @@
       }
     },
     {
-        "event_id": "gen_misc_any_accessorykit1",
+        "event_id": "gen_misc_any_accessorycub1",
         "location": ["any"],
         "season": ["any"],
         "sub_type": ["accessory"],
@@ -1430,11 +1430,11 @@
         "event_text": "m_c was playing with acc_plural earlier, and decides to wear some of them.",
         "new_accessory": ["RED FEATHERS", "BLUE FEATHERS", "JAY FEATHERS", "GULL FEATHERS", "SPARROW FEATHERS"],
         "m_c": {
-          "status": ["kitten"]
+          "status": ["cub"]
         }
     },
     {
-        "event_id": "gen_misc_any_accessorykit2",
+        "event_id": "gen_misc_any_accessorycub2",
         "location": ["any"],
         "season": ["any"],
         "sub_type": ["accessory"],
@@ -1442,11 +1442,11 @@
         "event_text": "m_c snuck out of camp, and brought back with {PRONOUN/m_c/object} some acc_singular from when {PRONOUN/m_c/poss} fur got snagged in a bush.",
         "new_accessory": ["HOLLY", "JUNIPER", "RASPBERRY"],
         "m_c": {
-            "status": ["kitten"]
+            "status": ["cub"]
         }
     },
     {
-        "event_id": "gen_misc_multi_accessorykit1",
+        "event_id": "gen_misc_multi_accessorycub1",
         "location": ["any"],
         "season": ["newleaf", "greenleaf"],
         "sub_type": ["accessory"],
@@ -1454,11 +1454,11 @@
         "event_text": "m_c caught an insect while sneaking outside of the camp and proudly wears its wings as a trophy of {PRONOUN/m_c/poss} journey.",
         "new_accessory": ["MOTH WINGS", "ROSY MOTH WINGS", "MORPHO BUTTERFLY", "MONARCH BUTTERFLY", "CICADA WINGS", "BLACK CICADA"],
         "m_c": {
-          "status": ["kitten"]
+          "status": ["cub"]
         }
     },
     {
-      "event_id": "gen_misc_newleaf_accessorykit1",
+      "event_id": "gen_misc_newleaf_accessorycub1",
       "location": ["any"],
       "season": ["newleaf"],
       "sub_type": ["accessory"],
@@ -1466,11 +1466,11 @@
       "event_text": "As the wind blows many petals in the camp, m_c picks a few to decorate {PRONOUN/m_c/self}.",
       "new_accessory": ["PETALS"],
       "m_c": {
-        "status": ["kitten"]
+        "status": ["cub"]
       }
     },
     {
-        "event_id": "gen_misc_leaffall_accessorykit1",
+        "event_id": "gen_misc_leaffall_accessorycub1",
         "location": ["any"],
         "season": ["leaf-fall"],
         "sub_type": ["accessory"],
@@ -1478,11 +1478,11 @@
         "event_text": "As the wind brings many fallen leaves in the camp, m_c picks a acc_singular to decorate {PRONOUN/m_c/poss} pelt.",
         "new_accessory": ["OAK LEAVES", "MAPLE LEAF"],
         "m_c": {
-            "status": ["kitten"]
+            "status": ["cub"]
         }
     },
     {
-        "event_id": "gen_misc_any_traitaccessorykit1",
+        "event_id": "gen_misc_any_traitaccessorycub1",
         "location": ["any"],
         "season": ["any"],
         "sub_type": ["accessory"],
@@ -1490,7 +1490,7 @@
         "event_text": "m_c is just too cute - r_c gives {PRONOUN/m_c/object} a pretty acc_singular as a gift.",
         "new_accessory": ["WILD", "PLANT"],
         "m_c": {
-          "age": ["kitten"],
+          "age": ["cub"],
           "trait": ["sweet", "polite"]
         },
         "r_c":{
@@ -1507,7 +1507,7 @@
         ]
     },
     {
-        "event_id": "gen_misc_any_accessorykitkit1",
+        "event_id": "gen_misc_any_accessorycubcub1",
         "location": ["any"],
         "season": ["any"],
         "sub_type": ["accessory"],
@@ -1515,10 +1515,10 @@
         "event_text": "r_c gives m_c a pretty acc_singular {PRONOUN/r_c/subject} found while playing.",
         "new_accessory": ["WILD", "PLANT"],
         "m_c": {
-            "age": ["kitten"]
+            "age": ["cub"]
         },
           "r_c": {
-            "age":["kitten"]
+            "age":["cub"]
           },
         "relationships": [
           {
@@ -1538,7 +1538,7 @@
         ]
     },
     {
-        "event_id": "gen_misc_any_accessorykitkit2",
+        "event_id": "gen_misc_any_accessorycubcub2",
         "location": ["any"],
         "season": ["any"],
         "sub_type": ["accessory"],
@@ -1546,10 +1546,10 @@
         "event_text": "m_c starts bringing a pretty acc_singular everywhere {PRONOUN/m_c/subject} {VERB/m_c/go/goes}, and r_c loudly complains that {PRONOUN/r_c/subject} {VERB/r_c/want/wants} one, too.",
         "new_accessory": ["WILD", "PLANT"],
         "m_c": {
-            "age": ["kitten"]
+            "age": ["cub"]
         },
         "r_c": {
-          "age":["kitten"],
+          "age":["cub"],
           "trait": ["bullying", "impulsive", "attention-seeker"]
         },
         "relationships": [
@@ -1570,7 +1570,7 @@
         ]
     },
     {
-        "event_id": "gen_misc_any_accessorykitparent1",
+        "event_id": "gen_misc_any_accessorycubparent1",
         "location": ["any"],
         "season": ["any"],
         "sub_type": ["accessory"],
@@ -1578,7 +1578,7 @@
         "event_text": "No matter how hard r_c tries, there's always something stuck in m_c's fur.",
         "new_accessory": ["HERBS", "PETALS", "DRY HERBS", "DRY CATMINT", "DRY NETTLES", "DRY LAURELS"],
         "m_c": {
-          "age": ["kitten"],
+          "age": ["cub"],
           "relationship_status": ["child/parent"]
         },
         "r_c":{
@@ -1587,7 +1587,7 @@
         }
     },
     {
-        "event_id": "gen_misc_any_accessorykitparent2",
+        "event_id": "gen_misc_any_accessorycubparent2",
         "location": ["any"],
         "season": ["any"],
         "sub_type": ["accessory"],
@@ -1595,7 +1595,7 @@
         "event_text": "m_c finds some acc_singular to wear in {PRONOUN/m_c/poss} fur to impress r_c!",
         "new_accessory": ["WILD", "PLANT"],
         "m_c": {
-            "age": ["kitten"],
+            "age": ["cub"],
             "relationship_status": ["child/parent"],
             "trait": ["attention-seeker", "charming"]
         },
@@ -1605,23 +1605,23 @@
         }
     },
     {
-        "event_id": "gen_misc_any_kitapprentice1",
+        "event_id": "gen_misc_any_cubapprentice1",
         "location": ["any"],
         "season": ["any"],
         "weight": 15,
         "event_text": "m_c is scolded after sneaking out of camp.",
         "m_c": {
-            "age": ["kitten", "adolescent"]
+            "age": ["cub", "adolescent"]
         }
     },
     {
-        "event_id": "gen_misc_any_adultsavingkitapprentice1",
+        "event_id": "gen_misc_any_adultsavingcubapprentice1",
         "location": ["any"],
         "season": ["any"],
         "weight": 15,
         "event_text": "m_c falls into a river, but is saved by r_c.",
         "m_c": {
-            "age": ["kitten", "adolescent"]
+            "age": ["cub", "adolescent"]
         },
         "r_c": {
           "age": ["young adult", "adult", "senior adult", "senior"]
@@ -1869,18 +1869,18 @@
     }
   },
   {
-    "event_id": "gen_misc_any_accessoryapprenticekit1",
+    "event_id": "gen_misc_any_accessoryapprenticecub1",
     "location": ["any"],
     "season": ["any"],
     "sub_type": ["accessory"],
     "weight": 20,
-    "event_text": "m_c is nearly blindsided by r_c as {PRONOUN/m_c/subject} {VERB/m_c/walk/walks} into camp after a long training day, listening to the kit squeak about a type of feather. r_c leads m_c to the nursery, where {PRONOUN/r_c/subject} carefully {VERB/r_c/put/puts} acc_plural in m_c's fur.",
+    "event_text": "m_c is nearly blindsided by r_c as {PRONOUN/m_c/subject} {VERB/m_c/walk/walks} into camp after a long training day, listening to the cub squeak about a type of feather. r_c leads m_c to the nursery, where {PRONOUN/r_c/subject} carefully {VERB/r_c/put/puts} acc_plural in m_c's fur.",
     "new_accessory": ["BLUE FEATHERS", "GULL FEATHERS", "SPARROW FEATHERS", "JAY FEATHERS", "RED FEATHERS"],
     "m_c": {
         "age": ["adolescent"]
     },
     "r_c": {
-        "status":["kitten"]
+        "status":["cub"]
     },
     "relationships": [
         {
@@ -2356,7 +2356,7 @@
     ]
   },
   {
-    "event_id": "gen_misc_any_mediatorkit",
+    "event_id": "gen_misc_any_mediatorcub",
     "location": ["any"],
     "season": ["any"],
     "weight": 20,
@@ -2365,7 +2365,7 @@
       "status": ["mediator", "mediator apprentice"]
     },
     "r_c": {
-      "status": ["kitten"]
+      "status": ["cub"]
     },
     "relationships": [
     {
@@ -2849,9 +2849,9 @@
     "event_id": "gen_misc_any_storyelder2",
     "location": ["any"],
     "season": ["any"],
-    "tags": ["clan:kitten"],
+    "tags": ["clan:cub"],
     "weight": 30,
-    "event_text": "m_c calls out to some eager kits, and after they have situated themselves in front of m_c, {PRONOUN/m_c/subject} {VERB/m_c/start/starts} telling the kits a thrilling story of times long past.",
+    "event_text": "m_c calls out to some eager cubs, and after they have situated themselves in front of m_c, {PRONOUN/m_c/subject} {VERB/m_c/start/starts} telling the cubs a thrilling story of times long past.",
     "m_c": {
       "age": ["senior", "adolescent","young adult", "adult","senior adult"],
       "skill": ["STORY,1","LORE,2"]
@@ -3644,7 +3644,7 @@
     "season": ["any"],
     "sub_type": ["ceremony", "accessory"],
     "weight": 20,
-    "event_text": "r_c is so proud of how far {PRONOUN/r_c/poss} kit has grown. With a look of pride, r_c presents m_c with acc_plural as a congratulations for becoming an apprentice.",
+    "event_text": "r_c is so proud of how far {PRONOUN/r_c/poss} cub has grown. With a look of pride, r_c presents m_c with acc_plural as a congratulations for becoming an apprentice.",
     "new_accessory": ["WILD", "PLANT"],
     "m_c": {
       "status": ["apprentice"],

@@ -135,7 +135,7 @@ class AllegiancesScreen(Screens):
         living_mediators = []
         living_warriors = []
         living_apprentices = []
-        living_kits = []
+        living_cubs = []
         living_elders = []
         for cat in living_cats:
             if cat.status == "medicine cat":
@@ -150,13 +150,13 @@ class AllegiancesScreen(Screens):
                 "mediator apprentice",
             ]:
                 living_apprentices.append(cat)
-            elif cat.status in ["kitten", "newborn"]:
-                living_kits.append(cat)
+            elif cat.status in ["cub", "newborn"]:
+                living_cubs.append(cat)
             elif cat.status == "elder":
                 living_elders.append(cat)
 
         # Find Queens:
-        queen_dict, living_kits = get_alive_clan_queens(living_cats)
+        queen_dict, living_cubs = get_alive_clan_queens(living_cats)
 
         # Remove queens from warrior or elder lists, if they are there.  Let them stay on any other lists.
         for q in queen_dict:
@@ -228,29 +228,29 @@ class AllegiancesScreen(Screens):
             )
             outputs.append(_box)
 
-        # Queens and Kits Box:
-        if queen_dict or living_kits:
+        # Queens and cubs Box:
+        if queen_dict or living_cubs:
             _box = ["", ""]
-            _box[0] = "<b><u>QUEENS AND KITS</u></b>"
+            _box[0] = "<b><u>QUEENS AND CUBS</u></b>"
 
-            # This one is a bit different.  First all the queens, and the kits they are caring for.
+            # This one is a bit different.  First all the queens, and the cubs they are caring for.
             all_entries = []
             for q in queen_dict:
                 queen = Cat.fetch_cat(q)
                 if not queen:
                     continue
-                kittens = []
+                cubs = []
                 for k in queen_dict[q]:
-                    kittens += [f"{k.name} - {k.describe_cat(short=True)}"]
-                if len(kittens) == 1:
-                    kittens = f" <i>(caring for {kittens[0]})</i>"
+                    cubs += [f"{k.name} - {k.describe_cat(short=True)}"]
+                if len(cubs) == 1:
+                    cubs = f" <i>(caring for {cubs[0]})</i>"
                 else:
-                    kittens = f" <i>(caring for {', '.join(kittens[:-1])}, and {kittens[-1]})</i>"
+                    cubs = f" <i>(caring for {', '.join(cubs[:-1])}, and {cubs[-1]})</i>"
 
-                all_entries.append(self.generate_one_entry(queen, kittens))
+                all_entries.append(self.generate_one_entry(queen, cubs))
 
-            # Now kittens without carers
-            for k in living_kits:
+            # Now cubs without carers
+            for k in living_cubs:
                 all_entries.append(
                     f"{str(k.name).upper()} - {k.describe_cat(short=True)}"
                 )

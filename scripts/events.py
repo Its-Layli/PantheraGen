@@ -371,7 +371,7 @@ class Events:
             # ADJUST REP
             game.clan.reputation += chosen_event["rep_change"]
 
-            additional_kits = None
+            additional_cubs = None
             # SUCCESS/FAIL
             if info_dict["success"]:
                 if info_dict["interaction_type"] == "hunt":
@@ -391,23 +391,23 @@ class Events:
                     outsider_cat.driven_out = True
 
                 elif info_dict["interaction_type"] in ["invite", "search"]:
-                    # ADD TO CLAN AND CHECK FOR KITS
-                    additional_kits = outsider_cat.add_to_clan()
+                    # ADD TO CLAN AND CHECK FOR cubS
+                    additional_cubs = outsider_cat.add_to_clan()
 
-                    if additional_kits:
+                    if additional_cubs:
                         event_text += " m_c brings along {PRONOUN/m_c/poss} "
-                        if len(additional_kits) > 1:
-                            event_text += str(len(additional_kits)) + " kittens."
+                        if len(additional_cubs) > 1:
+                            event_text += str(len(additional_cubs)) + " cubs."
                         else:
-                            event_text += "kit."
+                            event_text += "cub."
 
-                        for kit_ID in additional_kits:
+                        for cub_ID in additional_cubs:
                             # add to involved cat list
-                            involved_cats.append(kit_ID)
-                            kit = Cat.fetch_cat(kit_ID)
+                            involved_cats.append(cub_ID)
+                            cub = Cat.fetch_cat(cub_ID)
 
                     invited_cats = [outsider_cat.ID]
-                    invited_cats.extend(additional_kits)
+                    invited_cats.extend(additional_cubs)
 
                     for cat_ID in invited_cats:
                         invited_cat = Cat.fetch_cat(cat_ID)
@@ -432,7 +432,7 @@ class Events:
                             ):
                                 invited_cat.status = "medicine cat"
 
-                            elif invited_cat.age in ["newborn", "kitten"]:
+                            elif invited_cat.age in ["newborn", "cub"]:
                                 invited_cat.status = invited_cat.age
                                 if not invited_cat.name.suffix:
                                     invited_cat.name = Name(
@@ -470,16 +470,16 @@ class Events:
                     main_cat=outsider_cat,
                     clan=game.clan)
 
-            if "kit_thought" in cat_dict:
-                if additional_kits is None:
-                    additional_kits = outsider_cat.get_children()
-                if additional_kits:
-                    for kit_ID in additional_kits:
-                        kit = Cat.fetch_cat(kit_ID)
-                        kit.thought = event_text_adjust(
+            if "cub_thought" in cat_dict:
+                if additional_cubs is None:
+                    additional_cubs = outsider_cat.get_children()
+                if additional_cubs:
+                    for cub_ID in additional_cubs:
+                        cub = Cat.fetch_cat(cub_ID)
+                        cub.thought = event_text_adjust(
                             Cat,
-                            text=cat_dict["kit_thought"],
-                            main_cat=kit,
+                            text=cat_dict["cub_thought"],
+                            main_cat=cub,
                             clan=game.clan)
 
             if "relationships" in cat_dict:
@@ -1000,7 +1000,7 @@ class Events:
                 "apprentice",
                 "medicine cat apprentice",
                 "mediator apprentice",
-                "kitten",
+                "cub",
                 "newborn",
             ]:
                 if x.moons >= 15:
@@ -1024,7 +1024,7 @@ class Events:
                 if x.moons == 0:
                     x.status = "newborn"
                 elif x.moons < 6:
-                    x.status = "kitten"
+                    x.status = "cub"
                 elif x.moons < 12 and x.status != "apprentice":
                     x.status_change("apprentice")
                 elif x.moons < 120 and x.status != "warrior":
@@ -1102,7 +1102,7 @@ class Events:
         self.handle_outside_EX(cat)
 
         cat.skills.progress_skill(cat)
-        Pregnancy_Events.handle_having_kits(cat, clan=game.clan)
+        Pregnancy_Events.handle_having_cubs(cat, clan=game.clan)
 
         if not cat.dead:
             OutsiderEvents.killing_outsiders(cat)
@@ -1175,7 +1175,7 @@ class Events:
             return
 
         self.handle_apprentice_EX(cat)  # This must be before perform_ceremonies!
-        # this HAS TO be before the cat.is_disabled() so that disabled kits can choose a med cat or mediator position
+        # this HAS TO be before the cat.is_disabled() so that disabled cubs can choose a med cat or mediator position
         self.perform_ceremonies(cat)
         cat.skills.progress_skill(cat)  # This must be done after ceremonies.
 
@@ -1186,7 +1186,7 @@ class Events:
                 return
 
         self.coming_out(cat)
-        Pregnancy_Events.handle_having_kits(cat, clan=game.clan)
+        Pregnancy_Events.handle_having_cubs(cat, clan=game.clan)
         # Stop the timeskip if the cat died in childbirth
         if cat.dead:
             return
@@ -1429,9 +1429,9 @@ class Events:
                         game.clan.deputy = None
                     self.ceremony(cat, "elder")
 
-            # apprentice a kitten to either med or warrior
+            # apprentice a cubten to either med or warrior
             if cat.moons == cat_class.age_moons["adolescent"][0]:
-                if cat.status == "kitten":
+                if cat.status == "cub":
                     med_cat_list = [
                         i
                         for i in Cat.all_cats_list
@@ -1896,7 +1896,7 @@ class Events:
         chance = acc_chances["base_acc_chance"]
         if cat.status in ["medicine cat", "medicine cat apprentice"]:
             chance += acc_chances["med_modifier"]
-        if cat.age in ["kitten", "adolescent"]:
+        if cat.age in ["cub", "adolescent"]:
             chance += acc_chances["baby_modifier"]
         elif cat.age in ["senior adult", "senior"]:
             chance += acc_chances["elder_modifier"]
@@ -1955,7 +1955,7 @@ class Events:
             if cat.not_working() and int(random.random() * 3):
                 return
 
-            if cat.age == "kitten":
+            if cat.age == "cub":
                 return
 
             if cat.age == "adolescent":
@@ -2069,7 +2069,7 @@ class Events:
 
         if (
             not int(random.random() * chance)
-            and cat.age != "kitten"
+            and cat.age != "cub"
             and cat.age != "adolescent"
             and not self.new_cat_invited
         ):
@@ -2164,7 +2164,7 @@ class Events:
         relationships = cat.relationships.values()
         targets = []
 
-        if cat.age in ["kitten", "newborn"]:
+        if cat.age in ["cub", "newborn"]:
             return
 
         # if this cat is unstable and aggressive, we lower the random murder chance
@@ -2365,12 +2365,12 @@ class Events:
                     if not int(random.random() * stopping_chance):
                         continue
 
-                if illness == "kittencough":
-                    # adjust alive cats list to only include kittens
+                if illness == "cubcough":
+                    # adjust alive cats list to only include cubs
                     alive_cats = list(
                         filter(
                             lambda kitty: (
-                                kitty.status in ["kitten", "newborn"]
+                                kitty.status in ["cub", "newborn"]
                                 and not kitty.dead
                                 and not kitty.outside
                             ),
@@ -2412,7 +2412,7 @@ class Events:
                 # TODO: hardcoded text events, not good, need to consider how to convert
                 #  should this be handled in condition_events.py?
                 illness_name = str(illness).capitalize()
-                if illness == "kittencough":
+                if illness == "cubcough":
                     event = (
                         f"{illness_name} has spread around the nursery. "
                         f'{", ".join(infected_names[:-1])}, and '

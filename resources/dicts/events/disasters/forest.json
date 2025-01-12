@@ -162,7 +162,7 @@
         "conclusion_events": [
             "Finally, the forest feels almost normal. The fire is now nothing but a scar and a memory.",
             "There's no one moment. But somehow, clawing their way step by step, c_n and their territory have recovered from the fire that raged through their forests.",
-            "It's so strange, to think of the wildfire as something now distant from them, to think of kits hearing about it in the nursery or elders discussing it as a tale from their youth. But that's what happens, isn't it? Life moves on."
+            "It's so strange, to think of the wildfire as something now distant from them, to think of cubs hearing about it in the nursery or elders discussing it as a tale from their youth. But that's what happens, isn't it? Life moves on."
         ],
         "secondary_disasters": [
             {
@@ -309,7 +309,7 @@
                 "triggers_during": "end",
                 "chance": 0,
                 "trigger_events": [
-                    "A Twoleg was seen playing with fire, seemingly enjoying the dangerous plaything like a kit does a moss ball and, just like a kit, they lost control of it. The forest is too dry in greenleaf to stop the fire, and it quickly spreads, the cats of c_n only able to run with the rest of the animals in the forest.",
+                    "A Twoleg was seen playing with fire, seemingly enjoying the dangerous plaything like a cub does a moss ball and, just like a cub, they lost control of it. The forest is too dry in greenleaf to stop the fire, and it quickly spreads, the cats of c_n only able to run with the rest of the animals in the forest.",
                     "The Twolegs seem to enjoy gathering around large fires, much to the terror of the Clan.  Though the fires seem to be put out before the Twolegs leave, it's no surprise when some embers persist and the forest begins to go up in flames."
                 ]
             },
@@ -377,7 +377,7 @@
             ]
         },
         "conclusion_events": [
-            "The sky is no longer at war with c_n. The yowling of wind and rain has lessened to a purr of a kitten, before disappearing entirely, leaving only the aftermath in its wake. Birdsong is heard in the trees of the forest once again."
+            "The sky is no longer at war with c_n. The yowling of wind and rain has lessened to a purr of a cub, before disappearing entirely, leaving only the aftermath in its wake. Birdsong is heard in the trees of the forest once again."
         ],
         "secondary_disasters": [
             {
@@ -498,7 +498,7 @@
         "progress_events": {
             "moon1": [
                 "It's both exhausting and heartbreaking, tearing down the battered remnants of what used to be a safe and whole home. But c_n grits their teeth and yowl encouragement to each other. Nothing will drive them from the forest, and they're determined to make this their home again.",
-                "As dep_name roughly rips down the broken back of the nursery, pulling down the brambles that failed to protect it, something flutters down along with them. Feathers from the artfully made, carefully chosen kitten-nests inside, heartbreaking survivors of the devastation of c_n.",
+                "As dep_name roughly rips down the broken back of the nursery, pulling down the brambles that failed to protect it, something flutters down along with them. Feathers from the artfully made, carefully chosen cub-nests inside, heartbreaking survivors of the devastation of c_n.",
                 "As lead_name surveys the camp, full of their cats hauling the tattered wreckage of their lives out to the dirt-place, they wonder if staying here was the right decision. How can anything be the same after this? How can any cat ever feel safe here again, on the ground that was supposed to be their greatest and safest shelter?",
                 "lead_name announced their plans confidently, what needed to happen to repair the camp. But they can't watch as the  shattered wreckage of the apprentices' den is torn down and carted away. Maybe it's a weakness. But they can't watch.",
                 "As c_n works in frenzied activity, dep_name is called over. One of the oldest of c_n's cats won't give up their nest, not even as broken and shattered as it is. They can't be convinced, and eventually dep_name has to take it from them, over their protests. They'll get a new one, a better one, a perfect one in their rebuilt home, dep_name vows. But it's still not enough. dep_name can't fix this.",
@@ -511,7 +511,7 @@
             ]
         },
         "conclusion_events": [
-            "The walls and dens of the camp look so different now, the kittenhood paths that had been so comforting have all changed, but even with the slight sting of lost nostalgia, their home is, for now, once again safe and whole. The way it was will give way to how it is now, and while things have changed, the purrs and meows of c_n will make it sound like home just like they always have.",
+            "The walls and dens of the camp look so different now, the cubhood paths that had been so comforting have all changed, but even with the slight sting of lost nostalgia, their home is, for now, once again safe and whole. The way it was will give way to how it is now, and while things have changed, the purrs and meows of c_n will make it sound like home just like they always have.",
             "As the sunlight is once again shaded out by the safety of bramble and bush, the camp is beginning to feel like home once more. Not the same, no, but perhaps it doesn't need to be.",
             "Padding out from their den, lead_name yawns, swamping their nose with the scent of forest and Clan, once more intermingled into the specific mix of a healthy camp.",
             "The oldest of c_n are still complaining about the changes, but dep_name doesn't think they're actually serious anymore. The camp, though new, is once again beginning to feel like home.",

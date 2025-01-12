@@ -18,9 +18,9 @@
     "heat stroke": [
         "m_c spent too long out in the sun, {PRONOUN/m_c/subject}{VERB/m_c/'ve/'s} gotten heat stroke."
     ],
-    "kittencough": [
-        "m_c has gotten kittencough.",
-        "m_c is sick with kittencough."
+    "cubcough": [
+        "m_c has gotten cubcough.",
+        "m_c is sick with cubcough."
     ],
     "whitecough": [
         "m_c has gotten whitecough.",

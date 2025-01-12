@@ -880,7 +880,7 @@
                 ]
             },
             {
-                "text": "The patrol drives away the fox, seeks out her den, and kills her cubs. It's brutal, but these fluffy small foxes would one day have grown to be kit-killers and thieves.",
+                "text": "The patrol drives away the fox, seeks out her den, and kills her cubs. It's brutal, but these fluffy small foxes would one day have grown to be cub-killers and thieves.",
                 "exp": 30,
                 "weight": 5,
                 "relationships": [
@@ -3553,7 +3553,7 @@
         "relationship_constraint": ["siblings"],
         "success_outcomes": [
             {
-                "text": "A p_mp_s and two p_tp_p is nothing to sniff at, as a hunting success, but stars above, being alone with r_c makes p_l feel like a kitten again. And not in the cute way either; in the chewing on tails, whiny, petty, immature way. Ugh.",
+                "text": "A p_mp_s and two p_tp_p is nothing to sniff at, as a hunting success, but stars above, being alone with r_c makes p_l feel like a cub again. And not in the cute way either; in the chewing on tails, whiny, petty, immature way. Ugh.",
                 "exp": 20,
                 "weight": 20,
                 "prey": ["large"],
@@ -3722,7 +3722,7 @@
         "relationship_constraint": ["siblings"],
         "success_outcomes": [
             {
-                "text": "Watching r_c execute a fantastic leap to bring down a p_mp_s, p_l smiles. Does r_c remember the time {PRONOUN/r_c/subject} tried to do that as a kitten, and stood on {PRONOUN/r_c/poss} own tail? The siblings laugh about it as they move on to the next hunting ground.",
+                "text": "Watching r_c execute a fantastic leap to bring down a p_mp_s, p_l smiles. Does r_c remember the time {PRONOUN/r_c/subject} tried to do that as a cub, and stood on {PRONOUN/r_c/poss} own tail? The siblings laugh about it as they move on to the next hunting ground.",
                 "exp": 20,
                 "weight": 20,
                 "prey": ["large"],
@@ -3969,7 +3969,7 @@
         "relationship_constraint": ["siblings"],
         "success_outcomes": [
             {
-                "text": "A p_mp_s, three p_tp_p, and a couple p_mp_p are nothing to sniff at, as a hunting success, but stars above, being alone with {PRONOUN/p_l/poss} siblings makes p_l feel like a kitten again. And not in the cute way either; in the chewing on tails, whiny, petty, immature way. Ugh.",
+                "text": "A p_mp_s, three p_tp_p, and a couple p_mp_p are nothing to sniff at, as a hunting success, but stars above, being alone with {PRONOUN/p_l/poss} siblings makes p_l feel like a cub again. And not in the cute way either; in the chewing on tails, whiny, petty, immature way. Ugh.",
                 "exp": 20,
                 "weight": 20,
                 "prey": ["large"],
@@ -4138,7 +4138,7 @@
         "relationship_constraint": ["siblings"],
         "success_outcomes": [
             {
-                "text": "Watching r_c execute a fantastic leap to bring down a p_mp_s, p_l smiles. Does r_c remember the time {PRONOUN/r_c/subject} tried to do that as a kitten, and stood on {PRONOUN/r_c/poss} own tail? The siblings laugh about it together as they move on to the next hunting ground.",
+                "text": "Watching r_c execute a fantastic leap to bring down a p_mp_s, p_l smiles. Does r_c remember the time {PRONOUN/r_c/subject} tried to do that as a cub, and stood on {PRONOUN/r_c/poss} own tail? The siblings laugh about it together as they move on to the next hunting ground.",
                 "exp": 20,
                 "weight": 20,
                 "prey": ["large"],

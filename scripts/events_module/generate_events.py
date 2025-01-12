@@ -369,13 +369,13 @@ class GenerateEvents:
             ):
                 continue
 
-            # If the cat or any of their mates have "no kits" toggled, forgo the adoption event.
+            # If the cat or any of their mates have "no cubs" toggled, forgo the adoption event.
             if "adoption" in event.tags:
-                if cat.no_kits:
+                if cat.no_cubs:
                     continue
-                if cat.moons <= 14 + cat.age_moons["kitten"][1]:
+                if cat.moons <= 14 + cat.age_moons["cub"][1]:
                     continue
-                if any(Cat_class.fetch_cat(i).no_kits for i in cat.mate):
+                if any(Cat_class.fetch_cat(i).no_cubs for i in cat.mate):
                     continue
 
             # check for old age

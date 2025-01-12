@@ -186,18 +186,18 @@
 		]
 	},
 	{
-		"id": "comfortable_kit_inc_med1",
+		"id": "comfortable_cub_inc_med1",
 		"interactions": [
 			"m_c wants to snuggle with r_c.",
 			"m_c lets r_c groom {PRONOUN/m_c/object} messy fur.",
 			"r_c teaches m_c how to eat politely."
 		],
 		"main_status_constraint": [
-			"kitten"
+			"cub"
 		]
 	},
 	{
-		"id": "comfortable_kit_inc_med2",
+		"id": "comfortable_cub_inc_med2",
 		"interactions": [
 			"m_c wants to snuggle with r_c.",
 			"m_c hides somewhere with r_c, giggling together about something.",
@@ -206,29 +206,29 @@
 			"m_c is hiding under a bush from r_c, but {PRONOUN/m_c/subject} can't stop giggling."
 		],
 		"main_status_constraint": [
-			"kitten"
+			"cub"
 		],
 		"reaction_random_cat": {
 			"platonic": "increase"
 		}
 	},
 	{
-		"id": "comfortable_kit_inc_med3",
+		"id": "comfortable_cub_inc_med3",
 		"interactions": [
 			"m_c spent the whole day playing {PRONOUN/m_c/poss} favorite games with r_c.",
 			"m_c had a friendly argument with r_c about which prey tastes the best.",
-			"m_c makes r_c {PRONOUN/m_c/poss} deputy in a game of KittenClan.",
+			"m_c makes r_c {PRONOUN/m_c/poss} deputy in a game of CubClan.",
 			"m_c and r_c play a prank on an older cat together.",
 			"The Clan looks all over for m_c and r_c and find out they have a secret hiding place.",
-			"m_c and r_c are playing KittenClan. r_c's dying of a hundred diseases, but m_c is the best medicine cat ever.",
+			"m_c and r_c are playing CubClan. r_c's dying of a hundred diseases, but m_c is the best medicine cat ever.",
 			"m_c and r_c spend the whole day playing hide-n-seek.",
 			"m_c takes a nap with r_c after a long day playing moss-ball."
 		],
 		"main_status_constraint": [
-			"kitten"
+			"cub"
 		],
 		"random_status_constraint": [
-			"kitten"
+			"cub"
 		],
 		"reaction_random_cat": {
 			"platonic": "increase",
@@ -239,16 +239,16 @@
 		}
 	},
 	{
-		"id": "comfortable_kit_odd1",
+		"id": "comfortable_cub_odd1",
 		"interactions": [
 			"m_c chomps on r_c's ear.",
 			"m_c won't stop copying everything r_c does.",
-			"m_c asks r_c where kits come from.",
+			"m_c asks r_c where cubs come from.",
 			"m_c asks r_c innocent but invasive questions.",
 			"m_c is demanding r_c's attention."
 		],
 		"main_status_constraint": [
-			"kitten"
+			"cub"
 		],
 		"reaction_random_cat": {
 			"dislike": "increase:",

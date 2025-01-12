@@ -1605,7 +1605,7 @@
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "Truly, dandelions are an essential herb to keep in stock, crucial for poison and stings. The white milk in their roots and stems keeps for a long time, and it's a potent cure for poison - their leaves are weaker, but fast-acting, and can be chewed into poultices. Even the fluffy dandelion heads are useful as a c_n kitten's favorite, short-lived toy.",
+                "text": "Truly, dandelions are an essential herb to keep in stock, crucial for poison and stings. The white milk in their roots and stems keeps for a long time, and it's a potent cure for poison - their leaves are weaker, but fast-acting, and can be chewed into poultices. Even the fluffy dandelion heads are useful as a c_n cub's favorite, short-lived toy.",
                 "exp": 10,
                 "weight": 20,
                 "herbs": ["dandelion"]
@@ -1654,7 +1654,7 @@
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "Truly, dandelions are an essential herb to keep in stock, crucial for poisons and stings. Both the potent milk in their roots and stems, and the fast-acting leaves... Even the fluffy dandelion heads are useful as a c_n kitten's favorite, short lived toy- or even an apprentice's. app1's eyes bulge with excitement, crouching low, fixated on the fluffy head. With one quick leap, app1 pounces! The bulbous white seed splits apart, the wind carrying it to places far beyond c_n territory.",
+                "text": "Truly, dandelions are an essential herb to keep in stock, crucial for poisons and stings. Both the potent milk in their roots and stems, and the fast-acting leaves... Even the fluffy dandelion heads are useful as a c_n cub's favorite, short lived toy- or even an apprentice's. app1's eyes bulge with excitement, crouching low, fixated on the fluffy head. With one quick leap, app1 pounces! The bulbous white seed splits apart, the wind carrying it to places far beyond c_n territory.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["dandelion"],
@@ -1765,7 +1765,7 @@
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "Truly, dandelions are an essential herb to keep in stock, crucial for poisons and stings. Both the potent milk in their roots and stems, and the fast-acting leaves... Even the fluffy dandelion heads are useful as a c_n kitten's favorite, short lived toy. The warriors smile at the sight, sharing fond nursery memories as they gather.",
+                "text": "Truly, dandelions are an essential herb to keep in stock, crucial for poisons and stings. Both the potent milk in their roots and stems, and the fast-acting leaves... Even the fluffy dandelion heads are useful as a c_n cub's favorite, short lived toy. The warriors smile at the sight, sharing fond nursery memories as they gather.",
                 "exp": 10,
                 "weight": 20,
                 "herbs": ["dandelion"],
@@ -5586,12 +5586,12 @@
         },
         "weight": 20,
         "pl_skill_constraint": ["LORE,1", "STORY,1", "HEALER,1"],
-        "intro_text": "It's said that the first queen who lost her life in kitting left a blessing to save those who came after her.",
+        "intro_text": "It's said that the first queen who lost her life while giving birth left a blessing to save those who came after her.",
         "decline_text": "A rainshower disrupts the story, and the herb gathering is called off.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "The jagged edges of the raspberry leaves mark them as a gift from the stars. Their pain relief and ability to reduce blood loss have saved countless lives, and brought kittens safely into the world.",
+                "text": "The jagged edges of the raspberry leaves mark them as a gift from the stars. Their pain relief and ability to reduce blood loss have saved countless lives, and brought cubs safely into the world.",
                 "exp": 30,
                 "weight": 20,
                 "herbs": ["raspberry"],
@@ -5711,7 +5711,7 @@
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "The sharp scent of tansy calls p_l in to harvest its newleaf shoots. As {PRONOUN/p_l/subject} {VERB/p_l/work/works}, p_l instructs app1 on tansy dosage - for kits, weakened cats, and elders, it can be dangerously easy for too much tansy to overcome a system and become a poison.",
+                "text": "The sharp scent of tansy calls p_l in to harvest its newleaf shoots. As {PRONOUN/p_l/subject} {VERB/p_l/work/works}, p_l instructs app1 on tansy dosage - for cubs, weakened cats, and elders, it can be dangerously easy for too much tansy to overcome a system and become a poison.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["tansy"],
@@ -5733,7 +5733,7 @@
                 ]
             },
             {
-                "text": "Good for all coughs, all wounds, and all poisons, but it'd be dangerous to assume tansy has no downsides. p_l quietly teaches app1 how tansy is also used to ease the passing of mortally wounded cats and to induce losing a litter in queens whose pregnancy is risking their life. This means it's not used for pregnant or nursing queens, nor for kits.",
+                "text": "Good for all coughs, all wounds, and all poisons, but it'd be dangerous to assume tansy has no downsides. p_l quietly teaches app1 how tansy is also used to ease the passing of mortally wounded cats and to induce losing a litter in queens whose pregnancy is risking their life. This means it's not used for pregnant or nursing queens, nor for cubs.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["many_herbs", "tansy"],
@@ -5932,7 +5932,7 @@
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "Tansy isn't mallow or dandelion, to be played with by kits. In high concentrations or potency, it can kill the elderly, pregnant, or compromised, and it will <i>definitely</i> make app1 sick if {PRONOUN/app1/subject} {VERB/app1/do/does}n't respect it.",
+                "text": "Tansy isn't mallow or dandelion, to be played with by cubs. In high concentrations or potency, it can kill the elderly, pregnant, or compromised, and it will <i>definitely</i> make app1 sick if {PRONOUN/app1/subject} {VERB/app1/do/does}n't respect it.",
                 "exp": 30,
                 "weight": 20,
                 "herbs": ["tansy"],

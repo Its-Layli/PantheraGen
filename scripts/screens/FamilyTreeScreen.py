@@ -32,11 +32,11 @@ class FamilyTreeScreen(Screens):
         super().__init__(name)
         self.next_cat = None
         self.previous_cat = None
-        self.grandkits_tab = None
-        self.kits_mates_tab = None
-        self.kits_tab = None
+        self.grandcubs_tab = None
+        self.cubs_mates_tab = None
+        self.cubs_tab = None
         self.mates_tab = None
-        self.siblings_kits_tab = None
+        self.siblings_cubs_tab = None
         self.siblings_mates_tab = None
         self.siblings_tab = None
         self.cousins_tab = None
@@ -50,11 +50,11 @@ class FamilyTreeScreen(Screens):
         self.center_cat_frame = None
         self.root_cat_frame = None
         self.relation_backdrop = None
-        self.grandkits_button = None
-        self.kits_mates_button = None
-        self.kits_button = None
+        self.grandcubs_button = None
+        self.cubs_mates_button = None
+        self.cubs_button = None
         self.mates_button = None
-        self.sibling_kits_button = None
+        self.sibling_cubs_button = None
         self.sibling_mates_button = None
         self.siblings_button = None
         self.cousins_button = None
@@ -72,11 +72,11 @@ class FamilyTreeScreen(Screens):
         self.cousins = []
         self.siblings = []
         self.siblings_mates = []
-        self.siblings_kits = []
+        self.siblings_cubs = []
         self.mates = []
-        self.kits = []
-        self.kits_mates = []
-        self.grandkits = []
+        self.cubs = []
+        self.cubs_mates = []
+        self.grandcubs = []
 
         self.cat_elements = {}
         self.relation_elements = {}
@@ -121,9 +121,9 @@ class FamilyTreeScreen(Screens):
                 self.current_group = self.siblings_mates
                 self.current_group_name = "siblings_mates"
                 self.handle_relation_groups()
-            elif event.ui_element == self.sibling_kits_button:
-                self.current_group = self.siblings_kits
-                self.current_group_name = "siblings_kits"
+            elif event.ui_element == self.sibling_cubs_button:
+                self.current_group = self.siblings_cubs
+                self.current_group_name = "siblings_cubs"
                 self.handle_relation_groups()
             elif event.ui_element == self.parents_siblings_button:
                 self.current_group = self.parents_siblings
@@ -141,17 +141,17 @@ class FamilyTreeScreen(Screens):
                 self.current_group = self.mates
                 self.current_group_name = "mates"
                 self.handle_relation_groups()
-            elif event.ui_element == self.kits_button:
-                self.current_group = self.kits
-                self.current_group_name = "kits"
+            elif event.ui_element == self.cubs_button:
+                self.current_group = self.cubs
+                self.current_group_name = "cubs"
                 self.handle_relation_groups()
-            elif event.ui_element == self.kits_mates_button:
-                self.current_group = self.kits_mates
-                self.current_group_name = "kits_mates"
+            elif event.ui_element == self.cubs_mates_button:
+                self.current_group = self.cubs_mates
+                self.current_group_name = "cubs_mates"
                 self.handle_relation_groups()
-            elif event.ui_element == self.grandkits_button:
-                self.current_group = self.grandkits
-                self.current_group_name = "grandkits"
+            elif event.ui_element == self.grandcubs_button:
+                self.current_group = self.grandcubs
+                self.current_group_name = "grandcubs"
                 self.handle_relation_groups()
             elif event.ui_element == self.previous_group_page:
                 self.group_page_number -= 1
@@ -336,15 +336,15 @@ class FamilyTreeScreen(Screens):
 
         self.parents = self.the_cat.inheritance.get_parents()
         self.mates = self.the_cat.inheritance.get_mates()
-        self.kits = self.the_cat.inheritance.get_children()
-        self.kits_mates = self.the_cat.inheritance.get_kits_mates()
+        self.cubs = self.the_cat.inheritance.get_children()
+        self.cubs_mates = self.the_cat.inheritance.get_cubs_mates()
         self.siblings = self.the_cat.inheritance.get_siblings()
         self.siblings_mates = self.the_cat.inheritance.get_siblings_mates()
-        self.siblings_kits = self.the_cat.inheritance.get_siblings_kits()
+        self.siblings_cubs = self.the_cat.inheritance.get_siblings_cubs()
         self.parents_siblings = self.the_cat.inheritance.get_parents_siblings()
         self.cousins = self.the_cat.inheritance.get_cousins()
         self.grandparents = self.the_cat.inheritance.get_grandparents()
-        self.grandkits = self.the_cat.inheritance.get_grand_kits()
+        self.grandcubs = self.the_cat.inheritance.get_grand_cubs()
 
         # collect grandparents
         if self.parents:
@@ -357,30 +357,30 @@ class FamilyTreeScreen(Screens):
             x_dim += 154
             if self.siblings_mates:
                 x_dim += 208
-            if self.siblings_kits:
+            if self.siblings_cubs:
                 y_dim += 40
                 if not self.siblings_mates:
                     x_dim += 208
 
         # collect cousins
         if self.parents_siblings:
-            if not self.siblings_mates and not self.siblings_kits:
+            if not self.siblings_mates and not self.siblings_cubs:
                 x_dim += 216
 
         # collect mates
-        if self.mates or self.kits:
+        if self.mates or self.cubs:
             x_pos += 138
             x_dim += 140
-        # collect kits
-        if self.kits:
-            if not self.siblings_kits:
+        # collect cubs
+        if self.cubs:
+            if not self.siblings_cubs:
                 y_dim += 40
-            if self.kits_mates:
+            if self.cubs_mates:
                 x_pos += 101
                 x_dim += 101
-            if self.grandkits:
+            if self.grandcubs:
                 y_dim += 70
-                if not self.kits_mates:
+                if not self.cubs_mates:
                     x_pos += 101
                     x_dim += 101
 
@@ -440,7 +440,7 @@ class FamilyTreeScreen(Screens):
                 container=self.family_tree,
             )
             if self.siblings:
-                if self.siblings_mates or self.siblings_kits:
+                if self.siblings_mates or self.siblings_cubs:
                     self.sibling_mates_button = UIImageButton(
                         ui_scale(pygame.Rect((232 + x_pos, 32 + y_pos), (209, 30))),
                         "",
@@ -448,11 +448,11 @@ class FamilyTreeScreen(Screens):
                         manager=MANAGER,
                         container=self.family_tree,
                     )
-                if self.siblings_kits:
-                    self.sibling_kits_button = UIImageButton(
+                if self.siblings_cubs:
+                    self.sibling_cubs_button = UIImageButton(
                         ui_scale(pygame.Rect((203 + x_pos, 48 + y_pos), (126, 82))),
                         "",
-                        object_id="#siblingkits_button",
+                        object_id="#siblingcubs_button",
                         manager=MANAGER,
                         container=self.family_tree,
                     )
@@ -489,7 +489,7 @@ class FamilyTreeScreen(Screens):
                     container=self.family_tree,
                 )
 
-        if self.mates or self.kits:
+        if self.mates or self.cubs:
             self.mates_button = UIImageButton(
                 ui_scale(pygame.Rect((-138 + x_pos, 32 + y_pos), (144, 30))),
                 "",
@@ -497,27 +497,27 @@ class FamilyTreeScreen(Screens):
                 manager=MANAGER,
                 container=self.family_tree,
             )
-        if self.kits:
-            self.kits_button = UIImageButton(
+        if self.cubs:
+            self.cubs_button = UIImageButton(
                 ui_scale(pygame.Rect((-59 + x_pos, 48 + y_pos), (58, 82))),
                 "",
-                object_id="#kits_button",
+                object_id="#cubs_button",
                 manager=MANAGER,
                 container=self.family_tree,
             )
-            if self.kits_mates or self.grandkits:
-                self.kits_mates_button = UIImageButton(
+            if self.cubs_mates or self.grandcubs:
+                self.cubs_mates_button = UIImageButton(
                     ui_scale(pygame.Rect((-238 + x_pos, 99 + y_pos), (182, 30))),
                     "",
-                    object_id="#kitsmates_button",
+                    object_id="#cubsmates_button",
                     manager=MANAGER,
                     container=self.family_tree,
                 )
-            if self.grandkits:
-                self.grandkits_button = UIImageButton(
+            if self.grandcubs:
+                self.grandcubs_button = UIImageButton(
                     ui_scale(pygame.Rect((-141 + x_pos, 116 + y_pos), (101, 82))),
                     "",
-                    object_id="#grandkits_button",
+                    object_id="#grandcubs_button",
                     manager=MANAGER,
                     container=self.family_tree,
                 )
@@ -639,11 +639,11 @@ class FamilyTreeScreen(Screens):
         self.cousins = []
         self.siblings = []
         self.siblings_mates = []
-        self.siblings_kits = []
+        self.siblings_cubs = []
         self.mates = []
-        self.kits = []
-        self.kits_mates = []
-        self.grandkits = []
+        self.cubs = []
+        self.cubs_mates = []
+        self.grandcubs = []
         self.current_group = None
 
         self.previous_cat_button.kill()

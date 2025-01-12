@@ -89,7 +89,7 @@
 		]
 	},
 	{
-		"id": "trust_kit_de_med1",
+		"id": "trust_cub_de_med1",
 		"interactions": [
 			"m_c constantly pulling pranks on r_c.",
 			"m_c always shifts the blame to r_c!",
@@ -101,7 +101,7 @@
 			"dislike_40"
 		],
 		"main_status_constraint": [
-			"kitten"
+			"cub"
 		],
 		"reaction_random_cat": {
 			"trust": "decrease",

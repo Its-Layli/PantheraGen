@@ -561,7 +561,7 @@
                 "prey": ["medium"]
             },
             {
-                "text": "p_l waits carefully until {PRONOUN/p_l/subject} {VERB/p_l/see/sees} the rat leave the log. A perfect landing on the rat makes it seem like kit's play. {PRONOUN/r_c/subject/CAP} {VERB/r_c/return/returns} to c_n's camp with {PRONOUN/p_l/poss} head held high.",
+                "text": "p_l waits carefully until {PRONOUN/p_l/subject} {VERB/p_l/see/sees} the rat leave the log. A perfect landing on the rat makes it seem like cub's play. {PRONOUN/r_c/subject/CAP} {VERB/r_c/return/returns} to c_n's camp with {PRONOUN/p_l/poss} head held high.",
                 "exp": 20,
                 "weight": 5,
                 "prey": ["medium"]
@@ -1905,7 +1905,7 @@
                 ]
             },
             {
-                "text": "The patrol drives away the red fox, seeks out her den, and kills her young cubs. It's brutal, but these fluffy baby foxes would one day have grown to be kit-killers and thieves.",
+                "text": "The patrol drives away the red fox, seeks out her den, and kills her young cubs. It's brutal, but these fluffy baby foxes would one day have grown to be cub-killers and thieves.",
                 "exp": 30,
                 "weight": 5,
                 "relationships": [
@@ -2407,7 +2407,7 @@
                 ]
             },
             {
-                "text": "The patrol drives away the gray fox, seeks out her den, and kills her young cubs. It's brutal, but these fluffy baby foxes would one day have grown to be kit-killers and thieves. Better to deal with them now than when they're the height and nearly double the weight of a cat, though a gray fox will always be easier than a bigger red one.",
+                "text": "The patrol drives away the gray fox, seeks out her den, and kills her young cubs. It's brutal, but these fluffy baby foxes would one day have grown to be cub-killers and thieves. Better to deal with them now than when they're the height and nearly double the weight of a cat, though a gray fox will always be easier than a bigger red one.",
                 "exp": 30,
                 "weight": 5,
                 "relationships": [
@@ -5369,7 +5369,7 @@
         "relationship_constraint": ["siblings"],
         "success_outcomes": [
             {
-                "text": "A f_mp_s and two f_tp_p is nothing to sniff at, as a hunting success, but stars above, being alone with r_c makes p_l feel like a kitten again. And not in the cute way either; in the chewing on tails, whiny, petty, immature way. Ugh.",
+                "text": "A f_mp_s and two f_tp_p is nothing to sniff at, as a hunting success, but stars above, being alone with r_c makes p_l feel like a cub again. And not in the cute way either; in the chewing on tails, whiny, petty, immature way. Ugh.",
                 "exp": 20,
                 "weight": 20,
                 "prey": ["medium"],
@@ -5538,7 +5538,7 @@
         "relationship_constraint": ["siblings"],
         "success_outcomes": [
             {
-                "text": "Watching r_c execute a fantastic leap to bring down a f_mp_s, p_l smiles. Does r_c remember the time {PRONOUN/r_c/subject} tried to do that as a kitten, and stood on {PRONOUN/r_c/poss} own tail? The siblings laugh about it as they move on to the next hunting ground.",
+                "text": "Watching r_c execute a fantastic leap to bring down a f_mp_s, p_l smiles. Does r_c remember the time {PRONOUN/r_c/subject} tried to do that as a cub, and stood on {PRONOUN/r_c/poss} own tail? The siblings laugh about it as they move on to the next hunting ground.",
                 "exp": 20,
                 "weight": 20,
                 "prey": ["medium"],
@@ -5784,7 +5784,7 @@
         "chance_of_success": 50,
         "relationship_constraint": ["siblings"],
         "success_outcomes": [
-            {                "text": "A f_mp_s, three f_tp_p, and a couple f_mp_p are nothing to sniff at, as a hunting success, but stars above, being alone with {PRONOUN/p_l/poss} siblings makes p_l feel like a kitten again. And not in the cute way either; in the chewing on tails, whiny, petty, immature way. Ugh.",
+            {                "text": "A f_mp_s, three f_tp_p, and a couple f_mp_p are nothing to sniff at, as a hunting success, but stars above, being alone with {PRONOUN/p_l/poss} siblings makes p_l feel like a cub again. And not in the cute way either; in the chewing on tails, whiny, petty, immature way. Ugh.",
                 "exp": 20,
                 "weight": 20,
                 "prey": ["medium"],
@@ -5953,7 +5953,7 @@
         "relationship_constraint": ["siblings"],
         "success_outcomes": [
             {
-                "text": "Watching r_c execute a fantastic leap to bring down a f_mp_s, p_l smiles. Does r_c remember the time {PRONOUN/r_c/subject} tried to do that as a kitten, and stood on {PRONOUN/r_c/poss} own tail? The siblings laugh about it together as they move on to the next hunting ground.",
+                "text": "Watching r_c execute a fantastic leap to bring down a f_mp_s, p_l smiles. Does r_c remember the time {PRONOUN/r_c/subject} tried to do that as a cub, and stood on {PRONOUN/r_c/poss} own tail? The siblings laugh about it together as they move on to the next hunting ground.",
                 "exp": 20,
                 "weight": 20,
                 "prey": ["medium"],

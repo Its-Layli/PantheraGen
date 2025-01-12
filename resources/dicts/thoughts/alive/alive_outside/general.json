@@ -130,7 +130,7 @@
     {
         "id": "lost_cats_with_kits",
         "thoughts": [
-            "Sends a prayer to the stars for the safety of {PRONOUN/m_c/poss} kits"
+            "Sends a prayer to the stars for the safety of {PRONOUN/m_c/poss} cubs"
         ],
         "relationship_constraint": [
             "parent/child"

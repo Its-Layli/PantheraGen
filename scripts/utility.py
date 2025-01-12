@@ -34,14 +34,14 @@ import scripts.game_structure.screen_settings  # must be done like this to get u
 
 
 def get_alive_clan_queens(living_cats):
-    living_kits = [
+    living_cubs = [
         cat
         for cat in living_cats
-        if not (cat.dead or cat.outside) and cat.status in ["kitten", "newborn"]
+        if not (cat.dead or cat.outside) and cat.status in ["cub", "newborn"]
     ]
 
     queen_dict = {}
-    for cat in living_kits.copy():
+    for cat in living_cubs.copy():
         parents = cat.get_parents()
         # Fetch parent object, only alive and not outside.
         parents = [
@@ -61,18 +61,18 @@ def get_alive_clan_queens(living_cats):
         ):
             if parents[0].ID in queen_dict:
                 queen_dict[parents[0].ID].append(cat)
-                living_kits.remove(cat)
+                living_cubs.remove(cat)
             else:
                 queen_dict[parents[0].ID] = [cat]
-                living_kits.remove(cat)
+                living_cubs.remove(cat)
         elif len(parents) == 2:
             if parents[1].ID in queen_dict:
                 queen_dict[parents[1].ID].append(cat)
-                living_kits.remove(cat)
+                living_cubs.remove(cat)
             else:
                 queen_dict[parents[1].ID] = [cat]
-                living_kits.remove(cat)
-    return queen_dict, living_kits
+                living_cubs.remove(cat)
+    return queen_dict, living_cubs
 
 
 def get_alive_status_cats(
@@ -414,7 +414,7 @@ def create_new_cat_block(
 
         if match.group(1) in [
             "newborn",
-            "kitten",
+            "cub",
             "elder",
             "apprentice",
             "warrior",
@@ -446,7 +446,7 @@ def create_new_cat_block(
             )
             break
 
-        if match.group(1) == "has_kits":
+        if match.group(1) == "has_cubs":
             age = randint(19, 120)
             break
 
@@ -477,11 +477,11 @@ def create_new_cat_block(
     litter = False
     if "litter" in attribute_list:
         litter = True
-        if status not in ["kitten", "newborn"]:
-            status = "kitten"
+        if status not in ["cub", "newborn"]:
+            status = "cub"
 
     # CHOOSE DEFAULT BACKSTORY BASED ON CAT TYPE, STATUS
-    if status in ("kitten", "newborn"):
+    if status in ("cub", "newborn"):
         chosen_backstory = choice(
             BACKSTORIES["backstory_categories"]["abandoned_backstories"]
         )
@@ -516,8 +516,8 @@ def create_new_cat_block(
     if bs_override:
         chosen_backstory = choice(stor)
 
-    # KITTEN THOUGHT
-    if status in ["kitten", "newborn"]:
+    # cub THOUGHT
+    if status in ["cub", "newborn"]:
         thought = "Is snuggled safe in the nursery"
 
     # MEETING - DETERMINE IF THIS IS AN OUTSIDE CAT
@@ -575,7 +575,7 @@ def create_new_cat_block(
                     chosen_cat.name.give_suffix(
                         pelt=chosen_cat.pelt,
                         biome=game.clan.biome,
-                        tortiepattern=chosen_cat.pelt.tortiepattern,
+                        chimerapattern=chosen_cat.pelt.chimerapattern,
                     )
                 else:  # completely new name
                     chosen_cat.name.give_prefix(
@@ -586,7 +586,7 @@ def create_new_cat_block(
                     chosen_cat.name.give_suffix(
                         pelt=chosen_cat.pelt.colour,
                         biome=game.clan.biome,
-                        tortiepattern=chosen_cat.pelt.tortiepattern,
+                        chimerapattern=chosen_cat.pelt.chimerapattern,
                     )
 
             new_cats = [chosen_cat]
@@ -599,8 +599,8 @@ def create_new_cat_block(
             loner=cat_type in ["loner", "rogue"],
             kittypet=cat_type == "kittypet",
             other_clan=cat_type == "former Clancat",
-            kit=False if litter else status in ["kitten", "newborn"],
-            # this is for singular kits, litters need this to be false
+            cub=False if litter else status in ["cub", "newborn"],
+            # this is for singular cubs, litters need this to be false
             litter=litter,
             backstory=chosen_backstory,
             status=status,
@@ -707,7 +707,7 @@ def create_new_cat(
     new_name: bool = False,
     loner: bool = False,
     kittypet: bool = False,
-    kit: bool = False,
+    cub: bool = False,
     litter: bool = False,
     other_clan: bool = None,
     backstory: bool = None,
@@ -729,13 +729,13 @@ def create_new_cat(
     :param bool new_name: set True if cat(s) is a loner/rogue receiving a new Clan name - default: False
     :param bool loner: set True if cat(s) is a loner or rogue - default: False
     :param bool kittypet: set True if cat(s) is a kittypet - default: False
-    :param bool kit: set True if the cat is a lone kitten - default: False
-    :param bool litter: set True if a litter of kittens needs to be generated - default: False
+    :param bool cub: set True if the cat is a lone cub - default: False
+    :param bool litter: set True if a litter of cubs needs to be generated - default: False
     :param bool other_clan: if new cat(s) are from a neighboring clan, set true
     :param bool backstory: a list of possible backstories.json for the new cat(s) - default: None
     :param species: species of the new cat(s) - default: None (will be randomly chosen)
     :param str status: set as the rank you want the new cat to have - default: None (will cause a random status to be picked)
-    :param int age: set the age of the new cat(s) - default: None (will be random or if kit/litter is true, will be kitten.)
+    :param int age: set the age of the new cat(s) - default: None (will be random or if cub/litter is true, will be cub.)
     :param str gender: set the gender (BIRTH SEX) of the cat - default: None (will be random)
     :param str thought: if you need to give a custom "welcome" thought, set it here
     :param bool alive: set this as False to generate the cat as already dead - default: True (alive)
@@ -765,7 +765,7 @@ def create_new_cat(
     if not isinstance(age, int):
         if status == "newborn":
             age = 0
-        elif litter or kit:
+        elif litter or cub:
             age = randint(1, 5)
         elif status in ("apprentice", "medicine cat apprentice", "mediator apprentice"):
             age = randint(6, 11)
@@ -783,7 +783,7 @@ def create_new_cat(
         if age == 0:
             status = "newborn"
         elif age < 6:
-            status = "kitten"
+            status = "cub"
         elif 6 <= age <= 11:
             status = "apprentice"
         elif age >= 12:
@@ -799,8 +799,8 @@ def create_new_cat(
         else:
             _gender = gender
 
-        # other Clan cats, apps, and kittens (kittens and apps get indoctrinated lmao no old names for them)
-        if other_clan or kit or litter or age < 12 and not (loner or kittypet):
+        # other Clan cats, apps, and cubs (cubs and apps get indoctrinated lmao no old names for them)
+        if other_clan or cub or litter or age < 12 and not (loner or kittypet):
             new_cat = Cat(
                 moons=age,
                 species=species,
@@ -899,8 +899,8 @@ def create_new_cat(
             if scar in not_allowed:
                 new_cat.pelt.scars.remove(scar)
 
-        # chance to give the new cat a permanent condition, higher chance for found kits and litters
-        if kit or litter:
+        # chance to give the new cat a permanent condition, higher chance for found cubs and litters
+        if cub or litter:
             chance = int(
                 game.config["cat_generation"]["base_permanent_condition"] / 11.25
             )
@@ -909,12 +909,12 @@ def create_new_cat(
         if not int(random() * chance):
             possible_conditions = []
             for condition in PERMANENT:
-                if (kit or litter) and PERMANENT[condition]["congenital"] not in [
+                if (cub or litter) and PERMANENT[condition]["congenital"] not in [
                     "always",
                     "sometimes",
                 ]:
                     continue
-                # next part ensures that a kit won't get a condition that takes too long to reveal
+                # next part ensures that a cub won't get a condition that takes too long to reveal
                 age = new_cat.moons
                 leeway = 5 - (PERMANENT[condition]["moons_until"] + 1)
                 if age > leeway:
@@ -2232,14 +2232,6 @@ def event_text_adjust(
     # prey lists
     text = adjust_prey_abbr(text)
 
-    # special lists
-    text, senses, list_type = find_special_list_types(text)
-    if list_type:
-        sign_list = get_special_snippet_list(
-            list_type, amount=randint(1, 3), sense_groups=senses
-        )
-        text = text.replace(list_type, str(sign_list))
-
     # acc_plural (only works for main_cat's acc)
     if "acc_plural" in text:
         text = text.replace(
@@ -2610,12 +2602,12 @@ def generate_sprite(
         and age != "newborn"
         and game.config["cat_sprites"]["sick_sprites"]
     ):
-        if age in ["kitten", "adolescent"]:
+        if age in ["cub", "adolescent"]:
             cat_sprite = str(19)
         else:
             cat_sprite = str(18)
     elif cat.pelt.paralyzed and age != "newborn":
-        if age in ["kitten", "adolescent"]:
+        if age in ["cub", "adolescent"]:
             cat_sprite = str(17)
         else:
             if cat.pelt.length == "long":
@@ -2640,7 +2632,7 @@ def generate_sprite(
         # checks index of cat's species in the species list and uses matching folder's sprites
         n = (list(game.species["species"]).index(cat.species)) + 1 #add 1 because people don't count from 0 smh
 
-        if cat.pelt.name not in ["Tortie", "Calico"]:
+        if cat.pelt.name not in ["Chimera"]:
             new_sprite.blit(
                 sprites.sprites[
                     cat.pelt.get_sprites_name() + f"{n}_" + cat.pelt.colour + cat_sprite
@@ -2650,21 +2642,21 @@ def generate_sprite(
         else:
             # Base Coat
             new_sprite.blit(
-                sprites.sprites[cat.pelt.tortiebase + f"{n}_" + cat.pelt.colour + cat_sprite],
+                sprites.sprites[cat.pelt.chimerabase + f"{n}_" + cat.pelt.colour + cat_sprite],
                 (0, 0),
             )
 
             # Create the patch image
-            if cat.pelt.tortiepattern == "Single":
-                tortie_pattern = "SingleColour"
+            if cat.pelt.chimerapattern == "Single":
+                chimera_pattern = "SingleColour"
             else:
-                tortie_pattern = cat.pelt.tortiepattern
+                chimera_pattern = cat.pelt.chimerapattern
 
             patches = sprites.sprites[
-                tortie_pattern + f"{n}_" + cat.pelt.tortiecolour + cat_sprite
+                chimera_pattern + f"{n}_" + cat.pelt.chimeracolour + cat_sprite
                 ].copy()
             patches.blit(
-                sprites.sprites["tortiemask" + f"{n}_" + cat.pelt.pattern + cat_sprite],
+                sprites.sprites["chimeramask" + f"{n}_" + cat.pelt.pattern + cat_sprite],
                 (0, 0),
                 special_flags=pygame.BLEND_RGBA_MULT,
             )

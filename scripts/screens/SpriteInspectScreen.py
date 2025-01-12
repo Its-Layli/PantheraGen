@@ -22,7 +22,7 @@ from ..ui.get_arrow import get_arrow
 
 
 class SpriteInspectScreen(Screens):
-    cat_life_stages = ["newborn", "kitten", "adolescent", "adult", "senior"]
+    cat_life_stages = ["newborn", "cub", "adolescent", "adult", "senior"]
 
     def __init__(self, name=None):
         self.back_button = None

@@ -244,7 +244,7 @@
 		}
 	},
 	{
-		"id": "platonic_kit_inc_med1",
+		"id": "platonic_cub_inc_med1",
 		"interactions": [
 			"m_c plays moss-ball with r_c."
 		],
@@ -252,11 +252,11 @@
 			"platonic": "increase"
 		},
 		"main_status_constraint": [
-			"kitten"
+			"cub"
 		]
 	},
 	{
-		"id": "platonic_kit_inc_med3",
+		"id": "platonic_cub_inc_med3",
 		"interactions": [
 			"m_c lets r_c play with {PRONOUN/m_c/poss} favorite toy.",
 			"m_c pretends to be a warrior with r_c.",
@@ -266,10 +266,10 @@
 			"m_c hopes r_c will be {PRONOUN/m_c/poss} friend forever."
 		],
 		"main_status_constraint": [
-			"kitten"
+			"cub"
 		],
 		"random_status_constraint": [
-			"kitten"
+			"cub"
 		],
 		"reaction_random_cat": {
 			"platonic": "increase"
@@ -279,12 +279,12 @@
 		}
 	},
 	{
-		"id": "platonic_kit_inc_med4",
+		"id": "platonic_cub_inc_med4",
 		"interactions": [
 			"m_c decorates {PRONOUN/m_c/poss} nest with gifts that r_c brought {PRONOUN/m_c/object}."
 		],
 		"main_status_constraint": [
-			"kitten"
+			"cub"
 		],
 		"random_status_constraint": [
 			"elder",
@@ -302,12 +302,12 @@
 		}
 	},
 	{
-		"id": "platonic_kit_inc_med5",
+		"id": "platonic_cub_inc_med5",
 		"interactions": [
 			"m_c ask r_c what it's like to be in training."
 		],
 		"main_status_constraint": [
-			"kitten"
+			"cub"
 		],
 		"random_status_constraint": [
 			"apprentice",
@@ -319,21 +319,21 @@
 		}
 	},
 	{
-		"id": "platonic_kit_inc_med6",
+		"id": "platonic_cub_inc_med6",
 		"interactions": [
 			"m_c is watching over r_c.",
 			"m_c trains playfully with r_c.",
 			"m_c gave r_c a trinket {PRONOUN/m_c/subject} found while out of the camp today.",
 			"m_c is charmed to hear that r_c really admires {PRONOUN/m_c/object}.",
 			"m_c is giving r_c a badger ride on {PRONOUN/m_c/poss} back!",
-			"m_c remembers how cute kits are because of time spent with r_c.",
+			"m_c remembers how cute cubs are because of time spent with r_c.",
 			"m_c is promising to take r_c outside of camp if {PRONOUN/r_c/subject} {VERB/r_c/behave/behaves}.",
 			"m_c bats the moss-ball back to r_c when it flies in front of {PRONOUN/m_c/poss} paws.",
 			"m_c spends most of the afternoon describing the territory to r_c.",
 			"m_c purrs as r_c asks {PRONOUN/m_c/object} to show {PRONOUN/r_c/object} how to do a hunter's crouch. {PRONOUN/m_c/subject/CAP} {VERB/m_c/oblige/obliges}, happy to show {PRONOUN/m_c/poss} skills.",
 			"m_c whiskers twitch in amusement as r_c tells {PRONOUN/m_c/object} that {PRONOUN/r_c/subject} {VERB/r_c/hope/hopes} {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} {PRONOUN/r_c/poss} mentor when {PRONOUN/r_c/subject} {VERB/r_c/become/becomes} an apprentice.",
 			"m_c tells r_c that {PRONOUN/m_c/subject} caught this prey just for {PRONOUN/r_c/object} as {PRONOUN/m_c/subject} {VERB/m_c/deliver/delivers} it to {PRONOUN/r_c/object}.",
-			"m_c joins a game as r_c runs up to {PRONOUN/m_c/object} yowling that {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} the greatest warrior ever and could never be defeated. The kit squeals in delight as m_c rolls over in surrender."
+			"m_c joins a game as r_c runs up to {PRONOUN/m_c/object} yowling that {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} the greatest warrior ever and could never be defeated. The cub squeals in delight as m_c rolls over in surrender."
 		],
 		"main_status_constraint": [
 			"elder",
@@ -347,7 +347,7 @@
 			"leader"
 		],
 		"random_status_constraint": [
-			"kitten"
+			"cub"
 		],
 		"reaction_random_cat": {
 			"platonic": "increase",
@@ -357,12 +357,12 @@
 		}
 	},
 	{
-		"id": "platonic_kit_inc_odd1",
+		"id": "platonic_cub_inc_odd1",
 		"interactions": [
-			"m_c is asking r_c where kits come from."
+			"m_c is asking r_c where cubs come from."
 		],
 		"main_status_constraint": [
-			"kitten"
+			"cub"
 		],
 		"random_status_constraint": [
 			"elder",

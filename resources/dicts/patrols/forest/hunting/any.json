@@ -215,7 +215,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Twoleg kits scare the patrol away.",
+                "text": "Twoleg cubs scare the patrol away.",
                 "exp": 0,
                 "weight": 20,
                 "prey": ["very_small"]
@@ -223,14 +223,14 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "The Twoleg kits wandering around are unimpressed by the patrol and chase the cats for fun.",
+                "text": "The Twoleg cubs wandering around are unimpressed by the patrol and chase the cats for fun.",
                 "exp": 0,
                 "weight": 20
             }
         ],
         "antag_success_outcomes": [
             {
-                "text": "A Twoleg kit approaches the patrol, and they send it away squawking with its blood on their claws.",
+                "text": "A Twoleg cub approaches the patrol, and they send it away squawking with its blood on their claws.",
                 "exp": 10,
                 "weight": 20
             }
@@ -266,7 +266,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Twoleg kits stomp through the woods, scaring away prey and ruining the hunt.",
+                "text": "Twoleg cubs stomp through the woods, scaring away prey and ruining the hunt.",
                 "exp": 0,
                 "weight": 20,
                 "prey": ["very_small"]
@@ -274,14 +274,14 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "The Twoleg kits wandering around are unimpressed by the patrol and chase the cats for fun.",
+                "text": "The Twoleg cubs wandering around are unimpressed by the patrol and chase the cats for fun.",
                 "exp": 0,
                 "weight": 20
             }
         ],
         "antag_success_outcomes": [
             {
-                "text": "Finding a Twoleg kit wandering alone, the cats harass it until it flees squawking, its blood on their claws.",
+                "text": "Finding a Twoleg cub wandering alone, the cats harass it until it flees squawking, its blood on their claws.",
                 "exp": 10,
                 "weight": 20
             }
@@ -2740,7 +2740,7 @@
         "chance_of_success": 50,
         "success_outcomes": [
             {
-                "text": "With a huge leap, app1 darts sideways and pulls the tail feathers off a blackbird taking flight. A missed catch, but new nest lining? {PRONOUN/app1/subject/CAP} {VERB/app1/toss/tosses} some of the feathers at app2, and the two apprentices end up scuffling like kits.",
+                "text": "With a huge leap, app1 darts sideways and pulls the tail feathers off a blackbird taking flight. A missed catch, but new nest lining? {PRONOUN/app1/subject/CAP} {VERB/app1/toss/tosses} some of the feathers at app2, and the two apprentices end up scuffling like cubs.",
                 "exp": 10,
                 "weight": 20,
                 "prey": ["medium"],

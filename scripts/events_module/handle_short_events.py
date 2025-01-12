@@ -211,12 +211,12 @@ class HandleShortEvents:
             unpack_rel_block(Cat, self.chosen_event.relationships, self)
 
         # used in some murder events, this kind of sucks tho it would be nice to change how this sort of thing is handled
-        if "kit_manipulated" in self.chosen_event.tags:
-            kit = Cat.fetch_cat(random.choice(get_alive_status_cats(Cat, ["kitten"])))
-            self.involved_cats.append(kit.ID)
+        if "cub_manipulated" in self.chosen_event.tags:
+            cub = Cat.fetch_cat(random.choice(get_alive_status_cats(Cat, ["cub"])))
+            self.involved_cats.append(cub.ID)
             change_relationship_values(
                 [self.random_cat],
-                [kit],
+                [cub],
                 platonic_like=-20,
                 dislike=40,
                 admiration=-30,

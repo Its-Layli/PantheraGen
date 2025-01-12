@@ -1924,7 +1924,7 @@ class ChangeCatToggles(UIWindow):
         )
 
         self.text_2 = pygame_gui.elements.UITextBox(
-            "Prevent kits",
+            "Prevent cubs",
             ui_scale(pygame.Rect(55, 50, -1, 32)),
             object_id="#text_box_30_horizleft_pad_0_8",
             container=self,
@@ -1974,15 +1974,15 @@ class ChangeCatToggles(UIWindow):
         if self.the_cat == game.clan.instructor:
             self.checkboxes["prevent_fading"].disable()
 
-        # No Kits
-        if self.the_cat.no_kits:
+        # No cubs
+        if self.the_cat.no_cubs:
             box_type = "@checked_checkbox"
-            tool_tip = "Prevent the cat from adopting or having kittens."
+            tool_tip = "Prevent the cat from adopting or having cubs."
         else:
             box_type = "@unchecked_checkbox"
-            tool_tip = "Prevent the cat from adopting or having kittens."
+            tool_tip = "Prevent the cat from adopting or having cubs."
 
-        self.checkboxes["prevent_kits"] = UIImageButton(
+        self.checkboxes["prevent_cubs"] = UIImageButton(
             ui_scale(pygame.Rect((22, 50), (34, 34))),
             "",
             container=self,
@@ -2031,8 +2031,8 @@ class ChangeCatToggles(UIWindow):
             elif event.ui_element == self.checkboxes["prevent_fading"]:
                 self.the_cat.prevent_fading = not self.the_cat.prevent_fading
                 self.refresh_checkboxes()
-            elif event.ui_element == self.checkboxes["prevent_kits"]:
-                self.the_cat.no_kits = not self.the_cat.no_kits
+            elif event.ui_element == self.checkboxes["prevent_cubs"]:
+                self.the_cat.no_cubs = not self.the_cat.no_cubs
                 self.refresh_checkboxes()
             elif event.ui_element == self.checkboxes["prevent_retire"]:
                 self.the_cat.no_retire = not self.the_cat.no_retire

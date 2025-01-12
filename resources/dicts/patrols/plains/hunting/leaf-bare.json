@@ -2984,7 +2984,7 @@
         "relationship_constraint": ["siblings"],
         "success_outcomes": [
             {
-                "text": "Three p_tp_p are nothing to sniff at in leaf-bare as a hunting success, but stars above, being alone with r_c makes p_l feel like a kitten again. And not in the cute way either; in the chewing on tails, whiny, petty, immature way. Ugh.",
+                "text": "Three p_tp_p are nothing to sniff at in leaf-bare as a hunting success, but stars above, being alone with r_c makes p_l feel like a cub again. And not in the cute way either; in the chewing on tails, whiny, petty, immature way. Ugh.",
                 "exp": 20,
                 "weight": 20,
                 "prey": ["small"],
@@ -3153,7 +3153,7 @@
         "relationship_constraint": ["siblings"],
         "success_outcomes": [
             {
-                "text": "Watching r_c execute a fantastic leap to bring down a p_mp_s, p_l smiles. Does r_c remember the time {PRONOUN/r_c/subject} tried to do that as a kitten, and stood on {PRONOUN/r_c/poss} own tail? The siblings laugh about it as they move on to the next hunting ground.",
+                "text": "Watching r_c execute a fantastic leap to bring down a p_mp_s, p_l smiles. Does r_c remember the time {PRONOUN/r_c/subject} tried to do that as a cub, and stood on {PRONOUN/r_c/poss} own tail? The siblings laugh about it as they move on to the next hunting ground.",
                 "exp": 20,
                 "weight": 20,
                 "prey": ["small"],
@@ -3400,7 +3400,7 @@
         "relationship_constraint": ["siblings"],
         "success_outcomes": [
             {
-                "text": "A p_mp_s and three p_tp_p is nothing to sniff at in leaf-bare as a hunting success, but stars above, being alone with {PRONOUN/p_l/poss} siblings makes p_l feel like a kitten again. And not in the cute way either; in the chewing on tails, whiny, petty, immature way. Ugh.",
+                "text": "A p_mp_s and three p_tp_p is nothing to sniff at in leaf-bare as a hunting success, but stars above, being alone with {PRONOUN/p_l/poss} siblings makes p_l feel like a cub again. And not in the cute way either; in the chewing on tails, whiny, petty, immature way. Ugh.",
                 "exp": 20,
                 "weight": 20,
                 "prey": ["small"],
@@ -3569,7 +3569,7 @@
         "relationship_constraint": ["siblings"],
         "success_outcomes": [
             {
-                "text": "Watching r_c execute a fantastic leap to bring down a p_mp_s, p_l smiles. Does r_c remember the time {PRONOUN/r_c/subject} tried to do that as a kitten, and stood on {PRONOUN/r_c/poss} own tail? The siblings laugh about it together as they move on to the next hunting ground.",
+                "text": "Watching r_c execute a fantastic leap to bring down a p_mp_s, p_l smiles. Does r_c remember the time {PRONOUN/r_c/subject} tried to do that as a cub, and stood on {PRONOUN/r_c/poss} own tail? The siblings laugh about it together as they move on to the next hunting ground.",
                 "exp": 20,
                 "weight": 20,
                 "prey": ["small"],
@@ -3846,7 +3846,7 @@
         ]  }
     ], 
         "fail_outcomes": [
-            {"text": "r_c snarls. {PRONOUN/r_c/subject/CAP} {VERB/r_c/are/is} too cold and too hungry to watch a stupid fox. This will be a hard hunt, r_c snaps, and if the others can't focus, then they should go huddle with the kits at camp.",
+            {"text": "r_c snarls. {PRONOUN/r_c/subject/CAP} {VERB/r_c/are/is} too cold and too hungry to watch a stupid fox. This will be a hard hunt, r_c snaps, and if the others can't focus, then they should go huddle with the cubs at camp.",
             "exp": 0,
             "weight": 15, 
             "prey": ["very_small"],

@@ -1324,7 +1324,7 @@
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "app1 watches the big bushy lump of a creature with wide eyes, tail twitching with excitement. p_l points out the cascade of spines lying flat on its hairy back as the porcupine snuffles happily around the forest floor, sounding like a happy newborn kit in the nursery.",
+                "text": "app1 watches the big bushy lump of a creature with wide eyes, tail twitching with excitement. p_l points out the cascade of spines lying flat on its hairy back as the porcupine snuffles happily around the forest floor, sounding like a happy newborn cub in the nursery.",
                 "exp": 15,
                 "weight": 20,
                 "relationships": [
@@ -1345,7 +1345,7 @@
                 ]
             },
             {
-                "text": "p_l points out the cascade of spines lying flat on its hairy back as the porcupine snuffles happily around the forest floor, sounding like a happy newborn kit in the nursery. app1 looks a bit disbelieving, so p_l darts towards the porcupine, making it throw its back up at the cats in a full threat display, spines just as fluffed up as app1's pelt.",
+                "text": "p_l points out the cascade of spines lying flat on its hairy back as the porcupine snuffles happily around the forest floor, sounding like a happy newborn cub in the nursery. app1 looks a bit disbelieving, so p_l darts towards the porcupine, making it throw its back up at the cats in a full threat display, spines just as fluffed up as app1's pelt.",
                 "exp": 15,
                 "weight": 5,
                 "relationships": [
@@ -1366,7 +1366,7 @@
                 ]
             },
             {
-                "text": "s_c points out the dangers of the creature, explaining how some c_n stories tell of a warrior who, in an impossible battle defending a nursery full of kits, sacrificed his body and let StarClan transform his back into an impenetrable wall of thorns to protect his Clan.",
+                "text": "s_c points out the dangers of the creature, explaining how some c_n stories tell of a warrior who, in an impossible battle defending a nursery full of cubs, sacrificed his body and let StarClan transform his back into an impenetrable wall of thorns to protect his Clan.",
                 "exp": 15,
                 "weight": 20,
                 "stat_skill": ["STORY,1", "LORE,1"],
@@ -1477,7 +1477,7 @@
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "app1 and app2 watch the big bushy lump of a creature with wide eyes, tails twitching with excitement. p_l points out the cascade of spines lying flat on its hairy back as the porcupine snuffles happily around the forest floor, sounding like a happy newborn kit in the nursery.",
+                "text": "app1 and app2 watch the big bushy lump of a creature with wide eyes, tails twitching with excitement. p_l points out the cascade of spines lying flat on its hairy back as the porcupine snuffles happily around the forest floor, sounding like a happy newborn cub in the nursery.",
                 "exp": 20,
                 "weight": 20,
                 "relationships": [
@@ -1498,7 +1498,7 @@
                 ]
             },
             {
-                "text": "p_l points out the cascade of spines lying flat on its hairy back as the porcupine snuffles happily around the forest floor, sounding like a happy newborn kit in the nursery. app1 looks a bit disbelieving, so p_l darts towards the porcupine, making it throw its back up at the cats in a full threat display, spines just as fluffed up as app2's pelt.",
+                "text": "p_l points out the cascade of spines lying flat on its hairy back as the porcupine snuffles happily around the forest floor, sounding like a happy newborn cub in the nursery. app1 looks a bit disbelieving, so p_l darts towards the porcupine, making it throw its back up at the cats in a full threat display, spines just as fluffed up as app2's pelt.",
                 "exp": 20,
                 "weight": 5,
                 "relationships": [
@@ -1519,7 +1519,7 @@
                 ]
             },
             {
-                "text": "s_c points out the dangers of the creature, explaining how some c_n stories tell of a warrior who, in an impossible battle defending a nursery full of kits, sacrificed his body and let StarClan transform his back into an impenetrable wall of thorns to protect his Clan. app1 and app2 spend the walk back to c_n wondering what this ancient warrior was like.",
+                "text": "s_c points out the dangers of the creature, explaining how some c_n stories tell of a warrior who, in an impossible battle defending a nursery full of cubs, sacrificed his body and let StarClan transform his back into an impenetrable wall of thorns to protect his Clan. app1 and app2 spend the walk back to c_n wondering what this ancient warrior was like.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["STORY,1", "LORE,1"],
@@ -1914,7 +1914,7 @@
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "Their ancestors lived in a sheltered redwood grove, and it protected them from the elements and fed them prey and kept their kits dry, p_l explains. But one day, Twolegs destroyed their home with fire and monsters, and the cats of that Clan scattered. Some, after many trials, founded c_n and chose a place that seemed familiar and safe.",
+                "text": "Their ancestors lived in a sheltered redwood grove, and it protected them from the elements and fed them prey and kept their cubs dry, p_l explains. But one day, Twolegs destroyed their home with fire and monsters, and the cats of that Clan scattered. Some, after many trials, founded c_n and chose a place that seemed familiar and safe.",
                 "exp": 15,
                 "weight": 20,
                 "relationships": [

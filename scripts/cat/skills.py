@@ -52,9 +52,9 @@ class SkillPath(Enum):
     SENSE = ("oddly observant", "natural intuition", "keen eye", "unnatural senses")
     KIT = (
         "active imagination",
-        "good kitsitter",
-        "great kitsitter",
-        "beloved kitsitter",
+        "good cubsitter",
+        "great cubsitter",
+        "beloved cubsitter",
     )
     STORY = (
         "lover of stories",
@@ -368,7 +368,7 @@ class CatSkills:
         # TODO: Make this nicer
         if status == "newborn" or moons <= 0:
             pass
-        elif status == "kitten" or moons < 6:
+        elif status == "cub" or moons < 6:
             new_skill.primary = Skill.get_random_skill(points=0, interest_only=True)
         elif status == "apprentice":
             new_skill.primary = Skill.get_random_skill(point_tier=1, interest_only=True)
@@ -502,19 +502,19 @@ class CatSkills:
                     random.choice(parental_paths),
                     points=0,
                     interest_only=(
-                        True if the_cat.status in ["apprentice", "kitten"] else False
+                        True if the_cat.status in ["apprentice", "cub"] else False
                     ),
                 )
             else:
                 self.primary = Skill.get_random_skill(
                     points=0,
                     interest_only=(
-                        True if the_cat.status in ["apprentice", "kitten"] else False
+                        True if the_cat.status in ["apprentice", "cub"] else False
                     ),
                 )
 
         if not (the_cat.outside or the_cat.exiled):
-            if the_cat.status == "kitten":
+            if the_cat.status == "cub":
                 # Check to see if the cat gains a secondary
                 if not self.secondary and not int(random.random() * 22):
                     # if there's no secondary skill, try to give one!
@@ -598,7 +598,7 @@ class CatSkills:
         else:
             # For outside cats, just check interest and flip it if needed.
             # Going on age, rather than status here.
-            if the_cat.age not in ["kitten", "adolescent"]:
+            if the_cat.age not in ["cub", "adolescent"]:
                 self.primary.interest_only = False
                 if self.secondary:
                     self.secondary.interest_only = False
@@ -696,9 +696,9 @@ class CatSkills:
             "smart tactician": (SkillPath.INSIGHTFUL, 1),
             "valuable tactician": (SkillPath.INSIGHTFUL, 2),
             "valuable insight": (SkillPath.INSIGHTFUL, 3),
-            "good kitsitter": (SkillPath.KIT, 1),
-            "great kitsitter": (SkillPath.KIT, 2),
-            "beloved kitsitter": (SkillPath.KIT, 3),
+            "good cubsitter": (SkillPath.KIT, 1),
+            "great cubsitter": (SkillPath.KIT, 2),
+            "beloved cubsitter": (SkillPath.KIT, 3),
             "camp keeper": (SkillPath.CAMP, 3),
             "den builder": (SkillPath.CAMP, 2),
             "omen sight": (SkillPath.OMEN, 3),

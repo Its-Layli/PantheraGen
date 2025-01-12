@@ -1703,7 +1703,7 @@
                 ]
             },
             {
-                "text": "p_l knows why this bothers s_c so much. Being a medicine cat gives p_l a connection to StarClan and allows {PRONOUN/p_l/object} to understand how {PRONOUN/p_l/poss} legacy would be told again and again to kits in the future. But p_l does {PRONOUN/p_l/poss} best to ease s_c's worries. To c_n, s_c would be a legend worth remembering one day. s_c brightens up at that remark, and the two go back to their herb hunt.",
+                "text": "p_l knows why this bothers s_c so much. Being a medicine cat gives p_l a connection to StarClan and allows {PRONOUN/p_l/object} to understand how {PRONOUN/p_l/poss} legacy would be told again and again to cubs in the future. But p_l does {PRONOUN/p_l/poss} best to ease s_c's worries. To c_n, s_c would be a legend worth remembering one day. s_c brightens up at that remark, and the two go back to their herb hunt.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": ["ambitious", "bloodthirsty", "insecure"],
@@ -2313,7 +2313,7 @@
             },
             
             {
-                "text": "p_l sits down and motions for app1 to join {PRONOUN/p_l/object}, looking at {PRONOUN/app1/object} inquisitively. app1 tentatively explains that {PRONOUN/app1/subject}{VERB/app1/'re/'s} curious about where kits come from. p_l sputters but quickly gathers {PRONOUN/p_l/self} and gently tells app1 that this isn't really the best place to ask, and it might be best to wait until {PRONOUN/app1/subject}{VERB/app1/'re/'s} a bit older. app1 huffs but relents.",
+                "text": "p_l sits down and motions for app1 to join {PRONOUN/p_l/object}, looking at {PRONOUN/app1/object} inquisitively. app1 tentatively explains that {PRONOUN/app1/subject}{VERB/app1/'re/'s} curious about where cubs come from. p_l sputters but quickly gathers {PRONOUN/p_l/self} and gently tells app1 that this isn't really the best place to ask, and it might be best to wait until {PRONOUN/app1/subject}{VERB/app1/'re/'s} a bit older. app1 huffs but relents.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["random_herbs"],
@@ -2328,7 +2328,7 @@
                 ]
             },
             {
-                "text": "s_c sits down and motions for app1 to join {PRONOUN/p_l/object}, looking at {PRONOUN/app1/object} inquisitively. app1 tentatively explains that {PRONOUN/app1/subject}{VERB/app1/'re/'s} curious about where kits come from. s_c takes a breath before answering, gently telling app1 that {PRONOUN/s_c/subject} {VERB/s_c/understand/understands} {PRONOUN/app1/poss} curiosity, but this might not be the right place and time. app1 is disappointed but understands.",
+                "text": "s_c sits down and motions for app1 to join {PRONOUN/p_l/object}, looking at {PRONOUN/app1/object} inquisitively. app1 tentatively explains that {PRONOUN/app1/subject}{VERB/app1/'re/'s} curious about where cubs come from. s_c takes a breath before answering, gently telling app1 that {PRONOUN/s_c/subject} {VERB/s_c/understand/understands} {PRONOUN/app1/poss} curiosity, but this might not be the right place and time. app1 is disappointed but understands.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": ["compassionate", "thoughtful", "loving"],
@@ -3840,7 +3840,7 @@
         },
 	    "relationship_constraint": ["child/parent"],
         "weight": 40,
-        "intro_text": "It's a rare occasion when r_c gets to actually patrol with {PRONOUN/r_c/poss} kit. Their differing roles mean the pair hardly see each other, and it feels like forever since they were alone together.",
+        "intro_text": "It's a rare occasion when r_c gets to actually patrol with {PRONOUN/r_c/poss} cub. Their differing roles mean the pair hardly see each other, and it feels like forever since they were alone together.",
 	    "decline_text": "Noticing storm clouds above, p_l decides to head back to camp before it starts raining. Their catch-up would have to wait.",
         "chance_of_success": 60,
         "success_outcomes": [
@@ -3933,7 +3933,7 @@
                 ]
             },
 			{
-                "text": "Even as {PRONOUN/r_c/poss} kit grows, r_c will always see p_l as a mewling kit, always hungry for milk. r_c gazes fondly at p_l as {PRONOUN/p_l/subject} {VERB/p_l/sniff/sniffs} around, looking for herbs. It's just so wonderful seeing your kit grow up. Of course, it can be sad, but that's why r_c cherishes every moment {PRONOUN/r_c/subject} {VERB/r_c/spend/spends} with p_l.",
+                "text": "Even as {PRONOUN/r_c/poss} cub grows, r_c will always see p_l as a mewling cub, always hungry for milk. r_c gazes fondly at p_l as {PRONOUN/p_l/subject} {VERB/p_l/sniff/sniffs} around, looking for herbs. It's just so wonderful seeing your cub grow up. Of course, it can be sad, but that's why r_c cherishes every moment {PRONOUN/r_c/subject} {VERB/r_c/spend/spends} with p_l.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["random_herbs"],

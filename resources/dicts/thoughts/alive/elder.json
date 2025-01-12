@@ -678,8 +678,8 @@
     {
         "id": "playful_elder_to_kits",
         "thoughts": [
-            "Bats a moss ball around for kits to chase",
-            "Entertains kits with funny stories"
+            "Bats a moss ball around for cubs to chase",
+            "Entertains cubs with funny stories"
         ],
         "main_age_constraint": [
             "senior adult",
@@ -980,7 +980,7 @@
     {
         "id": "kitsitter_elder",
         "thoughts": [
-            "Spends the day collecting trinkets around camp for kits to play with",
+            "Spends the day collecting trinkets around camp for cubs to play with",
             "Helps to reinforce the nursery"
         ],
         "main_age_constraint": [
@@ -994,9 +994,9 @@
     {
         "id": "kitsitter_elder_to_kits",
         "thoughts": [
-            "Offers to watch over the kits for the day",
-            "Comes up with new games for the kits to play",
-            "Keeps all the kits entertained with exciting stories"
+            "Offers to watch over the cubs for the day",
+            "Comes up with new games for the cubs to play",
+            "Keeps all the cubs entertained with exciting stories"
         ],
         "main_age_constraint": [
             "senior adult",
@@ -1179,10 +1179,10 @@
     {
         "id": "gen_retired_disabled_to_kit_thoughts",
         "thoughts": [
-            "Plays with the kits as a form of exercise",
-            "Offers to watch the kits",
+            "Plays with the cubs as a form of exercise",
+            "Offers to watch the cubs",
             "Is busy telling r_c a story",
-            "Knows exactly how to keep the kits busy"
+            "Knows exactly how to keep the cubs busy"
         ],
         "perm_conditions": {
             "m_c": [
@@ -1559,7 +1559,7 @@
     {
         "id": "lost_leg/tail_gen_retired_to_alive_kit",
         "thoughts": [
-            "Tells the story of how {PRONOUN/m_c/subject} lost {PRONOUN/m_c/poss} limb to an interested group of kits",
+            "Tells the story of how {PRONOUN/m_c/subject} lost {PRONOUN/m_c/poss} limb to an interested group of cubs",
             "Is playing along as r_c tells the legend of how {PRONOUN/m_c/subject} lost {PRONOUN/m_c/poss} limb"
         ],
         "perm_conditions": {
@@ -1693,8 +1693,8 @@
     {
         "id": "missing_tail_gen_retired_to_alive_kit",
         "thoughts": [
-            "Is being grumped at by a kit because {PRONOUN/m_c/subject} {VERB/m_c/have/has} no tail to chomp on",
-            "Is being asked how {PRONOUN/m_c/subject} can balance by a kit"
+            "Is being grumped at by a cub because {PRONOUN/m_c/subject} {VERB/m_c/have/has} no tail to chomp on",
+            "Is being asked how {PRONOUN/m_c/subject} can balance by a cub"
         ],
         "perm_conditions": {
             "m_c": [
@@ -1766,7 +1766,7 @@
         "thoughts": [
             "Gently explains {PRONOUN/m_c/poss} scars to r_c",
             "Overdramatizes how {PRONOUN/m_c/subject} lost {PRONOUN/m_c/poss} tail to r_c",
-            "Is patiently answering curious kits' questions on how {PRONOUN/m_c/subject} lost {PRONOUN/m_c/poss} tail"
+            "Is patiently answering curious cubs' questions on how {PRONOUN/m_c/subject} lost {PRONOUN/m_c/poss} tail"
         ],
         "perm_conditions": {
             "m_c": [

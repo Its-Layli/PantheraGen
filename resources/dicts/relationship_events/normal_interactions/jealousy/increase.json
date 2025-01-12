@@ -82,7 +82,7 @@
 		]
 	},
 	{
-		"id": "jealousy_kit_inc_med1",
+		"id": "jealousy_cub_inc_med1",
 		"interactions": [
 			"m_c is jealous that r_c is getting more attention than {PRONOUN/m_c/object}.",
 			"r_c gets all the praise that m_c wishes {PRONOUN/m_c/subject} got.",
@@ -92,14 +92,14 @@
 			"m_c is upset that r_c always wins in their games."
 		],
 		"main_status_constraint": [
-			"kitten"
+			"cub"
 		],
 		"random_status_constraint": [
-			"kitten"
+			"cub"
 		]
 	},
 	{
-		"id": "jealousy_kit_inc_med2",
+		"id": "jealousy_cub_inc_med2",
 		"interactions": [
 			"m_c hisses at r_c for getting a bigger piece of prey.",
 			"m_c tells r_c {PRONOUN/r_c/subject} {VERB/r_c/don't/doesn't} deserve all the attention from the older cats.",
@@ -107,20 +107,20 @@
 			"An older Clanmate tells m_c to be nice to r_c."
 		],
 		"main_status_constraint": [
-			"kitten"
+			"cub"
 		],
 		"random_status_constraint": [
-			"kitten"
+			"cub"
 		],
 		"reaction_random_cat": {
 			"dislike": "increase"
 		}
 	},
 	{
-		"id": "jealousy_kit_inc_med3",
+		"id": "jealousy_cub_inc_med3",
 		"interactions": [
-			"m_c looks at r_c and remembers how easy it was to be a kitten.",
-			"m_c doesn't get why r_c gets away with so much more than m_c did as a kitten.",
+			"m_c looks at r_c and remembers how easy it was to be a cub.",
+			"m_c doesn't get why r_c gets away with so much more than m_c did as a cub.",
 			"m_c is afraid that r_c is going to grow up bigger than {PRONOUN/m_c/object}.",
 			"r_c says that m_c said something mean, and no one will believe m_c's defense.",
 			"m_c gets scolded for not watching r_c when r_c does something naughty.",
@@ -132,7 +132,7 @@
 			"medicine cat apprentice"
 		],
 		"random_status_constraint": [
-			"kitten"
+			"cub"
 		],
 		"reaction_random_cat": {
 			"platonic": "decrease"

@@ -2,17 +2,21 @@
     "species": {
         "lion": [],
         "lioness": [],
-        "cheetah": [],
+        "cheetah": ["exc_breed"],
         "tiger": [],
-        "leopard": []
+        "leopard": ["exc_breed"],
+        "liger": ["no_breed"],
+        "tigon": ["no_breed"]
     },
-    "ran_weights": [1, 1, 1, 1, 1],
+    "ran_weights": [2, 2, 2, 1, 1, 0, 0],
     "in_weights": {
-        "lion": [1, 1, 1, 1, 1],
-        "lioness": [1, 1, 1, 1, 1],
-        "cheetah": [1, 1, 1, 1, 1],
-        "tiger": [1, 1, 1, 1, 1],
-        "leopard": [1, 1, 1, 1, 1]
+        "lion": [1, 1, 1, 1, 1, 1, 1],
+        "lioness": [1, 1, 1, 1, 1, 1, 1],
+        "cheetah": [1, 1, 1, 1, 1, 1, 1],
+        "tiger": [1, 1, 1, 1, 1, 1, 1],
+        "leopard": [1, 1, 1, 1, 1, 1, 1],
+        "liger": [1, 1, 1, 1, 1, 1, 1],
+        "tigon": [1, 1, 1, 1, 1, 1, 1]
     },
     "comment": [
         "look at the official documentation for a list of all species tags.",

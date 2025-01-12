@@ -23,7 +23,7 @@
             "Wishes {PRONOUN/m_c/poss} housefolk cared more about {PRONOUN/m_c/object}",
             "Saw warriors passing by {PRONOUN/m_c/poss} housefolk's den",
             "Is hanging with {PRONOUN/m_c/poss} housefolk",
-            "Is playing with the housefolk's kits",
+            "Is playing with the housefolk's cubs",
             "Is enjoying a nice meal",
             "Is trying to escape from bath time",
             "Heard stories about the nearby Clans",
@@ -60,7 +60,7 @@
             "Lounges on {PRONOUN/m_c/poss} fence, looking at the wild beyond",
             "Can't seem to scratch a certain spot on {PRONOUN/m_c/poss} neck thanks to {PRONOUN/m_c/poss} collar",
             "Just saw a flaming ball in the sky",
-            "Bit {PRONOUN/m_c/poss} housefolk who tried to pet {PRONOUN/m_c/object}",
+            "Bit {PRONOUN/m_c/poss} housefolk who tried to kittypet {PRONOUN/m_c/object}",
             "Is throwing a hissy fit at the vet",
             "Doesn't want to go to the vet",
             "Is hiding under the bed",
@@ -83,7 +83,7 @@
             "Looks out the window at the birds",
             "Chatters at the birds outside",
             "Wonders if {PRONOUN/m_c/subject} could survive in the wild",
-            "Tries to look cute for the housefolk's kits",
+            "Tries to look cute for the housefolk's cubs",
             "Mumbles in annoyance when {PRONOUN/m_c/poss} housefolk won't let {PRONOUN/m_c/object} go outside",
             "Wonders if {PRONOUN/m_c/poss} littermates are nearby"
         ],
@@ -126,13 +126,13 @@
             "Is enjoying the sun on {PRONOUN/m_c/poss} back",
             "Is glad that {PRONOUN/m_c/poss} housefolk have taken care of {PRONOUN/m_c/object} for so long",
             "Wishes {PRONOUN/m_c/subject} had as much energy as the younger house cats",
-            "Smiles at the new younger kit {PRONOUN/m_c/poss} housefolk got",
+            "Smiles at the new younger cub {PRONOUN/m_c/poss} housefolk got",
             "Is worried if {PRONOUN/m_c/poss} housefolk would be sad when {PRONOUN/m_c/subject} {VERB/m_c/are/is} gone",
             "Is snoring by a warm hearth",
             "Is having a rough time climbing {PRONOUN/m_c/poss} fence",
             "Wonders what would have happened if {PRONOUN/m_c/subject} left to be a loner at a younger age",
             "Took {PRONOUN/m_c/poss} time climbing on {PRONOUN/m_c/poss} fence",
-            "Shakes {PRONOUN/m_c/poss} head when {PRONOUN/m_c/subject} {VERB/m_c/spot/spots} a cold queen and their kits"
+            "Shakes {PRONOUN/m_c/poss} head when {PRONOUN/m_c/subject} {VERB/m_c/spot/spots} a cold queen and their cubs"
         ],
         "main_age_constraint": [
             "senior"

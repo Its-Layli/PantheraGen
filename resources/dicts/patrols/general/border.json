@@ -1003,7 +1003,7 @@
                 "other_clan_rep": -1
             },
             {
-                "text": "As p_l crosses the border with r_c to grab the kits by their scruff, a o_c_n patrol suddenly appears, looking furious, with their claws unsheathed and fangs bared! r_c gently drops the kit and attempts to explain the situation but is immediately and viciously killed. p_l races back over to their side of the border, just barely escaping the wrath of o_c_n warriors.",
+                "text": "As p_l crosses the border with r_c to grab the kits by their scruff, a o_c_n patrol suddenly appears, looking furious, with their claws unsheathed and fangs bared! r_c gently drops the cub and attempts to explain the situation but is immediately and viciously killed. p_l races back over to their side of the border, just barely escaping the wrath of o_c_n warriors.",
                 "exp": 0,
                 "weight": 10,
                 "art": "gen_otherclan_ambush",
@@ -1026,7 +1026,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "p_l and the patrol cross the border to attack the two kits, but they are thwarted by an o_c_n patrol that was looking for the kits. Fox-dung, a good opportunity to weaken o_c_n has failed.",
+                "text": "p_l and the patrol cross the border to attack the two cubs, but they are thwarted by an o_c_n patrol that was looking for the cubs. Fox-dung, a good opportunity to weaken o_c_n has failed.",
                 "exp": 0,
                 "weight": 20,
                 "art": "gen_bord_otherclan_allies",
@@ -1035,7 +1035,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "p_l seizes the opportunity to weaken o_c_n and orders the patrol to attack and kill the kits.",
+                "text": "p_l seizes the opportunity to weaken o_c_n and orders the patrol to attack and kill the cubs.",
                 "exp": 20,
                 "weight": 20,
                 "other_clan_rep": -2
@@ -1551,7 +1551,7 @@
                 "weight": 20
             },
             {
-                "text": "The patrol cautiously heads in the direction of the strange, motionless eyes. When p_l gets closer {PRONOUN/p_l/subject} {VERB/p_l/are/is} overwhelmed with the scent of Twolegs and smoke. Upon closer inspection, it seems that these foolish Twoleg kits are trying to set fire to a pumpkin with an unsettling hollow face! p_l and r_c charge the Twoleg kits, hissing, spitting, and doing their best to scare them off. Thankfully the kits scatter before they set the pumpkin ablaze.",
+                "text": "The patrol cautiously heads in the direction of the strange, motionless eyes. When p_l gets closer {PRONOUN/p_l/subject} {VERB/p_l/are/is} overwhelmed with the scent of Twolegs and smoke. Upon closer inspection, it seems that these foolish Twoleg cubs are trying to set fire to a pumpkin with an unsettling hollow face! p_l and r_c charge the Twoleg cubs, hissing, spitting, and doing their best to scare them off. Thankfully the cubs scatter before they set the pumpkin ablaze.",
                 "exp": 10,
                 "weight": 5
             },
@@ -1590,7 +1590,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The patrol cautiously heads in the direction of the strange, motionless eyes. As they get closer to what seems to be some sort of pumpkin, a group of Twoleg kits springs out of nowhere and chases the frightened cats off! The patrol runs until the Twolegs stop following. Panting and defeated, they return to camp without much information about the strange face.",
+                "text": "The patrol cautiously heads in the direction of the strange, motionless eyes. As they get closer to what seems to be some sort of pumpkin, a group of Twoleg cubs springs out of nowhere and chases the frightened cats off! The patrol runs until the Twolegs stop following. Panting and defeated, they return to camp without much information about the strange face.",
                 "exp": 0,
                 "weight": 20
             },
@@ -1630,17 +1630,17 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "The patrol stumbles upon a strange scene near a Twolegplace: Twoleg kits traveling from den to den in colorful pelts.",
+        "intro_text": "The patrol stumbles upon a strange scene near a Twolegplace: Twoleg cubs traveling from den to den in colorful pelts.",
         "decline_text": "The patrol decides it's best not to interfere with this peculiar ritual.",
         "chance_of_success": 50,
         "success_outcomes": [
             {
-                "text": "r_c, being ever so curious, decides to see if {PRONOUN/r_c/subject} can decipher the meaning behind this Twoleg ritual. After some time, {PRONOUN/r_c/subject} {VERB/r_c/realize/realizes} it's some kind of friendly exchange. Each time the Twoleg kits go to the den, they receive a bit of prey from the older Twolegs. The patrol takes note and continues on their way, amused by the Twolegs' strange customs.",
+                "text": "r_c, being ever so curious, decides to see if {PRONOUN/r_c/subject} can decipher the meaning behind this Twoleg ritual. After some time, {PRONOUN/r_c/subject} {VERB/r_c/realize/realizes} it's some kind of friendly exchange. Each time the Twoleg cubs go to the den, they receive a bit of prey from the older Twolegs. The patrol takes note and continues on their way, amused by the Twolegs' strange customs.",
                 "exp": 10,
                 "weight": 20
             },
             {
-                "text": "r_c cautiously approaches the Twoleg kits, intrigued by their colorful pelts. To r_c's surprise, one of the tiny Twolegs offers {PRONOUN/r_c/object} a strange, shiny object. It doesn't smell exactly like prey, but r_c decides to take it back to the camp for further investigation.",
+                "text": "r_c cautiously approaches the Twoleg cubs, intrigued by their colorful pelts. To r_c's surprise, one of the tiny Twolegs offers {PRONOUN/r_c/object} a strange, shiny object. It doesn't smell exactly like prey, but r_c decides to take it back to the camp for further investigation.",
                 "exp": 10,
                 "weight": 20
             },
@@ -1657,7 +1657,7 @@
                 "weight": 10
             },
             {
-                "text": "The patrol attempts to get closer to the Twoleg kits, but their presence causes panic among the little creatures. The larger Twolegs nearby seem agitated, waving their paws and stomping around. The cats quickly retreat to avoid causing further disruption.",
+                "text": "The patrol attempts to get closer to the Twoleg cubs, but their presence causes panic among the little creatures. The larger Twolegs nearby seem agitated, waving their paws and stomping around. The cats quickly retreat to avoid causing further disruption.",
                 "exp": 0,
                 "weight": 10
             }
@@ -2328,7 +2328,7 @@
                 "other_clan_rep": -2
             },
                 {
-                "text": "app1 arches {PRONOUN/app1/poss} back and spits an insult at the o_c_n apprentice. They're as scrawny as a mouse in leaf-bare! Doesn't o_c_n bother feeding their kits? Oh, sorry, they're an <i>apprentice?</i> Wow, app1 didn't think an apprentice could even <i>be</i> that small.",
+                "text": "app1 arches {PRONOUN/app1/poss} back and spits an insult at the o_c_n apprentice. They're as scrawny as a mouse in leaf-bare! Doesn't o_c_n bother feeding their cubs? Oh, sorry, they're an <i>apprentice?</i> Wow, app1 didn't think an apprentice could even <i>be</i> that small.",
                 "exp": 15,
                 "weight": 40,
                 "art": "gen_bord_twocat_hostile_app_warrior",

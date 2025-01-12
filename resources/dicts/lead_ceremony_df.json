@@ -199,7 +199,7 @@
       "stubbornness", "authority"]
         },
         {
-          "text": "r_c approaches next and growls under {PRONOUN/r_c/poss} breath about the soft-hearted kittypets stalking around the borders. {PRONOUN/r_c/subject/CAP} {VERB/r_c/give/gives} a life for [virtue] and hurriedly steps away.",
+          "text": "r_c approaches next and growls under {PRONOUN/r_c/poss} breath about the soft-hearted pets stalking around the borders. {PRONOUN/r_c/subject/CAP} {VERB/r_c/give/gives} a life for [virtue] and hurriedly steps away.",
           "virtue": ["ambition", "bravery", "certainty", "clear judgment", "confidence", "courage",
       "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
       "stubbornness", "authority"]
@@ -463,7 +463,7 @@
       "rank": ["warrior", "elder", "medicine cat", "mediator", "apprentice", "deputy", "medicine cat apprentice", "mediator apprentice"],
       "life_giving": [
         {
-          "text": "Only the strongest could survive being leader according to r_c's ferocious growl. {PRONOUN/r_c/subject/CAP} {VERB/r_c/press/presses} {PRONOUN/r_c/poss} claws against m_c's neck while giving a life for [virtue], encouraging the new leader to become a story to haunt the minds of the other Clan's kits.",
+          "text": "Only the strongest could survive being leader according to r_c's ferocious growl. {PRONOUN/r_c/subject/CAP} {VERB/r_c/press/presses} {PRONOUN/r_c/poss} claws against m_c's neck while giving a life for [virtue], encouraging the new leader to become a story to haunt the minds of the other Clan's cubs.",
           "virtue": ["ambition", "bravery", "certainty", "clear judgment", "confidence", "courage",
       "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
       "stubbornness", "authority"]

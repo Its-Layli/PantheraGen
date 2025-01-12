@@ -183,7 +183,7 @@
 			"leader"
 		],
 		"random_status_constraint": [
-			"kitten",
+			"cub",
 			"apprentice",
 			"mediator apprentice",
 			"medicine cat apprentice"
@@ -201,7 +201,7 @@
 			"m_c is feeling lost and asks r_c for advice on what to do."
 		],
 		"main_status_constraint": [
-			"kitten",
+			"cub",
 			"apprentice",
 			"warrior",
 			"mediator apprentice",

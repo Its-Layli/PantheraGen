@@ -19,7 +19,7 @@ class Personality:
     def __init__(
             self,
             trait: str = None,
-            kit_trait: bool = False,
+            cub_trait: bool = False,
             lawful: int = None,
             social: int = None,
             aggress: int = None,
@@ -35,10 +35,10 @@ class Personality:
         self._aggress = 0
         self._stable = 0
         self.trait = None
-        self.kit = kit_trait  # If true, use kit trait. If False, use normal traits.
+        self.cub = cub_trait  # If true, use cub trait. If False, use normal traits.
 
-        if self.kit:
-            trait_type_dict = Personality.trait_ranges["kit_traits"]
+        if self.cub:
+            trait_type_dict = Personality.trait_ranges["cub_traits"]
         else:
             trait_type_dict = Personality.trait_ranges["normal_traits"]
 
@@ -178,9 +178,9 @@ class Personality:
 
         return val
 
-    def set_kit(self, kit: bool):
-        """Switch the trait-type. True for kit, False for normal"""
-        self.kit = kit
+    def set_cub(self, cub: bool):
+        """Switch the trait-type. True for cub, False for normal"""
+        self.cub = cub
         if not self.is_trait_valid():
             self.choose_trait()
 
@@ -188,8 +188,8 @@ class Personality:
         """Return True if the current facets fit the trait ranges, false
         if it doesn't. Also returns false if the trait is not in the trait dict."""
 
-        if self.kit:
-            trait_type_dict = Personality.trait_ranges["kit_traits"]
+        if self.cub:
+            trait_type_dict = Personality.trait_ranges["cub_traits"]
         else:
             trait_type_dict = Personality.trait_ranges["normal_traits"]
 
@@ -226,8 +226,8 @@ class Personality:
     def choose_trait(self):
         """Chooses trait based on the facets"""
 
-        if self.kit:
-            trait_type_dict = Personality.trait_ranges["kit_traits"]
+        if self.cub:
+            trait_type_dict = Personality.trait_ranges["cub_traits"]
         else:
             trait_type_dict = Personality.trait_ranges["normal_traits"]
 

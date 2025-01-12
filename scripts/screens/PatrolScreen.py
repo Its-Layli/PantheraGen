@@ -941,7 +941,7 @@ class PatrolScreen(Screens):
                 and the_cat.in_camp
                 and the_cat.ID not in game.patrolled
                 and the_cat.status
-                not in ["elder", "kitten", "mediator", "mediator apprentice"]
+                not in ["elder", "cub", "mediator", "mediator apprentice"]
                 and not the_cat.outside
                 and the_cat not in self.current_patrol
                 and not the_cat.not_working()

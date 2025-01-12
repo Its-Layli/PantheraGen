@@ -3238,7 +3238,7 @@
         "normal adult": [-1, -1]
     },
     "weight": 1,
-    "intro_text": "Maybe they <i>should</i> bring along one of their mentors, but they don't <i>want</i> to. There's no reason to always need an adult around, they aren't <i>kits</i>.",
+    "intro_text": "Maybe they <i>should</i> bring along one of their mentors, but they don't <i>want</i> to. There's no reason to always need an adult around, they aren't <i>cubs</i>.",
     "decline_text": "Another cat spots the group of apprentices definitely-not-sneaking-out and orders them back to camp.",
     "chance_of_success": 50,
     "success_outcomes": [

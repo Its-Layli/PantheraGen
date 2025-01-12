@@ -11,7 +11,7 @@
         "event_text": "m_c was murdered. The culprit is unknown.",
         "m_c": {
             "status": [
-                "kitten",
+                "cub",
                 "apprentice",
                 "warrior",
                 "deputy",
@@ -71,7 +71,7 @@
         "m_c": {
             "age": ["any"],
             "status": [
-                "kitten",
+                "cub",
                 "apprentice",
                 "warrior",
                 "deputy",
@@ -135,7 +135,7 @@
         "m_c": {
             "age": [ "any" ],
             "status": [
-                "kitten",
+                "cub",
                 "apprentice",
                 "warrior",
                 "deputy",
@@ -199,7 +199,7 @@
         "event_text": "m_c was murdered by r_c in cold blood. r_c has made the death look accidental.",
         "m_c": {
             "status": [
-                "kitten",
+                "cub",
                 "apprentice",
                 "warrior",
                 "deputy",
@@ -265,7 +265,7 @@
         "event_text": "r_c killed m_c by feeding {PRONOUN/m_c/object} deathberries.",
         "m_c": {
             "status": [
-                "kitten",
+                "cub",
                 "apprentice",
                 "warrior",
                 "deputy",
@@ -329,7 +329,7 @@
         "m_c": {
             "age": [ "any" ],
             "status": [
-                "kitten",
+                "cub",
                 "apprentice",
                 "warrior",
                 "deputy",
@@ -393,7 +393,7 @@
         "m_c": {
             "age": [ "any" ],
             "status": [
-                "kitten",
+                "cub",
                 "apprentice",
                 "warrior",
                 "deputy",
@@ -457,7 +457,7 @@
         "m_c": {
             "age": [ "any" ],
             "status": [
-                "kitten",
+                "cub",
                 "apprentice",
                 "warrior",
                 "deputy",
@@ -521,7 +521,7 @@
         "m_c": {
             "age": [ "any" ],
             "status": [
-                "kitten",
+                "cub",
                 "apprentice",
                 "warrior",
                 "deputy",
@@ -649,13 +649,13 @@
             "dies": true
         },
         "r_c": {
-            "age": [ "newborn", "kitten" ],
+            "age": [ "newborn", "cub" ],
             "status": [ "any" ]
         },
         "history": [{
             "cats": ["m_c"],
-            "reg_death": "m_c was killed by a snake while saving a kit.",
-            "lead_death": "died saving a kit from a snake"
+            "reg_death": "m_c was killed by a snake while saving a cub.",
+            "lead_death": "died saving a cub from a snake"
         }]
     },
     {
@@ -764,7 +764,7 @@
         "r_c": {
             "age": [
                 "newborn",
-                "kitten"
+                "cub"
             ],
             "status": [ "any" ]
         },
@@ -2657,7 +2657,7 @@
         "weight": 20,
         "event_text": "r_c, guarding camp, yowls a warning as {PRONOUN/r_c/subject} {VERB/r_c/spot/spots} a circling shadow, right above m_c. r_c starts sprinting to m_c's position but can't get there in time, not before m_c is carried high into the sky.",
         "m_c": {
-            "age": [ "kitten", "adolescent"],
+            "age": [ "cub", "adolescent"],
             "status": [ "any" ],
             "dies": true
         },
@@ -2709,7 +2709,7 @@
             "dies": true
         },
         "r_c": {
-            "age": [ "kitten", "adolescent"],
+            "age": [ "cub", "adolescent"],
             "status": [ "any" ]
         },
         "history": [{
@@ -2759,7 +2759,7 @@
         "event_text": "m_c was carried off by an eagle, never to be seen again.",
         "m_c": {
             "age": [
-                "kitten", "adolescent"
+                "cub", "adolescent"
             ],
             "dies": true
         },
@@ -2812,7 +2812,7 @@
         "event_text": "m_c was taken by a hawk, never to be seen again.",
         "m_c": {
             "age": [
-                "kitten", "adolescent"
+                "cub", "adolescent"
             ],
             "status": [
                 "any"
@@ -2835,10 +2835,10 @@
         "event_text": "m_c grew weak as the days passed and now walks the stars of Silverpelt.",
         "m_c": {
             "age": [
-                "kitten"
+                "cub"
             ],
             "status": [
-                "kitten"
+                "cub"
             ],
             "dies": true
         },
@@ -2884,10 +2884,10 @@
         "event_text": "m_c was killed when {PRONOUN/m_c/subject} snuck out of camp.",
         "m_c": {
             "age": [
-                "kitten"
+                "cub"
             ],
             "status": [
-                "kitten"
+                "cub"
             ],
             "trait": [
                 "troublesome",
@@ -2913,10 +2913,10 @@
         "event_text": "m_c died after getting into the herb stores and accidentally eating deathberries.",
         "m_c": {
             "age": [
-                "kitten"
+                "cub"
             ],
             "status": [
-                "kitten"
+                "cub"
             ],
             "trait": [
                 "troublesome",
@@ -2942,10 +2942,10 @@
         "event_text": "m_c was killed in {PRONOUN/m_c/poss} sleep by a snake that had snuck into camp.",
         "m_c": {
             "age": [
-                "kitten"
+                "cub"
             ],
             "status": [
-                "kitten"
+                "cub"
             ],
             "dies": true
         },
@@ -2955,7 +2955,7 @@
         }]
     },
     {
-        "event_id": "gen_death_kittencough_multi1",
+        "event_id": "gen_death_cubcough_multi1",
         "location": ["any"],
         "season": [
             "leaf-fall",
@@ -2965,20 +2965,20 @@
             "classic"
         ],
         "weight": 20,
-        "event_text": "m_c died of kittencough.",
+        "event_text": "m_c died of cubcough.",
         "m_c": {
             "age": [
-                "kitten"
+                "cub"
             ],
             "dies": true
         },
         "history": [{
             "cats": ["m_c"],
-            "reg_death": "m_c died of kittencough."
+            "reg_death": "m_c died of cubcough."
         }]
     },
     {
-        "event_id": "gen_death_kittencough_any1",
+        "event_id": "gen_death_cubcough_any1",
         "location": ["any"],
         "season": [
             "any"
@@ -2987,23 +2987,23 @@
             "classic"
         ],
         "weight": 20,
-        "event_text": "r_c and m_c die from a bout of kittencough.",
+        "event_text": "r_c and m_c die from a bout of cubcough.",
         "m_c": {
             "age": [
-                "kitten"
+                "cub"
             ],
             "dies": true
         },
         "r_c": {
             "age": [
-                "kitten"
+                "cub"
             ],
-            "status": [ "kitten" ],
+            "status": [ "cub" ],
             "dies": true
         },
         "history": [{
             "cats": ["m_c", "r_c"],
-            "reg_death": "This cat died of kittencough."
+            "reg_death": "This cat died of cubcough."
         }]
     },
     {
@@ -3019,15 +3019,15 @@
         "event_text": "Greencough reaches the nursery. r_c and m_c die.",
         "m_c": {
             "age": [
-                "kitten"
+                "cub"
             ],
             "dies": true
         },
         "r_c": {
             "age": [
-                "kitten"
+                "cub"
             ],
-            "status": [ "kitten" ],
+            "status": [ "cub" ],
             "dies": true
         },
         "history": [{
@@ -3036,7 +3036,7 @@
         }]
     },
     {
-        "event_id": "gen_death_murder_anykit1",
+        "event_id": "gen_death_murder_anycub1",
         "location": ["any"],
         "season": [
             "any"
@@ -3044,10 +3044,10 @@
         "sub_type": [ "murder" ],
         "tags": [],
         "weight": 20,
-        "event_text": "m_c excitedly follows r_c a short distance from camp to begin the promised battle training. r_c says something about how real warriors don't hold back, even in a spar. m_c nods eagerly. {PRONOUN/m_c/subject/CAP} barely {VERB/m_c/have/has} time to duck as r_c's paw whistles past {PRONOUN/m_c/poss} head. The kit stumbles backwards, tripping over {PRONOUN/m_c/poss} paws, {PRONOUN/m_c/poss} head landing hard on a rock.",
+        "event_text": "m_c excitedly follows r_c a short distance from camp to begin the promised battle training. r_c says something about how real warriors don't hold back, even in a spar. m_c nods eagerly. {PRONOUN/m_c/subject/CAP} barely {VERB/m_c/have/has} time to duck as r_c's paw whistles past {PRONOUN/m_c/poss} head. The cub stumbles backwards, tripping over {PRONOUN/m_c/poss} paws, {PRONOUN/m_c/poss} head landing hard on a rock.",
         "m_c": {
             "age": [
-                "kitten"
+                "cub"
             ],
             "dies": true
         },
@@ -3092,7 +3092,7 @@
         ]
     },
     {
-        "event_id": "gen_death_murder_anykit2",
+        "event_id": "gen_death_murder_anycub2",
         "location": ["any"],
         "season": [
             "any"
@@ -3100,10 +3100,10 @@
         "sub_type": [ "murder" ],
         "tags": [],
         "weight": 20,
-        "event_text": "m_c quietly pads after r_c, eyes bright with the promise of exploring the territory. r_c suddenly comes to a stop beside a spiky bush, pointing at it with a claw. Apparently the shiny red berries taste just like fresh prey, and r_c is offering one to m_c! The kit excitedly nods and grabs a berry with {PRONOUN/m_c/poss} teeth. It's not exactly like prey... The kit's thought trails off as darkness takes over {PRONOUN/m_c/poss} vision.",
+        "event_text": "m_c quietly pads after r_c, eyes bright with the promise of exploring the territory. r_c suddenly comes to a stop beside a spiky bush, pointing at it with a claw. Apparently the shiny red berries taste just like fresh prey, and r_c is offering one to m_c! The cub excitedly nods and grabs a berry with {PRONOUN/m_c/poss} teeth. It's not exactly like prey... The cub's thought trails off as darkness takes over {PRONOUN/m_c/poss} vision.",
         "m_c": {
             "age": [
-                "kitten"
+                "cub"
             ],
             "dies": true
         },
@@ -3145,7 +3145,7 @@
         ]
     },
     {
-        "event_id": "gen_death_murder_multikit1",
+        "event_id": "gen_death_murder_multicub1",
         "location": ["any"],
         "season": [
             "greenleaf",
@@ -3158,7 +3158,7 @@
         "event_text": "m_c sneaks out of camp, wondering what all is out there. {PRONOUN/m_c/subject/CAP} {VERB/m_c/come/comes} to a small stream and {VERB/m_c/attempt/attempts} to leap across. {PRONOUN/m_c/subject/CAP} misjudged the distance and {PRONOUN/m_c/poss} paws scrabble on the bank for purchase. m_c is losing {PRONOUN/m_c/poss} grip when {PRONOUN/m_c/subject} {VERB/m_c/think/thinks} {PRONOUN/m_c/subject} {VERB/m_c/catch/catches} a glimpse of r_c's pelt. {PRONOUN/m_c/subject/CAP}{VERB/m_c/'re/'s} about to call for help when {PRONOUN/m_c/poss} grip fails.",
         "m_c": {
             "age": [
-                "kitten"
+                "cub"
             ],
             "trait": [
                 "daring",
@@ -3587,7 +3587,7 @@
         "event_text": "Lightning struck in camp, killing m_c.",
         "m_c": {
             "age": [
-                "kitten",
+                "cub",
                 "adolescent",
                 "young adult",
                 "adult",
@@ -4231,11 +4231,11 @@
             "any"
         ],
         "tags": [
-            "clan:kitten"
+            "clan:cub"
         ],
         "subtype": ["war"],
         "weight": 20,
-        "event_text": "m_c was killed defending the kits from o_c_n warriors.",
+        "event_text": "m_c was killed defending the cubs from o_c_n warriors.",
         "m_c": {
             "age": [
                 "adolescent",
@@ -4265,8 +4265,8 @@
         },
         "history": [{
             "cats": ["m_c"],
-            "reg_death": "m_c died defending the kits from o_c_n warriors",
-            "lead_death": "defended the kits from o_c_n warriors"
+            "reg_death": "m_c died defending the cubs from o_c_n warriors",
+            "lead_death": "defended the cubs from o_c_n warriors"
         }],
         "other_clan": {
             "current_rep": [
@@ -5139,12 +5139,12 @@
         ],
         "sub_type": [ "murder" ],
         "tags": [
-            "clan:kitten",
+            "clan:cub",
             "lives_remain",
-            "kit_manipulated"
+            "cub_manipulated"
         ],
         "weight": 20,
-        "event_text": "m_c saves one of the Clan's kits from drowning, but loses a life in the process. The kit is well scolded for straying into the water but is even more subdued than expected afterwards; sending nervous glances at r_c that no one else seems to catch.",
+        "event_text": "m_c saves one of the Clan's cubs from drowning, but loses a life in the process. The cub is well scolded for straying into the water but is even more subdued than expected afterwards; sending nervous glances at r_c that no one else seems to catch.",
         "m_c": {
             "age": [
                 "young adult",
@@ -5194,7 +5194,7 @@
         "history": [
             {
             "cats": ["m_c"],
-            "lead_death": "saved a drowning kit that was set up by r_c"
+            "lead_death": "saved a drowning cub that was set up by r_c"
         }
     ]
     },
@@ -5304,7 +5304,7 @@
         "r_c": {
             "age": [
                 "newborn",
-                "kitten"
+                "cub"
             ],
             "status": [ "any" ]
         },
@@ -5476,7 +5476,7 @@
         ]
     },
     {
-        "event_id": "gen_death_freeze_leafbarekit1",
+        "event_id": "gen_death_freeze_leafbarecub1",
         "location": [
             "any"
         ],
@@ -5488,7 +5488,7 @@
         "event_text": "m_c disappeared from the nursery and was later found dead, not far from camp.",
         "m_c": {
             "status": [
-                "kitten"
+                "cub"
             ],
             "trait": [
                 "daring",
@@ -5504,7 +5504,7 @@
         }]
     },
     {
-        "event_id": "gen_death_drown_leafbarekit1",
+        "event_id": "gen_death_drown_leafbarecub1",
         "location": [
             "forest", "plains", "mountainous", "beach", "wetlands"
         ],
@@ -5516,7 +5516,7 @@
         "event_text": "m_c was playing on the ice when it cracked and {PRONOUN/m_c/subject} fell in.",
         "m_c": {
             "status": [
-                "kitten"
+                "cub"
             ],
             "trait": [
                 "daring",
@@ -5531,7 +5531,7 @@
         }]
     },
     {
-        "event_id": "gen_death_predator_anykit1",
+        "event_id": "gen_death_predator_anycub1",
         "location": [
             "any"
         ],
@@ -5546,7 +5546,7 @@
         "event_text": "m_c wandered away from camp in the night, never to be seen again.",
         "m_c": {
             "status": [
-                "kitten"
+                "cub"
             ],
             "dies": true
         },
@@ -5556,7 +5556,7 @@
         }]
     },
     {
-        "event_id": "gen_death_predator_anykit2",
+        "event_id": "gen_death_predator_anycub2",
         "location": [
             "any"
         ],
@@ -5570,7 +5570,7 @@
         "event_text": "m_c vanished from camp after sneaking out. The search parties find nothing but blood.",
         "m_c": {
             "status": [
-                "kitten"
+                "cub"
             ],
             "dies": true
         },
@@ -5580,7 +5580,7 @@
         }]
     },
     {
-        "event_id": "gen_death_mouse_anykit1",
+        "event_id": "gen_death_mouse_anycub1",
         "location": [
             "forest", "plains", "mountainous", "wetlands"
         ],
@@ -5592,7 +5592,7 @@
         "event_text": "m_c is found within a few fox-lengths of camp, {PRONOUN/m_c/poss} tiny body cold and covered in bites. The scent of mouse hangs heavy in the air...",
         "m_c": {
             "status": [
-                "kitten"
+                "cub"
             ],
             "dies": true
         },
@@ -5602,7 +5602,7 @@
         }]
     },
     {
-        "event_id": "gen_death_shrew_anykit",
+        "event_id": "gen_death_shrew_anycub",
         "location": [
             "forest", "plains", "mountainous", "wetlands"
         ],
@@ -5616,7 +5616,7 @@
         "event_text": "m_c can be heard boasting that {PRONOUN/m_c/subject}'{VERB/m_c/re/s} ready to be made an apprentice <i>right now</i>, and that {PRONOUN/m_c/subject}'{VERB/m_c/re/s} already one of the best hunters in the Clan. That evening, to prove {PRONOUN/m_c/poss} point, {PRONOUN/m_c/subject} {VERB/m_c/sneak/sneaks} out of camp, intending to catch something for the fresh-kill pile. A frantic search party follows {PRONOUN/m_c/poss} trail, only to find blood and the foul stench of a shrew at the end.",
         "m_c": {
             "status": [
-                "kitten"
+                "cub"
             ],
             "dies": true
         },

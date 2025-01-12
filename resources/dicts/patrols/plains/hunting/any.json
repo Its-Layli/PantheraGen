@@ -60,7 +60,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Twoleg kits scare the patrol away.",
+                "text": "Twoleg cubs scare the patrol away.",
                 "exp": 0,
                 "weight": 20,
                 "prey": ["very_small"]
@@ -68,14 +68,14 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "The Twoleg kits wandering around are unimpressed by the patrol and chase the cats for fun.",
+                "text": "The Twoleg cubs wandering around are unimpressed by the patrol and chase the cats for fun.",
                 "exp": 0,
                 "weight": 20
             }
         ],
         "antag_success_outcomes": [
             {
-                "text": "A Twoleg kit approaches the patrol, and they send it away squawking with its blood on their claws.",
+                "text": "A Twoleg cub approaches the patrol, and they send it away squawking with its blood on their claws.",
                 "exp": 10,
                 "weight": 20
             }
@@ -111,7 +111,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Twoleg kits stomp through the long grass, scaring away prey and ruining the hunt.",
+                "text": "Twoleg cubs stomp through the long grass, scaring away prey and ruining the hunt.",
                 "exp": 0,
                 "weight": 20,
                 "prey": ["very_small"]
@@ -119,14 +119,14 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "The Twoleg kits wandering around are unimpressed by the patrol and chase the cats for fun.",
+                "text": "The Twoleg cubs wandering around are unimpressed by the patrol and chase the cats for fun.",
                 "exp": 0,
                 "weight": 20
             }
         ],
         "antag_success_outcomes": [
             {
-                "text": "Finding a Twoleg kit wandering alone, the cats harass it until it flees squawking, its blood on their claws.",
+                "text": "Finding a Twoleg cub wandering alone, the cats harass it until it flees squawking, its blood on their claws.",
                 "exp": 10,
                 "weight": 20
             }
@@ -2019,7 +2019,7 @@
         ]
     },
     {
-        "patrol_id": "pln_hunt_kitfox_steal1",
+        "patrol_id": "pln_hunt_cubfox_steal1",
         "biome": ["plains"],
         "season": ["any"],
         "types": ["hunting"],
@@ -2029,7 +2029,7 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "r_c catches the scent of a fox. Tracking it down, the cats spot a kit fox wandering through the grass, carrying a mouse in its jaws.",
+        "intro_text": "r_c catches the scent of a fox. Tracking it down, the cats spot a cub fox wandering through the grass, carrying a mouse in its jaws.",
         "decline_text": "That's an insignificant amount of fresh-kill to start a fight over.",
         "chance_of_success": 40,
         "success_outcomes": [
@@ -2040,7 +2040,7 @@
                 "prey": ["small"]
             },
             {
-                "text": "The kit fox isn't a hare-brain, and immediately drops the mouse, running for its life from the patrol.",
+                "text": "The cub fox isn't a hare-brain, and immediately drops the mouse, running for its life from the patrol.",
                 "exp": 10,
                 "weight": 5,
                 "prey": ["small"]
@@ -2053,7 +2053,7 @@
                 "prey": ["small"]
             },
             {
-                "text": "s_c wanders up to the kit fox, swagger in {PRONOUN/s_c/poss} step as {PRONOUN/s_c/subject} {VERB/s_c/take/takes} the opportunity to be the bigger predator for once in {PRONOUN/s_c/poss} life. The kit fox takes one look at the patrol backing s_c up and decides it's time to be elsewhere as fast as its legs can take it, leaving the single skinny mouse it stole behind.",
+                "text": "s_c wanders up to the cub fox, swagger in {PRONOUN/s_c/poss} step as {PRONOUN/s_c/subject} {VERB/s_c/take/takes} the opportunity to be the bigger predator for once in {PRONOUN/s_c/poss} life. The cub fox takes one look at the patrol backing s_c up and decides it's time to be elsewhere as fast as its legs can take it, leaving the single skinny mouse it stole behind.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": [
@@ -2077,7 +2077,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The patrol approaches the kit fox, who spots them and sets off at full speed. It's not worth following them, not over a single mouse.",
+                "text": "The patrol approaches the cub fox, who spots them and sets off at full speed. It's not worth following them, not over a single mouse.",
                 "exp": 0,
                 "weight": 20,
                 "prey": ["very_small"]
@@ -2085,7 +2085,7 @@
         ]
     },
     {
-        "patrol_id": "pln_hunt_kitfox_steal2",
+        "patrol_id": "pln_hunt_cubfox_steal2",
         "biome": ["plains"],
         "season": ["any"],
         "types": ["hunting"],
@@ -2095,7 +2095,7 @@
         "max_cats": 1,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "r_c catches the scent of a fox. Tracking it down, {PRONOUN/r_c/subject} {VERB/r_c/spot/spots} a kit fox wandering through the grass, carrying a mouse in its jaws.",
+        "intro_text": "r_c catches the scent of a fox. Tracking it down, {PRONOUN/r_c/subject} {VERB/r_c/spot/spots} a cub fox wandering through the grass, carrying a mouse in its jaws.",
         "decline_text": "That's an insignificant amount of fresh-kill to start a fight over.",
         "chance_of_success": 40,
         "success_outcomes": [
@@ -2106,7 +2106,7 @@
                 "prey": ["small"]
             },
             {
-                "text": "The kit fox locks eyes with r_c as {PRONOUN/r_c/subject} {VERB/r_c/emerge/emerges} from the grass, weighing up its options against the bigger cat. There's a long, tense moment as both puff up, ready for a fight, but the fox's nerve breaks first and it runs, leaving r_c with the mouse.",
+                "text": "The cub fox locks eyes with r_c as {PRONOUN/r_c/subject} {VERB/r_c/emerge/emerges} from the grass, weighing up its options against the bigger cat. There's a long, tense moment as both puff up, ready for a fight, but the fox's nerve breaks first and it runs, leaving r_c with the mouse.",
                 "exp": 10,
                 "weight": 5,
                 "prey": ["small"]
@@ -2119,7 +2119,7 @@
                 "prey": ["small"]
             },
             {
-                "text": "s_c wanders up to the kit fox, swagger in {PRONOUN/s_c/poss} step as {PRONOUN/s_c/subject} {VERB/s_c/take/takes} the opportunity to be the bigger predator for once in {PRONOUN/s_c/poss} life. It looks like it's going to fight for a second, but s_c's confidence intimidates it into dropping the mouse and fleeing back into the long grass.",
+                "text": "s_c wanders up to the cub fox, swagger in {PRONOUN/s_c/poss} step as {PRONOUN/s_c/subject} {VERB/s_c/take/takes} the opportunity to be the bigger predator for once in {PRONOUN/s_c/poss} life. It looks like it's going to fight for a second, but s_c's confidence intimidates it into dropping the mouse and fleeing back into the long grass.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": [
@@ -2143,13 +2143,13 @@
         ],
         "fail_outcomes": [
             {
-                "text": "r_c approaches the kit fox, who spots {PRONOUN/r_c/object} and sets off at full speed. It's not worth following them, not over a single mouse.",
+                "text": "r_c approaches the cub fox, who spots {PRONOUN/r_c/object} and sets off at full speed. It's not worth following them, not over a single mouse.",
                 "exp": 0,
                 "weight": 20,
                 "prey": ["very_small"]
             },
             {
-                "text": "With a massive yowl, r_c charges the fox. It bares its teeth, unwilling to give up its hard-won prey without a fight, and one wrong step puts r_c's pelt in range of those little jaws, as the small kit fox tries to live up to the reputation of its bigger and stronger relatives.",
+                "text": "With a massive yowl, r_c charges the fox. It bares its teeth, unwilling to give up its hard-won prey without a fight, and one wrong step puts r_c's pelt in range of those little jaws, as the small cub fox tries to live up to the reputation of its bigger and stronger relatives.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -2159,7 +2159,7 @@
                         "scars": ["LEGBITE"]
                     }
                 ],
-                "history_text": { "scar": "m_c carries a scar from a fight with a kit fox." },
+                "history_text": { "scar": "m_c carries a scar from a fight with a cub fox." },
                 "prey": ["very_small"]
             }
         ]

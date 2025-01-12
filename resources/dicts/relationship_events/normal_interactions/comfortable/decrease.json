@@ -60,7 +60,7 @@
 		]
 	},
 	{
-		"id": "comfort_kit_de_med1",
+		"id": "comfort_cub_de_med1",
 		"interactions": [
 			"m_c feels like r_c was too rough while playing.",
 			"m_c doesn't think r_c was playing fair.",
@@ -68,10 +68,10 @@
 			"m_c cries after r_c wins one of their games."
 		],
 		"main_status_constraint": [
-			"kitten"
+			"cub"
 		],
 		"random_status_constraint": [
-			"kitten"
+			"cub"
 		]
 	},
 	{

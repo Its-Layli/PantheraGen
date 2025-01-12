@@ -1394,7 +1394,7 @@
         "relationship_constraint": ["siblings"],
         "success_outcomes": [
             {
-                "text": "Three w_tp_dl_p are nothing to sniff at in leaf-bare as a hunting success, but stars above, being alone with r_c makes p_l feel like a kitten again. And not in the cute way either; in the chewing on tails, whiny, petty, immature way. Ugh.",
+                "text": "Three w_tp_dl_p are nothing to sniff at in leaf-bare as a hunting success, but stars above, being alone with r_c makes p_l feel like a cub again. And not in the cute way either; in the chewing on tails, whiny, petty, immature way. Ugh.",
                 "exp": 20,
                 "weight": 20,
                 "prey": ["medium"],
@@ -1581,7 +1581,7 @@
         "relationship_constraint": ["siblings"],
         "success_outcomes": [
             {
-                "text": "Watching r_c execute a fantastic leap to bring down a w_mp_a_s, p_l smiles. Does r_c remember the time {PRONOUN/r_c/subject} tried to do that as a kitten, and stood on {PRONOUN/r_c/poss} own tail? The siblings laugh about it as they move on to the next hunting ground.",
+                "text": "Watching r_c execute a fantastic leap to bring down a w_mp_a_s, p_l smiles. Does r_c remember the time {PRONOUN/r_c/subject} tried to do that as a cub, and stood on {PRONOUN/r_c/poss} own tail? The siblings laugh about it as they move on to the next hunting ground.",
                 "exp": 20,
                 "weight": 20,
                 "prey": ["medium"],
@@ -1833,7 +1833,7 @@
         "relationship_constraint": ["siblings"],
         "success_outcomes": [
             {
-                "text": "A w_mp_dl_s and three w_tp_dl_p is nothing to sniff at in leaf-bare as a hunting success, but stars above, being alone with {PRONOUN/p_l/poss} siblings makes p_l feel like a kitten again. And not in the cute way either; in the chewing on tails, whiny, petty, immature way. Ugh.",
+                "text": "A w_mp_dl_s and three w_tp_dl_p is nothing to sniff at in leaf-bare as a hunting success, but stars above, being alone with {PRONOUN/p_l/poss} siblings makes p_l feel like a cub again. And not in the cute way either; in the chewing on tails, whiny, petty, immature way. Ugh.",
                 "exp": 20,
                 "weight": 20,
                 "prey": ["small"],
@@ -2020,7 +2020,7 @@
         "relationship_constraint": ["siblings"],
         "success_outcomes": [
             {
-                "text": "Watching r_c execute a fantastic leap to bring down a w_mp_a_s, p_l smiles. Does r_c remember the time {PRONOUN/r_c/subject} tried to do that as a kitten, and stood on {PRONOUN/r_c/poss} own tail? The siblings laugh about it together as they move on to the next hunting ground.",
+                "text": "Watching r_c execute a fantastic leap to bring down a w_mp_a_s, p_l smiles. Does r_c remember the time {PRONOUN/r_c/subject} tried to do that as a cub, and stood on {PRONOUN/r_c/poss} own tail? The siblings laugh about it together as they move on to the next hunting ground.",
                 "exp": 20,
                 "weight": 20,
                 "prey": ["small"],
@@ -2662,7 +2662,7 @@
         ]
     },
     {
-        "patrol_id": "wtlnd_hunt_kitfox_scavenge1",
+        "patrol_id": "wtlnd_hunt_cubfox_scavenge1",
         "biome": ["wetlands"],
         "season": ["leaf-bare"],
         "types": ["hunting"],
@@ -2672,12 +2672,12 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "The patrol catches the scent of a fox. Tracking it, they find a kit fox fishing on a branch overlooking the shallows.",
+        "intro_text": "The patrol catches the scent of a fox. Tracking it, they find a cub fox fishing on a branch overlooking the shallows.",
         "decline_text": "The patrol decides not to quarrel with the fox. There're plenty of fish in the river for everyone, and it's best to focus on feeding the Clan rather than quarreling.",
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "The cats freeze, and carefully creep back into cover. A kit fox is small enough to inevitably startle and run from them, but if they play this right... they wait until the tiny fox drops down onto a salamander before they pop out of the bushes. Not only do they scare off a potential competitor, they also get the added reward of a little snack.",
+                "text": "The cats freeze, and carefully creep back into cover. A cub fox is small enough to inevitably startle and run from them, but if they play this right... they wait until the tiny fox drops down onto a salamander before they pop out of the bushes. Not only do they scare off a potential competitor, they also get the added reward of a little snack.",
                 "exp": 10,
                 "weight": 20,
                 "prey": ["small"],
@@ -2707,7 +2707,7 @@
                 ]
             },
             {
-                "text": "A simple display of just how badly the kit fox is outmatched convinces it to run, and s_c carefully seeks out the little food cache the kit fox was working on, taking the minnows for the camp's fresh-kill pile.",
+                "text": "A simple display of just how badly the cub fox is outmatched convinces it to run, and s_c carefully seeks out the little food cache the cub fox was working on, taking the minnows for the camp's fresh-kill pile.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["CLEVER,1"],
@@ -2723,7 +2723,7 @@
                 ]
             },
             {
-                "text": "It's frustrating that it only wins them a single minnow, but the patrol drives out the kit fox, and s_c reminds them that's what matters - that now the fox won't keep poaching from c_n's hunting grounds in the future.",
+                "text": "It's frustrating that it only wins them a single minnow, but the patrol drives out the cub fox, and s_c reminds them that's what matters - that now the fox won't keep poaching from c_n's hunting grounds in the future.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": [
@@ -2750,7 +2750,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The cats freeze, and carefully creep back into cover. A kit fox is small enough to inevitably startle and run from them, but if they play this right... but not, the kit fox has spotted them, and flees from the cats. At least that's one less competitor in c_n's hunting grounds?",
+                "text": "The cats freeze, and carefully creep back into cover. A cub fox is small enough to inevitably startle and run from them, but if they play this right... but not, the cub fox has spotted them, and flees from the cats. At least that's one less competitor in c_n's hunting grounds?",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2767,7 +2767,7 @@
         ]
     },
     {
-        "patrol_id": "wtlnd_hunt_kitfox_scavenge2",
+        "patrol_id": "wtlnd_hunt_cubfox_scavenge2",
         "biome": ["wetlands"],
         "season": ["leaf-bare"],
         "types": ["hunting"],
@@ -2777,18 +2777,18 @@
         "max_cats": 1,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "r_c catches the scent of a fox. Tracking it, {PRONOUN/r_c/subject} {VERB/r_c/find/finds} a kit fox fishing on a branch overlooking the shallows.",
+        "intro_text": "r_c catches the scent of a fox. Tracking it, {PRONOUN/r_c/subject} {VERB/r_c/find/finds} a cub fox fishing on a branch overlooking the shallows.",
         "decline_text": "r_c decides not to quarrel with the fox. There're plenty of fish in the river for everyone, and it's best to focus on feeding the Clan rather than quarreling.",
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "r_c freezes, and carefully creeps back into cover. A kit fox is small enough to inevitably startle and run from them, but if they play this right... they wait until the tiny fox drops down onto a salamander before they pop out of the bushes. Not only do they scare off a potential competitor, they also get the added reward of a little snack.",
+                "text": "r_c freezes, and carefully creeps back into cover. A cub fox is small enough to inevitably startle and run from them, but if they play this right... they wait until the tiny fox drops down onto a salamander before they pop out of the bushes. Not only do they scare off a potential competitor, they also get the added reward of a little snack.",
                 "exp": 10,
                 "weight": 20,
                 "prey": ["medium"]
             },
             {
-                "text": "r_c throws their weight around as the bigger predator, stealing the kit fox's lunch and driving it away from the river.",
+                "text": "r_c throws their weight around as the bigger predator, stealing the cub fox's lunch and driving it away from the river.",
                 "exp": 10,
                 "weight": 5,
                 "prey": ["medium"]
@@ -2820,7 +2820,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "r_c freezes, and carefully creeps back into cover. A kit fox is small enough to inevitably startle and run from them, but if they play this right... but not, the kit fox has spotted them, and flees from the cat. At least that's one less competitor in c_n's hunting grounds?",
+                "text": "r_c freezes, and carefully creeps back into cover. A cub fox is small enough to inevitably startle and run from them, but if they play this right... but not, the cub fox has spotted them, and flees from the cat. At least that's one less competitor in c_n's hunting grounds?",
                 "exp": 0,
                 "weight": 20,
                 "prey": ["very_small"]
@@ -3061,7 +3061,7 @@
         ]
     },
     {
-        "patrol_id": "wtlnd_hunt_kitfox_scavenge3",
+        "patrol_id": "wtlnd_hunt_cubfox_scavenge3",
         "biome": ["wetlands"],
         "season": ["leaf-bare"],
         "types": ["hunting"],
@@ -3071,12 +3071,12 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "The patrol catches the scent of a fox. Tracking it, they find a kit fox fishing on a branch overlooking the shallows.",
+        "intro_text": "The patrol catches the scent of a fox. Tracking it, they find a cub fox fishing on a branch overlooking the shallows.",
         "decline_text": "The patrol decides not to quarrel with the fox. There're plenty of fish in the river for everyone, and it's best to focus on feeding the Clan rather than quarreling.",
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "The cats freeze, and carefully creep back into cover. A kit fox is small enough to inevitably startle and run from them, but if they play this right... they wait until the tiny fox drops down onto a salamander before they pop out of the bushes. Not only do they scare off a potential competitor, they also get the added reward of a little snack.",
+                "text": "The cats freeze, and carefully creep back into cover. A cub fox is small enough to inevitably startle and run from them, but if they play this right... they wait until the tiny fox drops down onto a salamander before they pop out of the bushes. Not only do they scare off a potential competitor, they also get the added reward of a little snack.",
                 "exp": 10,
                 "weight": 20,
                 "prey": ["small"],
@@ -3106,7 +3106,7 @@
                 ]
             },
             {
-                "text": "A simple display of just how badly the kit fox is outmatched convinces it to run, and s_c carefully seeks out the little food cache the kit fox was working on, taking the minnows for the camp's fresh-kill pile.",
+                "text": "A simple display of just how badly the cub fox is outmatched convinces it to run, and s_c carefully seeks out the little food cache the cub fox was working on, taking the minnows for the camp's fresh-kill pile.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["CLEVER,1"],
@@ -3122,7 +3122,7 @@
                 ]
             },
             {
-                "text": "It's frustrating that it only wins them a single minnow, but the patrol drives out the kit fox, and s_c reminds them that's what matters - that now the fox won't keep poaching from c_n's hunting grounds in the future.",
+                "text": "It's frustrating that it only wins them a single minnow, but the patrol drives out the cub fox, and s_c reminds them that's what matters - that now the fox won't keep poaching from c_n's hunting grounds in the future.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": [
@@ -3149,7 +3149,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The cats freeze, and carefully creep back into cover. A kit fox is small enough to inevitably startle and run from them, but if they play this right... but not, the kit fox has spotted them, and flees from the cats. At least that's one less competitor in c_n's hunting grounds?",
+                "text": "The cats freeze, and carefully creep back into cover. A cub fox is small enough to inevitably startle and run from them, but if they play this right... but not, the cub fox has spotted them, and flees from the cats. At least that's one less competitor in c_n's hunting grounds?",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -3166,7 +3166,7 @@
         ]
     },
     {
-        "patrol_id": "wtlnd_hunt_kitfox_scavenge4",
+        "patrol_id": "wtlnd_hunt_cubfox_scavenge4",
         "biome": ["wetlands"],
         "season": ["leaf-bare"],
         "types": ["hunting"],
@@ -3176,18 +3176,18 @@
         "max_cats": 1,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "r_c catches the scent of a fox. Tracking it, {PRONOUN/r_c/subject} {VERB/r_c/find/finds} a kit fox fishing on a branch overlooking the shallows.",
+        "intro_text": "r_c catches the scent of a fox. Tracking it, {PRONOUN/r_c/subject} {VERB/r_c/find/finds} a cub fox fishing on a branch overlooking the shallows.",
         "decline_text": "r_c decides not to quarrel with the fox. There're plenty of fish in the river for everyone, and it's best to focus on feeding the Clan rather than quarreling.",
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "r_c freezes, and carefully creeps back into cover. A kit fox is small enough to inevitably startle and run from them, but if they play this right... they wait until the tiny fox drops down onto a salamander before they pop out of the bushes. Not only do they scare off a potential competitor, they also get the added reward of a little snack.",
+                "text": "r_c freezes, and carefully creeps back into cover. A cub fox is small enough to inevitably startle and run from them, but if they play this right... they wait until the tiny fox drops down onto a salamander before they pop out of the bushes. Not only do they scare off a potential competitor, they also get the added reward of a little snack.",
                 "exp": 10,
                 "weight": 20,
                 "prey": ["medium"]
             },
             {
-                "text": "r_c throws their weight around as the bigger predator, stealing the kit fox's lunch and driving it away from the river.",
+                "text": "r_c throws their weight around as the bigger predator, stealing the cub fox's lunch and driving it away from the river.",
                 "exp": 10,
                 "weight": 5,
                 "prey": ["medium"]
@@ -3219,7 +3219,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "r_c freezes, and carefully creeps back into cover. A kit fox is small enough to inevitably startle and run from them, but if they play this right... but not, the kit fox has spotted them, and flees from the cat. At least that's one less competitor in c_n's hunting grounds?",
+                "text": "r_c freezes, and carefully creeps back into cover. A cub fox is small enough to inevitably startle and run from them, but if they play this right... but not, the cub fox has spotted them, and flees from the cat. At least that's one less competitor in c_n's hunting grounds?",
                 "exp": 0,
                 "weight": 20,
                 "prey": ["very_small"]

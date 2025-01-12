@@ -760,7 +760,7 @@
                     ]
                 },
                 {
-                    "text": "At the end of the tale, p_l asks s_c what {PRONOUN/s_c/subject} {VERB/s_c/think/thinks}. s_c admits to not paying attention to some nursery story meant to scare kits.",
+                    "text": "At the end of the tale, p_l asks s_c what {PRONOUN/s_c/subject} {VERB/s_c/think/thinks}. s_c admits to not paying attention to some nursery story meant to scare cubs.",
                     "exp": 30,
                     "weight": 20,
                     "can_have_stat": ["not_pl_rc"],

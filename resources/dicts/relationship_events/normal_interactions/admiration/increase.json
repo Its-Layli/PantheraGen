@@ -157,7 +157,7 @@
 		}
 	},
 	{
-		"id": "admiration_kit_inc_med1",
+		"id": "admiration_cub_inc_med1",
 		"interactions": [
 			"m_c wants to become just like r_c someday!",
 			"m_c is pretending to be r_c.",
@@ -173,7 +173,7 @@
 			"m_c always looks at r_c with wonder."
 		],
 		"main_status_constraint": [
-			"kitten"
+			"cub"
 		],
 		"random_status_constraint": [
 			"elder",
@@ -188,7 +188,7 @@
 		]
 	},
 	{
-		"id": "admiration_kit_inc_med2",
+		"id": "admiration_cub_inc_med2",
 
 		"interactions": [
 			"m_c tells r_c that {PRONOUN/m_c/subject} would like to be like {PRONOUN/r_c/object} when {PRONOUN/m_c/subject} grows up.",
@@ -197,7 +197,7 @@
 			"m_c does anything {PRONOUN/m_c/subject} can to make r_c proud."
 		],
 		"main_status_constraint": [
-			"kitten"
+			"cub"
 		],
 		"relationship_constraint": [
 			"admiration_20"
@@ -243,7 +243,7 @@
 			"leader"
 		],
 		"random_status_constraint": [
-			"kitten",
+			"cub",
 			"apprentice",
 			"mediator apprentice",
 			"medicine cat apprentice"
@@ -376,13 +376,13 @@
 		}
 	},
 	{
-		"id": "admire_kit_inc_high1",
+		"id": "admire_cub_inc_high1",
 		"intensity": "high",
 		"interactions": [
 			"m_c asks r_c if {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} really going to be the leader someday."
 		],
 		"main_status_constraint": [
-			"kitten"
+			"cub"
 		],
 		"random_status_constraint": [
 			"deputy"

@@ -25,11 +25,11 @@
         "location": ["mountainous:camp4"],
         "season": ["any"],
         "sub_type": [],
-        "tags": ["clan:kitten"],
+        "tags": ["clan:cub"],
         "weight": 20,
-        "event_text": "m_c sneaks out of camp but finds {PRONOUN/m_c/self} lost in the strange, angular tunnels that lead out into the territory. The Clan searches for {PRONOUN/m_c/object} in the morning to no avail. The leftover scent of blood and mountain weasel serves as an intense warning to the other kits.",
+        "event_text": "m_c sneaks out of camp but finds {PRONOUN/m_c/self} lost in the strange, angular tunnels that lead out into the territory. The Clan searches for {PRONOUN/m_c/object} in the morning to no avail. The leftover scent of blood and mountain weasel serves as an intense warning to the other cubs.",
         "m_c": {
-            "age": ["kitten"],
+            "age": ["cub"],
             "dies": true
         },
         "history": [
