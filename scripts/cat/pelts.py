@@ -23,18 +23,15 @@ class Pelt:
     # ATTRIBUTES, including non-pelt related
     pelt_colours = [
         'WHITE', 'PALEGREY', 'SILVER', 'GREY', 'DARKGREY', 'BLUE', 'BLACK', 'CREAM', 'TAWNY',
-        'GOLDEN', 'ORANGE', 'DARKORANGE', 'STRAWBERRY', 'LIGHTBROWN', 'LILAC', 'BROWN', 'GOLDEN-BROWN', 'DARKBROWN',
-        'CHOCOLATE'
+        'GOLDEN', 'ORANGE', 'DARKORANGE', 'STRAWBERRY', 'LIGHTBROWN', 'LILAC', 'BROWN', 'GOLDEN-BROWN', 'DARKBROWN'
     ]
     pelt_c_no_white = [
         'PALEGREY', 'SILVER', 'GREY', 'DARKGREY', 'BLUE', 'BLACK', 'CREAM', 'TAWNY',
-        'GOLDEN', 'ORANGE', 'DARKORANGE', 'STRAWBERRY', 'LIGHTBROWN', 'LILAC', 'BROWN', 'GOLDEN-BROWN', 'DARKBROWN',
-        'CHOCOLATE'
+        'GOLDEN', 'ORANGE', 'DARKORANGE', 'STRAWBERRY', 'LIGHTBROWN', 'LILAC', 'BROWN', 'GOLDEN-BROWN', 'DARKBROWN'
     ]
     pelt_c_no_bw = [
         'PALEGREY', 'SILVER', 'GREY', 'DARKGREY', 'CREAM', 'TAWNY',
-        'GOLDEN', 'ORANGE', 'DARKORANGE', 'STRAWBERRY', 'LIGHTBROWN', 'LILAC', 'BROWN', 'GOLDEN-BROWN', 'DARKBROWN',
-        'CHOCOLATE'
+        'GOLDEN', 'ORANGE', 'DARKORANGE', 'STRAWBERRY', 'LIGHTBROWN', 'LILAC', 'BROWN', 'GOLDEN-BROWN', 'DARKBROWN'
     ]
 
     chimerapatterns = ['ONE', 'TWO', 'THREE', 'FOUR', 'REDTAIL', 'DELILAH', 'MINIMALONE', 'MINIMALTWO', 'MINIMALTHREE',
@@ -102,13 +99,12 @@ class Pelt:
     # SPRITE NAMES
     single_colours = [
         'WHITE', 'PALEGREY', 'SILVER', 'GREY', 'DARKGREY', 'BLUE', 'BLACK', 'CREAM', 'TAWNY',
-        'GOLDEN', 'ORANGE', 'DARKORANGE', 'STRAWBERRY', 'LIGHTBROWN', 'LILAC', 'BROWN', 'GOLDEN-BROWN', 'DARKBROWN',
-        'CHOCOLATE'
+        'GOLDEN', 'ORANGE', 'DARKORANGE', 'STRAWBERRY', 'LIGHTBROWN', 'LILAC', 'BROWN', 'GOLDEN-BROWN', 'DARKBROWN'
     ]
     orange_colours = ['CREAM', 'TAWNY', 'GOLDEN', 'ORANGE', 'DARKORANGE', 'STRAWBERRY']
     black_colours = ['GREY', 'DARKGREY', 'BLUE', 'BLACK']
     white_colours = ['WHITE', 'PALEGREY', 'SILVER']
-    brown_colours = ['LIGHTBROWN', 'LILAC', 'BROWN', 'GOLDEN-BROWN', 'DARKBROWN', 'CHOCOLATE']
+    brown_colours = ['LIGHTBROWN', 'LILAC', 'BROWN', 'GOLDEN-BROWN', 'DARKBROWN']
     colour_categories = [orange_colours, black_colours, white_colours, brown_colours]
     eye_sprites = [
         'YELLOW', 'AMBER', 'HAZEL', 'PALEGREEN', 'GREEN', 'BLUE', 'DARKBLUE', 'BLUEYELLOW', 'BLUEGREEN',
@@ -862,7 +858,6 @@ class Pelt:
                 "lilac": "brown",
                 "golden-brown": "brown",
                 "darkbrown": "brown",
-                "chocolate": "brown",
                 "blue": "black"
             }
         else:
@@ -878,7 +873,6 @@ class Pelt:
                 "lilac": "light brown",
                 "golden-brown": "golden brown",
                 "darkbrown": "dark brown",
-                "chocolate": "dark brown",
                 "blue": "black"
             }
 

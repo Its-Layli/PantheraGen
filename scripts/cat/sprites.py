@@ -218,7 +218,7 @@ class Sprites:
             color_categories = [
                 ["WHITE", "PALEGREY", "SILVER", "GREY", "DARKGREY", "BLUE", "BLACK"],
                 ["CREAM", "TAWNY", "GOLDEN", "ORANGE", "DARKORANGE", "STRAWBERRY"],
-                ["LIGHTBROWN", "LILAC", "BROWN", "GOLDEN-BROWN", "DARKBROWN", "CHOCOLATE"],
+                ["LIGHTBROWN", "LILAC", "BROWN", "GOLDEN-BROWN", "DARKBROWN"],
             ]
 
             color_types = ["classiccolours", "simplecolours", "melacolours", "tickedcolours",

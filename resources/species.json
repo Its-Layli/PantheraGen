@@ -4,7 +4,7 @@
         "lioness": [],
         "cheetah": ["exc_breed"],
         "tiger": [],
-        "leopard": ["exc_breed"],
+        "snow leopard": ["exc_breed"],
         "liger": ["no_breed"],
         "tigon": ["no_breed"]
     },
@@ -14,7 +14,7 @@
         "lioness": [1, 1, 1, 1, 1, 1, 1],
         "cheetah": [1, 1, 1, 1, 1, 1, 1],
         "tiger": [1, 1, 1, 1, 1, 1, 1],
-        "leopard": [1, 1, 1, 1, 1, 1, 1],
+        "snow leopard": [1, 1, 1, 1, 1, 1, 1],
         "liger": [1, 1, 1, 1, 1, 1, 1],
         "tigon": [1, 1, 1, 1, 1, 1, 1]
     },

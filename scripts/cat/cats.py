@@ -328,7 +328,7 @@ class Cat:
                 self.gender = choice(["female", "male"])
             elif self.species == "tiger":
                 self.gender = choice(["female", "male"])
-            elif self.species == "leopard":
+            elif self.species == "snow leopard":
                 self.gender = choice(["female", "male"])
             elif self.species == "liger":
                 self.gender = choice(["female", "male"])
