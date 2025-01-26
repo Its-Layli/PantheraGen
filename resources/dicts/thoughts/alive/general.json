@@ -108,7 +108,7 @@
         ]
     },
     {
-        "id": "gen_not_kit",
+        "id": "gen_not_cub",
         "thoughts": [
             "Is thinking about {PRONOUN/m_c/poss} life choices",
             "Found a wonderful napping spot outside camp",
@@ -142,7 +142,7 @@
         ]
     },
     {
-        "id": "gen_to_kit",
+        "id": "gen_to_cub",
         "thoughts": [
             "Is a bit cross with r_c",
             "Is growing fond of r_c",
@@ -172,7 +172,7 @@
             "elder"
         ],
         "random_status_constraint": [
-            "kitten"
+            "cub"
         ],
         "random_living_status": [
             "living"
@@ -275,7 +275,7 @@
             "Wants to visit the elders to hear a story"
         ],
         "main_status_constraint": [
-            "kitten",
+            "cub",
             "apprentice",
             "medicine cat apprentice",
             "mediator apprentice",
@@ -426,7 +426,7 @@
         ]
     },
     {
-        "id": "adventurous_gen_to_alive_kits",
+        "id": "adventurous_gen_to_alive_cubs",
         "thoughts": [
             "Involves the cubs in a game of make-believe about traveling through a strange land",
             "Encourages the cubs to explore as much as possible",
@@ -434,7 +434,7 @@
             "Embellishes a story about a recent border patrol for the cubs"
         ],
         "random_status_constraint": [
-            "kitten"
+            "cub"
         ],
         "main_trait_constraint": [
             "adventurous"
@@ -483,7 +483,7 @@
             "elder"
         ],
         "random_status_constraint": [
-            "kitten",
+            "cub",
             "apprentice",
             "medicine cat apprentice",
             "mediator apprentice"
@@ -667,7 +667,7 @@
         ]
     },
     {
-        "id": "bold_to_kit",
+        "id": "bold_to_cub",
         "thoughts": [
             "Promises the cubs {PRONOUN/m_c/subject}'ll protect them when the time comes"
         ],
@@ -676,7 +676,7 @@
         ],
         "random_status_constraint": [
             "newborn",
-            "kitten"
+            "cub"
         ],
         "random_living_status": [
             "living"
@@ -730,7 +730,7 @@
         ]
     },
     {
-        "id": "calm_to_kit",
+        "id": "calm_to_cub",
         "thoughts": [
             "Is unable to be scared, no matter how much the cubs try"
         ],
@@ -738,7 +738,7 @@
             "calm"
         ],
         "random_status_constraint": [
-            "kitten"
+            "cub"
         ],
         "random_living_status": [
             "living"
@@ -785,7 +785,7 @@
         ],
         "random_status_constraint": [
             "apprentice",
-            "kitten"
+            "cub"
         ],
         "random_living_status": [
             "living"
@@ -872,7 +872,7 @@
             "elder"
         ],
         "random_status_constraint": [
-            "kitten",
+            "cub",
             "apprentice",
             "medicine cat apprentice",
             "mediator apprentice"
@@ -931,7 +931,7 @@
         ]
     },
     {
-        "id": "silly_to_living_kit",
+        "id": "silly_to_living_cub",
         "thoughts": [
             "Plays moss ball with r_c",
             "Is pretending to not see r_c sneaking up on {PRONOUN/m_c/object}",
@@ -939,7 +939,7 @@
             "Tells r_c jokes all day"
         ],
         "random_status_constraint": [
-            "kitten"
+            "cub"
         ],
         "main_trait_constraint": [
             "childish",
@@ -1085,7 +1085,7 @@
         ]
     },
     {
-        "id": "compassionate_to_kit",
+        "id": "compassionate_to_cub",
         "thoughts": [
             "Smiles at some cub's cheap prank, knowing they'll grow out of it soon",
             "Listens to a cub's complaints, even if they seem trivial",
@@ -1095,7 +1095,7 @@
             "compassionate"
         ],
         "random_status_constraint": [
-            "kitten"
+            "cub"
         ],
         "random_living_status": [
             "living"
@@ -1284,7 +1284,7 @@
         ]
     },
     {
-        "id": "faithful_to_kit",
+        "id": "faithful_to_cub",
         "thoughts": [
             "Urges a cub to follow {PRONOUN/r_c/poss} own beliefs"
         ],
@@ -1292,7 +1292,7 @@
             "faithful"
         ],
         "random_status_constraint": [
-            "kitten"
+            "cub"
         ],
         "random_living_status": [
             "living"
@@ -1858,7 +1858,7 @@
         ]
     },
     {
-        "id": "responsible_to_kits",
+        "id": "responsible_to_cubs",
         "thoughts": [
             "Is watching the cubs to make sure none of them accidentally hurt each other",
             "Is teaching r_c the importance of following the code"
@@ -1867,7 +1867,7 @@
             "responsible"
         ],
         "random_status_constraint":[
-            "kitten"
+            "cub"
         ],
         "random_living_status":[
             "living"
@@ -1889,7 +1889,7 @@
         ]
     },
     {
-        "id": "righteous_to_kits",
+        "id": "righteous_to_cubs",
         "thoughts": [
             "Teaches the cubs about morals until they all fall asleep"
         ],
@@ -1897,7 +1897,7 @@
             "righteous"
         ],
         "random_status_constraint":[
-            "kitten"
+            "cub"
         ],
         "random_living_status":[
             "living"
@@ -2301,12 +2301,12 @@
         ]
     },
     {
-        "id": "wise_to_living_kits",
+        "id": "wise_to_living_cubs",
         "thoughts": [
             "Tells some cubs a thing or two about growing older"
         ],
         "random_status_constraint": [
-            "kitten"
+            "cub"
         ],
         "main_trait_constraint": [
             "wise"
@@ -2430,7 +2430,7 @@
         ]
     },
     {
-        "id": "starclan_df_skill_2_to_kit",
+        "id": "starclan_df_skill_2_to_cub",
         "thoughts": [
             "Rolls {PRONOUN/m_c/poss} eyes at the cubs laughing about spirits not being real"
         ],
@@ -2439,7 +2439,7 @@
             "DARK,2"
         ],
         "random_status_constraint": [
-            "kitten"
+            "cub"
         ],
         "random_living_status": [
             "living"
@@ -2516,7 +2516,7 @@
         ]
     },
     {
-        "id": "gen_sibling_not_kit",
+        "id": "gen_sibling_not_cub",
         "thoughts": [
             "Play fights with r_c, just like old times",
             "Reminisces with r_c about when they were cubs",
@@ -2554,7 +2554,7 @@
         ]
     },
     {
-        "id": "parent_to_kit",
+        "id": "parent_to_cub",
         "thoughts":[
             "Pulls r_c aside and starts grooming {PRONOUN/r_c/object} despite {PRONOUN/r_c/poss} protests",
             "Purrs as {PRONOUN/m_c/subject} {VERB/m_c/listen/listens} to r_c talk about nothing in particular",
@@ -2982,7 +2982,7 @@
         ]
     },
     {
-        "id": "med_cats_to_alive_kit",
+        "id": "med_cats_to_alive_cub",
         "thoughts": [
             "Is teaching cubs about what plants to stay away from",
             "Chases cubs out of {PRONOUN/m_c/poss} den",
@@ -2993,7 +2993,7 @@
             "medicine cat apprentice"
         ],
         "random_status_constraint": [
-            "kitten"
+            "cub"
         ],
         "random_living_status": [
             "living"
@@ -3309,10 +3309,10 @@
         ]
     },
     {
-        "id": "apprentices_to_alive_kits",
+        "id": "apprentices_to_alive_cubs",
         "thoughts": [
             "Is awkwardly deflecting cubs' questions about where cubs come from",
-            "Was put on kit-sitting duty",
+            "Was put on cub-sitting duty",
             "Shows off to the cubs",
             "Tells the cubs off for being immature",
             "Rambles to cubs about the importance of respecting their elders",
@@ -3326,7 +3326,7 @@
             "mediator apprentice"
         ],
         "random_status_constraint": [
-            "kitten"
+            "cub"
         ],
         "random_living_status": [
             "living"
@@ -3954,7 +3954,7 @@
         ]
     },
     {
-        "id": "apprentice_to_dead_sc_kit",
+        "id": "apprentice_to_dead_sc_cub",
         "thoughts": [
             "Wonders if one of the stars in the sky is r_c",
             "Remembers fondly when r_c would beg to be taught a new fighting move",
@@ -3974,7 +3974,7 @@
             "medicine cat apprentice"
         ],
         "random_status_constraint": [
-            "kitten"
+            "cub"
         ],
         "random_living_status": [
             "starclan"
@@ -4076,7 +4076,7 @@
         ]
     },
     {
-        "id": "gen_to_dead_sc_kit",
+        "id": "gen_to_dead_sc_cub",
         "thoughts": [
             "Is hoping r_c is well in StarClan",
             "Is wishing r_c could've lived to see today",
@@ -4087,14 +4087,14 @@
             "Ponders what r_c's favorite game would have been"
         ],
         "random_status_constraint": [
-            "kitten"
+            "cub"
         ],
         "random_living_status": [
             "starclan"
         ]
     },
     {
-        "id": "adult_to_dead_sc_kit",
+        "id": "adult_to_dead_sc_cub",
         "thoughts": [
             "Wonders if r_c would have been {PRONOUN/m_c/poss} apprentice once {PRONOUN/r_c/subject} {VERB/r_c/were/was} old enough",
             "Wonders what type of apprentice r_c would've been",
@@ -4109,21 +4109,21 @@
             "elder"
         ],
         "random_status_constraint": [
-            "kitten"
+            "cub"
         ],
         "random_living_status": [
             "starclan"
         ]
     },
     {
-        "id": "gen_to_dead_df_kit",
+        "id": "gen_to_dead_df_cub",
         "thoughts": [
             "Wonders how r_c deals with being in the Dark Forest",
             "Wishes that r_c could walk among the stars",
             "Is surprised at StarClan's cruelty towards r_c"
         ],
         "random_status_constraint": [
-            "kitten"
+            "cub"
         ],
         "random_living_status": [
             "darkforest"
@@ -4284,7 +4284,7 @@
         ]
     },
     {
-        "id": "paralyzed_gen_to_alive_kit",
+        "id": "paralyzed_gen_to_alive_cub",
         "thoughts": [
             "Is spinning an epic tale to the cubs about how {PRONOUN/m_c/subject} became paralyzed",
             "Couldn't escape in time before cubs piled on {PRONOUN/m_c/object}!",
@@ -4297,7 +4297,7 @@
         },
         "random_age_constraint": [
             "newborn",
-            "kitten"
+            "cub"
         ],
         "random_living_status": [
             "living"
@@ -4314,7 +4314,7 @@
             ]
         },
         "random_age_constraint": [
-            "kitten",
+            "cub",
             "adolescent"
         ]
     },
@@ -4336,7 +4336,7 @@
         ]
     },
     {
-        "id": "paralyzed_adolescent_to_alive_kit",
+        "id": "paralyzed_adolescent_to_alive_cub",
         "thoughts": [
             "Is letting r_c climb on {PRONOUN/m_c/poss} back"
         ],
@@ -4350,7 +4350,7 @@
         ],
         "random_age_constraint": [
             "newborn",
-            "kitten"
+            "cub"
         ],
         "random_living_status": [
             "living"
@@ -4463,7 +4463,7 @@
         ]
     },
     {
-        "id": "one_bad_eye_gen_to_alive_kit",
+        "id": "one_bad_eye_gen_to_alive_cub",
         "thoughts": [
             "Tells the cubs tall tales about how {PRONOUN/m_c/subject} became half-blind",
             "Trips over r_c!",
@@ -4475,7 +4475,7 @@
             ]
         },
         "random_age_constraint": [
-            "kitten"
+            "cub"
         ],
         "random_living_status": [
             "living"
@@ -4543,7 +4543,7 @@
         ]
     },
     {
-        "id": "one_bad_eye_adolescent_to_alive_kit",
+        "id": "one_bad_eye_adolescent_to_alive_cub",
         "thoughts": [
             "Hisses at a cub for sneaking up on {PRONOUN/m_c/poss} bad side"
         ],
@@ -4556,7 +4556,7 @@
             "adolescent"
         ],
         "random_age_constraint": [
-            "kitten"
+            "cub"
         ]
     },
     {
@@ -4607,7 +4607,7 @@
         ]
     },
     {
-        "id": "deaf_adolescent_to_alive_kit",
+        "id": "deaf_adolescent_to_alive_cub",
         "thoughts": [
             "Teaches tail signals to the cubs"
         ],
@@ -4620,7 +4620,7 @@
             "adolescent"
         ],
         "random_age_constraint": [
-            "kitten"
+            "cub"
         ]
     },
     {
@@ -4763,7 +4763,7 @@
         }
     },
     {
-        "id": "lost_leg_gen_to_alive_kit",
+        "id": "lost_leg_gen_to_alive_cub",
         "thoughts": [
             "Is exaggerating the tale of how {PRONOUN/m_c/subject} lost {PRONOUN/m_c/poss} leg to the cubs"
         ],
@@ -4781,7 +4781,7 @@
         ],
         "random_age_constraint": [
             "newborn",
-            "kitten"
+            "cub"
         ]
     },
     {
@@ -4811,9 +4811,9 @@
         }
     },
     {
-        "id": "half_no_tail_gen_to_alive_kit",
+        "id": "half_no_tail_gen_to_alive_cub",
         "thoughts": [
-            "Laughs when a kit asks if their tail could fall off as well one day",
+            "Laughs when a cub asks if their tail could fall off as well one day",
             "Is letting the cubs play with {PRONOUN/m_c/poss} tail stub",
             "Tells the cubs they'll lose their tails too if they don't behave and follow the code"
         ],
@@ -4825,7 +4825,7 @@
         },
         "random_age_constraint": [
             "newborn",
-            "kitten"
+            "cub"
         ]
     },
     {

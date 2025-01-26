@@ -33,7 +33,7 @@
         ],
         "random_status_constraint": [
             "apprentice",
-            "kitten"
+            "cub"
         ]
     },
     {
@@ -64,7 +64,7 @@
         ]
     },
     {
-        "id": "adventurous_medicine_cat_kit",
+        "id": "adventurous_medicine_cat_cub",
         "thoughts": [
             "Is showing the cubs herbs by taking them on adventures in the territory",
             "Offers to help the queens with badger rides for the cubs"
@@ -73,7 +73,7 @@
             "adventurous"
         ],
         "random_status_constraint": [
-            "kitten"
+            "cub"
         ]
     },
     {
@@ -347,7 +347,7 @@
         ]
     },
     {
-      "id": "playful_medicine_cat_to_kits",
+      "id": "playful_medicine_cat_to_cubs",
         "thoughts": [
             "Excitedly teaches the cubs about basic herbs",
             "Indulges the cubs as they play hide and seek around the medicine cat den."
@@ -356,7 +356,7 @@
             "playful"
         ],
         "random_status_constraint": [
-            "kitten"
+            "cub"
         ]
     },
     {
@@ -409,7 +409,7 @@
       ]
     },
   {
-        "id": "strange_medicine_cat_to_kit",
+        "id": "strange_medicine_cat_to_cub",
         "thoughts": [
             "Hisses at the cubs randomly"
         ],
@@ -418,7 +418,7 @@
         ],
         "random_status_constraint": [
             "newborn",
-            "kitten"
+            "cub"
         ]
     },
     {

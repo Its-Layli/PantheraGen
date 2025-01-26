@@ -182,31 +182,9 @@ class Sprites:
 
             # Define eye colors
             eye_colors = [
-                [
-                    "YELLOW",
-                    "AMBER",
-                    "HAZEL",
-                    "PALEGREEN",
-                    "GREEN",
-                    "BLUE",
-                    "DARKBLUE",
-                    "GREY",
-                    "CYAN",
-                    "EMERALD",
-                    "HEATHERBLUE",
-                    "SUNLITICE",
-                ],
-                [
-                    "COPPER",
-                    "SAGE",
-                    "COBALT",
-                    "PALEBLUE",
-                    "BRONZE",
-                    "SILVER",
-                    "PALEYELLOW",
-                    "GOLD",
-                    "GREENYELLOW",
-                ],
+                ["YELLOW", "AMBER", "HAZEL", "PALEGREEN", "GREEN", "BLUE", "DARKBLUE"],
+                ["GREY", "CYAN", "EMERALD", "HEATHERBLUE", "SUNLITICE", "COPPER", "SAGE"],
+                ["COBALT", "PALEBLUE", "BRONZE", "SILVER", "PALEYELLOW", "GOLD", "GREENYELLOW"],
             ]
 
             for row, colors in enumerate(eye_colors):
@@ -216,62 +194,20 @@ class Sprites:
 
             # Define white patches
             white_patches = [
-                [
-                    "BLAZE",
-                    "BLAZEMASK",
-                    "ESTRELLA",
-                    "EYEBAGS",
-                    "LEFTEAR",
-                    "LUNA",
-                    "MUSTACHE",
-                    "PAWS",
-                    "REVERSEHEART",
-                    "RIGHTEAR",
-                    "SPARKLE",
-                    "TEARS",
-                    "VEE",
-                    "BEARD",
-                ],
-                [
-                    "BOWTIE",
-                    "MISS",
-                    "MITAINE",
-                    "VEST",
-                    "WINGS",
-                    "WOODPECKER",
-                    "APPALOOSA",
-                    "BROKEN",
-                    "GLASS",
-                    "PAINTED",
-                    "PANTS",
-                    "PIEBALD",
-                    "REVERSEPANTS",
-                    "SAMMY",
-                ],
-                [
-                    "BOOTS",
-                    "COW",
-                    "COWTWO",
-                    "HEART",
-                    "LOVEBUG",
-                    "MOORISH",
-                    "PEBBLESHINE",
-                    "SHOOTINGSTAR",
-                    "FULLWHITE",
-                    "BLEACHED",
-                    "KARPATI",
-                    "MOON",
-                    "POWDER",
-                    "SMOKEY",
-                ],
-                [
-                    "VITILIGO",
-                    "VITILIGOTWO",
-                    "SEPIAPOINT",
-                    "MINKPOINT",
-                    "SEALPOINT",
-                    "COLOURPOINT",
-                ],
+                ["BLAZE", "BLAZEMASK", "ESTRELLA", "EYEBAGS", "LEFTEAR",
+                 "LUNA", "MUSTACHE", "PAWS", "REVERSEHEART", "RIGHTEAR"],
+
+                 ["SPARKLE", "TEARS", "VEE", "BEARD", "BOWTIE",
+                  "MISS", "MITAINE", "VEST", "WINGS", "WOODPECKER"],
+
+                ["APPALOOSA", "BROKEN", "GLASS", "PAINTED", "PANTS",
+                  "PIEBALD", "REVERSEPANTS", "SAMMY", "BOOTS", "COW"],
+
+                ["COWTWO", "HEART", "LOVEBUG", "MOORISH", "PEBBLESHINE",
+                 "SHOOTINGSTAR", "FULLWHITE", "BLEACHED", "KARPATI", "MOON"],
+
+                ["POWDER", "SMOKEY", "VITILIGO", "VITILIGOTWO", "SEPIAPOINT",
+                 "MINKPOINT", "SEALPOINT", "COLOURPOINT"],
             ]
 
             for row, patches in enumerate(white_patches):
@@ -285,17 +221,8 @@ class Sprites:
                 ["LIGHTBROWN", "LILAC", "BROWN", "GOLDEN-BROWN", "DARKBROWN", "CHOCOLATE"],
             ]
 
-            color_types = [
-                "classiccolours",
-                "simplecolours",
-                "melacolours",
-                "tickedcolours",
-                "fadecolours",
-                "smokecolours",
-                "agouticolours",
-                "uniquecolours",
-                "ghostcolours",
-            ]
+            color_types = ["classiccolours", "simplecolours", "melacolours", "tickedcolours",
+                "fadecolours", "smokecolours", "agouticolours", "uniquecolours", "ghostcolours"]
 
             for row, colors in enumerate(color_categories):
                 for col, color in enumerate(colors):
@@ -304,54 +231,18 @@ class Sprites:
 
             # chimerapatchesmasks
             chimerapatchesmasks = [
-                [
-                    "ONE",
-                    "TWO",
-                    "THREE",
-                    "FOUR",
-                    "REDTAIL",
-                    "DELILAH",
-                    "HALF",
-                    "STREAK",
-                    "MASK",
-                    "SMOKE",
-                ],
-                [
-                    "MINIMALONE",
-                    "MINIMALTWO",
-                    "MINIMALTHREE",
-                    "MINIMALFOUR",
-                    "OREO",
-                    "SWOOP",
-                    "CHIMERA",
-                    "CHEST",
-                    "ARMTAIL",
-                    "GRUMPYFACE",
-                ],
-                [
-                    "MOTTLED",
-                    "SIDEMASK",
-                    "EYEDOT",
-                    "BANDANA",
-                    "PACMAN",
-                    "STREAMSTRIKE",
-                    "SMUDGED",
-                    "DAUB",
-                    "EMBER",
-                    "BRIE",
-                ],
-                [
-                    "ORIOLE",
-                    "ROBIN",
-                    "BRINDLE",
-                    "PAIGE",
-                    "ROSETAIL",
-                    "SAFI",
-                    "DAPPLENIGHT",
-                    "BLANKET",
-                    "BELOVED",
-                    "BODY",
-                ],
+                ["ONE", "TWO", "THREE", "FOUR", "REDTAIL",
+                 "DELILAH", "HALF", "STREAK", "MASK", "SMOKE"],
+
+                 ["MINIMALONE", "MINIMALTWO", "MINIMALTHREE", "MINIMALFOUR", "OREO",
+                  "SWOOP", "CHIMERA", "CHEST", "ARMTAIL", "GRUMPYFACE"],
+
+                ["MOTTLED", "SIDEMASK", "EYEDOT", "BANDANA", "PACMAN",
+                 "STREAMSTRIKE", "SMUDGED", "DAUB", "EMBER", "BRIE"],
+
+                ["ORIOLE", "ROBIN", "BRINDLE", "PAIGE", "ROSETAIL",
+                 "SAFI", "DAPPLENIGHT", "BLANKET", "BELOVED", "BODY"],
+
                 ["SHILOH", "FRECKLED", "HEARTBEAT"],
             ]
 
@@ -361,9 +252,9 @@ class Sprites:
 
             # Define skin colors
             skin_colors = [
-                ["BLACK", "RED", "PINK", "DARKBROWN", "BROWN", "LIGHTBROWN"],
-                ["DARK", "DARKGREY", "GREY", "DARKSALMON", "SALMON", "PEACH"],
-                ["DARKMARBLED", "MARBLED", "LIGHTMARBLED", "DARKBLUE", "BLUE", "LIGHTBLUE"],
+                ["BLACK", "RED", "PINK", "DARKBROWN", "BROWN", "LIGHTBROWN", "DARK"],
+                ["DARKGREY", "GREY", "DARKSALMON", "SALMON", "PEACH", "DARKMARBLED", "MARBLED"],
+                ["LIGHTMARBLED", "DARKBLUE", "BLUE", "LIGHTBLUE"],
             ]
 
             for row, colors in enumerate(skin_colors):
@@ -380,73 +271,25 @@ class Sprites:
 
         # Define scars
         scars_data = [
-            [
-                "ONE",
-                "TWO",
-                "THREE",
-                "MANLEG",
-                "BRIGHTHEART",
-                "MANTAIL",
-                "BRIDGE",
-                "RIGHTBLIND",
-                "LEFTBLIND",
-                "BOTHBLIND",
-                "BURNPAWS",
-                "BURNTAIL",
-            ],
-            [
-                "BURNBELLY",
-                "BEAKCHEEK",
-                "BEAKLOWER",
-                "BURNRUMP",
-                "CATBITE",
-                "RATBITE",
-                "FROSTFACE",
-                "FROSTTAIL",
-                "FROSTMITT",
-                "FROSTSOCK",
-                "QUILLCHUNK",
-                "QUILLSCRATCH",
-            ],
-            [
-                "TAILSCAR",
-                "SNOUT",
-                "CHEEK",
-                "SIDE",
-                "THROAT",
-                "TAILBASE",
-                "BELLY",
-                "TOETRAP",
-                "SNAKE",
-                "LEGBITE",
-                "NECKBITE",
-                "FACE",
-            ],
-            [
-                "HINDLEG",
-                "BACK",
-                "QUILLSIDE",
-                "SCRATCHSIDE",
-                "TOE",
-                "BEAKSIDE",
-                "CATBITETWO",
-                "SNAKETWO",
-                "FOUR",
-            ],
+            ["ONE", "TWO", "THREE", "MANLEG", "BRIGHTHEART",
+             "MANTAIL", "BRIDGE", "RIGHTBLIND", "LEFTBLIND", "BOTHBLIND"],
+
+             ["BURNPAWS", "BURNTAIL", "BURNBELLY", "BEAKCHEEK", "BEAKLOWER",
+             "BURNRUMP", "CATBITE", "RATBITE", "FROSTFACE", "FROSTTAIL"],
+
+            ["FROSTMITT", "FROSTSOCK", "QUILLCHUNK", "QUILLSCRATCH", "TAILSCAR",
+             "SNOUT", "CHEEK", "SIDE", "THROAT", "TAILBASE"],
+
+            ["BELLY", "TOETRAP", "SNAKE", "LEGBITE", "NECKBITE",
+            "FACE", "HINDLEG", "BACK", "QUILLSIDE", "SCRATCHSIDE"],
+
+            ["TOE", "BEAKSIDE", "CATBITETWO", "SNAKETWO", "FOUR"],
         ]
 
         # define missing parts
         missing_parts_data = [
-            [
-                "LEFTEAR",
-                "RIGHTEAR",
-                "NOTAIL",
-                "NOLEFTEAR",
-                "NORIGHTEAR",
-                "NOEAR",
-                "HALFTAIL",
-                "NOPAW",
-            ]
+            ["LEFTEAR", "RIGHTEAR", "NOTAIL", "NOLEFTEAR", "NORIGHTEAR"],
+            ["NOEAR", "HALFTAIL", "NOPAW"]
         ]
 
         # scars
@@ -462,61 +305,19 @@ class Sprites:
         # accessories
         # to my beloved modders, im very sorry for reordering everything <333 -clay
         medcatherbs_data = [
-            [
-                "MAPLE LEAF",
-                "HOLLY",
-                "BLUE BERRIES",
-                "FORGET ME NOTS",
-                "RYE STALK",
-                "CATTAIL",
-                "POPPY",
-                "ORANGE POPPY",
-                "CYAN POPPY",
-                "WHITE POPPY",
-                "PINK POPPY",
-            ],
-            [
-                "BLUEBELLS",
-                "LILY OF THE VALLEY",
-                "SNAPDRAGON",
-                "HERBS",
-                "PETALS",
-                "NETTLE",
-                "HEATHER",
-                "GORSE",
-                "JUNIPER",
-                "RASPBERRY",
-                "LAVENDER",
-            ],
-            [
-                "OAK LEAVES",
-                "CATMINT",
-                "MAPLE SEED",
-                "LAUREL",
-                "BULB WHITE",
-                "BULB YELLOW",
-                "BULB ORANGE",
-                "BULB PINK",
-                "BULB BLUE",
-                "CLOVER",
-                "DAISY",
-            ],
+            ["MAPLE LEAF", "HOLLY", "BLUE BERRIES", "FORGET ME NOTS", "RYE STALK", "CATTAIL", "POPPY",
+            "ORANGE POPPY", "CYAN POPPY", "WHITE POPPY", "PINK POPPY", "BLUEBELLS", "LILY OF THE VALLEY", "SNAPDRAGON"],
+
+            ["HERBS", "PETALS", "NETTLE", "HEATHER", "GORSE", "JUNIPER", "RASPBERRY",
+            "LAVENDER", "OAK LEAVES", "CATMINT", "MAPLE SEED", "LAUREL", "BULB WHITE", "BULB YELLOW"],
+
+            ["BULB ORANGE", "BULB PINK", "BULB BLUE", "CLOVER", "DAISY"],
         ]
         dryherbs_data = [["DRY HERBS", "DRY CATMINT", "DRY NETTLES", "DRY LAURELS"]]
         wild_data = [
-            [
-                "RED FEATHERS",
-                "BLUE FEATHERS",
-                "JAY FEATHERS",
-                "GULL FEATHERS",
-                "SPARROW FEATHERS",
-                "MOTH WINGS",
-                "ROSY MOTH WINGS",
-                "MORPHO BUTTERFLY",
-                "MONARCH BUTTERFLY",
-                "CICADA WINGS",
-                "BLACK CICADA",
-            ]
+            ["RED FEATHERS", "BLUE FEATHERS", "JAY FEATHERS", "GULL FEATHERS",
+             "SPARROW FEATHERS", "MOTH WINGS", "ROSY MOTH WINGS"],
+            ["MORPHO BUTTERFLY", "MONARCH BUTTERFLY", "CICADA WINGS", "BLACK CICADA"]
         ]
 
         collars_data = [
@@ -526,35 +327,21 @@ class Sprites:
         ]
 
         bellcollars_data = [
-            [
-                "CRIMSONBELL",
-                "BLUEBELL",
-                "YELLOWBELL",
-                "CYANBELL",
-                "REDBELL",
-                "LIMEBELL",
-            ],
-            ["GREENBELL", "RAINBOWBELL", "BLACKBELL", "SPIKESBELL", "WHITEBELL"],
-            ["PINKBELL", "PURPLEBELL", "MULTIBELL", "INDIGOBELL"],
+            ["CRIMSONBELL", "BLUEBELL", "YELLOWBELL", "CYANBELL", "REDBELL", "LIMEBELL", "GREENBELL"],
+            ["RAINBOWBELL", "BLACKBELL", "SPIKESBELL", "WHITEBELL","PINKBELL", "PURPLEBELL", "MULTIBELL"],
+            ["INDIGOBELL"],
         ]
 
         bowcollars_data = [
-            ["CRIMSONBOW", "BLUEBOW", "YELLOWBOW", "CYANBOW", "REDBOW", "LIMEBOW"],
-            ["GREENBOW", "RAINBOWBOW", "BLACKBOW", "SPIKESBOW", "WHITEBOW"],
-            ["PINKBOW", "PURPLEBOW", "MULTIBOW", "INDIGOBOW"],
+            ["CRIMSONBOW", "BLUEBOW", "YELLOWBOW", "CYANBOW", "REDBOW", "LIMEBOW", "GREENBOW"],
+            ["RAINBOWBOW", "BLACKBOW", "SPIKESBOW", "WHITEBOW", "PINKBOW", "PURPLEBOW", "MULTIBOW"],
+            ["INDIGOBOW"],
         ]
 
         nyloncollars_data = [
-            [
-                "CRIMSONNYLON",
-                "BLUENYLON",
-                "YELLOWNYLON",
-                "CYANNYLON",
-                "REDNYLON",
-                "LIMENYLON",
-            ],
-            ["GREENNYLON", "RAINBOWNYLON", "BLACKNYLON", "SPIKESNYLON", "WHITENYLON"],
-            ["PINKNYLON", "PURPLENYLON", "MULTINYLON", "INDIGONYLON"],
+            ["CRIMSONNYLON", "BLUENYLON", "YELLOWNYLON", "CYANNYLON", "REDNYLON", "LIMENYLON", "GREENNYLON"],
+            ["RAINBOWNYLON", "BLACKNYLON", "SPIKESNYLON", "WHITENYLON", "PINKNYLON", "PURPLENYLON", "MULTINYLON"],
+            ["INDIGONYLON"],
         ]
 
         # medcatherbs
@@ -660,28 +447,18 @@ class Sprites:
 
             y_pos += 1
 
-    def get_symbol(self, symbol: str, force_light=False):
-        """Change the color of the symbol to match the requested theme, then return it
-        :param Surface symbol: The clan symbol to convert
-        :param force_light: Use to ignore dark mode and always display the light mode color
-        """
-        symbol = self.sprites.get(symbol)
-        if symbol is None:
-            logger.warning("%s is not a known Clan symbol! Using default.")
-            symbol = self.sprites[self.clan_symbols[0]]
+    def dark_mode_symbol(self, symbol):
+        """Change the color of the symbol to dark mode, then return it
+        :param Surface symbol: The clan symbol to convert"""
+        dark_mode_symbol = copy(symbol)
+        var = pygame.PixelArray(dark_mode_symbol)
+        var.replace((87, 76, 45), (239, 229, 206))
 
-        recolored_symbol = copy(symbol)
-        var = pygame.PixelArray(recolored_symbol)
-        var.replace(
-            (87, 76, 45),
-            pygame.Color(game.config["theme"]["dark_mode_clan_symbols"])
-            if not force_light and game.settings["dark mode"]
-            else pygame.Color(game.config["theme"]["light_mode_clan_symbols"]),
-            distance=0.2,
-        )
         del var
+        # dark mode color (239, 229, 206)
+        # debug hot pink (255, 105, 180)
 
-        return recolored_symbol
+        return dark_mode_symbol
 
 
 # CREATE INSTANCE

@@ -752,47 +752,47 @@
             }
         }
     },
-    "#grandkits_button": {
+    "#grandcubs_button": {
         "images": {
             "normal_image": {
-                "path": "resources\/images\/buttons\/grandkits.png"
+                "path": "resources\/images\/buttons\/grandcubs.png"
             },
             "hovered_image": {
-                "path": "resources\/images\/buttons\/grandkits_hover.png"
+                "path": "resources\/images\/buttons\/grandcubs_hover.png"
             },
             "selected_image": {
-                "path": "resources\/images\/buttons\/grandkits.png"
+                "path": "resources\/images\/buttons\/grandcubs.png"
             },
             "disabled_image": {
-                "path": "resources\/images\/buttons\/grandkits.png"
+                "path": "resources\/images\/buttons\/grandcubs.png"
             }
         }
     },
-    "#kits_button": {
+    "#cubs_button": {
         "images": {
-            "normal_image": {"path": "resources\/images\/buttons\/kits.png"},
+            "normal_image": {"path": "resources\/images\/buttons\/cubs.png"},
             "hovered_image": {
-                "path": "resources\/images\/buttons\/kits_hover.png"
+                "path": "resources\/images\/buttons\/cubs_hover.png"
             },
             "selected_image": {
-                "path": "resources\/images\/buttons\/kits.png"
+                "path": "resources\/images\/buttons\/cubs.png"
             },
-            "disabled_image": {"path": "resources\/images\/buttons\/kits.png"}
+            "disabled_image": {"path": "resources\/images\/buttons\/cubs.png"}
         }
     },
-    "#kitsmates_button": {
+    "#cubsmates_button": {
         "images": {
             "normal_image": {
-                "path": "resources\/images\/buttons\/kitsmates.png"
+                "path": "resources\/images\/buttons\/cubsmates.png"
             },
             "hovered_image": {
-                "path": "resources\/images\/buttons\/kitsmates_hover.png"
+                "path": "resources\/images\/buttons\/cubsmates_hover.png"
             },
             "selected_image": {
-                "path": "resources\/images\/buttons\/kitsmates.png"
+                "path": "resources\/images\/buttons\/cubsmates.png"
             },
             "disabled_image": {
-                "path": "resources\/images\/buttons\/kitsmates.png"
+                "path": "resources\/images\/buttons\/cubsmates.png"
             }
         }
     },
@@ -844,19 +844,19 @@
             }
         }
     },
-    "#siblingkits_button": {
+    "#siblingcubs_button": {
         "images": {
             "normal_image": {
-                "path": "resources\/images\/buttons\/siblingkits.png"
+                "path": "resources\/images\/buttons\/siblingcubs.png"
             },
             "hovered_image": {
-                "path": "resources\/images\/buttons\/siblingkits_hover.png"
+                "path": "resources\/images\/buttons\/siblingcubs_hover.png"
             },
             "selected_image": {
-                "path": "resources\/images\/buttons\/siblingkits.png"
+                "path": "resources\/images\/buttons\/siblingcubs.png"
             },
             "disabled_image": {
-                "path": "resources\/images\/buttons\/siblingkits.png"
+                "path": "resources\/images\/buttons\/siblingcubs.png"
             }
         }
     },

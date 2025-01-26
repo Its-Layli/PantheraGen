@@ -259,7 +259,7 @@ class Name:
                 self.suffix = random.choice(self.names_dict["normal_suffixes"])
 
     def __repr__(self):
-        # Handles predefined suffixes (such as newborns being kit),
+        # Handles predefined suffixes (such as newborns being cub),
         # then suffixes based on ages (fixes #2004, just trust me)
 
         # Handles suffix assignment with outside cats

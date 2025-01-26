@@ -148,7 +148,7 @@
         ]
     },
     {
-        "id": "founder_dead_to_alive_kit",
+        "id": "founder_dead_to_alive_cub",
         "thoughts": [
             "Is watching over the newest additions to {PRONOUN/m_c/poss} Clan"
         ],
@@ -161,7 +161,7 @@
         ],
         "main_backstory_constraint": ["clan_founder"],
         "random_status_constraint": [
-            "kitten"
+            "cub"
         ],
         "random_living_status": [
             "living"
@@ -324,7 +324,7 @@
         ],
         "main_age_constraint": [
             "newborn",
-            "kitten"
+            "cub"
         ],
         "relationship_constraint": [
             "siblings"
@@ -334,7 +334,7 @@
         ],
         "random_age_constraint": [
             "newborn",
-            "kitten"
+            "cub"
         ]
     },
      {
@@ -345,7 +345,7 @@
         ],
         "main_age_constraint": [
             "newborn",
-            "kitten"
+            "cub"
         ],
          "main_skill_constraint": [
              "DREAM,1",
@@ -359,7 +359,7 @@
         ],
         "random_age_constraint": [
             "newborn",
-            "kitten"
+            "cub"
         ]
     },
     {

@@ -3,7 +3,7 @@
     "comment": "THIS DICT DOES NOTHING - it's purely here for quick reference of some possible virtues, you are not constrained to using these nor should you use these lists",
     "queen_virtues": ["affection", "compassion", "empathy", "duty", "protection", "pride"],
     "warrior_virtues": ["acceptance", "bravery", "certainty", "clear judgment", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"],
-    "kit_virtues": ["adventure", "curiosity", "forgiveness", "hope", "perspective", "protection"],
+    "cub_virtues": ["adventure", "curiosity", "forgiveness", "hope", "perspective", "protection"],
     "app_virtues": ["happiness", "honesty", "humor", "justice", "mentoring", "trust"],
     "elder_virtues": ["empathy", "grace", "humility", "integrity", "persistence", "resilience"],
     "med_cat_virtues": ["clear sight", "devotion", "faith", "healing", "patience", "selflessness", "wisdom"],
@@ -854,11 +854,11 @@
         }
       ]
     },
-    "default_kit": {
+    "default_cub": {
       "tags": [],
       "lead_trait": [],
       "star_trait": [],
-      "rank": ["kitten"],
+      "rank": ["cub"],
       "life_giving": [
         {
           "text": "r_c bounds up to the new leader, reaching up on {PRONOUN/r_c/poss} hind legs to give {PRONOUN/m_c/object} a new life for [virtue]. {PRONOUN/r_c/subject/CAP} {VERB/r_c/flick/flicks} {PRONOUN/r_c/poss} tail and {VERB/r_c/head/heads} back to make room for the next cat.",
@@ -866,11 +866,11 @@
         }
       ]
     },
-    "kit_bloodthirsty_lead": {
+    "cub_bloodthirsty_lead": {
       "tags": [],
       "lead_trait": ["bloodthirsty"],
       "star_trait": [],
-      "rank": ["kitten"],
+      "rank": ["cub"],
       "life_giving": [
         {
           "text": "r_c hesitantly approaches the new leader, reaching up on {PRONOUN/r_c/poss} hind legs to give {PRONOUN/m_c/object} a new life for [virtue]. {PRONOUN/r_c/subject/CAP} {VERB/r_c/lash/lashes} {PRONOUN/r_c/poss} tail and {VERB/r_c/head/heads} back to make room for the next cat.",
@@ -879,11 +879,11 @@
       ]
     },
 
-    "loud_kit": {
+    "loud_cub": {
       "tags": [],
       "lead_trait": [],
       "star_trait": ["bouncy", "impulsive", "noisy", "troublesome", "attention-seeker", "daring"],
-      "rank": ["kitten"],
+      "rank": ["cub"],
       "life_giving": [
         {
           "text": "A tiny cub, r_c, runs up to m_c, stars twinkling in {PRONOUN/r_c/poss} eyes. {PRONOUN/r_c/subject/CAP} loudly and theatrically {VERB/r_c/proclaim/proclaims} that {PRONOUN/r_c/subject}'ll be giving m_c a life for [virtue] before dashing back into line, looking very proud of {PRONOUN/r_c/self}.",
@@ -892,11 +892,11 @@
       ]
     },
 
-    "kind_kit": {
+    "kind_cub": {
       "tags": [],
       "lead_trait": [],
       "star_trait": ["polite", "sweet", "quiet", "insecure"],
-      "rank": ["kitten"],
+      "rank": ["cub"],
       "life_giving": [
         {
           "text": "Emerging from the line comes r_c, a quiet calm to {PRONOUN/r_c/object} despite {PRONOUN/r_c/poss} small stature. {PRONOUN/r_c/subject/CAP} very carefully {VERB/r_c/offer/offers} a life for [virtue], sounding as though {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} trying very hard to remember the right words to say. Once finished, {PRONOUN/r_c/subject} {VERB/r_c/rush/rushes} back to the line of starry pelts.",
@@ -905,11 +905,11 @@
       ]
     },
     
-    "child_kit": {
+    "child_cub": {
       "tags": ["leader_child"],
       "lead_trait": [],
       "star_trait": [],
-      "rank": ["kitten"],
+      "rank": ["cub"],
       "life_giving": [
         {
           "text": "r_c nearly sprints out of the crowd, caught last moment by an older StarClan cat who gives a sharp, but endeared, whisper before setting {PRONOUN/r_c/object} back down. r_c continues towards m_c, but slower this time, barely containing {PRONOUN/r_c/poss} excitement. When {PRONOUN/r_c/subject} {VERB/r_c/give/gives} a life for [virtue], {PRONOUN/r_c/subject} {VERB/r_c/press/presses} {PRONOUN/r_c/self} tightly against m_c's legs before returning to the ranks of StarClan.",

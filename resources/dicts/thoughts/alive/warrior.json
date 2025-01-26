@@ -1,19 +1,19 @@
 [
     {
-        "id": "warrior_gen_alive_kits",
+        "id": "warrior_gen_alive_cubs",
         "thoughts": [
             "Is watching over the cubs",
             "Begrudgingly allows cubs to play with {PRONOUN/m_c/poss} tail",
             "Was roped into playing moss ball with the cubs",
-            "Is being begged by r_c to teach {PRONOUN/r_c/object} a few moves, despite r_c being a kit",
+            "Is being begged by r_c to teach {PRONOUN/r_c/object} a few moves, despite r_c being a cub",
             "Somehow got roped up in watching r_c for the day",
             "Theatrically dies after r_c slays {PRONOUN/m_c/object}",
             "Has to pretend to be a captured warrior for r_c's games",
             "Is pretending to be a big, evil warrior for r_c",
-            "Gave a badger ride to r_c, and is now being begged by more kittens to do the same"
+            "Gave a badger ride to r_c, and is now being begged by more cubs to do the same"
         ],
         "random_status_constraint": [
-            "kitten"
+            "cub"
         ],
         "random_living_status": [
             "living"
@@ -350,7 +350,7 @@
         ]
     },
     {
-        "id": "warrior_parent_alive_kits",
+        "id": "warrior_parent_alive_cubs",
         "thoughts": [
             "Excitedly plays games with r_c, letting {PRONOUN/r_c/object} win every time",
             "Is woken up by r_c jumping on {PRONOUN/m_c/object}, begging for something",
@@ -364,14 +364,14 @@
             "parent/child"
         ],
         "random_status_constraint": [
-            "kitten"
+            "cub"
         ],
         "random_living_status": [
             "living"
         ]
     },
     {
-        "id": "warrior_formerly_a_loner_alive_kits",
+        "id": "warrior_formerly_a_loner_alive_cubs",
         "thoughts": [
             "Is telling the cubs about {PRONOUN/m_c/poss} days as a loner",
             "Is being begged by r_c to tell {PRONOUN/r_c/object} about what being a loner was like"
@@ -385,14 +385,14 @@
             "guided3"
         ],
         "random_status_constraint": [
-            "kitten"
+            "cub"
         ],
         "random_living_status": [
             "living"
         ]
     },
     {
-        "id": "warrior_formerly_a_rogue_alive_kits",
+        "id": "warrior_formerly_a_rogue_alive_cubs",
         "thoughts": [
             "Is telling the cubs about {PRONOUN/m_c/poss} days as a rogue",
             "Is being begged by r_c to tell {PRONOUN/r_c/object} more what being a rogue was like"
@@ -406,7 +406,7 @@
             "guided2"
         ],
         "random_status_constraint": [
-            "kitten"
+            "cub"
         ],
         "random_living_status": [
             "living"

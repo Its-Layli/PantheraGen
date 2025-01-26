@@ -142,7 +142,7 @@
         ]
     },
     {
-        "id": "warrior_apprentice_to_alive_kits",
+        "id": "warrior_apprentice_to_alive_cubs",
         "thoughts": [
             "Leaves fresh-kill outside the nursery for the cubs",
             "Is showing r_c the proper way to do a hunter's crouch",
@@ -158,7 +158,7 @@
             "Tries to teach r_c something new... but {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} not listening"
         ],
         "random_status_constraint": [
-            "kitten"
+            "cub"
         ],
         "random_living_status": [
             "living"

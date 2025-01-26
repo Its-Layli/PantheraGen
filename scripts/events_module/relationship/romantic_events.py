@@ -576,7 +576,7 @@ class Romantic_Events:
     def check_if_new_mate(cat_from, cat_to):
         """Checks if the two cats can become mates, or not. Returns: boolean and event_string"""
         become_mates = False
-        young_age = ["newborn", "kitten", "adolescent"]
+        young_age = ["newborn", "cub", "adolescent"]
         if cat_to.outside != cat_from.outside:
             return False, None
 

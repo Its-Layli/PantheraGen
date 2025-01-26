@@ -75,7 +75,7 @@
         ]
     },
     {
-        "id": "kittypet_kitten_and_adolescent_thoughts",
+        "id": "kittypet_cub_and_adolescent_thoughts",
         "thoughts": [
             "Is currently trying to figure out how to catch a bird",
             "Plays with a crinkly ball",
@@ -88,7 +88,7 @@
             "Wonders if {PRONOUN/m_c/poss} littermates are nearby"
         ],
         "main_age_constraint": [
-            "kitten",
+            "cub",
             "adolescent"
         ]
     },

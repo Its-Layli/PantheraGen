@@ -5,7 +5,7 @@
     "warrior_virtues": ["acceptance", "bravery", "certainty", "clear judgment", "confidence", "courage",
       "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength",
       "unity"],
-    "kit_virtues": ["adventure", "curiosity", "forgiveness", "hope", "perspective", "protection"],
+    "cub_virtues": ["adventure", "curiosity", "forgiveness", "hope", "perspective", "protection"],
     "app_virtues": ["happiness", "honesty", "humor", "justice", "mentoring", "trust"],
     "elder_virtues": ["empathy", "grace", "humility", "integrity", "persistence", "resilience"],
     "med_cat_virtues": ["clear sight", "devotion", "faith", "healing", "patience", "selflessness", "wisdom"],
@@ -935,11 +935,11 @@
         }
       ]
     },
-    "default_kit": {
+    "default_cub": {
       "tags": [],
       "lead_trait": [],
       "star_trait": [],
-      "rank": ["kitten"],
+      "rank": ["cub"],
       "life_giving": [
         {
           "text": "r_c bounds up to the new leader, reaching up on {PRONOUN/r_c/poss} hind legs to give {PRONOUN/m_c/object} a new life for [virtue]. {PRONOUN/r_c/subject/CAP} {VERB/r_c/flick/flicks} {PRONOUN/r_c/poss} muck-covered tail and {VERB/r_c/run/runs} back to the line of shadows.",
@@ -948,11 +948,11 @@
       ]
     },
 
-    "bloodthirsty_kit": {
+    "bloodthirsty_cub": {
       "tags": [],
       "lead_trait": ["bloodthirsty"],
       "star_trait": [],
-      "rank": ["kitten"],
+      "rank": ["cub"],
       "life_giving": [
         {
           "text": "r_c giddily approaches the new leader, reaching up on {PRONOUN/r_c/poss} hind legs to give {PRONOUN/m_c/object} a new life for [virtue]. {PRONOUN/r_c/subject/CAP} {VERB/r_c/lash/lashes} {PRONOUN/r_c/poss} tail and {VERB/r_c/head/heads} back to make room for the next cat.",

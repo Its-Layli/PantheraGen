@@ -1,6 +1,6 @@
 [
     {
-        "id": "gen_kit",
+        "id": "gen_cub",
         "thoughts": [
             "Plays moss ball by {PRONOUN/m_c/self}",
             "Wonders who {PRONOUN/m_c/poss} mentor will be",
@@ -59,7 +59,7 @@
         ]
     },
     {
-        "id": "kit_to_kit",
+        "id": "cub_to_cub",
         "thoughts": [
             "Is telling on r_c for climbing a bit too high",
             "Is telling on r_c for doing something bad",
@@ -68,23 +68,23 @@
             "Is pretending to be prey for r_c to hunt and chase"
         ],
         "main_status_constraint": [
-            "kitten"
+            "cub"
         ],
         "random_status_constraint":[
-            "kitten"
+            "cub"
         ],
         "random_living_status": [
             "living"
         ]
     },
     {
-        "id": "kit_older_cats",
+        "id": "cub_older_cats",
         "thoughts": [
             "Is asking older cats how cubs are born",
             "Wishes other cats would stop babying {PRONOUN/m_c/object}",
             "Is hiding from other cats",
             "Is annoying older cats",
-            "Is asking the older cats about how kittens are made",
+            "Is asking the older cats about how cubs are made",
             "Is getting a badger ride from r_c",
             "Is watching r_c work",
             "Is pestering r_c for a badger ride",
@@ -102,7 +102,7 @@
         ]
     },
     {
-        "id": "kit_alive_med_cat",
+        "id": "cub_alive_med_cat",
         "thoughts": [
             "Refuses to eat the herbs the medicine cat has given {PRONOUN/m_c/object} for {PRONOUN/m_c/poss} tummy",
             "Hides in the medicine cat's herb stores",
@@ -122,7 +122,7 @@
         ]
     },
     {
-        "id": "kit_alive_elder",
+        "id": "cub_alive_elder",
         "thoughts": [
             "Was nipped on the rump by an elder for being naughty",
             "Was hissed at by r_c for being too noisy",
@@ -138,7 +138,7 @@
         ]
     },
     {
-        "id": "gen_greenleaf_kit",
+        "id": "gen_greenleaf_cub",
         "thoughts": [
             "Is whining about the heat",
             "Is buzzing after swallowing a cicada" 
@@ -147,11 +147,11 @@
             "Greenleaf"
         ],
         "main_status_constraint": [
-            "kitten"
+            "cub"
         ]
     },
     {
-        "id": "gen_leafbare_kit",
+        "id": "gen_leafbare_cub",
         "thoughts": [
             "Is whining about the cold",
             "Is whining about having caught frostbite, despite having just stepped outside"
@@ -160,11 +160,11 @@
             "Leaf-bare"
         ],
         "main_status_constraint": [
-            "kitten"
+            "cub"
         ]
     },
     {
-        "id": "attention-seeker_kit",
+        "id": "attention-seeker_cub",
         "thoughts": [
             "Wakes r_c in the middle of the night to ask a question about snails",
             "Wakes up early to say hello to the dawn patrol",
@@ -186,7 +186,7 @@
         ]
     },
     {
-        "id": "guarding_kit",
+        "id": "guarding_cub",
         "thoughts": [
             "Has taken up the role of guarding the fresh-kill pile from cats wanting an extra piece and is taking {PRONOUN/m_c/poss} job very seriously",
             "Is trying to force {PRONOUN/m_c/poss} way into being allowed to guard camp",
@@ -202,7 +202,7 @@
         ]
     },
     {
-        "id": "tattletale_kit",
+        "id": "tattletale_cub",
         "thoughts": [
             "Is telling on r_c for something m_c was told {PRONOUN/m_c/subject} couldn't do"
         ],
@@ -226,7 +226,7 @@
         ]
     },
     {
-        "id": "bossy_kit",
+        "id": "bossy_cub",
         "thoughts": [
             "Can't wait to be deputy so {PRONOUN/m_c/subject} can assign patrols",
             "Tells r_c to catch {PRONOUN/m_c/object} some fresh prey",
@@ -247,7 +247,7 @@
         ]
     },
     {
-        "id": "bouncy_kit",
+        "id": "bouncy_cub",
         "thoughts": [
             "Is pretending to be a rabbit and hopping about",
             "Is pawing at r_c's tail from behind {PRONOUN/r_c/object}",
@@ -277,7 +277,7 @@
         ]
     },
     {
-        "id": "bullying_kit",
+        "id": "bullying_cub",
         "thoughts": [
             "Knocks over r_c",
             "Makes fun of r_c's insecurities",
@@ -305,24 +305,24 @@
         ]
     },
     {
-        "id": "bullying_kit_to_other",
+        "id": "bullying_cub_to_other",
         "thoughts": [
             "Knocks over r_c",
             "Shoved r_c out of the nest",
-            "Is scolding another kit"
+            "Is scolding another cub"
         ],
         "main_trait_constraint": [
             "bullying"
         ],
         "random_status_constraint":[
-            "kitten"
+            "cub"
         ],
         "random_living_status": [
             "living"
         ]
     },
     {
-        "id": "charming_kit",
+        "id": "charming_cub",
         "thoughts": [
             "Is rolling around cutely while warriors look upon {PRONOUN/m_c/object}",
             "Is rubbing up against the warriors' legs",
@@ -345,7 +345,7 @@
         ]
     },
     {
-        "id": "daydreamer_kit",
+        "id": "daydreamer_cub",
         "thoughts": [
             "Thinks {PRONOUN/m_c/subject} saw a StarClan cat in {PRONOUN/m_c/poss} dreams",
             "Is mesmerized by the night sky",
@@ -358,7 +358,7 @@
             "Is annoying the elders for more tales",
             "Wonders what the ancient Clans were like",
             "Wonders what it would be like to live in a different Clan",
-            "Is pretending to be a Twoleg kit",
+            "Is pretending to be a Twoleg cub",
             "Wants r_c to pretend to be {PRONOUN/m_c/poss} apprentice",
             "Is pretending to be a rock",
             "Is going everywhere backwards today",
@@ -376,7 +376,7 @@
         ]
     },
     {
-        "id": "fearless_kit",
+        "id": "fearless_cub",
         "thoughts": [
             "Is attempting to pounce on the tail of r_c",
             "Tries to sneak out of camp with a patrol",
@@ -402,7 +402,7 @@
         ]
     },
     {
-        "id": "fearless_kit_to_apprentice",
+        "id": "fearless_cub_to_apprentice",
         "thoughts": [
             "Picks a fight with an apprentice so {PRONOUN/m_c/subject} can show {PRONOUN/m_c/poss} skills"
         ],
@@ -417,7 +417,7 @@
         ]
     },
     {
-        "id": "fearless_kit_to_leader",
+        "id": "fearless_cub_to_leader",
         "thoughts": [
             "Is trying to challenge the leader but isn't being taken very seriously",
             "Is sneaking into the leader's nest"
@@ -433,7 +433,7 @@
         ]
     },
     {
-        "id": "impulsive_kit",
+        "id": "impulsive_cub",
         "thoughts": [
             "Is streaking across the clearing",
             "Is stuck in a tree... again",
@@ -467,7 +467,7 @@
         ]
     },
     {
-        "id": "know-it-all_kit",
+        "id": "know-it-all_cub",
         "thoughts": [
             "Has already learned the hunter's crouch",
             "Doesn't need r_c to tell {PRONOUN/m_c/object} anything",
@@ -490,7 +490,7 @@
         ]
     },
     {
-        "id": "noisy_kit",
+        "id": "noisy_cub",
         "thoughts": [
             "Is practicing a mighty roar",
             "Yowls as loudly as {PRONOUN/m_c/subject} can",
@@ -514,7 +514,7 @@
         ]
     },
     {
-        "id": "noisy_kit_to_elder",
+        "id": "noisy_cub_to_elder",
         "thoughts": [
             "Asked r_c for a story but keeps interrupting {PRONOUN/r_c/object}"
         ],
@@ -529,7 +529,7 @@
         ]
     },
     {
-        "id": "polite_kit",
+        "id": "polite_cub",
         "thoughts": [
             "Always says please and thank you",
             "Is making sure not to be in anyone's way",
@@ -551,7 +551,7 @@
         ]
     },
     {
-        "id": "quiet_kit",
+        "id": "quiet_cub",
         "thoughts": [
             "Is too good at playing hide and seek",
             "Is asked to speak up",
@@ -583,7 +583,7 @@
         ]
     },
     {
-        "id": "self-conscious_kit",
+        "id": "self-conscious_cub",
         "thoughts": [
             "Doesn't think {PRONOUN/m_c/subject} will ever be an apprentice",
             "Thinks r_c doesn't like {PRONOUN/m_c/object}",
@@ -606,7 +606,7 @@
         ]
     },
     {
-        "id": "shy_kit",
+        "id": "shy_cub",
         "thoughts": [
             "Feels alone",
             "Wishes {PRONOUN/m_c/subject} had friends",
@@ -629,7 +629,7 @@
         ]
     },
     {
-        "id": "skittish_kit",
+        "id": "skittish_cub",
         "thoughts": [
             "Was startled by a croaking frog",
             "Is doing {PRONOUN/m_c/poss} best not to get stepped on",
@@ -674,11 +674,11 @@
         ]
     },
     {
-        "id": "sweet_kit",
+        "id": "sweet_cub",
         "thoughts": [
             "Is pretending to be the medicine cat",
             "Plucks feathers from a fresh-kill bird to add to nests",
-            "Offers to leave camp to collect moss, but can't because {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} a kit",
+            "Offers to leave camp to collect moss, but can't because {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} a cub",
             "Compliments an older cat on how their fur looks today",
             "Wants to help others",
             "Is so very cute",
@@ -710,7 +710,7 @@
         ]
     },
     {
-        "id": "unruly_kit",
+        "id": "unruly_cub",
         "thoughts": [
             "Thinks about mischief",
             "Wonders what trouble {PRONOUN/m_c/subject} can create",
@@ -746,7 +746,7 @@
         ]
     },
     {
-        "id": "kit_med_parent",
+        "id": "cub_med_parent",
         "thoughts": [
             "Is visiting the medicine cat den to see {PRONOUN/m_c/poss} parent, r_c",
             "Is wondering why r_c became a medicine cat and not a warrior",
@@ -767,12 +767,12 @@
         ]
     },
     {
-        "id": "kit_dead_kit",
+        "id": "cub_dead_cub",
         "thoughts": [
             "Is wondering if r_c would have been {PRONOUN/m_c/poss} friend"
         ],
         "random_status_constraint": [
-            "kitten"
+            "cub"
         ],
         "relationship_constraint": [
             "strangers"
@@ -782,7 +782,7 @@
         ]
     },
     {
-        "id": "kit_dead_kit2",
+        "id": "cub_dead_cub2",
         "thoughts": [
             "Is missing seeing r_c in the nursery",
             "Is asking when r_c is coming back",
@@ -793,7 +793,7 @@
             "Doesn't understand why r_c won't wake up"
         ],
         "random_status_constraint": [
-            "kitten"
+            "cub"
         ],
         "random_living_status": [
             "starclan"

@@ -235,7 +235,7 @@
             "stability": [10, 16]
         }
     },
-    "kit_traits": {
+    "cub_traits": {
         "unruly": {
             "lawfulness": [0, 8],
             "sociability": [0, 8],

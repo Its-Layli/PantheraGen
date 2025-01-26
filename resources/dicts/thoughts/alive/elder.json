@@ -132,7 +132,7 @@
             "arrogant"
         ],
         "random_age_constraint": [
-            "kitten",
+            "cub",
             "adolescent",
             "young adult"
         ]
@@ -628,7 +628,7 @@
             "loyal"
         ],
          "random_age_constraint": [
-            "kitten",
+            "cub",
             "adolescent",
             "young adult"
         ]
@@ -676,7 +676,7 @@
         ]
     },
     {
-        "id": "playful_elder_to_kits",
+        "id": "playful_elder_to_cubs",
         "thoughts": [
             "Bats a moss ball around for cubs to chase",
             "Entertains cubs with funny stories"
@@ -689,7 +689,7 @@
             "playful"
         ],
         "random_status_constraint": [
-            "kitten"
+            "cub"
         ]
     },
     {
@@ -720,7 +720,7 @@
             "responsible"
         ],
         "random_age_constraint": [
-            "kitten",
+            "cub",
             "adolescent",
             "young adult"
         ]
@@ -978,7 +978,7 @@
         ]
     },
     {
-        "id": "kitsitter_elder",
+        "id": "cubsitter_elder",
         "thoughts": [
             "Spends the day collecting trinkets around camp for cubs to play with",
             "Helps to reinforce the nursery"
@@ -992,7 +992,7 @@
         ]
     },
     {
-        "id": "kitsitter_elder_to_kits",
+        "id": "cubsitter_elder_to_cubs",
         "thoughts": [
             "Offers to watch over the cubs for the day",
             "Comes up with new games for the cubs to play",
@@ -1006,7 +1006,7 @@
             "KIT,1"
         ],
         "random_status_constraint": [
-            "kitten"
+            "cub"
         ]
     },
     {
@@ -1070,7 +1070,7 @@
             "senior"
         ],
         "random_age_constraint": [
-            "kitten",
+            "cub",
             "adolescent",
             "young adult"
         ]
@@ -1177,7 +1177,7 @@
         ]
     },
     {
-        "id": "gen_retired_disabled_to_kit_thoughts",
+        "id": "gen_retired_disabled_to_cub_thoughts",
         "thoughts": [
             "Plays with the cubs as a form of exercise",
             "Offers to watch the cubs",
@@ -1193,7 +1193,7 @@
             "elder"
         ],
         "random_status_constraint": [
-            "kitten"
+            "cub"
         ],
         "random_living_status": [
             "living"
@@ -1327,7 +1327,7 @@
         ]
     },
     {
-        "id": "blind_gen_retired_to_alive_notkit",
+        "id": "blind_gen_retired_to_alive_notcub",
         "thoughts": [
             "Explored the territory with r_c today"
         ],
@@ -1557,7 +1557,7 @@
         ]
     },
     {
-        "id": "lost_leg/tail_gen_retired_to_alive_kit",
+        "id": "lost_leg/tail_gen_retired_to_alive_cub",
         "thoughts": [
             "Tells the story of how {PRONOUN/m_c/subject} lost {PRONOUN/m_c/poss} limb to an interested group of cubs",
             "Is playing along as r_c tells the legend of how {PRONOUN/m_c/subject} lost {PRONOUN/m_c/poss} limb"
@@ -1574,7 +1574,7 @@
             "elder"
         ],
         "random_status_constraint": [
-            "kitten"
+            "cub"
         ],
         "random_living_status": [
             "living"
@@ -1623,7 +1623,7 @@
         ]
     },
     {
-        "id": "born_without_leg_gen_retired_to_alive_born_without_leg_kit",
+        "id": "born_without_leg_gen_retired_to_alive_born_without_leg_cub",
         "thoughts": [
             "Is helping r_c take {PRONOUN/r_c/poss} first steps without a leg"
         ],
@@ -1639,7 +1639,7 @@
             "elder"
         ],
         "random_status_constraint": [
-            "kitten"
+            "cub"
         ],
         "random_living_status": [
             "living"
@@ -1691,7 +1691,7 @@
         ]
     },
     {
-        "id": "missing_tail_gen_retired_to_alive_kit",
+        "id": "missing_tail_gen_retired_to_alive_cub",
         "thoughts": [
             "Is being grumped at by a cub because {PRONOUN/m_c/subject} {VERB/m_c/have/has} no tail to chomp on",
             "Is being asked how {PRONOUN/m_c/subject} can balance by a cub"
@@ -1706,11 +1706,11 @@
             "elder"
         ],
         "random_status_constraint": [
-            "kitten"
+            "cub"
         ]
     },
     {
-        "id": "missing_tail_gen_retired_to_alive_missing_tail_kit",
+        "id": "missing_tail_gen_retired_to_alive_missing_tail_cub",
         "thoughts": [
             "Bonds with r_c about them both missing a tail",
             "Is comforting r_c after a cruel joke was made about {PRONOUN/r_c/poss} tail"
@@ -1729,7 +1729,7 @@
             "elder"
         ],
         "random_status_constraint": [
-            "kitten"
+            "cub"
         ],
         "random_living_status": [
             "living"
@@ -1762,7 +1762,7 @@
         ]
     },
     {
-        "id": "lost_tail_gen_retired_to_alive_kit",
+        "id": "lost_tail_gen_retired_to_alive_cub",
         "thoughts": [
             "Gently explains {PRONOUN/m_c/poss} scars to r_c",
             "Overdramatizes how {PRONOUN/m_c/subject} lost {PRONOUN/m_c/poss} tail to r_c",
@@ -1777,7 +1777,7 @@
             "elder"
         ],
         "random_status_constraint": [
-            "kitten"
+            "cub"
         ],
         "random_living_status": [
             "living"

@@ -35,12 +35,12 @@
         ]
     },
     {
-        "id": "loner_kitten_/_adolescent_thoughts",
+        "id": "loner_cub_/_adolescent_thoughts",
         "thoughts": [
             "Is currently trying to figure out how to catch a bird"
         ],
         "main_age_constraint": [
-            "kitten",
+            "cub",
             "adolescent"
         ]
     },

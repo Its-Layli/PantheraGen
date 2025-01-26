@@ -1,6 +1,6 @@
 [
     {
-        "id": "gen_dead_kit",
+        "id": "gen_dead_cub",
         "thoughts": [
             "Wants to find StarClan cats to play with",
             "Is imagining what it would be like to be a warrior",
@@ -11,7 +11,7 @@
         ]
     },
     {
-        "id": "dead_kit_to_dead_other_older",
+        "id": "dead_cub_to_dead_other_older",
         "thoughts": [
             "Is nagging r_c to play with {PRONOUN/m_c/object}",
             "Is begging r_c to tell {PRONOUN/m_c/object} stories",
@@ -31,7 +31,7 @@
         ]
     },
     {
-        "id": "dead_kit_to_dead_other_kit",
+        "id": "dead_cub_to_dead_other_cub",
         "thoughts": [
             "Is happy to have r_c to play with",
             "Is playing hide and seek with r_c"
@@ -40,11 +40,11 @@
             "starclan"
         ],
         "random_age_constraint": [
-            "kitten"
+            "cub"
         ]
     },
     {
-        "id": "dead_kit_to_dead_other_newborn",
+        "id": "dead_cub_to_dead_other_newborn",
         "thoughts": [
             "Can't wait for r_c to grow up, so they can play together"
         ],
@@ -56,7 +56,7 @@
         ]
     },
     {
-        "id": "dead_kit_to_alive_other_kit",
+        "id": "dead_cub_to_alive_other_cub",
         "thoughts": [
             "Is sad because {PRONOUN/m_c/subject} can't play with r_c"
         ],
@@ -64,11 +64,11 @@
             "living"
         ],
         "random_age_constraint": [
-            "kitten"
+            "cub"
         ]
     },
     {
-        "id": "dead_kit_to_alive_parent",
+        "id": "dead_cub_to_alive_parent",
         "thoughts": [
             "Is missing r_c",
             "Wonders if r_c is missing {PRONOUN/m_c/object} too",
@@ -82,7 +82,7 @@
         ]
     },
     {
-        "id": "dead_kit_to_alive_kit_sibling",
+        "id": "dead_cub_to_alive_cub_sibling",
         "thoughts":[
             "Wishes {PRONOUN/m_c/subject} could become apprentices with r_c",
             "Misses playing with r_c",
@@ -95,11 +95,11 @@
             "living"
         ],
         "random_age_constraint": [
-            "kitten"
+            "cub"
         ]
     },
     {
-        "id": "dead_kit_to_dead_kit_sibling",
+        "id": "dead_cub_to_dead_cub_sibling",
         "thoughts": [
             "Is glad that at least {PRONOUN/m_c/subject} {VERB/m_c/have/has} r_c"
         ],
@@ -110,7 +110,7 @@
             "starclan"
         ],
         "random_age_constraint": [
-            "kitten"
+            "cub"
         ]
     }
 ]
