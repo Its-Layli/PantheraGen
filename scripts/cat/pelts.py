@@ -5,7 +5,6 @@ from re import sub
 from scripts.cat.sprites import sprites
 from scripts.game_structure.game_essentials import game
 
-
 class Pelt:
     sprites_names = {
         'Classic': 'classic',
