@@ -314,7 +314,7 @@ class FreshkillPileTest(unittest.TestCase):
         father.gender = "male"
         father.status = "warrior"
         kid = Cat()
-        kid.status = "kitten"
+        kid.status = "cub"
         kid.moons = 2
         kid.parent1 = father
         kid.parent2 = mother

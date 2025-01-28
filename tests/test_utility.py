@@ -211,7 +211,7 @@ class TestGetQueens(unittest.TestCase):
         # young enough kid
         self.test_cat1.gender = "female"
 
-        self.test_cat2.status = "kitten"
+        self.test_cat2.status = "cub"
         self.test_cat2.parent1 = self.test_cat1.ID
 
         # too old kid
@@ -229,7 +229,7 @@ class TestGetQueens(unittest.TestCase):
         # young enough kid
         self.test_cat1.gender = "male"
 
-        self.test_cat2.status = "kitten"
+        self.test_cat2.status = "cub"
         self.test_cat2.parent1 = self.test_cat1.ID
 
         # too old kid
@@ -249,7 +249,7 @@ class TestGetQueens(unittest.TestCase):
 
         self.test_cat2.gender = "male"
 
-        self.test_cat3.status = "kitten"
+        self.test_cat3.status = "cub"
         self.test_cat3.parent1 = self.test_cat2.ID
         self.test_cat3.parent2 = self.test_cat1.ID
 
@@ -273,7 +273,7 @@ class TestGetQueens(unittest.TestCase):
 
         self.test_cat2.gender = "male"
 
-        self.test_cat3.status = "kitten"
+        self.test_cat3.status = "cub"
         self.test_cat3.parent1 = self.test_cat2.ID
         self.test_cat3.parent2 = self.test_cat1.ID
 
@@ -300,7 +300,7 @@ class TestGetQueens(unittest.TestCase):
 
         self.test_cat2.gender = "female"
 
-        self.test_cat3.status = "kitten"
+        self.test_cat3.status = "cub"
         self.test_cat3.parent1 = self.test_cat2.ID
         self.test_cat3.parent2 = self.test_cat1.ID
 
@@ -329,7 +329,7 @@ class TestGetQueens(unittest.TestCase):
 
         self.test_cat3.gender = "male"
 
-        self.test_cat4.status = "kitten"
+        self.test_cat4.status = "cub"
         self.test_cat4.parent1 = self.test_cat2.ID
         self.test_cat4.parent2 = self.test_cat1.ID
         self.test_cat4.adoptive_parents.append(self.test_cat3.ID)

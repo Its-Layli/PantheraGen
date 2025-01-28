@@ -116,14 +116,14 @@ class TestFamilyThoughts(unittest.TestCase):
     def test_family_thought_young_children(self):
         # given
         parent = Cat(moons=40)
-        kit = Cat(parent1=parent.ID, moons=4)
+        cub = Cat(parent1=parent.ID, moons=4)
         biome = "Forest"
         season = "Newleaf"
         camp = "camp2"
 
         # when
-        function_thoughts1 = Thoughts.load_thoughts(parent, kit, "expanded", biome, season, camp)
-        function_thoughts2 = Thoughts.load_thoughts(kit, parent, "expanded", biome, season, camp)
+        function_thoughts1 = Thoughts.load_thoughts(parent, cub, "expanded", biome, season, camp)
+        function_thoughts2 = Thoughts.load_thoughts(cub, parent, "expanded", biome, season, camp)
 
         # then
         '''
