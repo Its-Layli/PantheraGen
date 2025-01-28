@@ -143,7 +143,6 @@ class Sprites:
                 "nyloncollars",
                 "classiccolours",
                 "simplecolours",
-                "melacolours",
                 "tickedcolours",
                 "fadecolours",
                 "smokecolours",
@@ -221,7 +220,7 @@ class Sprites:
                 ["LIGHTBROWN", "LILAC", "BROWN", "GOLDEN-BROWN", "DARKBROWN"],
             ]
 
-            color_types = ["classiccolours", "simplecolours", "melacolours", "tickedcolours",
+            color_types = ["classiccolours", "simplecolours", "tickedcolours",
                 "fadecolours", "smokecolours", "agouticolours", "uniquecolours", "ghostcolours"]
 
             for row, colors in enumerate(color_categories):

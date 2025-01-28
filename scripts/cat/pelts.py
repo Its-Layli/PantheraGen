@@ -10,7 +10,6 @@ class Pelt:
     sprites_names = {
         'Classic': 'classic',
         'Simple': 'simple',
-        'PseudoMela': 'mela',
         'Ticked': 'ticked',
         'Fade': 'fade',
         'Smoke': 'smoke',
@@ -41,7 +40,7 @@ class Pelt:
                       'ROBIN', 'BRINDLE', 'PAIGE', 'ROSETAIL', 'SAFI', 'SMUDGED', 'DAPPLENIGHT', 'STREAK', 'MASK',
                       'CHEST', 'ARMTAIL', 'SMOKE', 'GRUMPYFACE',
                       'BRIE', 'BELOVED', 'BODY', 'SHILOH', 'FRECKLED', 'HEARTBEAT']
-    chimerabases = ['classic', 'simple', 'mela', 'ticked', 'fade', 'smoke', 'agouti', 'unique', 'ghost']
+    chimerabases = ['classic', 'simple', 'ticked', 'fade', 'smoke', 'agouti', 'unique', 'ghost']
 
     pelt_length = ["short", "medium", "long"]
     eye_colours = ['YELLOW', 'AMBER', 'HAZEL', 'PALEGREEN', 'GREEN', 'BLUE', 'DARKBLUE', 'GREY', 'CYAN', 'EMERALD',
@@ -89,10 +88,10 @@ class Pelt:
         "BLACKNYLON", "SPIKESNYLON", "WHITENYLON", "PINKNYLON", "PURPLENYLON", "MULTINYLON", "INDIGONYLON",
     ]
 
-    tabbies = ["Classic", "Unique"]
+    tabbies = ["Classic", "Simple"]
     spotted = ["Ticked", "Agouti"]
-    plain = ["Simple", "Fade", "Smoke"]
-    exotic = ["PseudoMela", "Ghost"]
+    plain = ["Fade", "Smoke"]
+    exotic = ["Unique", "Ghost"]
     chimeras = ["Chimera"]
     pelt_categories = [tabbies, spotted, plain, exotic, chimeras]
 
@@ -879,7 +878,6 @@ class Pelt:
         pattern_des = {
             "Classic": "normal c_n",
             "Simple": "simple c_n",
-            "PseudoMela": "unusually busy c_n pattern",
             "Ticked": "c_n ticked",
             "Fade": "c_n fade",
             "Smoke": "c_n smoke",
