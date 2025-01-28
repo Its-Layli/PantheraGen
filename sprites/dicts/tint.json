@@ -18,7 +18,7 @@
     "LILAC": "cool",
     "BROWN": "brown",
     "GOLDEN-BROWN": "brown",
-    "DARKBROWN": "brown",
+    "DARKBROWN": "brown"
   },
   "possible_tints": {
     "basic": ["none"],
