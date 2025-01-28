@@ -1,6 +1,6 @@
 {
     ".": [
-        "WARNING: This file is NOT where your settings are stored.",
+        "WARNING: This file is NOT  where your settings are stored.",
         "This file is only used to display the settings in the game.",
         "The file you are looking for is 'settings.txt' in your saves folder.",
         "If you want to change your settings, edit that file instead.",
@@ -86,12 +86,12 @@
     "relation": {
         "affair": [
             "Allow cats to breed with cats that aren't their mates",
-            "This will allow mated and unmated cats to have kits with other cats they are not mated with. This includes, but is not limited to, affairs/cheating.",
+            "This will allow mated and unmated cats to have cubs with other cats they are not mated with. This includes, but is not limited to, affairs/cheating.",
             false
         ],
         "same sex birth": [
             "Pregnancy ignores biology",
-            "Allow all cats to get pregnant despite their gender and all couples to birth kittens despite same-sex status.",
+            "Allow all cats to get pregnant despite their gender and all couples to birth cubs despite same-sex status.",
             false
         ],
         "same sex adoption": [
@@ -104,8 +104,8 @@
             ]
         ],
         "single parentage": [
-            "Allow cats to have kittens with an unknown second parent",
-            "Allow cats to have kittens with an unknown second biological parent. The cat will be listed as the only biological parent.",
+            "Allow cats to have cubs with an unknown second parent",
+            "Allow cats to have cubs with an unknown second biological parent. The cat will be listed as the only biological parent.",
             false
         ],
         "romantic with former mentor": [
@@ -201,7 +201,7 @@
         ],
         "sabotage other clans": [
             "Sabotaging Other Clans",
-            "Your mediators and warriors work together to undermine the other Clans. Only available if you have a working mediator. Selecting this will also allow you to choose which Clans you target.",
+            "Your mediator and warriors work together to undermine the other Clans. Only available if you have a working mediator. Selecting this will also allow you to choose which Clans you target.",
             false,
             "sabotage_focus",
             "#sabotage_focus_button"

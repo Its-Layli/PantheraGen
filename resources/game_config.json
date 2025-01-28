@@ -96,7 +96,7 @@
 	},
 	"new_cat": {
 		"parent_buff": {
-			"kit_to_parent": {
+			"cub_to_parent": {
 				"romantic": 0,
 				"platonic": 40,
 				"dislike": 0,
@@ -105,7 +105,7 @@
 				"jealousy": 0,
 				"trust": 50
 			},
-			"parent_to_kit": {
+			"parent_to_cub": {
 				"romantic": 0,
 				"platonic": 40,
 				"dislike": 0,
@@ -163,31 +163,29 @@
 		"primary_chance_unmated": 130,
 		"random_affair_chance": 50,
 		"unmated_random_affair_chance": 10,
-		"one_kit_possibility": {"young adult": 8, "adult": 9, "senior adult": 10, "senior": 4},
-        "two_kit_possibility": {"young adult": 10, "adult": 13, "senior adult": 15, "senior": 3},
-        "three_kit_possibility": {"young adult": 17, "adult": 15, "senior adult": 5, "senior": 1},
-        "four_kit_possibility": {"young adult": 12, "adult": 8, "senior adult": 2, "senior": 0},
-        "five_kit_possibility": {"young adult": 6, "adult": 2, "senior adult": 0, "senior": 0},
-		"max_kit_possibility": {"young adult": 2, "adult": 0, "senior adult": 0, "senior": 0},
-		"min_kits": 1,
-		"max_kits": 6,
+		"one_cub_possibility": {"young adult": 8, "adult": 9, "senior adult": 10, "senior": 4},
+        "two_cub_possibility": {"young adult": 10, "adult": 12, "senior adult": 15, "senior": 2},
+        "three_cub_possibility": {"young adult": 6, "adult": 2, "senior adult": 1, "senior": 0},
+		"max_cub_possibility": {"young adult": 2, "adult": 0, "senior adult": 0, "senior": 0},
+		"min_cubs": 1,
+		"max_cubs": 4,
 		"comment": [
-			"primary mated - 1/chance for kits, relationship and other factors will influence this chance",
-			"primary unmated - 1/chance for kits, relationship and other factors will influence this chance",
-			"The kit number is incremental. It is 1-6 as default so if you change these numbers, you should probably keep this in mind.",
-			"As in, your max kits number should probably be 5 more than the min kits number.",
+			"primary mated - 1/chance for cubs, relationship and other factors will influence this chance",
+			"primary unmated - 1/chance for cubs, relationship and other factors will influence this chance",
+			"The cub number is incremental. It is 1-6 as default so if you change these numbers, you should probably keep this in mind.",
+			"As in, your max cubs number should probably be 5 more than the min cubs number.",
 			"But that's not required - just makes more sense that way with how the litters are generated."
 		]
 	},
 	"cat_generation": {
 		"base_permanent_condition": 90,
-		"base_male_tortie": 13,
-		"base_female_tortie": 4,
+		"base_male_chimera": 80,
+		"base_female_chimera": 80,
 		"base_heterochromia": 120,
 		"direct_inheritance": 15,
-		"wildcard_tortie": 9,
-		"vit_chance": 8,
-		"random_point_chance": 5
+		"wildcard_chimera": 100,
+		"vit_chance": 10,
+		"random_point_chance": 100
 	},
 	"cat_name_controls": {
 		"always_name_after_appearance": false,
@@ -208,11 +206,6 @@
 		"grumpy_trait_modifier": 30,
 		"ceremony_modifier": -20
 	},
-	"transition_related": {
-		"base_trans_chance": 256,
-		"adolescent_modifier": -128,
-		"older_modifier": 256
-	},
 	"fading": {
 		"age_to_fade": 202,
 		"opacity_at_fade": 20,
@@ -223,7 +216,7 @@
 		"base_medicine_app_chance": 41,
 		"become_mediator_chances": {
 			"warrior": 5000,
-			"elder": 400
+			"elder": 200
 		}
 	},
 	"lost_cat": {
@@ -231,7 +224,7 @@
 	},
 	"cat_ages": {
 		"newborn": [0, 0],
-		"kitten": [1, 5],
+		"cub": [1, 5],
 		"adolescent": [6, 11],
 		"young adult": [12, 47],
         "adult": [48, 95],
@@ -294,7 +287,7 @@
 		"war_injury_modifier": 100
 	},
 	"clan_creation": {
-		"rerolls": 3,
+		"rerolls": -1,
 		"comment": "Set this to -1 for it to be infinite"
 	},
 	"graduation": {
@@ -318,6 +311,11 @@
             "warrior": 2,
             "apprentice": 1,
             "comment": "Defines how much a working warrior(leader/deputy) or apprentice gathers additionally."
+        },
+        "herb gathering" : {
+            "med": 3,
+            "med_apprentice" : 2,
+            "comment": "Defines how much a working warrior(leader/deputy) or (apprentice) medicine cat gathers additionally."
         },
         "outsiders" : {
             "reputation": 5,
@@ -424,74 +422,62 @@
 		"always_halloween": false
 	},
 	"theme": {
-		"dark_mode_background": [57, 50, 36],
-		"light_mode_background": [206, 194, 168],
-		"fullscreen_background": {
-			"light": {
-				"vignette_alpha": 10,
-				"fade_color": [150, 150, 148],
-				"dropshadow_alpha": 30
-			},
-			"dark": {
-				"vignette_alpha": 50,
-				"fade_color": [100, 100, 100],
-				"dropshadow_alpha": 100,
-				"mainmenu_tint": [239, 229, 206]
-			}
-		}
-	},
-	"lock_season": false, 
-	"comment": "Forces the season to be locked at the Clan's starting_season",
-	"clan_resources": {
-		"herbs": {
-			"comment": "Clan size * required_herbs_per_cat / adequate number will determine adequate supply qualifier. Clan size * required_herbs_per_cat * excess number will determine excess supply qualifier",
-			"required_herbs_per_cat": 2,
-			"adequate": 2,
-			"excess": 2,
-			"primary_sense": 3,
-			"secondary_sense": 2,
-			"primary_clever": 3,
-			"secondary_clever": 2,
-			"base_mortality_effect": 3,
-			"base_duration_effect": 1,
-			"base_risk_effect": 3,
-			"general_amount_bonus": 2,
-			"forest": {
-				"newleaf": [2, 3, 2],
-				"greenleaf": [1, 2, 3],
-				"leaf-fall": [2, 3, 2],
-				"leaf-bare": [5, 2, 1]
-			},
-			"mountainous": {
-				"newleaf": [2, 3, 2],
-				"greenleaf": [1, 2, 3],
-				"leaf-fall": [2, 3, 2],
-				"leaf-bare": [5, 2, 1]
-			},
-			"plains": {
-				"newleaf": [2, 3, 2],
-				"greenleaf": [1, 2, 3],
-				"leaf-fall": [2, 3, 2],
-				"leaf-bare": [5, 2, 1]
-			},
-			"beach": {
-				"newleaf": [2, 3, 2],
-				"greenleaf": [1, 2, 3],
-				"leaf-fall": [2, 3, 2],
-				"leaf-bare": [5, 2, 1]
-			},
-			"desert": {
-				"newleaf": [2, 3, 2],
-				"greenleaf": [1, 2, 3],
-				"leaf-fall": [2, 3, 2],
-				"leaf-bare": [5, 2, 1]
-			},
-			"wetlands": {
-				"newleaf": [2, 3, 2],
-				"greenleaf": [1, 2, 3],
-				"leaf-fall": [2, 3, 2],
-				"leaf-bare": [5, 2, 1]
-			}
-		}
-	}
+        "dark_mode_background": [
+            57,
+            50,
+            36
+        ],
+        "dark_mode_clan_symbols": [
+            239,
+            229,
+            206
+        ],
+        "dark_mode_event_alternate": [
+            87,
+            76,
+            55
+        ],
+        "fullscreen_background": {
+            "dark": {
+                "dropshadow_alpha": 100,
+                "fade_color": [
+                    100,
+                    100,
+                    100
+                ],
+                "mainmenu_tint": [
+                    239,
+                    229,
+                    206
+                ],
+                "vignette_alpha": 50
+            },
+            "light": {
+                "dropshadow_alpha": 30,
+                "fade_color": [
+                    150,
+                    150,
+                    148
+                ],
+                "vignette_alpha": 10
+            }
+        },
+        "light_mode_background": [
+            206,
+            194,
+            168
+        ],
+        "light_mode_clan_symbols": [
+            87,
+            76,
+            45
+        ],
+        "light_mode_event_alternate": [
+            167,
+            148,
+            111
+        ]
+    },
+	"lock_season": false,
+	"comment": "Forces the season to be locked at the Clan's starting_season"
 }

@@ -1,10 +1,9 @@
 {
-    "comment": "If you add new illnesses, make sure to add their key to illnesses.en.json otherwise they will not display",
     "seizure": {
         "severity": "severe",
         "mortality": {
             "newborn": 2,
-            "kitten": 5,
+            "cub": 5,
             "adolescent": 10,
             "young adult": 20,
             "adult": 20,
@@ -13,7 +12,7 @@
         },
         "medicine_mortality": {
             "newborn": 30,
-            "kitten": 50,
+            "cub": 50,
             "adolescent": 70,
             "young adult": 100,
             "adult": 100,
@@ -26,22 +25,18 @@
         "risks": [
 
         ],
-        "herbs": {
-            "1": [
-                "juniper",
-                "poppy",
-                "thyme",
-                "ragwort"
-            ],
-            "2": [],
-            "3": []
-        }
+        "herbs": [
+            "juniper",
+            "poppy",
+            "thyme",
+            "ragwort"
+        ]
     },
     "diarrhea": {
         "severity": "major",
         "mortality": {
             "newborn": 3,
-            "kitten": 3,
+            "cub": 3,
             "adolescent": 8,
             "young adult": 10,
             "adult": 15,
@@ -50,7 +45,7 @@
         },
         "medicine_mortality": {
             "newborn": 10,
-            "kitten": 10,
+            "cub": 10,
             "adolescent": 15,
             "young adult": 30,
             "adult": 45,
@@ -61,22 +56,18 @@
         "medicine_duration": 2,
         "infectiousness": 0,
         "risks": [],
-        "herbs": {
-            "1": [
-                "betony",
-                "mullein",
-                "juniper",
-                "mallow"
-            ],
-            "2": [],
-            "3": []
-        }
+        "herbs": [
+            "betony",
+            "mullein",
+            "juniper",
+            "mallow"
+        ]
     },
     "fleas": {
         "severity": "minor",
         "mortality": {
             "newborn": 0,
-            "kitten": 0,
+            "cub": 0,
             "adolescent": 0,
             "young adult": 0,
             "adult": 0,
@@ -85,7 +76,7 @@
         },
         "medicine_mortality": {
             "newborn": 0,
-            "kitten": 0,
+            "cub": 0,
             "adolescent": 0,
             "young adult": 0,
             "adult": 0,
@@ -101,19 +92,15 @@
                 "chance": 20
             }
         ],
-        "herbs": {
-            "1": [
-                "plantain"
-            ],
-            "2": [],
-            "3": []
-        }
+        "herbs": [
+            "plantain"
+        ]
     },
     "greencough": {
         "severity": "severe",
         "mortality": {
             "newborn": 3,
-            "kitten": 3,
+            "cub": 3,
             "adolescent": 8,
             "young adult": 8,
             "adult": 10,
@@ -122,7 +109,7 @@
         },
         "medicine_mortality": {
             "newborn": 7,
-            "kitten": 7,
+            "cub": 7,
             "adolescent": 12,
             "young adult": 20,
             "adult": 25,
@@ -138,8 +125,7 @@
                 "chance": 60
             }
         ],
-        "herbs": {
-        "1": [
+        "herbs": [
             "catmint",
             "tansy",
             "mullein",
@@ -147,16 +133,13 @@
             "juniper",
             "poppy",
             "moss"
-        ],
-        "2": [],
-        "3": []
-        }
+        ]
     },
-    "kittencough": {
+    "cubcough": {
         "severity": "severe",
         "mortality": {
             "newborn": 2,
-            "kitten": 2,
+            "cub": 2,
             "adolescent": 15,
             "young adult": 0,
             "adult": 0,
@@ -165,7 +148,7 @@
         },
         "medicine_mortality": {
             "newborn": 5,
-            "kitten": 5,
+            "cub": 5,
             "adolescent": 60,
             "young adult": 0,
             "adult": 0,
@@ -181,25 +164,21 @@
                 "chance": 10
             }
         ],
-        "herbs": {
-            "1": [
-                "catmint",
-                "tansy",
-                "mullein",
-                "plantain",
-                "juniper",
-                "poppy",
-                "moss"
-            ],
-            "2": [],
-            "3": []
-        }
+        "herbs": [
+            "catmint",
+            "tansy",
+            "mullein",
+            "plantain",
+            "juniper",
+            "poppy",
+            "moss"
+        ]
     },
     "an infected wound": {
         "severity": "major",
         "mortality": {
             "newborn": 3,
-            "kitten": 3,
+            "cub": 3,
             "adolescent": 8,
             "young adult": 8,
             "adult": 10,
@@ -208,7 +187,7 @@
         },
         "medicine_mortality": {
             "newborn": 5,
-            "kitten": 8,
+            "cub": 8,
             "adolescent": 13,
             "young adult": 15,
             "adult": 20,
@@ -224,22 +203,18 @@
                 "chance": 10
             }
         ],
-        "herbs": {
-            "1": [
-                "marigold",
-                "burdock",
-                "wild_garlic",
-                "poppy"
-            ],
-            "2": [],
-            "3": []
-        }
+        "herbs": [
+            "marigold",
+            "burdock",
+            "wild_garlic",
+            "poppy"
+        ]
     },
     "carrionplace disease": {
         "severity": "severe",
         "mortality": {
             "newborn": 1,
-            "kitten": 1,
+            "cub": 1,
             "adolescent": 2,
             "young adult": 2,
             "adult": 2,
@@ -248,7 +223,7 @@
         },
         "medicine_mortality": {
             "newborn": 2,
-            "kitten": 2,
+            "cub": 2,
             "adolescent": 3,
             "young adult": 3,
             "adult": 3,
@@ -259,22 +234,18 @@
         "medicine_duration": 2,
         "infectiousness": 0,
         "risks": [],
-        "herbs": {
-            "1": [
-                "marigold",
-                "burdock",
-                "wild_garlic",
-                "poppy"
-            ],
-            "2": [],
-            "3": []
-        }
+        "herbs": [
+            "marigold",
+            "burdock",
+            "wild_garlic",
+            "poppy"
+        ]
     },
     "redcough": {
         "severity": "severe",
         "mortality": {
             "newborn": 1,
-            "kitten": 1,
+            "cub": 1,
             "adolescent": 2,
             "young adult": 2,
             "adult": 2,
@@ -283,7 +254,7 @@
         },
         "medicine_mortality": {
             "newborn": 2,
-            "kitten": 2,
+            "cub": 2,
             "adolescent": 3,
             "young adult": 3,
             "adult": 3,
@@ -294,26 +265,22 @@
         "medicine_duration": 40,
         "infectiousness": 0,
         "risks": [],
-        "herbs": {
-            "1": [
-                "lungwort",
-                "mullein",
-                "tansy",
-                "plantain",
-                "juniper",
-                "ragwort",
-                "poppy",
-                "moss"
-            ],
-            "2": [],
-            "3": []
-        }
+        "herbs": [
+            "lungwort",
+            "mullein",
+            "tansy",
+            "plantain",
+            "juniper",
+            "ragwort",
+            "poppy",
+            "moss"
+        ]
     },
     "running nose": {
         "severity": "minor",
         "mortality": {
             "newborn": 0,
-            "kitten": 0,
+            "cub": 0,
             "adolescent": 0,
             "young adult": 0,
             "adult": 0,
@@ -322,7 +289,7 @@
         },
         "medicine_mortality": {
             "newborn": 0,
-            "kitten": 0,
+            "cub": 0,
             "adolescent": 0,
             "young adult": 0,
             "adult": 0,
@@ -338,21 +305,17 @@
                 "chance": 15
             }
         ],
-        "herbs": {
-            "1": [
-                "ragwort",
-                "juniper",
-                "poppy"
-            ],
-            "2": [],
-            "3": []
-        }
+        "herbs": [
+            "ragwort",
+            "juniper",
+            "poppy"
+        ]
     },
     "whitecough": {
         "severity": "major",
         "mortality": {
             "newborn": 10,
-            "kitten": 10,
+            "cub": 10,
             "adolescent": 20,
             "young adult": 60,
             "adult": 60,
@@ -361,7 +324,7 @@
         },
         "medicine_mortality": {
             "newborn": 15,
-            "kitten": 15,
+            "cub": 15,
             "adolescent": 60,
             "young adult": 70,
             "adult": 70,
@@ -377,26 +340,22 @@
                 "chance": 18
             }
         ],
-        "herbs": {
-            "1": [
-                "catmint",
-                "plantain",
-                "tansy",
-                "mullein",
-                "juniper",
-                "ragwort",
-                "poppy",
-                "moss"
-            ],
-            "2": [],
-            "3": []
-        }
+        "herbs": [
+            "catmint",
+            "plantain",
+            "tansy",
+            "mullein",
+            "juniper",
+            "ragwort",
+            "poppy",
+            "moss"
+        ]
     },
     "yellowcough": {
         "severity": "major",
         "mortality": {
             "newborn": 2,
-            "kitten": 2,
+            "cub": 2,
             "adolescent": 3,
             "young adult": 5,
             "adult": 5,
@@ -405,7 +364,7 @@
         },
         "medicine_mortality": {
             "newborn": 5,
-            "kitten": 5,
+            "cub": 5,
             "adolescent": 10,
             "young adult": 15,
             "adult": 15,
@@ -421,19 +380,15 @@
                 "chance": 80
             }
         ],
-        "herbs": {
-            "1": [
-                "lungwort"
-            ],
-            "2": [],
-            "3": []
-        }
+        "herbs": [
+            "lungwort"
+        ]
     },
     "a festering wound": {
         "severity": "severe",
         "mortality": {
             "newborn": 1,
-            "kitten": 1,
+            "cub": 1,
             "adolescent": 3,
             "young adult": 3,
             "adult": 5,
@@ -442,7 +397,7 @@
         },
         "medicine_mortality": {
             "newborn": 3,
-            "kitten": 3,
+            "cub": 3,
             "adolescent": 5,
             "young adult": 8,
             "adult": 10,
@@ -453,24 +408,21 @@
         "medicine_duration": 2,
         "infectiousness": 0,
         "risks": [],
-        "herbs": {
-            "1": ["marigold",
-                "burdock",
-                "oak_leaves",
-                "ragwort",
-                "juniper",
-                "poppy",
-                "moss"
-            ],
-            "2": [],
-            "3": []
-        }
+        "herbs": [
+            "marigold",
+            "burdock",
+            "oak_leaves",
+            "ragwort",
+            "juniper",
+            "poppy",
+            "moss"
+        ]
     },
     "heat stroke": {
         "severity": "severe",
         "mortality": {
             "newborn": 2,
-            "kitten": 2,
+            "cub": 2,
             "adolescent": 5,
             "young adult": 5,
             "adult": 8,
@@ -479,7 +431,7 @@
         },
         "medicine_mortality": {
             "newborn": 5,
-            "kitten": 5,
+            "cub": 5,
             "adolescent": 10,
             "young adult": 15,
             "adult": 20,
@@ -490,21 +442,17 @@
         "medicine_duration": 1,
         "infectiousness": 0,
         "risks": [],
-        "herbs": {
-            "1": [
-                "juniper",
-                "ragwort",
-                "moss"
-            ],
-            "2": [],
-            "3": []
-        }
+        "herbs": [
+            "juniper",
+            "ragwort",
+            "moss"
+        ]
     },
     "heat exhaustion": {
         "severity": "major",
         "mortality": {
             "newborn": 0,
-            "kitten": 0,
+            "cub": 0,
             "adolescent": 0,
             "young adult": 0,
             "adult": 0,
@@ -513,7 +461,7 @@
         },
         "medicine_mortality": {
             "newborn": 0,
-            "kitten": 0,
+            "cub": 0,
             "adolescent": 0,
             "young adult": 0,
             "adult": 0,
@@ -529,20 +477,17 @@
                 "chance": 5
             }
         ],
-        "herbs": {
-            "1": [
-                "juniper",
-                "ragwort",
-                "moss"],
-            "2": [],
-            "3": []
-        }
+        "herbs": [
+            "juniper",
+            "ragwort",
+            "moss"
+        ]
     },
     "stomachache": {
         "severity": "minor",
         "mortality": {
             "newborn": 0,
-            "kitten": 0,
+            "cub": 0,
             "adolescent": 0,
             "young adult": 0,
             "adult": 0,
@@ -551,7 +496,7 @@
         },
         "medicine_mortality": {
             "newborn": 0,
-            "kitten": 0,
+            "cub": 0,
             "adolescent": 0,
             "young adult": 0,
             "adult": 0,
@@ -567,22 +512,18 @@
                 "chance": 8
             }
         ],
-        "herbs": {
-            "1": [
-                "juniper",
-                "mallow",
-                "ragwort",
-                "poppy"
-            ],
-            "2": [],
-            "3": []
-        }
+        "herbs": [
+            "juniper",
+            "mallow",
+            "ragwort",
+            "poppy"
+        ]
     },
     "constant nightmares": {
         "severity": "major",
         "mortality": {
             "newborn": 0,
-            "kitten": 0,
+            "cub": 0,
             "adolescent": 0,
             "young adult": 0,
             "adult": 0,
@@ -591,7 +532,7 @@
         },
         "medicine_mortality": {
             "newborn": 0,
-            "kitten": 0,
+            "cub": 0,
             "adolescent": 0,
             "young adult": 0,
             "adult": 0,
@@ -603,22 +544,17 @@
         "infectiousness": 0,
         "risks": [
         ],
-        "herbs": {
-            "1": [
-                "juniper",
-                "thyme",
-                "poppy"
-
-            ],
-            "2": [],
-            "3": []
-        }
+        "herbs": [
+            "juniper",
+            "thyme",
+            "poppy"
+        ]
     },
     "grief stricken": {
         "severity": "major",
         "mortality": {
             "newborn": 0,
-            "kitten": 0,
+            "cub": 0,
             "adolescent": 0,
             "young adult": 0,
             "adult": 0,
@@ -627,7 +563,7 @@
         },
         "medicine_mortality": {
             "newborn": 0,
-            "kitten": 0,
+            "cub": 0,
             "adolescent": 0,
             "young adult": 0,
             "adult": 0,
@@ -647,21 +583,17 @@
                 "chance": 15
             }
         ],
-        "herbs": {
-            "1": [
-                "juniper",
-                "thyme",
-                "poppy"
-            ],
-            "2": [],
-            "3": []
-        }
+        "herbs": [
+            "juniper",
+            "thyme",
+            "poppy"
+        ]
     },
     "malnourished": {
         "severity": "minor",
         "mortality": {
             "newborn": 0,
-            "kitten": 0,
+            "cub": 0,
             "adolescent": 0,
             "young adult": 0,
             "adult": 0,
@@ -670,7 +602,7 @@
         },
         "medicine_mortality": {
             "newborn": 0,
-            "kitten": 0,
+            "cub": 0,
             "adolescent": 0,
             "young adult": 0,
             "adult": 0,
@@ -681,19 +613,15 @@
         "medicine_duration": 100,
         "infectiousness": 0,
         "risks": [],
-        "herbs": {
-            "1": [
+        "herbs": [
             "thyme"
-            ],
-            "2": [],
-            "3": []
-        }
+        ]
     },
     "starving": {
         "severity": "severe",
         "mortality": {
             "newborn": 0,
-            "kitten": 0,
+            "cub": 0,
             "adolescent": 0,
             "young adult": 0,
             "adult": 0,
@@ -702,7 +630,7 @@
         },
         "medicine_mortality": {
             "newborn": 0,
-            "kitten": 0,
+            "cub": 0,
             "adolescent": 0,
             "young adult": 0,
             "adult": 0,
@@ -713,12 +641,8 @@
         "medicine_duration": 100,
         "infectiousness": 0,
         "risks": [],
-        "herbs": {
-            "1": [
-                "thyme"
-            ],
-            "2": [],
-            "3": []
-        }
+        "herbs": [
+            "thyme"
+        ]
     }
 }

@@ -1,0 +1,27 @@
+{
+    "species": {
+        "lion": [],
+        "lioness": [],
+        "cheetah": ["exc_breed"],
+        "tiger": [],
+        "snow leopard": ["exc_breed"],
+        "liger": ["no_breed"],
+        "tigon": ["no_breed"]
+    },
+    "ran_weights": [2, 2, 2, 1, 1, 0, 0],
+    "in_weights": {
+        "lion": [1, 1, 1, 1, 1, 1, 1],
+        "lioness": [1, 1, 1, 1, 1, 1, 1],
+        "cheetah": [1, 1, 1, 1, 1, 1, 1],
+        "tiger": [1, 1, 1, 1, 1, 1, 1],
+        "snow leopard": [1, 1, 1, 1, 1, 1, 1],
+        "liger": [1, 1, 1, 1, 1, 1, 1],
+        "tigon": [1, 1, 1, 1, 1, 1, 1]
+    },
+    "comment": [
+        "look at the official documentation for a list of all species tags.",
+        "ran_weights are used in species randomization, in_weights are used in inheritance.",
+        "species name before the weights is the parent's species, the weights from both parents are added together.",
+        "all weights follow the order of the species list."
+    ]
+}

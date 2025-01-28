@@ -5,7 +5,7 @@
         "moons_until": 0,
         "mortality": {
             "newborn": 0,
-            "kitten": 0,
+            "cub": 0,
             "adolescent": 0,
             "young adult": 0,
             "adult": 0,
@@ -16,11 +16,7 @@
         ],
         "risks": [
         ],
-        "herbs": {
-            "1": [],
-            "2": [],
-            "3": []
-        }
+        "herbs": []
     },
     "lost a leg": {
         "severity": "major",
@@ -28,7 +24,7 @@
         "moons_until": 0,
         "mortality": {
             "newborn": 0,
-            "kitten": 0,
+            "cub": 0,
             "adolescent": 0,
             "young adult": 0,
             "adult": 0,
@@ -51,16 +47,12 @@
                 "chance": 20
             }
         ],
-        "herbs": {
-            "1": [
+        "herbs": [
             "daisy",
             "juniper",
             "marigold",
             "ragwort"
-        ],
-            "2": [],
-            "3": []
-        }
+        ]
     },
     "born without a leg": {
         "severity": "major",
@@ -68,7 +60,7 @@
         "moons_until": 0,
         "mortality": {
             "newborn": 0,
-            "kitten": 0,
+            "cub": 0,
             "adolescent": 0,
             "young adult": 0,
             "adult": 0,
@@ -87,16 +79,12 @@
                 "chance": 40
             }
         ],
-        "herbs": {
-            "1": [
+        "herbs": [
             "daisy",
             "juniper",
             "marigold",
             "ragwort"
-        ],
-            "2": [],
-            "3": []
-        }
+        ]
     },
     "weak leg": {
         "severity": "minor",
@@ -104,7 +92,7 @@
         "moons_until": 3,
         "mortality": {
             "newborn": 0,
-            "kitten": 0,
+            "cub": 0,
             "adolescent": 0,
             "young adult": 0,
             "adult": 0,
@@ -123,16 +111,12 @@
                 "chance": 40
             }
         ],
-        "herbs": {
-            "1": [
+        "herbs": [
             "daisy",
             "juniper",
             "marigold",
             "ragwort"
-        ],
-            "2": [],
-            "3": []
-        }
+        ]
     },
     "twisted leg": {
         "severity": "major",
@@ -140,7 +124,7 @@
         "moons_until": 1,
         "mortality": {
             "newborn": 0,
-            "kitten": 0,
+            "cub": 0,
             "adolescent": 0,
             "young adult": 0,
             "adult": 0,
@@ -159,16 +143,12 @@
                 "chance": 40
             }
         ],
-        "herbs": {
-            "1": [
+        "herbs": [
             "daisy",
             "juniper",
             "marigold",
             "ragwort"
-        ],
-            "2": [],
-            "3": []
-        }
+        ]
     },
     "lost their tail": {
         "severity": "minor",
@@ -176,7 +156,7 @@
         "moons_until": 0,
         "mortality": {
             "newborn": 0,
-            "kitten": 0,
+            "cub": 0,
             "adolescent": 0,
             "young adult": 0,
             "adult": 0,
@@ -195,14 +175,10 @@
                 "chance": 10
             }
         ],
-        "herbs": {
-            "1": [
+        "herbs": [
             "juniper",
             "ragwort"
-        ],
-            "2": [],
-            "3": []
-        }
+        ]
     },
     "born without a tail": {
         "severity": "minor",
@@ -210,7 +186,7 @@
         "moons_until": 0,
         "mortality": {
             "newborn": 0,
-            "kitten": 0,
+            "cub": 0,
             "adolescent": 0,
             "young adult": 0,
             "adult": 0,
@@ -221,11 +197,7 @@
         ],
         "risks": [
         ],
-        "herbs": {
-            "1": [],
-            "2": [],
-            "3": []
-        }
+        "herbs": []
     },
     "paralyzed": {
         "severity": "severe",
@@ -233,7 +205,7 @@
         "moons_until": 0,
         "mortality": {
             "newborn": 0,
-            "kitten": 0,
+            "cub": 0,
             "adolescent": 0,
             "young adult": 0,
             "adult": 0,
@@ -260,16 +232,12 @@
                 "chance": 20
             }
         ],
-        "herbs": {
-            "1": [
+        "herbs": [
             "daisy",
             "juniper",
             "ragwort",
             "marigold"
-        ],
-            "2": [],
-            "3": []
-        }
+        ]
     },
     "raspy lungs": {
         "severity": "minor",
@@ -277,7 +245,7 @@
         "moons_until": 3,
         "mortality": {
             "newborn": 20,
-            "kitten": 20,
+            "cub": 20,
             "adolescent": 60,
             "young adult": 80,
             "adult": 90,
@@ -292,14 +260,10 @@
                 "chance": 20
             }
         ],
-        "herbs": {
-            "1": [
+        "herbs": [
             "betony",
             "mullein"
-        ],
-            "2": [],
-            "3": []
-        }
+        ]
     },
     "wasting disease": {
         "severity": "major",
@@ -307,7 +271,7 @@
         "moons_until": 1,
         "mortality": {
             "newborn": 10,
-            "kitten": 10,
+            "cub": 10,
             "adolescent": 40,
             "young adult": 75,
             "adult": 65,
@@ -346,14 +310,10 @@
                 "chance": 60
             }
         ],
-        "herbs": {
-            "1": [
+        "herbs": [
             "juniper",
             "ragwort"
-        ],
-            "2": [],
-            "3": []
-        }
+        ]
     },
     "blind": {
         "severity": "major",
@@ -361,7 +321,7 @@
         "moons_until": 1,
         "mortality": {
             "newborn": 0,
-            "kitten": 0,
+            "cub": 0,
             "adolescent": 0,
             "young adult": 0,
             "adult": 0,
@@ -372,11 +332,7 @@
         ],
         "risks": [
         ],
-        "herbs": {
-            "1": [],
-            "2": [],
-            "3": []
-        }
+        "herbs": []
     },
     "one bad eye": {
         "severity": "major",
@@ -384,7 +340,7 @@
         "moons_until": 2,
         "mortality": {
             "newborn": 0,
-            "kitten": 0,
+            "cub": 0,
             "adolescent": 0,
             "young adult": 0,
             "adult": 0,
@@ -398,11 +354,7 @@
                 "chance": 80
             }
         ],
-        "herbs": {
-            "1": [],
-            "2": [],
-            "3": []
-        }
+        "herbs": []
     },
     "failing eyesight": {
         "severity": "major",
@@ -410,7 +362,7 @@
         "moons_until": 3,
         "mortality": {
             "newborn": 0,
-            "kitten": 0,
+            "cub": 0,
             "adolescent": 0,
             "young adult": 0,
             "adult": 0,
@@ -425,11 +377,7 @@
                 "chance": 50
             }
         ],
-        "herbs": {
-            "1": [],
-            "2": [],
-            "3": []
-        }
+        "herbs": []
     },
     "partial hearing loss": {
         "severity": "minor",
@@ -437,7 +385,7 @@
         "moons_until": 2,
         "mortality": {
             "newborn": 0,
-            "kitten": 0,
+            "cub": 0,
             "adolescent": 0,
             "young adult": 0,
             "adult": 0,
@@ -452,11 +400,7 @@
                 "chance": 80
             }
         ],
-        "herbs": {
-            "1": [],
-            "2": [],
-            "3": []
-        }
+        "herbs": []
     },
     "deaf": {
         "severity": "major",
@@ -464,7 +408,7 @@
         "moons_until": 1,
         "mortality": {
             "newborn": 0,
-            "kitten": 0,
+            "cub": 0,
             "adolescent": 0,
             "young adult": 0,
             "adult": 0,
@@ -475,11 +419,7 @@
         ],
         "risks": [
         ],
-        "herbs": {
-            "1": [],
-            "2": [],
-            "3": []
-        }
+        "herbs": []
 
     },
     "constant joint pain": {
@@ -488,7 +428,7 @@
         "moons_until": 2,
         "mortality": {
             "newborn": 0,
-            "kitten": 0,
+            "cub": 0,
             "adolescent": 0,
             "young adult": 0,
             "adult": 0,
@@ -503,16 +443,12 @@
                 "chance": 10
             }
         ],
-        "herbs": {
-            "1": [
+        "herbs": [
             "daisy",
             "juniper",
             "marigold",
             "ragwort"
-        ],
-            "2": [],
-            "3": []
-        }
+        ]
     },
     "seizure prone": {
         "severity": "major",
@@ -520,7 +456,7 @@
         "moons_until": 3,
         "mortality": {
             "newborn": 0,
-            "kitten": 0,
+            "cub": 0,
             "adolescent": 0,
             "young adult": 0,
             "adult": 0,
@@ -535,14 +471,10 @@
                 "chance": 10
             }
         ],
-        "herbs": {
-            "1": [
+        "herbs": [
             "ragwort",
             "juniper"
-        ],
-            "2": [],
-            "3": []
-        }
+        ]
     },
     "allergies": {
         "severity": "minor",
@@ -550,7 +482,7 @@
         "moons_until": 2,
         "mortality": {
             "newborn": 0,
-            "kitten": 0,
+            "cub": 0,
             "adolescent": 0,
             "young adult": 0,
             "adult": 0,
@@ -565,11 +497,7 @@
                 "chance": 20
             }
         ],
-        "herbs": {
-            "1": [],
-            "2": [],
-            "3": []
-        }
+        "herbs": []
     },
     "constantly dizzy": {
         "severity": "major",
@@ -577,7 +505,7 @@
         "moons_until": 0,
         "mortality": {
             "newborn": 0,
-            "kitten": 0,
+            "cub": 0,
             "adolescent": 0,
             "young adult": 0,
             "adult": 0,
@@ -592,11 +520,7 @@
                 "chance": 20
             }
         ],
-        "herbs": {
-            "1": [],
-            "2": [],
-            "3": []
-        }
+        "herbs": []
     },
     "recurring shock": {
         "severity": "major",
@@ -604,7 +528,7 @@
         "moons_until": 0,
         "mortality": {
             "newborn": 0,
-            "kitten": 0,
+            "cub": 0,
             "adolescent": 0,
             "young adult": 0,
             "adult": 0,
@@ -619,15 +543,11 @@
                 "chance": 20
             }
         ],
-        "herbs": {
-            "1": [
+        "herbs": [
             "thyme",
             "juniper",
             "poppy"
-        ],
-            "2": [],
-            "3": []
-        }
+        ]
     },
     "lasting grief": {
         "severity": "minor",
@@ -635,7 +555,7 @@
         "moons_until": 0,
         "mortality": {
             "newborn": 0,
-            "kitten": 0,
+            "cub": 0,
             "adolescent": 0,
             "young adult": 0,
             "adult": 0,
@@ -650,15 +570,11 @@
                 "chance": 50
             }
         ],
-        "herbs": {
-            "1": [
+        "herbs": [
             "thyme",
             "juniper",
             "poppy"
-        ],
-            "2": [],
-            "3": []
-        }
+        ]
     },
     "persistent headaches": {
         "severity": "major",
@@ -666,7 +582,7 @@
         "moons_until": 4,
         "mortality": {
             "newborn": 0,
-            "kitten": 0,
+            "cub": 0,
             "adolescent": 0,
             "young adult": 0,
             "adult": 0,
@@ -685,13 +601,9 @@
                 "chance": 20
             }
         ],
-        "herbs": {
-            "1": [
+        "herbs": [
             "poppy",
             "juniper"
-        ],
-            "2": [],
-            "3": []
-        }
+        ]
     }
 }
